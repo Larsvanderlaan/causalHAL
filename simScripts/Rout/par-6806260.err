@@ -1,0 +1,262 @@
+Loading required package: sl3
+Loading required package: SuperLearner
+Loading required package: nnls
+Loading required package: gam
+Loading required package: splines
+Loading required package: foreach
+Loaded gam 1.20.2
+
+Super Learner
+Version: 2.0-28
+Package created on 2021-05-04
+
+Loading required package: data.table
+Loading required package: R6
+Loading required package: stringr
+Loading required package: origami
+origami v1.0.7: Generalized Framework for Cross-Validation
+Loading required package: delayed
+delayed v0.3.0: A Framework for Parallelizing Dependent Tasks
+Loading required package: future
+Loading required package: xgboost
+Loading required package: fda
+Loading required package: fds
+Loading required package: rainbow
+Loading required package: MASS
+Loading required package: pcaPP
+Loading required package: RCurl
+Loading required package: deSolve
+
+Attaching package: ‘fda’
+
+The following object is masked from ‘package:graphics’:
+
+    matplot
+
+Loading required package: earth
+Loading required package: Formula
+Loading required package: plotmo
+Loading required package: plotrix
+Loading required package: TeachingDemos
+Loading required package: fastglm
+Loading required package: bigmemory
+Loading required package: doMC
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: Matrix
+Loaded glmnet 4.1-4
+Loading required package: Rcpp
+hal9001 v0.4.4: The Scalable Highly Adaptive Lasso
+note: fit_hal defaults have changed. See ?fit_hal for details
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 4.42989e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n = 5e+05, d, k) : Theta has negative values
+3: In sim_generator(n = 25000, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+8: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 5.2628e-18
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.19655e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.21367e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.2141e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.06102e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.11498e-16
+In addition: There were 27 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.96444e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 6.90298e-17
+In addition: There were 23 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.88434e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+8: In sim_generator(n, d, k) : Theta has negative values
+9: In sim_generator(n, d, k) : Theta has negative values
+10: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 9.24426e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.699e-16
+In addition: There were 11 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.4254e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.05268e-16
+In addition: There were 15 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.45969e-16
+In addition: Warning message:
+In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 3.37775e-18
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+8: In sim_generator(n, d, k) : Theta has negative values
+9: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.43379e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.97264e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.20538e-16
+In addition: There were 19 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 6.59449e-17
+In addition: There were 19 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.2516e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 3.89734e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.42428e-17
+In addition: There were 17 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.20537e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.15544e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.33336e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 7.6725e-20
+In addition: There were 13 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.38949e-16
+In addition: There were 21 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.89269e-16
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.97532e-19
+In addition: Warning message:
+In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.22428e-17
+In addition: There were 23 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.01042e-17
+In addition: There were 28 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 2.45757e-17
+In addition: Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values
+4: In sim_generator(n, d, k) : Theta has negative values
+5: In sim_generator(n, d, k) : Theta has negative values
+6: In sim_generator(n, d, k) : Theta has negative values
+7: In sim_generator(n, d, k) : Theta has negative values
+8: In sim_generator(n, d, k) : Theta has negative values
+9: In sim_generator(n, d, k) : Theta has negative values
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.0995e-16
+In addition: There were 11 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 1.24715e-16
+In addition: There were 11 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 6.20236e-17
+In addition: There were 18 warnings (use warnings() to see them)
+Error in solve.default(t(x_basis_lasso) %*% x_basis_lasso/n, t(x_basis_lasso) %*%  : 
+  system is computationally singular: reciprocal condition number = 5.87791e-18
+In addition: Warning message:
+In sim_generator(n, d, k) : Theta has negative values
+Warning messages:
+1: In sim_generator(n, d, k) : Theta has negative values
+2: In sim_generator(n, d, k) : Theta has negative values
+3: In sim_generator(n, d, k) : Theta has negative values

@@ -1,0 +1,51 @@
+Loading required package: sl3
+Loading required package: SuperLearner
+Loading required package: nnls
+Loading required package: gam
+Loading required package: splines
+Loading required package: foreach
+Loaded gam 1.20.2
+
+Super Learner
+Version: 2.0-28
+Package created on 2021-05-04
+
+Loading required package: data.table
+Loading required package: R6
+Loading required package: stringr
+Loading required package: origami
+origami v1.0.7: Generalized Framework for Cross-Validation
+Loading required package: delayed
+delayed v0.3.0: A Framework for Parallelizing Dependent Tasks
+Loading required package: future
+Loading required package: xgboost
+Loading required package: fda
+Loading required package: fds
+Loading required package: rainbow
+Loading required package: MASS
+Loading required package: pcaPP
+Loading required package: RCurl
+Loading required package: deSolve
+
+Attaching package: ‘fda’
+
+The following object is masked from ‘package:graphics’:
+
+    matplot
+
+Loading required package: earth
+Loading required package: Formula
+Loading required package: plotmo
+Loading required package: plotrix
+Loading required package: TeachingDemos
+Loading required package: fastglm
+Loading required package: bigmemory
+Loading required package: doMC
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: Rcpp
+hal9001 v0.4.4: The Scalable Highly Adaptive Lasso
+note: fit_hal defaults have changed. See ?fit_hal for details
+Loading required package: Matrix
+Loaded glmnet 4.1-4
+slurmstepd-gizmoj17: error: *** JOB 6565823 ON gizmoj17 CANCELLED AT 2022-12-26T14:13:13 ***
