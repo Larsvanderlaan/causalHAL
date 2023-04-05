@@ -2,9 +2,9 @@
 print(.libPaths())
 setwd("~/sieveSims")
 print(getwd())
-nsims = 5000
+nsims = 1000
 
-library(autocausalML)
+library(causalHAL)
 #library(future)
 #plan(multisession, workers = 16)
 

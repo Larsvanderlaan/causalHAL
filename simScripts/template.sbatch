@@ -9,4 +9,4 @@
 #SBATCH --mail-type=NONE        # Type of email notification- NONE,BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=lvdlaan@uw.edu # Email to which notifications will be sent
 module load R
-Rscript -e 'source("~/sieveSims/test.R")'
+Rscript -e 'source("~/causalHAL/install_packages.R")'

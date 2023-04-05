@@ -1,4 +1,7 @@
 library(data.table)
+library(hal9001)
+library(sl3)
+library(causalHAL)
 
 do_sims <- function(niter, n, pos_const, muIsHard) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
@@ -33,18 +36,18 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
 #' computes ATE estimates, se, and CI for plug-in T-learner HAL, plug-in R-learner HAL, partially linear intercept model, AIPW.
 get_estimates <- function(W, A, Y,iter) {
 
-  fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = c(100), smoothness_orders = 1,max_degree_cate =1, num_knots_cate = 100, smoothness_orders_cate = 1,    screen_variables = TRUE)
+  fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = c(100), smoothness_orders = 1,max_degree_cate =1, num_knots_cate = 100, smoothness_orders_cate = 1,    screen_variables = TRUE, fit_control = list(parallel = TRUE))
   ate_T <- unlist(inference_cate(fit_T))
   ate_T[1] <- "Tlearner"
 
 
   lrnr_A <- Lrnr_gam$new(family = "binomial")
-  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = 50,  max_degree_cate = 1, num_knots_cate = 10, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(.))
+  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = 100,  max_degree_cate = 1, num_knots_cate = 10, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
   ate_R<-  unlist(inference_cate(fit_R))
   ate_R[1] <- "Rlearner"
 
   lrnr_A <- fit_R$internal$fit_EAW
-  fit_R_intercept <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = 50,  max_degree_cate = 1, num_knots_cate = 2, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(W7))
+  fit_R_intercept <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = 100,  max_degree_cate = 1, num_knots_cate = 2, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(W7), fit_control = list(parallel = TRUE))
   mean(fit_R$internal$data$tau_relaxed)
   ate_intercept <-  unlist(inference_cate(fit_R_intercept))
   ate_intercept[1] <- "intercept"
