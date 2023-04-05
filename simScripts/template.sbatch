@@ -8,5 +8,7 @@
 #SBATCH -e ./%j.err      # File to which STDERR will be written
 #SBATCH --mail-type=NONE        # Type of email notification- NONE,BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=lvdlaan@uw.edu # Email to which notifications will be sent
+export R_LIBS=~/Rlibs2
+export R_LIBS_USER=~/Rlibs2
 module load R
 Rscript -e 'source("~/causalHAL/simScripts/install_packages.R")'
