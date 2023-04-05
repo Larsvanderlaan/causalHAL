@@ -13,7 +13,7 @@ do_sims <- function(niter, n, pos_const, muIsHard) {
     return(data.table())
   }))
   key <- paste0("iter=", niter, "_n=", n, "_pos=", pos_const, "_hard=", muIsHard)
-  fwrite(sim_results, paste0("simResults/sim_results_", key, ".csv"))
+  fwrite(sim_results, paste0("~/causalHAL/simResults/sim_results_", key, ".csv"))
 }
 
 

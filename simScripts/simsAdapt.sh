@@ -8,7 +8,7 @@ do
   do
     for hard in "TRUE" "FALSE"
     do
-    sbatch  --export=n=$n,const=$const,hard=$hard ~/causalHAL/simScriptAdapt.sbatch
+    sbatch  --export=n=$n,const=$const,hard=$hard ~/causalHAL/simScripts/simScriptAdapt.sbatch
     done
   done
 done
