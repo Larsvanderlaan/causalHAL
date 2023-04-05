@@ -6,7 +6,7 @@ for n in 500 1000 2000 3000 4000 5000
 do
   for const in 1 2 3
   do
-    for hard in true false
+    for hard in "TRUE" "FALSE"
     do
     sbatch  --export=n=$n,const=$const,hard=$hard ~/causalHAL/simScriptAdapt.sbatch
     done
