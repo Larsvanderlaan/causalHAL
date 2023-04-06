@@ -4,7 +4,7 @@ library(sl3)
 library(causalHAL)
 library(doMC)
 doMC::registerDoMC(cores = 6)
-do_sims <- function(niter, n, pos_const, muIsHard) {
+do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
     try({
     data_list <- get_data(n, pos_const, muIsHard)
@@ -32,6 +32,26 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
     mu0 <-  W[,1] + W[,2]  + W[,4] + W[,5]
   }
   tau <- 1 + W[,1] + W[,3] + W[,5]
+  Y <- rnorm(n,  mu0 + A * tau, 0.5)
+  return(list(W=W, A = A, Y = Y, ATE = 1))
+}
+
+get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
+  d <- 7
+  W <- replicate(d, runif(n, -1, 1))
+  colnames(W) <- paste0("W", 1:d)
+  pi0 <- plogis(pos_const * ((1+ 1.5*W[,1])*sin(5*W[,1]) + (1 + 1.5*W[,2])* cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,7]) + cos(3*W[,6])))
+  A <- rbinom(n, 1, pi0)
+  if(muIsHard) {
+    mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,5])
+  } else {
+    mu0 <-  W[,1] + W[,2]  + W[,4] + W[,5]
+  }
+  # Add local alternative fluctuation
+  mu0 <- mu0 + (W[,3] + W[,4] + W[,6] + W[,7])/sqrt(n)
+  tau <- 1 + W[,1] + W[,3] + W[,5]
+  # Add local alternative fluctuation
+  tau <- (W[,2] + W[,4] + W[,6] + W[,7])/sqrt(n)
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
   return(list(W=W, A = A, Y = Y, ATE = 1))
 }
