@@ -100,7 +100,7 @@ fit_hal_cate <- function(W, A, Y, include_propensity_score = FALSE, weights = NU
   beta_mu <- coef(fit_mu_relaxed)
   mu1_relaxed <- x_basis1 %*% beta_mu
   mu0_relaxed <- x_basis0 %*% beta_mu
-  tau_relaxed <- mu1 - mu0
+  tau_relaxed <- mu1_relaxed - mu0_relaxed
 
 
   # Computes Y component of IF for projection of CATE onto x_proj
