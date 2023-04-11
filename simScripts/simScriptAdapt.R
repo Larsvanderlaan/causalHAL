@@ -63,8 +63,10 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
 get_estimates <- function(W, A, Y,iter) {
   n <- length(Y)
   if(n <= 500) {
-    num_knots <- c(25, 5)
+    num_knots <- c(10, 5)
   } else if(n <= 1000) {
+    num_knots <- c(25, 10)
+  } else if(n <= 3000) {
     num_knots <- c(50, 15)
   } else{
     num_knots <- c(100, 30)
