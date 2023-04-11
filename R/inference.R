@@ -50,7 +50,8 @@ inference_cate <- function(fit_cate, formula =  ~ 1, alpha = 0.05, return_cov_ma
 
   IF_full <- IF_cate + IF_proj
 
-
+  print(sd(IF_cate)/ sqrt(n))
+  print(sd(IF_proj)/ sqrt(n) )
   var_mat <- var(IF_full)
   se <- sqrt(diag(var_mat)) / sqrt(n)
   CI <- matrix(coef_proj + abs(qnorm(alpha/2)) * c(-1,1) * se, ncol =2)

@@ -105,10 +105,11 @@ fit_hal_cate <- function(W, A, Y, include_propensity_score = FALSE, weights = NU
 
   # Computes Y component of IF for projection of CATE onto x_proj
   IF_Y_map <- function(x_proj) {
-    M <- solve(t(x_proj) %*% x_proj) %*% t(x_proj)
-
-    alpha <- x_basis %*% solve(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0)  ))
-    IF <- alpha * (Y - mu)
+    n <- length(A)
+    print(dim(x_basis))
+   #M <- x_proj %*% solve((t(x_proj) %*% x_proj) / n, t(x_proj))
+    alpha <- x_basis %*% solve(t(x_basis) %*% x_basis/n, colMeans(x_basis1 - x_basis0)  )
+    IF <- alpha * (Y - x_basis %*% beta_mu)
   }
 
   # For inference function

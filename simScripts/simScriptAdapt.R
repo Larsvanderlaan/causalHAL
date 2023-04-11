@@ -71,6 +71,7 @@ get_estimates <- function(W, A, Y,iter) {
   } else{
     num_knots <- c(100, 30)
   }
+
   fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = TRUE, fit_control = list(parallel = TRUE))
   ate_T <- unlist(inference_cate(fit_T))
   ate_T[1] <- "Tlearner"
