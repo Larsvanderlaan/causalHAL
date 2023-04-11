@@ -108,8 +108,8 @@ fit_hal_pcate <- function(W, A, Y, Delta = NULL, weights = NULL,  lrnr_A= NULL, 
   IF_Y_map <- function(x_proj) {
     n <- length(Y)
     scale <- solve(t(x_proj) %*% diag(pseudo_weights) %*% x_proj / n)
-    IF_cate <- (x_proj) *  pseudo_weights* as.vector(pseudo_outcome - tau)
-    IF_cate <- IF_cate %*% scale
+    IF_cate <- (x_proj) *  pseudo_weights* as.vector(pseudo_outcome - tau_relaxed)
+    IF_cate <- IF_cate %*% scale + tau_relaxed - mean(tau_relaxed)
   }
 
   fit_cate$internal <- list(IF_Y_map = IF_Y_map, fit_EAW = fit_pi, fit_EYW = fit_mu, data  = list(tau_relaxed = tau_relaxed, W = W, A = A, Y = Y, pi = pi, mu = mu, tau = tau, pseudo_outcome = pseudo_outcome, pseudo_weights = pseudo_weights))
