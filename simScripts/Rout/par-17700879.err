@@ -1,0 +1,83 @@
+Loading required package: hal9001
+Loading required package: Rcpp
+hal9001 v0.4.5: The Scalable Highly Adaptive Lasso
+note: fit_hal defaults have changed. See ?fit_hal for details
+Loading required package: sl3
+Loading required package: data.table
+Loading required package: R6
+Loading required package: stringr
+Loading required package: origami
+origami v1.0.7: Generalized Framework for Cross-Validation
+Loading required package: delayed
+delayed v0.4.0: A Framework for Parallelizing Dependent Tasks
+Loading required package: future
+Loading required package: earth
+Loading required package: Formula
+Loading required package: plotmo
+Loading required package: plotrix
+Loading required package: TeachingDemos
+Loading required package: fastglm
+Loading required package: bigmemory
+Loading required package: doMC
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+Loading required package: glmnet
+Loading required package: Matrix
+Loaded glmnet 4.1-7
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[62,62] = 0
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[121,121] = 0
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  system is computationally singular: reciprocal condition number = 8.43334e-18
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  system is computationally singular: reciprocal condition number = 9.23485e-18
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[57,57] = 0
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  system is computationally singular: reciprocal condition number = 5.61617e-18
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[55,55] = 0
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[70,70] = 0
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[78,78] = 0
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  Lapack routine dgesv: system is exactly singular: U[64,64] = 0
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  system is computationally singular: reciprocal condition number = 2.22245e-23
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  system is computationally singular: reciprocal condition number = 8.35782e-26
+Error : Object was created without names.
+Error : Object was created without names.
+Error : Object was created without names.
+Error in solve.default(t(x_basis) %*% x_basis, t(M %*% (x_basis1 - x_basis0))) : 
+  system is computationally singular: reciprocal condition number = 8.96237e-25
+Error : Object was created without names.

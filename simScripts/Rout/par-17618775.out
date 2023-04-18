@@ -1,0 +1,3227 @@
+LOADING R
+R LOADED
+[1] "/home/lvanderl/Rlibs2"                         
+[2] "/app/software/R/4.2.2-foss-2021b/lib/R/library"
+[1] "/home/lvanderl/sieveSims"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.859286
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8505308
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9668132
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9117665
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9156344
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8878923
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9446977
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9345485
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9223857
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8490356
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8907937
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8188239
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9681723
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9244136
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9078711
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8928526
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9383983
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8745972
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.911496
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9121501
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9606584
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9502921
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9185164
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8485498
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9455525
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9246307
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9793858
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9354916
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9442556
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8281319
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9786636
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9918977
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9441122
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8634141
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9487611
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9349335
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9497859
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9316937
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.934751
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8938995
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9106409
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.921586
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9752401
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9364872
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.940096
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.926315
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9392661
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9041163
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9154025
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9053696
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9485526
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.911824
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8847388
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9137339
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9591729
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9420756
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9662476
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8895373
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9797734
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9194966
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9439323
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9248803
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9128318
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8667708
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9710849
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9553132
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9510582
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.959962
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9758152
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9208608
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9447002
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8937447
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9645831
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9158545
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9077065
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8861317
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9937743
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.955824
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9341953
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8522973
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9586982
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9197499
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9715821
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9523376
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8783031
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8740066
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9167955
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8932535
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W7) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.010217
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W7) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9717427
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9373829
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8732365
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.981007
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9389789
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9846169
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9582301
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.003817
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9668324
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.014232
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.977274
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9537369
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9449471
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9271962
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8971843
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9576839
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9366215
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000951
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9278864
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.964616
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9173182
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9777891
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.90799
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9888603
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9602772
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9220486
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8833928
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8726009
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8405185
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9178296
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8719276
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009511
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.989738
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9508781
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9055213
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8701432
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.863149
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9658503
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8865198
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9713515
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9822029
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7,W2) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9924963
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7,W2) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9381163
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9708516
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.960994
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9835985
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9315593
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.007983
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9647534
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.980463
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9006318
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9507524
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8923622
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9841684
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9134249
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.027378
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9739537
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9540772
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8785104
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W3) + h(W1,W5) + h(W1) + h(W2,W3) + h(W2,W5) + h(W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9452524
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W3) + h(W1,W5) + h(W1) + h(W2,W3) + h(W2,W5) + h(W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8567677
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9578958
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9220738
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9538074
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8757542
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9377079
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8593325
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W3) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9360585
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W3) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8772589
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9323491
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9206171
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9795843
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9139016
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9182178
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8903679
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9847724
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9134813
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7,W5) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9350126
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7,W5) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9278351
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8787002
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.7952373
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.993698
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.969194
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9334567
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8899537
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018642
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9536695
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9105216
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8646488
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9407247
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9334806
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9447768
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9026862
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011782
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9679422
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8917543
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8853256
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9258305
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8857862
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.928609
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8915211
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9467909
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9074737
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9194948
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8839037
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011128
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.002268
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W3) + h(W1,W5) + h(W1) + h(W2) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W6) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9448765
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W3) + h(W1,W5) + h(W1) + h(W2) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W6) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8896602
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.044563
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9778156
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9722544
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.976841
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9305515
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8888041
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9237469
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8889778
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.020712
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9757843
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.956723
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9116875
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8899621
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8649178
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9149584
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8455469
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.920205
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8834835
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9315736
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9233606
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9615926
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8955756
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9329108
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8838382
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9358649
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8599462
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9002814
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8200158
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9264826
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8733598
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9182924
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8859962
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9485405
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8952118
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9257502
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.885397
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.019269
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.944544
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9580811
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9518777
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.910001
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8351363
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.96561
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8527644
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9427266
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8353324
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.929019
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9006941
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9889447
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.844735
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9917908
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9591302
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.007036
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9780884
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9273751
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8757224
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9391731
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8672402
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8944485
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8728614
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W3) + h(W1,W5) + h(W1) + h(W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.95981
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W3) + h(W1,W5) + h(W1) + h(W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9073822
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9701798
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9329584
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.015124
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9458073
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9636677
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9810406
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9497878
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9244049
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9657652
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9693229
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9546395
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8990055
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4,W7) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8960326
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4,W7) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8663008
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9290515
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8944666
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9640337
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9461462
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9521875
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9488829
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.002857
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.014062
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9232153
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9179027
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9082776
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8739656
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8793082
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8784628
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W6) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9871516
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W6) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.025779
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.926252
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8582998
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9508517
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8975541
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9555897
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8957874
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.016076
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.005696
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9870795
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9252082
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9089189
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4,W7) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8622486
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.891859
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W6) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8046661
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8942479
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8581233
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9637575
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9199924
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9488688
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9276624
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9525386
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.92783
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9418189
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9379123
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9030572
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.897147
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9101446
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8931681
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9335327
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.879343
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9184443
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W2) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9134514
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.016524
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9951735
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9387207
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8554823
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006961
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9497063
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9991059
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9434761
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001127
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9752029
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9689006
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9275359
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9356135
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8633122
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9479829
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9367263
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.05859
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9662365
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9182003
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9076056
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.977532
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4,W6) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.933413
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8989228
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.866176
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.036092
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9691898
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9898332
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9463282
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.942324
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W5) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9472402
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.036533
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W7) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9894817
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.955326
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9051228
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9077162
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.905246
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8686214
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8658158
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9530011
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.936046
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9851524
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9513754
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011161
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W6) + h(W1,W7) + h(W1) + h(W2) + h(W3,W1) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9821237
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9889375
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1,W6) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3,W7) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9321861
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9263741
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4,W5) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9064678
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9751797
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3,W6) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8768281
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.93691
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4,W2) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8770022
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W7)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9628148
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9297186
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9723177
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W5) + h(W2) + h(W3,W1) + h(W3,W4) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9576282
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5) + h(W6)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.014814
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W5) + h(W1) + h(W2,W7) + h(W2) + h(W3,W1) + h(W3,W5) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9724803
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.922281
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2) + h(W3,W5) + h(W3) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.911112
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W3) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W4) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8918723
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W2) + h(W1,W4) + h(W1,W5) + h(W1) + h(W2,W4) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W4) + h(W3,W5) + h(W3,W7) + h(W3) + h(W4) + h(W5,W6) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.8771869
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W6) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001601
+A hal9001 formula object of the form: ~ h(.)[1] "Fitting mu = E[Y|W]"
+[1] "~h(W1,W5) + h(W1) + h(W2) + h(W3,W1) + h(W3,W2) + h(W3,W5) + h(W3) + h(W4,W6) + h(W4) + h(W5,W2) + h(W5,W6) + h(W5,W7) + h(W5) + h(W6) + h(W7)"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9737458
+A hal9001 formula object of the form: ~ h(W7)[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W4) + h(W5)"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] "~h(W1) + h(W2) + h(W3) + h(W5) + h(W6)"
+[1] "Fitting mu = E[Y|W]"
