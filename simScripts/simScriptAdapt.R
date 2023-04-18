@@ -5,6 +5,7 @@ library(causalHAL)
 library(doMC)
 doMC::registerDoMC(cores = 11)
 
+
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
     print(paste0("Iteration number: ", iter))
@@ -15,7 +16,8 @@ do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
     return(data.table())
   }))
   key <- paste0("iter=", niter, "_n=", n, "_pos=", pos_const, "_hard=", muIsHard)
-  fwrite(sim_results, paste0("~/causalHAL/simResults/sim_results_", key, ".csv"))
+  try({fwrite(sim_results, paste0("~/causalHAL/simResults/sim_results_", key, ".csv"))})
+  return(sim_results)
 }
 
 
@@ -23,17 +25,17 @@ do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
 #' constant in propensity score can be used to vary overlap.
 #' two settings for outcome regression: easy form and hard form
 get_data <- function(n, pos_const, muIsHard = TRUE) {
-  d <- 7
+  d <- 4
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * ((1+ 1.5*W[,1])*sin(5*W[,1]) + (1 + 1.5*W[,2])* cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,7]) + cos(3*W[,6])))
+  pi0 <- plogis(pos_const * ((1+ 1.5*W[,1])*sin(5*W[,1]) + (1 + 1.5*W[,2])* cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,4]) + cos(3*W[,4])))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
-    mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,5])
+    mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,2])
   } else {
-    mu0 <-  W[,1] + W[,2]  + W[,4] + W[,5]
+    mu0 <-  W[,1] + W[,2]  + W[,3] + W[,4]
   }
-  tau <- 1 + W[,1] + W[,3] + W[,5]
+  tau <- 1 + W[,1] + W[,2] + W[,4]
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
   return(list(W=W, A = A, Y = Y, ATE = 1))
 }
@@ -67,18 +69,18 @@ get_estimates <- function(W, A, Y,iter) {
   } else if(n <= 1000) {
     num_knots <- c(25, 10)
   } else if(n <= 3000) {
-    num_knots <- c(50, 15)
+    num_knots <- c(50, 30)
   } else{
-    num_knots <- c(100, 30)
+    num_knots <- c(100, 50)
   }
 
-  fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = TRUE, fit_control = list(parallel = TRUE))
+  fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, fit_control = list(parallel = TRUE))
   ate_T <- unlist(inference_cate(fit_T))
   ate_T[1] <- "Tlearner"
 
 
   lrnr_A <- Lrnr_gam$new(family = "binomial")
-  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
+  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
   ate_R<-  unlist(inference_cate(fit_R))
   ate_R[1] <- "Rlearner"
 
