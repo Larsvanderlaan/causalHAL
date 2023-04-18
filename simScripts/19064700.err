@@ -1,0 +1,76 @@
+Skipping install of 'hal9001' from a github remote, the SHA1 (afc4d664) has not changed since last install.
+  Use `force = TRUE` to force installation
+Skipping install of 'sl3' from a github remote, the SHA1 (3701e66d) has not changed since last install.
+  Use `force = TRUE` to force installation
+Skipping install of 'doMC' from a cran remote, the SHA1 (1.3.8) has not changed since last install.
+  Use `force = TRUE` to force installation
+Downloading GitHub repo Larsvanderlaan/causalHAL@HEAD
+Installing 3 packages: tinytex, htmltools, igraph
+Installing packages into ‘/home/lvanderl/Rlibs2’
+(as ‘lib’ is unspecified)
+trying URL 'https://cloud.r-project.org/src/contrib/tinytex_0.45.tar.gz'
+Content type 'application/x-gzip' length 33082 bytes (32 KB)
+==================================================
+downloaded 32 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmltools_0.5.5.tar.gz'
+Content type 'application/x-gzip' length 131880 bytes (128 KB)
+==================================================
+downloaded 128 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/igraph_1.4.2.tar.gz'
+Content type 'application/x-gzip' length 3308627 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+* installing *source* package ‘tinytex’ ...
+** package ‘tinytex’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (tinytex)
+ERROR: failed to lock directory ‘/home/lvanderl/Rlibs2’ for modifying
+Try removing ‘/home/lvanderl/Rlibs2/00LOCK-htmltools’
+* installing *source* package ‘igraph’ ...
+** package ‘igraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+installing to /home/lvanderl/Rlibs2/00LOCK-igraph/00new/igraph/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (igraph)
+
+The downloaded source packages are in
+	‘/loc/scratch/19064700/RtmpzdZRu1/downloaded_packages’
+Installing package into ‘/home/lvanderl/Rlibs2’
+(as ‘lib’ is unspecified)
+* installing *source* package ‘causalHAL’ ...
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (causalHAL)
+Warning message:
+In i.p(...) : installation of package ‘htmltools’ had non-zero exit status
