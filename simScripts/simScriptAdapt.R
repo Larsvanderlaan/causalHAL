@@ -102,7 +102,7 @@ get_estimates <- function(W, A, Y,iter) {
 
 
   mu1 <- fit_T$internal$data$mu1
-  mu0 <- fit_T$internal$data$mu1
+  mu0 <- fit_T$internal$data$mu0
   mu <- ifelse(A==1, mu1, mu0)
   IF <- mu1 - mu0 + (A - pi) / ((1-pi)*pi) * (Y - mu)
   est_AIPW <-  mean(IF)
