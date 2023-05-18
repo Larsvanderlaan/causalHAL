@@ -51,20 +51,26 @@ fit_hal_pcate <- function(W, A, Y, Delta = NULL, weights = NULL,  lrnr_A= NULL, 
   subset <- which(Delta == 1)
   # mu = E[Y | W]
   if(verbose) print("Fitting mu = E[Y|W]")
-  if(is.null(lrnr_Y)) {
+  if(is.vector(lrnr_Y)) {
+    mu <- lrnr_Y
+    fit_mu <- NULL
+  } else if(is.null(lrnr_Y)) {
   fit_mu <- fit_hal(W[subset, , drop = F], Y[subset], weights = weights[subset], max_degree = max_degree, num_knots = num_knots, smoothness_orders = smoothness_orders, family = family_Y, screen_variables = screen_variables, screen_control = screen_control,... )
   cols_mu <- unique(unlist(lapply(fit_mu$basis_list, function(basis) {basis$cols})))
   mu <- predict(fit_mu, new_data = W)
   if(verbose) print(fit_mu$formula)
   } else {
-    task_Y <- sl3_Task$new(data.table(W, A = A, Y= Y), covariates = c(colnames(W), "A"), outcome = "Y", outcome_type = "continuous")
+    task_Y <- sl3_Task$new(data.table(W, Y= Y), covariates = c(colnames(W)), outcome = "Y", outcome_type = "continuous")
     fit_mu <- lrnr_Y$train(task_Y)
     mu <-fit_mu$predict(task_Y)
   }
 
   # pi <- E[A]
   if(verbose) print("Fitting pi = E[A|W]")
-  if(is.null(lrnr_A)) {
+  if(is.vector(lrnr_A)) {
+    pi <- lrnr_A
+    fit_pi <- NULL
+  } else if(is.null(lrnr_A)) {
   fit_pi <- fit_hal(W, A, weights = weights, max_degree = max_degree_pi, num_knots = num_knots, smoothness_orders = smoothness_orders, family = family_A, screen_variables = screen_variables, screen_control = screen_control,... )
   cols_pi <- unique(unlist(lapply(fit_pi$basis_list, function(basis) {basis$cols})))
   pi <- predict(fit_pi, new_data = W)

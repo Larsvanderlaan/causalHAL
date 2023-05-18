@@ -28,7 +28,7 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   d <- 4
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * ((1+ 1.5*W[,1])*sin(5*W[,1]) + (1 + 1.5*W[,2])* cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,4]) + cos(3*W[,4])))
+  pi0 <- plogis(pos_const * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) ))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
     mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,2])
@@ -44,7 +44,7 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
   d <- 7
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * ((1+ 1.5*W[,1])*sin(5*W[,1]) + (1 + 1.5*W[,2])* cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,7]) + cos(3*W[,6])))
+  pi0 <- plogis(pos_const * (sin(5*W[,1]) +  cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,7]) + cos(3*W[,6])))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
     mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,5])
@@ -65,32 +65,48 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
 get_estimates <- function(W, A, Y,iter) {
   n <- length(Y)
   if(n <= 500) {
-    num_knots <- c(10, 5)
+    num_knots <- c(10, 10, 1, 0)
   } else if(n <= 1000) {
-    num_knots <- c(25, 10)
+    num_knots <- c(50, 15, 15, 15)
   } else if(n <= 3000) {
-    num_knots <- c(50, 30)
+    num_knots <- c(100, 50,30,30)
   } else{
-    num_knots <- c(100, 50)
+    num_knots <- c(200, 100, 50,50)
   }
 
   fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, fit_control = list(parallel = TRUE))
   ate_T <- unlist(inference_cate(fit_T))
   ate_T[1] <- "Tlearner"
 
+  mu1 <- fit_T$internal$data$mu1
+  mu0 <- fit_T$internal$data$mu0
+  mu <- ifelse(A==1, mu1, mu0)
 
-  lrnr_A <- Lrnr_gam$new(family = "binomial")
-  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
+  lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new()   ))
+  lrnr_A<- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
+  task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "binomial")
+  fit_pi <- lrnr_A$train(task_A)
+  #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
+  pi <- fit_pi$predict(task_A)
+  #
+   m <- mu0 * (1-pi) + mu1 * (pi)
+
+  #lrnr_Y <- Stack$new(Lrnr_earth$new(degree = 3), Lrnr_ranger$new(), Lrnr_gam$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5))
+  # lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5)))
+  # lrnr_cv <- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
+  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = m, lrnr_A = pi,  max_degree = sum(num_knots > 0), num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
   ate_R<-  unlist(inference_cate(fit_R))
   ate_R[1] <- "Rlearner"
 
-  lrnr_A <- fit_R$internal$fit_EAW
+  #lrnr_A <- fit_R$internal$fit_EAW
   #fit_R_intercept <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = 2, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(W7), fit_control = list(parallel = TRUE))
   #mean(fit_R$internal$data$tau_relaxed)
   #ate_intercept <-  unlist(inference_cate(fit_R_intercept))
   #ate_intercept[1] <- "intercept"
 
-  pi <- fit_R$internal$data$pi
+   pi <- fit_R$internal$data$pi
+  print("positivity")
+  print(table(abs((A - pi)) <= 1e-10))
   m <- fit_R$internal$data$mu
   tau_int <- mean((A-pi) * (Y - m)) / mean((A-pi)^2)
   IF <- (A - pi) / mean((A-pi)^2) * (Y - m - (A-pi)*tau_int)
@@ -101,9 +117,7 @@ get_estimates <- function(W, A, Y,iter) {
 
 
 
-  mu1 <- fit_T$internal$data$mu1
-  mu0 <- fit_T$internal$data$mu0
-  mu <- ifelse(A==1, mu1, mu0)
+
   IF <- mu1 - mu0 + (A - pi) / ((1-pi)*pi) * (Y - mu)
   est_AIPW <-  mean(IF)
   CI <- est_AIPW + 1.96*c(-1,1)*sd(IF)/sqrt(n)
