@@ -6,12 +6,15 @@ library(doMC)
 doMC::registerDoMC(cores = 11)
 
 
+out <- do_sims(20, 3000, 0.5, FALSE)
+
+
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
     print(paste0("Iteration number: ", iter))
     try({
       data_list <- get_data(n, pos_const, muIsHard)
-      return(as.data.table(get_estimates(data_list$W, data_list$A, data_list$Y,iter, data_list$pi)))
+      return(as.data.table(get_estimates(data_list$W, data_list$A, data_list$Y,iter, NULL)))
     })
     return(data.table())
   }))
@@ -29,6 +32,8 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
   pi0 <- plogis(pos_const * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) ))
+  print("pos")
+  print(range(pi0))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
     mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,2])
@@ -89,14 +94,15 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
   pi <- fit_pi$predict(task_A)
   print(range(pi))
-  cutoffs <- seq(0.1, 1e-8, length = 500)
+  cutoffs <- seq(0.1, 1e-8, length = 250)
   risks <- sapply(cutoffs, function(cutoff) {
     pi <- pmin(pi, 1 - cutoff)
     pi <- pmax(pi, cutoff)
     mean(A*(1/pi)^2 - 2/pi)
   })
-  print(risks)
-  cutoff <- cutoffs[which.min(risks)]
+  print(order(unique(risks)))
+
+  cutoff <- cutoffs[which.min(risks)[1]]
   print("cutoff")
   print(cutoff)
   pi <- pmin(pi, 1 - cutoff)
