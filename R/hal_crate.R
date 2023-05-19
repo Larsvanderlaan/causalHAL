@@ -1,6 +1,7 @@
 
 
-
+#' @export
+#'
 fit_hal_crate <- function(W, A, Y, weights = NULL, family_Y = c("gaussian", "binomial", "poisson"), formula_crate = NULL, max_degree_crate = 3, num_knots_crate =  c(sqrt(length(Y)), length(Y)^(1/3), length(Y)^(1/5)), smoothness_orders_crate = 1, screen_variable_crate = TRUE,   params_EYAW =  list(max_degree = 3, num_knots =  c(sqrt(length(Y)), length(Y)^(1/3), length(Y)^(1/5)), smoothness_orders = 1, screen_variables = TRUE),  verbose = TRUE,...) {
   family_Y <- match.arg(family_Y)
   params_EYAW$X <- cbind(W,A)

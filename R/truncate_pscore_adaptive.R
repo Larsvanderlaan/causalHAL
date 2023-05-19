@@ -1,6 +1,7 @@
 
 
-
+#' @export
+#'
 truncate_pscore_adaptive <- function(A, pi, min_trunc_level = 1e-8) {
   cutoffs <- seq(0.1, min_trunc_level, length = 500)
   risks <- sapply(cutoffs, function(cutoff) {
