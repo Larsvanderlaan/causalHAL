@@ -2,10 +2,12 @@ library(data.table)
 library(hal9001)
 library(sl3)
 library(causalHAL)
-library(doMC)
-doMC::registerDoMC(cores = 11)
+library(doFuture)
+library(future)
 
-#out <- do_sims(20, 3000, 2, FALSE)
+doFuture::registerDoFuture()
+future::plan(cluster, workers = 11)
+#out <- do_sims(20, 3000, 2, TRUE)
 
 
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
@@ -90,9 +92,9 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(degree = 2), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3),  Lrnr_xgboost$new(max_depth = 4),  Lrnr_xgboost$new(max_depth = 5)    ))
   lrnr_A<- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
   task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "continuous")
-  lrnr_A <- Lrnr_hal9001$new(family = "gaussian", max_degree = 2, smoothness_orders = 1, num_knots = c(100,50) , screen_variables = FALSE, fit_control = list(parallel = TRUE))
+  #lrnr_A <- Lrnr_hal9001$new(family = "gaussian", max_degree = 2, smoothness_orders = 1, num_knots = c(100,50) , screen_variables = FALSE, fit_control = list(parallel = TRUE))
   fit_pi <- lrnr_A$train(task_A)
-  #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
+  pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
   pi <- fit_pi$predict(task_A)
   print(range(pi))
   cutoffs <- seq(0.1, 1e-8, length = 250)

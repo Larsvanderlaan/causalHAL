@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=11
 #SBATCH --output=Rout/par-%J.out
 #SBATCH --error=Rout/par-%J.err
-#SBATCH --cpus-per-task=1
 echo "LOADING R"
 module load R
 echo "R LOADED"
