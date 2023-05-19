@@ -6,14 +6,10 @@ library(doFuture)
 library(future)
 
 doFuture::registerDoFuture()
-future::plan(multisession, workers = 11)
-#out <- do_sims(20, 5000, 2, TRUE)
+future::plan(multisession, workers = 6)
+#out <- do_sims(20, 5000, 2, FALSE)
 
-data_list <- get_data(n=5000, pos_const=2, FALSE)
-W <- data_list$W
-A <- data_list$A
 
-Y <- data_list$Y
 
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
@@ -78,11 +74,11 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   if(n <= 500) {
     num_knots <- c(10, 10, 1, 0)
   } else if(n <= 1000) {
-    num_knots <- c(30, 15, 15, 15)
+    num_knots <- c(50, 15, 15, 15)
   } else if(n <= 3000) {
-    num_knots <- c(50, 25,30,30)
+    num_knots <- c(75, 25,30,30)
   } else{
-    num_knots <- c(75, 50, 50,50)
+    num_knots <- c(100, 50, 50,50)
   }
   fit_T <- fit_hal_cate (W, A, Y,   max_degree_cate = 1, num_knots_cate = num_knots , smoothness_orders_cate = 1, screen_variable_cate = FALSE,   params_EY0W =  list(max_degree = 1, num_knots =  num_knots , smoothness_orders = 1, screen_variables = FALSE, fit_control = list(parallel = TRUE)), fit_control = list(parallel = TRUE), include_propensity_score = FALSE,   verbose = TRUE )
 
@@ -108,7 +104,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
   pi <- fit_pi$predict(task_A)
   print(range(pi))
-  cutoffs <- seq(0.1, 1e-8, length = 250)
+  cutoffs <- seq(0.1, 1e-8, length = 500)
   risks <- sapply(cutoffs, function(cutoff) {
     pi <- pmin(pi, 1 - cutoff)
     pi <- pmax(pi, cutoff)
