@@ -6,9 +6,14 @@ library(doFuture)
 library(future)
 
 doFuture::registerDoFuture()
-future::plan(cluster, workers = 11)
-#out <- do_sims(20, 3000, 2, TRUE)
+future::plan(multisession, workers = 11)
+#out <- do_sims(20, 5000, 2, TRUE)
 
+data_list <- get_data(n=5000, pos_const=2, FALSE)
+W <- data_list$W
+A <- data_list$A
+
+Y <- data_list$Y
 
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
@@ -73,11 +78,11 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   if(n <= 500) {
     num_knots <- c(10, 10, 1, 0)
   } else if(n <= 1000) {
-    num_knots <- c(50, 15, 15, 15)
+    num_knots <- c(30, 15, 15, 15)
   } else if(n <= 3000) {
-    num_knots <- c(100, 50,30,30)
+    num_knots <- c(50, 25,30,30)
   } else{
-    num_knots <- c(200, 100, 50,50)
+    num_knots <- c(75, 50, 50,50)
   }
   fit_T <- fit_hal_cate (W, A, Y,   max_degree_cate = 1, num_knots_cate = num_knots , smoothness_orders_cate = 1, screen_variable_cate = FALSE,   params_EY0W =  list(max_degree = 1, num_knots =  num_knots , smoothness_orders = 1, screen_variables = FALSE, fit_control = list(parallel = TRUE)), fit_control = list(parallel = TRUE), include_propensity_score = FALSE,   verbose = TRUE )
 
@@ -89,12 +94,18 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   mu0 <- fit_T$internal$data$mu0
   mu <- ifelse(A==1, mu1, mu0)
 
-  lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(degree = 2), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3),  Lrnr_xgboost$new(max_depth = 4),  Lrnr_xgboost$new(max_depth = 5)    ))
+  lrnr_stack <- Stack$new(list(  Lrnr_earth$new(degree = 2,    family = "gaussian"),Lrnr_gam$new(family = "gaussian"), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 4, nrounds = 20),  Lrnr_xgboost$new(max_depth = 5, nrounds = 20)  ))
   lrnr_A<- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
   task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "continuous")
-  #lrnr_A <- Lrnr_hal9001$new(family = "gaussian", max_degree = 2, smoothness_orders = 1, num_knots = c(100,50) , screen_variables = FALSE, fit_control = list(parallel = TRUE))
+  #lrnr_A <- Lrnr_hal9001$new(family = "gaussian", max_degree = 2, smoothness_orders = 1, num_knots = c(50,10) , screen_variables = FALSE, fit_control = list(parallel = TRUE))
+
   fit_pi <- lrnr_A$train(task_A)
-  pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
+  #print("hey")
+  #print(fit_pi$learner_fits$Lrnr_cv_selector$fit_object$coef)
+  #print(fit_pi$learner_fits$Lrnr_cv_selector$fit_object$cv_risk)
+  #print(fit_pi$learner_fits$Lrnr_cv_selector$fit_object$name)
+
+  #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
   pi <- fit_pi$predict(task_A)
   print(range(pi))
   cutoffs <- seq(0.1, 1e-8, length = 250)
