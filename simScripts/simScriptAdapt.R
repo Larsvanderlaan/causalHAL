@@ -5,7 +5,7 @@ library(causalHAL)
 library(doMC)
 doMC::registerDoMC(cores = 11)
 
-
+#out <- do_sims(100, 3000, 3, FALSE)
 
 
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
@@ -102,8 +102,6 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
     alpha0 <- - 1/(1-pi)
     mean(alpha^2 - 2*(alpha1 - alpha0))
   })
-  print(order(unique(risks)))
-
   cutoff <- cutoffs[which.min(risks)[1]]
   print("cutoff")
   print(cutoff)
@@ -128,10 +126,9 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   #ate_intercept <-  unlist(inference_cate(fit_R_intercept))
   #ate_intercept[1] <- "intercept"
 
-  pi <- fit_R$internal$data$pi
-  print("positivity")
-  print(table(abs((A - pi)) <= 1e-10))
-  m <- fit_R$internal$data$mu
+  #pi <- fit_R$internal$data$pi
+
+  #m <- fit_R$internal$data$mu
   tau_int <- mean((A-pi) * (Y - m)) / mean((A-pi)^2)
   IF <- (A - pi) / mean((A-pi)^2) * (Y - m - (A-pi)*tau_int)
   CI <- tau_int + 1.96*c(-1,1)*sd(IF)/sqrt(n)
@@ -142,7 +139,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
 
   #pi <- pmin(pi, max(pi_true))
 #  pi <- pmax(pi, min(pi_true))
-  IF <- mu1 - mu0 + (A - pi) / ((1-pi)*pi) * (Y - mu)
+  IF <- mu1 - mu0 +  (A/pi - (1-A)/(1-pi)) * (Y - mu)
   est_AIPW <-  mean(IF)
   CI <- est_AIPW + 1.96*c(-1,1)*sd(IF)/sqrt(n)
   ate_aipw <- c("AIPW", est_AIPW, sd(IF)/sqrt(n), CI)
