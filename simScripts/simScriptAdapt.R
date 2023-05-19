@@ -10,8 +10,8 @@ do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
     print(paste0("Iteration number: ", iter))
     try({
-    data_list <- get_data(n, pos_const, muIsHard)
-    return(as.data.table(get_estimates(data_list$W, data_list$A, data_list$Y,iter)))
+      data_list <- get_data(n, pos_const, muIsHard)
+      return(as.data.table(get_estimates(data_list$W, data_list$A, data_list$Y,iter, data_list$pi)))
     })
     return(data.table())
   }))
@@ -37,7 +37,7 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   }
   tau <- 1 + W[,1] + W[,2] + W[,4]
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1))
+  return(list(W=W, A = A, Y = Y, ATE = 1, pi = pi))
 }
 
 get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
@@ -62,7 +62,7 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
 
 #' Given simulated data (W,A,Y) and simulation iteration number `iter`,
 #' computes ATE estimates, se, and CI for plug-in T-learner HAL, plug-in R-learner HAL, partially linear intercept model, AIPW.
-get_estimates <- function(W, A, Y,iter) {
+get_estimates <- function(W, A, Y,iter, pi_true) {
   n <- length(Y)
   if(n <= 500) {
     num_knots <- c(10, 10, 1, 0)
@@ -82,14 +82,30 @@ get_estimates <- function(W, A, Y,iter) {
   mu0 <- fit_T$internal$data$mu0
   mu <- ifelse(A==1, mu1, mu0)
 
-  lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new()   ))
+  lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(degree = 2), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3),  Lrnr_xgboost$new(max_depth = 4),  Lrnr_xgboost$new(max_depth = 5)    ))
   lrnr_A<- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
-  task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "binomial")
+  task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "continuous")
   fit_pi <- lrnr_A$train(task_A)
   #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
   pi <- fit_pi$predict(task_A)
+  print(range(pi))
+  cutoffs <- seq(0.1, 1e-8, length = 500)
+  risks <- sapply(cutoffs, function(cutoff) {
+    pi <- pmin(pi, 1 - cutoff)
+    pi <- pmax(pi, cutoff)
+    mean(A*(1/pi)^2 - 2/pi)
+  })
+  print(risks)
+  cutoff <- cutoffs[which.min(risks)]
+  print("cutoff")
+  print(cutoff)
+  pi <- pmin(pi, 1 - cutoff)
+  pi <- pmax(pi, cutoff)
+
+  print(range(pi))
+
   #
-   m <- mu0 * (1-pi) + mu1 * (pi)
+  m <- mu0 * (1-pi) + mu1 * (pi)
 
   #lrnr_Y <- Stack$new(Lrnr_earth$new(degree = 3), Lrnr_ranger$new(), Lrnr_gam$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5))
   # lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5)))
@@ -104,7 +120,7 @@ get_estimates <- function(W, A, Y,iter) {
   #ate_intercept <-  unlist(inference_cate(fit_R_intercept))
   #ate_intercept[1] <- "intercept"
 
-   pi <- fit_R$internal$data$pi
+  pi <- fit_R$internal$data$pi
   print("positivity")
   print(table(abs((A - pi)) <= 1e-10))
   m <- fit_R$internal$data$mu
@@ -116,8 +132,8 @@ get_estimates <- function(W, A, Y,iter) {
 
 
 
-
-
+  #pi <- pmin(pi, max(pi_true))
+#  pi <- pmax(pi, min(pi_true))
   IF <- mu1 - mu0 + (A - pi) / ((1-pi)*pi) * (Y - mu)
   est_AIPW <-  mean(IF)
   CI <- est_AIPW + 1.96*c(-1,1)*sd(IF)/sqrt(n)
