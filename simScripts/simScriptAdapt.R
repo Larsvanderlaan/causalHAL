@@ -6,7 +6,6 @@ library(doMC)
 doMC::registerDoMC(cores = 11)
 
 
-out <- do_sims(20, 3000, 0.5, FALSE)
 
 
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
@@ -98,7 +97,10 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   risks <- sapply(cutoffs, function(cutoff) {
     pi <- pmin(pi, 1 - cutoff)
     pi <- pmax(pi, cutoff)
-    mean(A*(1/pi)^2 - 2/pi)
+    alpha <- A/pi - (1-A)/(1-pi) #Riesz-representor
+    alpha1 <- 1/pi
+    alpha0 <- - 1/(1-pi)
+    mean(alpha^2 - 2*(alpha1 - alpha0))
   })
   print(order(unique(risks)))
 
