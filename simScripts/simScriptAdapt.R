@@ -5,7 +5,7 @@ library(causalHAL)
 library(doMC)
 doMC::registerDoMC(cores = 11)
 
-#out <- do_sims(100, 3000, 3, FALSE)
+#out <- do_sims(20, 3000, 2, FALSE)
 
 
 do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
@@ -30,12 +30,12 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   d <- 4
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) ))
+  pi0 <- plogis(pos_const * ( W[,1] + sin(4*W[,1]) +   W[,2] + cos(4*W[,2]) + W[,3] + sin(4*W[,3]) + W[,4] + cos(4*W[,4]) ))
   print("pos")
   print(range(pi0))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
-    mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,2])
+    mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
   } else {
     mu0 <-  W[,1] + W[,2]  + W[,3] + W[,4]
   }
@@ -48,10 +48,10 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
   d <- 7
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * (sin(5*W[,1]) +  cos(5*W[,2]) + sin(3*W[,3]) + sin(5*W[,7]) + cos(3*W[,6])))
+  pi0 <- plogis(pos_const * (sin(4*W[,1]) +  cos(4*W[,2]) + sin(3*W[,3]) + sin(4*W[,7]) + cos(3*W[,6])))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
-    mu0 <-  W[,1] + sin(5*W[,2]) + W[,3] + (1 + W[,4])*sin(5*W[,4]) + cos(5*W[,5])
+    mu0 <-  W[,1] + sin(4*W[,2]) + W[,3] + (1 + W[,4])*sin(4*W[,4]) + cos(4*W[,5])
   } else {
     mu0 <-  W[,1] + W[,2]  + W[,4] + W[,5]
   }
@@ -77,8 +77,9 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   } else{
     num_knots <- c(200, 100, 50,50)
   }
+  fit_T <- fit_hal_cate (W, A, Y,   max_degree_cate = 1, num_knots_cate = num_knots , smoothness_orders_cate = 1, screen_variable_cate = FALSE,   params_EY0W =  list(max_degree = 1, num_knots =  num_knots , smoothness_orders = 1, screen_variables = FALSE, fit_control = list(parallel = TRUE)), fit_control = list(parallel = TRUE), include_propensity_score = FALSE,   verbose = TRUE )
 
-  fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, fit_control = list(parallel = TRUE))
+  #fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, fit_control = list(parallel = TRUE))
   ate_T <- unlist(inference_cate(fit_T))
   ate_T[1] <- "Tlearner"
 
@@ -89,6 +90,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(degree = 2), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3),  Lrnr_xgboost$new(max_depth = 4),  Lrnr_xgboost$new(max_depth = 5)    ))
   lrnr_A<- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
   task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "continuous")
+  lrnr_A <- Lrnr_hal9001$new(family = "gaussian", max_degree = 2, smoothness_orders = 1, num_knots = c(100,50) , screen_variables = FALSE, fit_control = list(parallel = TRUE))
   fit_pi <- lrnr_A$train(task_A)
   #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
   pi <- fit_pi$predict(task_A)
@@ -116,7 +118,9 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   #lrnr_Y <- Stack$new(Lrnr_earth$new(degree = 3), Lrnr_ranger$new(), Lrnr_gam$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5))
   # lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5)))
   # lrnr_cv <- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
-  fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = m, lrnr_A = pi,  max_degree = sum(num_knots > 0), num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
+  fit_R <- fit_hal_cate_Rlearner(W, A, Y,  fit_control = list(parallel = TRUE), pA1W = pi, EYW = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1, screen_variables_cate = FALSE, lrnr_A= NULL, lrnr_Y = NULL,   params_hal_EYW = list(smoothness_orders =1, max_degree = 3, Ωå≈A = c(sqrt(length(Y)), length(Y)^(1/3), length(Y)^(1/5)), screen_variables = TRUE, fit_control = list(parallel = TRUE)), params_hal_pA1W =  params_hal_EYW   , verbose = TRUE)
+
+  #fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = m, lrnr_A = pi,  max_degree = sum(num_knots > 0), num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
   ate_R<-  unlist(inference_cate(fit_R))
   ate_R[1] <- "Rlearner"
 
