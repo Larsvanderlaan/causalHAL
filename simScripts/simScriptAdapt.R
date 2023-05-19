@@ -118,7 +118,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   #lrnr_Y <- Stack$new(Lrnr_earth$new(degree = 3), Lrnr_ranger$new(), Lrnr_gam$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5))
   # lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5)))
   # lrnr_cv <- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
-  fit_R <- fit_hal_cate_Rlearner(W, A, Y,  fit_control = list(parallel = TRUE), pA1W = pi, EYW = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1, screen_variables_cate = FALSE, lrnr_A= NULL, lrnr_Y = NULL,   params_hal_EYW = list(smoothness_orders =1, max_degree = 3, Ωå≈A = c(sqrt(length(Y)), length(Y)^(1/3), length(Y)^(1/5)), screen_variables = TRUE, fit_control = list(parallel = TRUE)), params_hal_pA1W =  params_hal_EYW   , verbose = TRUE)
+  fit_R <- fit_hal_cate_Rlearner(W, A, Y,  fit_control = list(parallel = TRUE), pA1W = pi, EYW = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1, screen_variables_cate = FALSE,     verbose = TRUE)
 
   #fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = m, lrnr_A = pi,  max_degree = sum(num_knots > 0), num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
   ate_R<-  unlist(inference_cate(fit_R))
