@@ -6,8 +6,8 @@ library(doFuture)
 library(future)
 
 doFuture::registerDoFuture()
-future::plan(multisession, workers = 6)
-#out <- do_sims(20, 5000, 2, FALSE)
+future::plan(multisession, workers = 11)
+#out <- do_sims(20, 3000, 1, FALSE, do_local_alt = TRUE)
 
 
 
@@ -15,7 +15,11 @@ do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
   sim_results <- rbindlist(lapply(1:niter, function(iter) {
     print(paste0("Iteration number: ", iter))
     try({
-      data_list <- get_data(n, pos_const, muIsHard)
+      if(!do_local_alt) {
+        data_list <- get_data(n, pos_const, muIsHard)
+      } else if(do_local_alt) {
+        data_list <- get_data_local_alt(n, pos_const, muIsHard)
+      }
       return(as.data.table(get_estimates(data_list$W, data_list$A, data_list$Y,iter, NULL)))
     })
     return(data.table())
@@ -48,23 +52,23 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
 }
 
 get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
-  d <- 7
+  d <- 4
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * (sin(4*W[,1]) +  cos(4*W[,2]) + sin(3*W[,3]) + sin(4*W[,7]) + cos(3*W[,6])))
+  pi0 <- plogis(pos_const * ( W[,1] + sin(4*W[,1]) +   W[,2] + cos(4*W[,2]) + W[,3] + sin(4*W[,3]) + W[,4] + cos(4*W[,4]) ))
+  print("pos")
+  print(range(pi0))
   A <- rbinom(n, 1, pi0)
   if(muIsHard) {
-    mu0 <-  W[,1] + sin(4*W[,2]) + W[,3] + (1 + W[,4])*sin(4*W[,4]) + cos(4*W[,5])
+    mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
   } else {
-    mu0 <-  W[,1] + W[,2]  + W[,4] + W[,5]
+    mu0 <-  W[,1] + W[,2]  + W[,3] + W[,4]
+
   }
-  # Add local alternative fluctuation
-  mu0 <- mu0 + (1 + W[,3] + W[,4] + W[,6] + W[,7])/sqrt(n)
-  tau <- 1 + W[,1] + W[,3] + W[,5]
-  # Add local alternative fluctuation
-  tau <- tau + (1 + W[,2] + W[,4] + W[,6] + W[,7])/sqrt(n)
+  mu0 <- mu0 - (pi0/(pi0*(1-pi0)))/sqrt(n)
+  tau <- 1 +   ( 1 / (pi0*(1-pi0))  )/sqrt(n)
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1))
+  return(list(W=W, A = A, Y = Y, ATE = 1 +  14.26085/sqrt(n), pi = pi))
 }
 
 #' Given simulated data (W,A,Y) and simulation iteration number `iter`,

@@ -87,12 +87,14 @@ library(data.table)
 #data <- do_sims(20, 2000, 1, F)
  #data <- as.data.table(data)
  
-data <- fread("simResults/sim_results_iter=1000_n=1000_pos=3_hard=FALSE.csv")
+#data <- fread("simResults/sim_results_iter=1000_n=500_pos=3_hard=TRUE.csv")
 #data <- out
 data <- as.data.table(out)
  data[, mean(as.numeric(coef) ), by = method ]
   data[, mean(as.numeric(se) ), by = method ]
   
   data[, sd(as.numeric(coef) ), by = method ]
- data[, mean(as.numeric(CI_left) <= 1 & as.numeric(CI_right) >= 1), by = method ]
+  n <- 3000
+ ATE <-1 +  14.35106/sqrt(n)
+ data[, mean(as.numeric(CI_left) <= ATE & as.numeric(CI_right) >= ATE), by = method ]
 ```
