@@ -1,0 +1,4006 @@
+LOADING R
+R LOADED
+[1] "/home/lvanderl/Rlibs2"                         
+[2] "/app/software/R/4.2.2-foss-2021b/lib/R/library"
+[1] "/home/lvanderl/sieveSims"
+[1] "Iteration number: 1"
+[1] "pos"
+[1] 2.572718e-06 9.999155e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 2"
+[1] "pos"
+[1] 2.430605e-06 9.999313e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 3"
+[1] "pos"
+[1] 3.424088e-06 9.999222e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 4"
+[1] "pos"
+[1] 3.915748e-06 9.999225e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 5"
+[1] "pos"
+[1] 2.777994e-06 9.999249e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 6"
+[1] "pos"
+[1] 4.267428e-06 9.999267e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 7"
+[1] "pos"
+[1] 5.960977e-06 9.999063e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 8"
+[1] "pos"
+[1] 3.980276e-06 9.999222e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 9"
+[1] "pos"
+[1] 3.773298e-06 9.999280e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 10"
+[1] "pos"
+[1] 3.819035e-06 9.999242e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 11"
+[1] "pos"
+[1] 2.659741e-06 9.998785e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 12"
+[1] "pos"
+[1] 5.090376e-06 9.998928e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 13"
+[1] "pos"
+[1] 3.998178e-06 9.999243e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 14"
+[1] "pos"
+[1] 2.659846e-06 9.999228e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 15"
+[1] "pos"
+[1] 5.067156e-06 9.999396e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 16"
+[1] "pos"
+[1] 3.782488e-06 9.999166e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 17"
+[1] "pos"
+[1] 2.713654e-06 9.999388e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 18"
+[1] "pos"
+[1] 3.668222e-06 9.999180e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 19"
+[1] "pos"
+[1] 3.393698e-06 9.999164e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 20"
+[1] "pos"
+[1] 5.185301e-06 9.999384e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 21"
+[1] "pos"
+[1] 3.061228e-06 9.999236e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 22"
+[1] "pos"
+[1] 3.822238e-06 9.999183e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 23"
+[1] "pos"
+[1] 3.308874e-06 9.999318e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 24"
+[1] "pos"
+[1] 2.735378e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 25"
+[1] "pos"
+[1] 3.011111e-06 9.999325e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 26"
+[1] "pos"
+[1] 4.473282e-06 9.999294e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 27"
+[1] "pos"
+[1] 3.237288e-06 9.998974e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 28"
+[1] "pos"
+[1] 3.767364e-06 9.999342e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 29"
+[1] "pos"
+[1] 5.422192e-06 9.998914e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 30"
+[1] "pos"
+[1] 2.394275e-06 9.998508e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 31"
+[1] "pos"
+[1] 4.768160e-06 9.999187e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 32"
+[1] "pos"
+[1] 2.618735e-06 9.999334e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 33"
+[1] "pos"
+[1] 3.176039e-06 9.999124e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 34"
+[1] "pos"
+[1] 3.620192e-06 9.999372e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 35"
+[1] "pos"
+[1] 4.697072e-06 9.999262e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 36"
+[1] "pos"
+[1] 3.870407e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 37"
+[1] "pos"
+[1] 2.933945e-06 9.998976e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 38"
+[1] "pos"
+[1] 3.555561e-06 9.999136e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 39"
+[1] "pos"
+[1] 2.605888e-06 9.999418e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 40"
+[1] "pos"
+[1] 3.06115e-06 9.99886e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 41"
+[1] "pos"
+[1] 5.058819e-06 9.999308e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 42"
+[1] "pos"
+[1] 3.175724e-06 9.999214e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 43"
+[1] "pos"
+[1] 5.059681e-06 9.999266e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 44"
+[1] "pos"
+[1] 4.179650e-06 9.999285e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 45"
+[1] "pos"
+[1] 3.133786e-06 9.999381e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 46"
+[1] "pos"
+[1] 2.877428e-06 9.999186e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 47"
+[1] "pos"
+[1] 3.480128e-06 9.999042e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 48"
+[1] "pos"
+[1] 4.648998e-06 9.998916e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 49"
+[1] "pos"
+[1] 3.223550e-06 9.999342e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 50"
+[1] "pos"
+[1] 5.657334e-06 9.999341e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 51"
+[1] "pos"
+[1] 3.245485e-06 9.999110e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 52"
+[1] "pos"
+[1] 3.272590e-06 9.999387e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 53"
+[1] "pos"
+[1] 4.380087e-06 9.999094e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 54"
+[1] "pos"
+[1] 2.933289e-06 9.999372e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 55"
+[1] "pos"
+[1] 2.958227e-06 9.999258e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 56"
+[1] "pos"
+[1] 2.605841e-06 9.999440e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 57"
+[1] "pos"
+[1] 2.736107e-06 9.998978e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 58"
+[1] "pos"
+[1] 4.390068e-06 9.999393e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 59"
+[1] "pos"
+[1] 4.076461e-06 9.999148e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 60"
+[1] "pos"
+[1] 3.586223e-06 9.999220e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 61"
+[1] "pos"
+[1] 2.855948e-06 9.999006e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 62"
+[1] "pos"
+[1] 3.588078e-06 9.999203e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 63"
+[1] "pos"
+[1] 3.112790e-06 9.999148e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 64"
+[1] "pos"
+[1] 3.212263e-06 9.999237e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 65"
+[1] "pos"
+[1] 3.161787e-06 9.999195e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 66"
+[1] "pos"
+[1] 3.466855e-06 9.998318e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 67"
+[1] "pos"
+[1] 3.904362e-06 9.999266e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 68"
+[1] "pos"
+[1] 2.712957e-06 9.998711e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 69"
+[1] "pos"
+[1] 3.705248e-06 9.999076e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 70"
+[1] "pos"
+[1] 2.792743e-06 9.999157e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 71"
+[1] "pos"
+[1] 3.418130e-06 9.999274e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 72"
+[1] "pos"
+[1] 3.117329e-06 9.998774e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 73"
+[1] "pos"
+[1] 2.855092e-06 9.999124e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 74"
+[1] "pos"
+[1] 2.851896e-06 9.999214e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 75"
+[1] "pos"
+[1] 2.930570e-06 9.999256e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 76"
+[1] "pos"
+[1] 2.915228e-06 9.999436e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 77"
+[1] "pos"
+[1] 3.614439e-06 9.999252e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 78"
+[1] "pos"
+[1] 0.0000033262 0.9999171648
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 79"
+[1] "pos"
+[1] 3.777719e-06 9.998888e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 80"
+[1] "pos"
+[1] 2.944786e-06 9.999231e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 81"
+[1] "pos"
+[1] 3.080456e-06 9.999401e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 82"
+[1] "pos"
+[1] 3.216675e-06 9.999287e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 83"
+[1] "pos"
+[1] 3.355670e-06 9.999284e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 84"
+[1] "pos"
+[1] 4.734932e-06 9.999383e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 85"
+[1] "pos"
+[1] 2.927628e-06 9.999327e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 86"
+[1] "pos"
+[1] 5.618465e-06 9.999236e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 87"
+[1] "pos"
+[1] 4.600730e-06 9.999234e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 88"
+[1] "pos"
+[1] 3.662259e-06 9.999169e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 89"
+[1] "pos"
+[1] 3.006497e-06 9.999225e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 90"
+[1] "pos"
+[1] 3.511079e-06 9.999213e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 91"
+[1] "pos"
+[1] 3.392594e-06 9.999060e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 92"
+[1] "pos"
+[1] 3.752151e-06 9.999253e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 93"
+[1] "pos"
+[1] 3.688120e-06 9.999429e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 94"
+[1] "pos"
+[1] 3.236919e-06 9.999339e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 95"
+[1] "pos"
+[1] 3.972065e-06 9.998954e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 96"
+[1] "pos"
+[1] 6.608376e-06 9.999006e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 97"
+[1] "pos"
+[1] 3.265381e-06 9.999287e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 98"
+[1] "pos"
+[1] 2.541541e-06 9.998986e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 99"
+[1] "pos"
+[1] 5.767145e-06 9.999239e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 100"
+[1] "pos"
+[1] 4.017479e-06 9.998939e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 101"
+[1] "pos"
+[1] 4.152959e-06 9.999100e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 102"
+[1] "pos"
+[1] 3.454283e-06 9.999426e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 103"
+[1] "pos"
+[1] 3.579481e-06 9.999327e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 104"
+[1] "pos"
+[1] 3.417946e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 105"
+[1] "pos"
+[1] 3.424709e-06 9.999102e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 106"
+[1] "pos"
+[1] 2.609862e-06 9.998815e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 107"
+[1] "pos"
+[1] 4.906054e-06 9.999263e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 108"
+[1] "pos"
+[1] 2.609943e-06 9.999095e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 109"
+[1] "pos"
+[1] 5.577879e-06 9.999207e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 110"
+[1] "pos"
+[1] 3.447195e-06 9.999219e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 111"
+[1] "pos"
+[1] 3.366101e-06 9.999180e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 112"
+[1] "pos"
+[1] 3.545381e-06 9.999236e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 113"
+[1] "pos"
+[1] 3.041287e-06 9.999295e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 114"
+[1] "pos"
+[1] 3.682892e-06 9.998759e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 115"
+[1] "pos"
+[1] 3.642317e-06 9.999337e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 116"
+[1] "pos"
+[1] 5.856731e-06 9.999407e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 117"
+[1] "pos"
+[1] 3.022012e-06 9.999291e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 118"
+[1] "pos"
+[1] 6.079272e-06 9.998970e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 119"
+[1] "pos"
+[1] 2.406415e-06 9.998798e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 120"
+[1] "pos"
+[1] 5.359621e-06 9.999325e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 121"
+[1] "pos"
+[1] 2.852964e-06 9.999423e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 122"
+[1] "pos"
+[1] 3.692629e-06 9.999381e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 123"
+[1] "pos"
+[1] 2.904311e-06 9.998444e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 124"
+[1] "pos"
+[1] 3.741576e-06 9.999220e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 125"
+[1] "pos"
+[1] 2.762734e-06 9.999202e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 126"
+[1] "pos"
+[1] 3.148610e-06 9.999182e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 127"
+[1] "pos"
+[1] 3.988323e-06 9.998770e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 128"
+[1] "pos"
+[1] 4.763325e-06 9.999166e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 129"
+[1] "pos"
+[1] 2.637274e-06 9.999141e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 130"
+[1] "pos"
+[1] 4.155350e-06 9.999092e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 131"
+[1] "pos"
+[1] 5.193919e-06 9.999171e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 132"
+[1] "pos"
+[1] 4.428168e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 133"
+[1] "pos"
+[1] 4.536935e-06 9.999311e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 134"
+[1] "pos"
+[1] 3.312478e-06 9.999227e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 135"
+[1] "pos"
+[1] 4.775839e-06 9.999306e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 136"
+[1] "pos"
+[1] 3.067758e-06 9.999351e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 137"
+[1] "pos"
+[1] 2.932595e-06 9.998787e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 138"
+[1] "pos"
+[1] 3.929909e-06 9.999235e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 139"
+[1] "pos"
+[1] 2.908557e-06 9.999091e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 140"
+[1] "pos"
+[1] 2.616350e-06 9.999299e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 141"
+[1] "pos"
+[1] 2.981446e-06 9.999282e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 142"
+[1] "pos"
+[1] 3.094147e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 143"
+[1] "pos"
+[1] 3.525528e-06 9.999285e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 144"
+[1] "pos"
+[1] 3.582166e-06 9.998991e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 145"
+[1] "pos"
+[1] 3.977564e-06 9.999211e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 146"
+[1] "pos"
+[1] 3.081949e-06 9.999242e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 147"
+[1] "pos"
+[1] 3.537535e-06 9.999314e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 148"
+[1] "pos"
+[1] 4.005198e-06 9.999016e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 149"
+[1] "pos"
+[1] 2.732301e-06 9.999320e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 150"
+[1] "pos"
+[1] 3.947688e-06 9.999357e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 151"
+[1] "pos"
+[1] 3.297454e-06 9.999359e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 152"
+[1] "pos"
+[1] 3.797811e-06 9.999397e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 153"
+[1] "pos"
+[1] 2.996209e-06 9.999414e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 154"
+[1] "pos"
+[1] 3.439195e-06 9.999315e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 155"
+[1] "pos"
+[1] 2.720171e-06 9.999351e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 156"
+[1] "pos"
+[1] 4.383369e-06 9.999016e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 157"
+[1] "pos"
+[1] 2.596830e-06 9.999312e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 158"
+[1] "pos"
+[1] 4.187794e-06 9.999170e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 159"
+[1] "pos"
+[1] 3.846174e-06 9.999160e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 160"
+[1] "pos"
+[1] 4.007170e-06 9.999018e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 161"
+[1] "pos"
+[1] 3.314526e-06 9.999184e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 162"
+[1] "pos"
+[1] 2.834329e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 163"
+[1] "pos"
+[1] 2.947501e-06 9.999243e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 164"
+[1] "pos"
+[1] 3.348557e-06 9.999385e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 165"
+[1] "pos"
+[1] 6.533043e-06 9.999252e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 166"
+[1] "pos"
+[1] 2.589538e-06 9.999191e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 167"
+[1] "pos"
+[1] 3.576936e-06 9.999249e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 168"
+[1] "pos"
+[1] 3.905520e-06 9.999024e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 169"
+[1] "pos"
+[1] 3.667527e-06 9.999368e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 170"
+[1] "pos"
+[1] 2.857243e-06 9.999126e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 171"
+[1] "pos"
+[1] 2.722456e-06 9.999451e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 172"
+[1] "pos"
+[1] 4.616945e-06 9.999437e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 173"
+[1] "pos"
+[1] 3.093620e-06 9.999422e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 174"
+[1] "pos"
+[1] 3.054676e-06 9.999248e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 175"
+[1] "pos"
+[1] 4.434397e-06 9.999207e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 176"
+[1] "pos"
+[1] 4.957842e-06 9.999363e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 177"
+[1] "pos"
+[1] 3.862749e-06 9.999060e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 178"
+[1] "pos"
+[1] 4.036719e-06 9.999031e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 179"
+[1] "pos"
+[1] 2.549147e-06 9.999273e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 180"
+[1] "pos"
+[1] 3.590668e-06 9.999271e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 181"
+[1] "pos"
+[1] 3.158133e-06 9.999114e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 182"
+[1] "pos"
+[1] 5.278737e-06 9.999183e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 183"
+[1] "pos"
+[1] 3.804289e-06 9.999330e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 184"
+[1] "pos"
+[1] 3.415883e-06 9.999244e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 185"
+[1] "pos"
+[1] 3.170867e-06 9.999338e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 186"
+[1] "pos"
+[1] 3.643338e-06 9.999304e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 187"
+[1] "pos"
+[1] 3.166103e-06 9.999294e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 188"
+[1] "pos"
+[1] 3.785614e-06 9.999412e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 189"
+[1] "pos"
+[1] 4.215738e-06 9.999319e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 190"
+[1] "pos"
+[1] 5.079512e-06 9.999365e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 191"
+[1] "pos"
+[1] 3.453070e-06 9.999359e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 192"
+[1] "pos"
+[1] 3.118674e-06 9.998973e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 193"
+[1] "pos"
+[1] 3.664338e-06 9.999342e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 194"
+[1] "pos"
+[1] 2.676205e-06 9.999344e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 195"
+[1] "pos"
+[1] 2.987616e-06 9.999308e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 196"
+[1] "pos"
+[1] 3.493053e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 197"
+[1] "pos"
+[1] 2.620650e-06 9.999292e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 198"
+[1] "pos"
+[1] 2.867602e-06 9.999305e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 199"
+[1] "pos"
+[1] 2.990639e-06 9.999298e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 200"
+[1] "pos"
+[1] 3.422542e-06 9.999320e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 201"
+[1] "pos"
+[1] 4.510319e-06 9.999437e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 202"
+[1] "pos"
+[1] 4.132720e-06 9.999088e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 203"
+[1] "pos"
+[1] 3.843695e-06 9.999241e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 204"
+[1] "pos"
+[1] 2.368442e-06 9.999190e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 205"
+[1] "pos"
+[1] 3.092489e-06 9.999272e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 206"
+[1] "pos"
+[1] 3.293338e-06 9.999408e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 207"
+[1] "pos"
+[1] 5.817262e-06 9.998787e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 208"
+[1] "pos"
+[1] 4.911025e-06 9.998725e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 209"
+[1] "pos"
+[1] 3.297148e-06 9.999288e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 210"
+[1] "pos"
+[1] 0.000003228 0.999923298
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 211"
+[1] "pos"
+[1] 2.621759e-06 9.998848e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 212"
+[1] "pos"
+[1] 4.213050e-06 9.999217e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 213"
+[1] "pos"
+[1] 2.900070e-06 9.999404e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 214"
+[1] "pos"
+[1] 2.626321e-06 9.999409e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 215"
+[1] "pos"
+[1] 3.404392e-06 9.999033e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 216"
+[1] "pos"
+[1] 2.838467e-06 9.999103e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 217"
+[1] "pos"
+[1] 4.108065e-06 9.999138e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 218"
+[1] "pos"
+[1] 3.036827e-06 9.999131e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 219"
+[1] "pos"
+[1] 0.0000041719 0.9999166304
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 220"
+[1] "pos"
+[1] 3.331069e-06 9.999235e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 221"
+[1] "pos"
+[1] 3.665277e-06 9.999254e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 222"
+[1] "pos"
+[1] 4.151684e-06 9.999278e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 223"
+[1] "pos"
+[1] 3.178030e-06 9.998748e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 224"
+[1] "pos"
+[1] 4.143855e-06 9.998978e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 225"
+[1] "pos"
+[1] 2.55795e-06 9.99916e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 226"
+[1] "pos"
+[1] 3.781362e-06 9.999323e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 227"
+[1] "pos"
+[1] 3.754715e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 228"
+[1] "pos"
+[1] 3.651223e-06 9.999153e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 229"
+[1] "pos"
+[1] 3.513852e-06 9.999020e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 230"
+[1] "pos"
+[1] 3.681419e-06 9.999220e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 231"
+[1] "pos"
+[1] 3.261531e-06 9.999274e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 232"
+[1] "pos"
+[1] 3.034618e-06 9.999395e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 233"
+[1] "pos"
+[1] 3.481262e-06 9.999346e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 234"
+[1] "pos"
+[1] 3.615648e-06 9.999169e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 235"
+[1] "pos"
+[1] 3.371408e-06 9.999227e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 236"
+[1] "pos"
+[1] 3.010906e-06 9.998911e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 237"
+[1] "pos"
+[1] 3.67832e-06 9.99927e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 238"
+[1] "pos"
+[1] 3.584967e-06 9.999238e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 239"
+[1] "pos"
+[1] 4.918687e-06 9.998865e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 240"
+[1] "pos"
+[1] 3.032126e-06 9.998948e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 241"
+[1] "pos"
+[1] 2.480551e-06 9.999113e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 242"
+[1] "pos"
+[1] 3.936448e-06 9.999177e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 243"
+[1] "pos"
+[1] 3.361473e-06 9.998953e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 244"
+[1] "pos"
+[1] 3.215003e-06 9.999104e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 245"
+[1] "pos"
+[1] 8.29947e-06 9.99908e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 246"
+[1] "pos"
+[1] 3.618480e-06 9.999417e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 247"
+[1] "pos"
+[1] 4.927549e-06 9.998751e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 248"
+[1] "pos"
+[1] 2.796713e-06 9.999167e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 249"
+[1] "pos"
+[1] 3.804365e-06 9.999204e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 250"
+[1] "pos"
+[1] 3.174631e-06 9.999310e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 251"
+[1] "pos"
+[1] 6.999357e-06 9.999223e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 252"
+[1] "pos"
+[1] 2.708173e-06 9.998902e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 253"
+[1] "pos"
+[1] 2.656130e-06 9.999286e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 254"
+[1] "pos"
+[1] 4.193432e-06 9.999346e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 255"
+[1] "pos"
+[1] 3.225165e-06 9.999317e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 256"
+[1] "pos"
+[1] 4.152649e-06 9.999100e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 257"
+[1] "pos"
+[1] 2.631360e-06 9.998962e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 258"
+[1] "pos"
+[1] 4.687981e-06 9.999339e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 259"
+[1] "pos"
+[1] 2.954504e-06 9.999150e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 260"
+[1] "pos"
+[1] 4.869611e-06 9.999068e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 261"
+[1] "pos"
+[1] 2.664690e-06 9.999283e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 262"
+[1] "pos"
+[1] 3.344222e-06 9.999304e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 263"
+[1] "pos"
+[1] 4.421666e-06 9.999386e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 264"
+[1] "pos"
+[1] 3.705598e-06 9.999239e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 265"
+[1] "pos"
+[1] 2.885913e-06 9.998993e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 266"
+[1] "pos"
+[1] 3.311279e-06 9.999307e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 267"
+[1] "pos"
+[1] 3.889223e-06 9.999361e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 268"
+[1] "pos"
+[1] 3.872465e-06 9.999338e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 269"
+[1] "pos"
+[1] 4.413416e-06 9.999109e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 270"
+[1] "pos"
+[1] 4.409661e-06 9.999370e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 271"
+[1] "pos"
+[1] 2.801661e-06 9.999007e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 272"
+[1] "pos"
+[1] 4.278664e-06 9.999114e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 273"
+[1] "pos"
+[1] 4.711738e-06 9.999274e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 274"
+[1] "pos"
+[1] 3.254856e-06 9.999314e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 275"
+[1] "pos"
+[1] 3.271638e-06 9.998905e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 276"
+[1] "pos"
+[1] 3.419937e-06 9.999408e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 277"
+[1] "pos"
+[1] 2.988835e-06 9.999276e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 278"
+[1] "pos"
+[1] 2.513963e-06 9.999365e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 279"
+[1] "pos"
+[1] 3.159863e-06 9.999142e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 280"
+[1] "pos"
+[1] 4.471476e-06 9.999335e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 281"
+[1] "pos"
+[1] 3.806193e-06 9.999202e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 282"
+[1] "pos"
+[1] 8.575957e-06 9.999314e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 283"
+[1] "pos"
+[1] 0.0000028821 0.9999290602
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 284"
+[1] "pos"
+[1] 3.359767e-06 9.999048e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 285"
+[1] "pos"
+[1] 3.682091e-06 9.999295e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 286"
+[1] "pos"
+[1] 3.145471e-06 9.999170e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 287"
+[1] "pos"
+[1] 2.697534e-06 9.999294e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 288"
+[1] "pos"
+[1] 4.061272e-06 9.999117e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 289"
+[1] "pos"
+[1] 3.802357e-06 9.999054e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 290"
+[1] "pos"
+[1] 3.478191e-06 9.999277e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 291"
+[1] "pos"
+[1] 3.618039e-06 9.999072e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 292"
+[1] "pos"
+[1] 2.846741e-06 9.999437e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 293"
+[1] "pos"
+[1] 2.589519e-06 9.998977e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 294"
+[1] "pos"
+[1] 3.988031e-06 9.999056e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 295"
+[1] "pos"
+[1] 3.365472e-06 9.999208e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 296"
+[1] "pos"
+[1] 3.465626e-06 9.999409e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 297"
+[1] "pos"
+[1] 3.460043e-06 9.999115e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 298"
+[1] "pos"
+[1] 2.990792e-06 9.999344e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 299"
+[1] "pos"
+[1] 3.433762e-06 9.999358e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 300"
+[1] "pos"
+[1] 3.279175e-06 9.998926e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 301"
+[1] "pos"
+[1] 2.669133e-06 9.998883e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 302"
+[1] "pos"
+[1] 2.836505e-06 9.999356e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 303"
+[1] "pos"
+[1] 2.571292e-06 9.998930e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 304"
+[1] "pos"
+[1] 3.324415e-06 9.999392e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 305"
+[1] "pos"
+[1] 2.836122e-06 9.999262e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 306"
+[1] "pos"
+[1] 3.294922e-06 9.999443e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 307"
+[1] "pos"
+[1] 4.425773e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 308"
+[1] "pos"
+[1] 3.798096e-06 9.999010e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 309"
+[1] "pos"
+[1] 3.365191e-06 9.999332e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 310"
+[1] "pos"
+[1] 4.509101e-06 9.999304e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 311"
+[1] "pos"
+[1] 2.716380e-06 9.999212e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 312"
+[1] "pos"
+[1] 3.630750e-06 9.999352e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 313"
+[1] "pos"
+[1] 3.088809e-06 9.999184e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 314"
+[1] "pos"
+[1] 3.280560e-06 9.999388e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 315"
+[1] "pos"
+[1] 3.852330e-06 9.999108e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 316"
+[1] "pos"
+[1] 3.539231e-06 9.999303e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 317"
+[1] "pos"
+[1] 5.567967e-06 9.999428e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 318"
+[1] "pos"
+[1] 3.796549e-06 9.999279e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 319"
+[1] "pos"
+[1] 4.215148e-06 9.999244e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 320"
+[1] "pos"
+[1] 2.635081e-06 9.998497e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 321"
+[1] "pos"
+[1] 4.511089e-06 9.999323e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 322"
+[1] "pos"
+[1] 2.978023e-06 9.998895e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 323"
+[1] "pos"
+[1] 2.640618e-06 9.999428e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 324"
+[1] "pos"
+[1] 5.341180e-06 9.999428e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 325"
+[1] "pos"
+[1] 4.850104e-06 9.999026e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 326"
+[1] "pos"
+[1] 6.161090e-06 9.998999e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 327"
+[1] "pos"
+[1] 3.094450e-06 9.999371e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 328"
+[1] "pos"
+[1] 4.206894e-06 9.999376e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 329"
+[1] "pos"
+[1] 3.624261e-06 9.999042e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 330"
+[1] "pos"
+[1] 5.744702e-06 9.999028e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 331"
+[1] "pos"
+[1] 3.834634e-06 9.999372e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 332"
+[1] "pos"
+[1] 3.176648e-06 9.999065e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 333"
+[1] "pos"
+[1] 3.893983e-06 9.999382e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 334"
+[1] "pos"
+[1] 3.009226e-06 9.998889e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 335"
+[1] "pos"
+[1] 2.642790e-06 9.999024e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 336"
+[1] "pos"
+[1] 5.434547e-06 9.999351e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 337"
+[1] "pos"
+[1] 5.384703e-06 9.999245e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 338"
+[1] "pos"
+[1] 3.443890e-06 9.999207e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 339"
+[1] "pos"
+[1] 3.835484e-06 9.999038e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 340"
+[1] "pos"
+[1] 2.713095e-06 9.999120e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 341"
+[1] "pos"
+[1] 3.889006e-06 9.998833e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 342"
+[1] "pos"
+[1] 3.613207e-06 9.999193e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 343"
+[1] "pos"
+[1] 2.817814e-06 9.999117e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 344"
+[1] "pos"
+[1] 3.296957e-06 9.999367e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 345"
+[1] "pos"
+[1] 4.586093e-06 9.999215e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 346"
+[1] "pos"
+[1] 3.249780e-06 9.999281e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 347"
+[1] "pos"
+[1] 4.356532e-06 9.999247e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 348"
+[1] "pos"
+[1] 4.618208e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 349"
+[1] "pos"
+[1] 2.793953e-06 9.999251e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 350"
+[1] "pos"
+[1] 2.863785e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 351"
+[1] "pos"
+[1] 2.648121e-06 9.999328e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 352"
+[1] "pos"
+[1] 3.36146e-06 9.99888e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 353"
+[1] "pos"
+[1] 3.167447e-06 9.999309e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 354"
+[1] "pos"
+[1] 2.688146e-06 9.999330e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 355"
+[1] "pos"
+[1] 2.997145e-06 9.999387e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 356"
+[1] "pos"
+[1] 4.300402e-06 9.998722e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 357"
+[1] "pos"
+[1] 3.393668e-06 9.999087e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 358"
+[1] "pos"
+[1] 2.609186e-06 9.999232e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 359"
+[1] "pos"
+[1] 3.687790e-06 9.999224e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 360"
+[1] "pos"
+[1] 2.931812e-06 9.999006e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 361"
+[1] "pos"
+[1] 2.537162e-06 9.999021e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 362"
+[1] "pos"
+[1] 3.825075e-06 9.998971e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 363"
+[1] "pos"
+[1] 3.025610e-06 9.999219e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 364"
+[1] "pos"
+[1] 2.907392e-06 9.999288e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 365"
+[1] "pos"
+[1] 2.856354e-06 9.999240e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 366"
+[1] "pos"
+[1] 3.548225e-06 9.999266e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 367"
+[1] "pos"
+[1] 2.806055e-06 9.999276e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 368"
+[1] "pos"
+[1] 7.036624e-06 9.999203e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 369"
+[1] "pos"
+[1] 3.61845e-06 9.99928e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 370"
+[1] "pos"
+[1] 3.047010e-06 9.999002e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 371"
+[1] "pos"
+[1] 2.553727e-06 9.999081e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 372"
+[1] "pos"
+[1] 8.025420e-06 9.999408e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 373"
+[1] "pos"
+[1] 2.899855e-06 9.999317e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 374"
+[1] "pos"
+[1] 2.921082e-06 9.999021e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 375"
+[1] "pos"
+[1] 3.393478e-06 9.999335e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 376"
+[1] "pos"
+[1] 2.474674e-06 9.999210e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 377"
+[1] "pos"
+[1] 3.538924e-06 9.999271e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 378"
+[1] "pos"
+[1] 2.753531e-06 9.999109e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 379"
+[1] "pos"
+[1] 4.715733e-06 9.999171e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 380"
+[1] "pos"
+[1] 2.614758e-06 9.998797e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 381"
+[1] "pos"
+[1] 2.982648e-06 9.999360e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 382"
+[1] "pos"
+[1] 4.003251e-06 9.999233e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 383"
+[1] "pos"
+[1] 2.903624e-06 9.999119e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 384"
+[1] "pos"
+[1] 0.0000040513 0.9999134255
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 385"
+[1] "pos"
+[1] 3.489829e-06 9.999118e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 386"
+[1] "pos"
+[1] 3.951267e-06 9.999154e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 387"
+[1] "pos"
+[1] 5.427027e-06 9.999099e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 388"
+[1] "pos"
+[1] 4.888367e-06 9.999186e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 389"
+[1] "pos"
+[1] 3.593510e-06 9.999347e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 390"
+[1] "pos"
+[1] 4.123140e-06 9.999202e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 391"
+[1] "pos"
+[1] 3.325205e-06 9.999328e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 392"
+[1] "pos"
+[1] 3.295299e-06 9.999277e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 393"
+[1] "pos"
+[1] 3.773357e-06 9.999364e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 394"
+[1] "pos"
+[1] 2.925128e-06 9.999099e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 395"
+[1] "pos"
+[1] 3.167839e-06 9.999341e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 396"
+[1] "pos"
+[1] 3.348929e-06 9.999322e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 397"
+[1] "pos"
+[1] 2.786449e-06 9.999201e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 398"
+[1] "pos"
+[1] 2.657910e-06 9.998978e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 399"
+[1] "pos"
+[1] 2.913890e-06 9.999353e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 400"
+[1] "pos"
+[1] 3.295580e-06 9.999322e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 401"
+[1] "pos"
+[1] 2.653043e-06 9.999417e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 402"
+[1] "pos"
+[1] 3.880856e-06 9.999197e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 403"
+[1] "pos"
+[1] 3.568119e-06 9.999228e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 404"
+[1] "pos"
+[1] 3.194131e-06 9.999258e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 405"
+[1] "pos"
+[1] 2.736987e-06 9.999311e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 406"
+[1] "pos"
+[1] 2.919061e-06 9.999083e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 407"
+[1] "pos"
+[1] 2.461304e-06 9.999365e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 408"
+[1] "pos"
+[1] 0.0000039233 0.9999297885
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 409"
+[1] "pos"
+[1] 3.756678e-06 9.999358e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 410"
+[1] "pos"
+[1] 5.467683e-06 9.999374e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 411"
+[1] "pos"
+[1] 5.496599e-06 9.999046e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 412"
+[1] "pos"
+[1] 3.607295e-06 9.999241e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 413"
+[1] "pos"
+[1] 4.239417e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 414"
+[1] "pos"
+[1] 2.686352e-06 9.999354e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 415"
+[1] "pos"
+[1] 2.679178e-06 9.999111e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 416"
+[1] "pos"
+[1] 0.0000030192 0.9999351976
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 417"
+[1] "pos"
+[1] 4.254814e-06 9.999214e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 418"
+[1] "pos"
+[1] 3.362937e-06 9.999227e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 419"
+[1] "pos"
+[1] 3.706381e-06 9.999339e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 420"
+[1] "pos"
+[1] 4.521691e-06 9.999247e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 421"
+[1] "pos"
+[1] 8.214851e-06 9.999021e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 422"
+[1] "pos"
+[1] 3.336027e-06 9.999089e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 423"
+[1] "pos"
+[1] 3.858356e-06 9.999104e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 424"
+[1] "pos"
+[1] 3.194772e-06 9.999267e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 425"
+[1] "pos"
+[1] 2.930290e-06 9.999275e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 426"
+[1] "pos"
+[1] 4.175204e-06 9.999195e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 427"
+[1] "pos"
+[1] 3.986666e-06 9.999289e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 428"
+[1] "pos"
+[1] 3.379096e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 429"
+[1] "pos"
+[1] 2.741706e-06 9.999233e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 430"
+[1] "pos"
+[1] 4.024745e-06 9.999141e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 431"
+[1] "pos"
+[1] 4.290015e-06 9.999346e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 432"
+[1] "pos"
+[1] 2.472608e-06 9.998996e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 433"
+[1] "pos"
+[1] 3.640737e-06 9.998898e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 434"
+[1] "pos"
+[1] 3.080119e-06 9.999044e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 435"
+[1] "pos"
+[1] 3.609428e-06 9.999307e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 436"
+[1] "pos"
+[1] 3.699284e-06 9.999178e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 437"
+[1] "pos"
+[1] 2.682223e-06 9.998978e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 438"
+[1] "pos"
+[1] 3.209551e-06 9.999107e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 439"
+[1] "pos"
+[1] 2.815912e-06 9.999091e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 440"
+[1] "pos"
+[1] 4.464447e-06 9.999060e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 441"
+[1] "pos"
+[1] 3.925366e-06 9.999390e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 442"
+[1] "pos"
+[1] 2.978944e-06 9.999010e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 443"
+[1] "pos"
+[1] 5.857051e-06 9.999412e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 444"
+[1] "pos"
+[1] 3.115760e-06 9.998859e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 445"
+[1] "pos"
+[1] 4.181997e-06 9.999361e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 446"
+[1] "pos"
+[1] 3.099224e-06 9.998666e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 447"
+[1] "pos"
+[1] 3.445704e-06 9.999181e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 448"
+[1] "pos"
+[1] 2.877142e-06 9.999202e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 449"
+[1] "pos"
+[1] 3.254909e-06 9.999248e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 450"
+[1] "pos"
+[1] 3.124280e-06 9.999185e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 451"
+[1] "pos"
+[1] 3.088344e-06 9.999132e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 452"
+[1] "pos"
+[1] 3.947351e-06 9.999368e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 453"
+[1] "pos"
+[1] 4.045113e-06 9.999352e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 454"
+[1] "pos"
+[1] 2.711559e-06 9.998753e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 455"
+[1] "pos"
+[1] 3.099688e-06 9.999316e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 456"
+[1] "pos"
+[1] 4.485040e-06 9.998995e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 457"
+[1] "pos"
+[1] 3.590514e-06 9.999164e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 458"
+[1] "pos"
+[1] 2.655243e-06 9.999259e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 459"
+[1] "pos"
+[1] 3.235353e-06 9.999207e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 460"
+[1] "pos"
+[1] 3.140628e-06 9.999278e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 461"
+[1] "pos"
+[1] 3.033436e-06 9.999276e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 462"
+[1] "pos"
+[1] 3.302309e-06 9.999300e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 463"
+[1] "pos"
+[1] 4.332105e-06 9.998881e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 464"
+[1] "pos"
+[1] 2.564503e-06 9.999343e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 465"
+[1] "pos"
+[1] 2.692951e-06 9.999270e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 466"
+[1] "pos"
+[1] 3.247248e-06 9.999353e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 467"
+[1] "pos"
+[1] 3.274076e-06 9.999000e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 468"
+[1] "pos"
+[1] 2.559361e-06 9.999220e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 469"
+[1] "pos"
+[1] 2.679009e-06 9.999360e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 470"
+[1] "pos"
+[1] 3.558160e-06 9.999075e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 471"
+[1] "pos"
+[1] 2.995962e-06 9.999236e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 472"
+[1] "pos"
+[1] 3.155874e-06 9.999348e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 473"
+[1] "pos"
+[1] 2.780352e-06 9.999434e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 474"
+[1] "pos"
+[1] 4.676273e-06 9.999378e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 475"
+[1] "pos"
+[1] 2.705551e-06 9.999297e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 476"
+[1] "pos"
+[1] 2.685228e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 477"
+[1] "pos"
+[1] 4.190194e-06 9.999358e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 478"
+[1] "pos"
+[1] 3.658674e-06 9.999274e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 479"
+[1] "pos"
+[1] 5.897618e-06 9.999374e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 480"
+[1] "pos"
+[1] 3.468925e-06 9.999313e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 481"
+[1] "pos"
+[1] 3.701572e-06 9.999164e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 482"
+[1] "pos"
+[1] 3.836698e-06 9.999122e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 483"
+[1] "pos"
+[1] 4.723347e-06 9.999234e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 484"
+[1] "pos"
+[1] 3.145829e-06 9.999228e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 485"
+[1] "pos"
+[1] 3.585738e-06 9.999247e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 486"
+[1] "pos"
+[1] 3.073042e-06 9.999251e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 487"
+[1] "pos"
+[1] 3.945541e-06 9.999284e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 488"
+[1] "pos"
+[1] 3.356814e-06 9.999366e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 489"
+[1] "pos"
+[1] 3.982211e-06 9.999273e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 490"
+[1] "pos"
+[1] 2.429333e-06 9.999440e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 491"
+[1] "pos"
+[1] 3.038511e-06 9.998798e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 492"
+[1] "pos"
+[1] 3.096401e-06 9.999307e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 493"
+[1] "pos"
+[1] 2.937238e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 494"
+[1] "pos"
+[1] 4.605897e-06 9.999175e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 495"
+[1] "pos"
+[1] 6.593247e-06 9.998810e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 496"
+[1] "pos"
+[1] 3.379123e-06 9.999252e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 497"
+[1] "pos"
+[1] 4.078711e-06 9.999174e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 498"
+[1] "pos"
+[1] 3.152394e-06 9.998820e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 499"
+[1] "pos"
+[1] 2.932698e-06 9.999421e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 500"
+[1] "pos"
+[1] 3.604572e-06 9.999255e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 501"
+[1] "pos"
+[1] 4.362918e-06 9.999277e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 502"
+[1] "pos"
+[1] 3.25150e-06 9.99906e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 503"
+[1] "pos"
+[1] 4.368895e-06 9.999302e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 504"
+[1] "pos"
+[1] 2.633016e-06 9.999394e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 505"
+[1] "pos"
+[1] 0.0000049197 0.9999341777
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 506"
+[1] "pos"
+[1] 4.181241e-06 9.999387e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 507"
+[1] "pos"
+[1] 3.190398e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 508"
+[1] "pos"
+[1] 2.693097e-06 9.998912e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 509"
+[1] "pos"
+[1] 2.831348e-06 9.999247e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 510"
+[1] "pos"
+[1] 3.920177e-06 9.999252e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 511"
+[1] "pos"
+[1] 2.980667e-06 9.999098e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 512"
+[1] "pos"
+[1] 3.259110e-06 9.999141e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 513"
+[1] "pos"
+[1] 5.023427e-06 9.999097e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 514"
+[1] "pos"
+[1] 2.540636e-06 9.999267e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 515"
+[1] "pos"
+[1] 2.742461e-06 9.999160e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 516"
+[1] "pos"
+[1] 3.983535e-06 9.999321e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 517"
+[1] "pos"
+[1] 4.528941e-06 9.999231e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 518"
+[1] "pos"
+[1] 3.742383e-06 9.998964e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 519"
+[1] "pos"
+[1] 4.096746e-06 9.999182e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 520"
+[1] "pos"
+[1] 6.026513e-06 9.999392e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 521"
+[1] "pos"
+[1] 3.372747e-06 9.999314e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 522"
+[1] "pos"
+[1] 2.701330e-06 9.999297e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 523"
+[1] "pos"
+[1] 3.813004e-06 9.999078e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 524"
+[1] "pos"
+[1] 5.000675e-06 9.999185e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 525"
+[1] "pos"
+[1] 3.509203e-06 9.998965e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 526"
+[1] "pos"
+[1] 5.097610e-06 9.999431e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 527"
+[1] "pos"
+[1] 3.756372e-06 9.998907e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 528"
+[1] "pos"
+[1] 4.289406e-06 9.998858e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 529"
+[1] "pos"
+[1] 4.756392e-06 9.999132e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 530"
+[1] "pos"
+[1] 3.576429e-06 9.998982e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 531"
+[1] "pos"
+[1] 3.684649e-06 9.999139e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 532"
+[1] "pos"
+[1] 3.590545e-06 9.999136e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 533"
+[1] "pos"
+[1] 3.642395e-06 9.999055e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 534"
+[1] "pos"
+[1] 3.112184e-06 9.999108e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 535"
+[1] "pos"
+[1] 3.799599e-06 9.999207e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 536"
+[1] "pos"
+[1] 0.0000032819 0.9999330803
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 537"
+[1] "pos"
+[1] 5.627980e-06 9.999091e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 538"
+[1] "pos"
+[1] 3.294389e-06 9.999274e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 539"
+[1] "pos"
+[1] 4.042457e-06 9.999185e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 540"
+[1] "pos"
+[1] 2.898891e-06 9.999308e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 541"
+[1] "pos"
+[1] 3.273399e-06 9.999258e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 542"
+[1] "pos"
+[1] 3.122668e-06 9.999192e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 543"
+[1] "pos"
+[1] 2.865845e-06 9.999298e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 544"
+[1] "pos"
+[1] 3.806007e-06 9.999106e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 545"
+[1] "pos"
+[1] 2.593890e-06 9.999379e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 546"
+[1] "pos"
+[1] 3.728698e-06 9.999372e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 547"
+[1] "pos"
+[1] 2.555109e-06 9.999053e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 548"
+[1] "pos"
+[1] 3.776517e-06 9.999066e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 549"
+[1] "pos"
+[1] 3.332270e-06 9.999035e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 550"
+[1] "pos"
+[1] 2.727452e-06 9.999279e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 551"
+[1] "pos"
+[1] 3.480524e-06 9.999396e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 552"
+[1] "pos"
+[1] 2.827128e-06 9.999225e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 553"
+[1] "pos"
+[1] 4.968607e-06 9.999178e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 554"
+[1] "pos"
+[1] 4.244631e-06 9.999244e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 555"
+[1] "pos"
+[1] 3.035288e-06 9.999115e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 556"
+[1] "pos"
+[1] 4.322582e-06 9.999146e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 557"
+[1] "pos"
+[1] 4.209818e-06 9.999111e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 558"
+[1] "pos"
+[1] 3.369081e-06 9.998767e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 559"
+[1] "pos"
+[1] 3.938822e-06 9.999284e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 560"
+[1] "pos"
+[1] 3.588757e-06 9.999175e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 561"
+[1] "pos"
+[1] 3.288804e-06 9.999394e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 562"
+[1] "pos"
+[1] 3.03076e-06 9.99908e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 563"
+[1] "pos"
+[1] 3.303295e-06 9.999051e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 564"
+[1] "pos"
+[1] 3.576052e-06 9.999074e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 565"
+[1] "pos"
+[1] 2.637216e-06 9.999106e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 566"
+[1] "pos"
+[1] 2.507511e-06 9.999374e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 567"
+[1] "pos"
+[1] 4.405314e-06 9.999311e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 568"
+[1] "pos"
+[1] 4.345874e-06 9.999253e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 569"
+[1] "pos"
+[1] 2.970316e-06 9.999036e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 570"
+[1] "pos"
+[1] 4.859630e-06 9.999206e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 571"
+[1] "pos"
+[1] 0.0000040961 0.9999330524
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 572"
+[1] "pos"
+[1] 3.119956e-06 9.999097e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 573"
+[1] "pos"
+[1] 3.231125e-06 9.999255e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 574"
+[1] "pos"
+[1] 2.811148e-06 9.999049e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 575"
+[1] "pos"
+[1] 3.068349e-06 9.999347e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 576"
+[1] "pos"
+[1] 3.561126e-06 9.999208e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 577"
+[1] "pos"
+[1] 4.075376e-06 9.998779e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 578"
+[1] "pos"
+[1] 3.579996e-06 9.998949e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 579"
+[1] "pos"
+[1] 3.776908e-06 9.999270e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 580"
+[1] "pos"
+[1] 4.467945e-06 9.999407e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 581"
+[1] "pos"
+[1] 3.408146e-06 9.998705e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 582"
+[1] "pos"
+[1] 3.633464e-06 9.999048e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 583"
+[1] "pos"
+[1] 4.168711e-06 9.999324e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 584"
+[1] "pos"
+[1] 5.317360e-06 9.999225e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 585"
+[1] "pos"
+[1] 3.252398e-06 9.998795e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 586"
+[1] "pos"
+[1] 5.873340e-06 9.999141e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 587"
+[1] "pos"
+[1] 3.800341e-06 9.999132e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 588"
+[1] "pos"
+[1] 4.637849e-06 9.999364e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 589"
+[1] "pos"
+[1] 2.749025e-06 9.999352e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 590"
+[1] "pos"
+[1] 2.831655e-06 9.998952e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 591"
+[1] "pos"
+[1] 3.625686e-06 9.999366e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 592"
+[1] "pos"
+[1] 3.402318e-06 9.999326e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 593"
+[1] "pos"
+[1] 3.164160e-06 9.999364e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 594"
+[1] "pos"
+[1] 2.699184e-06 9.999395e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 595"
+[1] "pos"
+[1] 2.821016e-06 9.999106e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 596"
+[1] "pos"
+[1] 0.0000039922 0.9999346058
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 597"
+[1] "pos"
+[1] 3.761296e-06 9.999245e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 598"
+[1] "pos"
+[1] 2.483178e-06 9.999003e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 599"
+[1] "pos"
+[1] 2.837185e-06 9.999122e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 600"
+[1] "pos"
+[1] 2.608858e-06 9.999343e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 601"
+[1] "pos"
+[1] 4.203866e-06 9.999284e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 602"
+[1] "pos"
+[1] 3.027486e-06 9.999159e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 603"
+[1] "pos"
+[1] 3.218899e-06 9.999327e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 604"
+[1] "pos"
+[1] 4.479229e-06 9.999157e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 605"
+[1] "pos"
+[1] 2.614390e-06 9.999289e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 606"
+[1] "pos"
+[1] 4.274086e-06 9.999317e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 607"
+[1] "pos"
+[1] 2.700848e-06 9.999174e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 608"
+[1] "pos"
+[1] 3.177887e-06 9.999316e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 609"
+[1] "pos"
+[1] 3.128366e-06 9.999205e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 610"
+[1] "pos"
+[1] 3.450447e-06 9.999333e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 611"
+[1] "pos"
+[1] 3.499543e-06 9.999332e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 612"
+[1] "pos"
+[1] 3.413728e-06 9.999102e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 613"
+[1] "pos"
+[1] 2.536614e-06 9.999280e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 614"
+[1] "pos"
+[1] 3.561311e-06 9.999297e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 615"
+[1] "pos"
+[1] 3.131343e-06 9.999236e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 616"
+[1] "pos"
+[1] 3.267668e-06 9.999128e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 617"
+[1] "pos"
+[1] 2.879584e-06 9.999116e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 618"
+[1] "pos"
+[1] 2.489118e-06 9.999248e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 619"
+[1] "pos"
+[1] 3.395555e-06 9.999017e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 620"
+[1] "pos"
+[1] 2.723898e-06 9.999161e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 621"
+[1] "pos"
+[1] 2.783083e-06 9.999156e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 622"
+[1] "pos"
+[1] 3.520388e-06 9.999292e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 623"
+[1] "pos"
+[1] 2.690026e-06 9.999373e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 624"
+[1] "pos"
+[1] 3.560147e-06 9.999253e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 625"
+[1] "pos"
+[1] 2.458039e-06 9.999297e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 626"
+[1] "pos"
+[1] 2.822156e-06 9.999144e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 627"
+[1] "pos"
+[1] 3.481933e-06 9.999269e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 628"
+[1] "pos"
+[1] 3.066635e-06 9.999205e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 629"
+[1] "pos"
+[1] 4.419155e-06 9.999329e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 630"
+[1] "pos"
+[1] 2.969429e-06 9.999093e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 631"
+[1] "pos"
+[1] 2.998914e-06 9.998995e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 632"
+[1] "pos"
+[1] 2.953989e-06 9.999154e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 633"
+[1] "pos"
+[1] 2.806261e-06 9.999335e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 634"
+[1] "pos"
+[1] 4.000149e-06 9.998964e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 635"
+[1] "pos"
+[1] 4.542808e-06 9.999182e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 636"
+[1] "pos"
+[1] 3.839896e-06 9.999172e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 637"
+[1] "pos"
+[1] 3.252038e-06 9.999326e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 638"
+[1] "pos"
+[1] 3.079150e-06 9.999251e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 639"
+[1] "pos"
+[1] 3.546459e-06 9.998860e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 640"
+[1] "pos"
+[1] 5.375355e-06 9.998673e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 641"
+[1] "pos"
+[1] 4.215423e-06 9.999015e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 642"
+[1] "pos"
+[1] 3.946531e-06 9.998921e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 643"
+[1] "pos"
+[1] 4.816264e-06 9.998848e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 644"
+[1] "pos"
+[1] 3.618798e-06 9.999192e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 645"
+[1] "pos"
+[1] 5.014074e-06 9.999206e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 646"
+[1] "pos"
+[1] 3.938507e-06 9.999298e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 647"
+[1] "pos"
+[1] 2.717857e-06 9.999305e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 648"
+[1] "pos"
+[1] 2.653371e-06 9.999038e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 649"
+[1] "pos"
+[1] 4.396532e-06 9.999245e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 650"
+[1] "pos"
+[1] 3.286047e-06 9.999255e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 651"
+[1] "pos"
+[1] 3.683421e-06 9.999400e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 652"
+[1] "pos"
+[1] 2.583085e-06 9.999443e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 653"
+[1] "pos"
+[1] 3.489242e-06 9.999234e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 654"
+[1] "pos"
+[1] 2.563389e-06 9.999262e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 655"
+[1] "pos"
+[1] 3.467169e-06 9.999307e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 656"
+[1] "pos"
+[1] 3.922081e-06 9.999013e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 657"
+[1] "pos"
+[1] 4.747602e-06 9.998986e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 658"
+[1] "pos"
+[1] 3.019555e-06 9.999307e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 659"
+[1] "pos"
+[1] 2.976040e-06 9.999302e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 660"
+[1] "pos"
+[1] 3.600515e-06 9.999348e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 661"
+[1] "pos"
+[1] 3.315756e-06 9.999306e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 662"
+[1] "pos"
+[1] 3.576923e-06 9.999186e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 663"
+[1] "pos"
+[1] 3.286041e-06 9.999415e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 664"
+[1] "pos"
+[1] 2.981751e-06 9.999339e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 665"
+[1] "pos"
+[1] 3.045455e-06 9.999300e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 666"
+[1] "pos"
+[1] 5.086754e-06 9.999431e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 667"
+[1] "pos"
+[1] 2.895397e-06 9.999277e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 668"
+[1] "pos"
+[1] 3.356327e-06 9.998764e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 669"
+[1] "pos"
+[1] 4.857127e-06 9.999155e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 670"
+[1] "pos"
+[1] 3.207445e-06 9.999226e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 671"
+[1] "pos"
+[1] 3.150699e-06 9.998899e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 672"
+[1] "pos"
+[1] 2.997904e-06 9.999018e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 673"
+[1] "pos"
+[1] 5.286356e-06 9.999103e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 674"
+[1] "pos"
+[1] 2.533548e-06 9.999000e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 675"
+[1] "pos"
+[1] 3.321044e-06 9.999375e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 676"
+[1] "pos"
+[1] 7.070543e-06 9.999378e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 677"
+[1] "pos"
+[1] 4.130411e-06 9.999320e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 678"
+[1] "pos"
+[1] 2.606457e-06 9.999135e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 679"
+[1] "pos"
+[1] 3.280790e-06 9.999318e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 680"
+[1] "pos"
+[1] 6.190198e-06 9.999271e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 681"
+[1] "pos"
+[1] 2.793630e-06 9.999244e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 682"
+[1] "pos"
+[1] 3.079639e-06 9.999424e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 683"
+[1] "pos"
+[1] 3.876793e-06 9.999423e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 684"
+[1] "pos"
+[1] 3.309438e-06 9.998915e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 685"
+[1] "pos"
+[1] 2.838179e-06 9.999387e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 686"
+[1] "pos"
+[1] 2.728396e-06 9.999253e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 687"
+[1] "pos"
+[1] 3.360683e-06 9.999281e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 688"
+[1] "pos"
+[1] 3.482208e-06 9.999326e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 689"
+[1] "pos"
+[1] 2.636808e-06 9.999250e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 690"
+[1] "pos"
+[1] 2.513483e-06 9.998859e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 691"
+[1] "pos"
+[1] 3.829732e-06 9.999352e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 692"
+[1] "pos"
+[1] 3.055309e-06 9.998913e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 693"
+[1] "pos"
+[1] 3.568261e-06 9.999393e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 694"
+[1] "pos"
+[1] 3.712696e-06 9.999262e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 695"
+[1] "pos"
+[1] 3.14877e-06 9.99919e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 696"
+[1] "pos"
+[1] 3.439160e-06 9.999188e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 697"
+[1] "pos"
+[1] 3.272143e-06 9.999348e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 698"
+[1] "pos"
+[1] 3.702723e-06 9.998827e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 699"
+[1] "pos"
+[1] 3.344542e-06 9.999020e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 700"
+[1] "pos"
+[1] 7.468680e-06 9.999242e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 701"
+[1] "pos"
+[1] 3.193952e-06 9.999225e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 702"
+[1] "pos"
+[1] 2.858945e-06 9.999175e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 703"
+[1] "pos"
+[1] 3.848289e-06 9.998174e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 704"
+[1] "pos"
+[1] 2.672626e-06 9.999342e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 705"
+[1] "pos"
+[1] 2.845137e-06 9.999020e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 706"
+[1] "pos"
+[1] 2.648471e-06 9.998770e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 707"
+[1] "pos"
+[1] 2.739151e-06 9.999309e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 708"
+[1] "pos"
+[1] 2.621696e-06 9.999177e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 709"
+[1] "pos"
+[1] 3.887209e-06 9.999362e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 710"
+[1] "pos"
+[1] 2.815141e-06 9.999186e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 711"
+[1] "pos"
+[1] 2.837382e-06 9.999151e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 712"
+[1] "pos"
+[1] 3.479018e-06 9.999448e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 713"
+[1] "pos"
+[1] 3.449641e-06 9.999320e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 714"
+[1] "pos"
+[1] 3.190147e-06 9.998914e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 715"
+[1] "pos"
+[1] 4.585603e-06 9.999402e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 716"
+[1] "pos"
+[1] 3.409699e-06 9.999328e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 717"
+[1] "pos"
+[1] 2.771912e-06 9.999139e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 718"
+[1] "pos"
+[1] 3.229572e-06 9.999278e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 719"
+[1] "pos"
+[1] 4.104623e-06 9.999130e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 720"
+[1] "pos"
+[1] 3.362681e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 721"
+[1] "pos"
+[1] 2.799590e-06 9.999352e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 722"
+[1] "pos"
+[1] 2.678559e-06 9.999149e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 723"
+[1] "pos"
+[1] 3.104917e-06 9.998815e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 724"
+[1] "pos"
+[1] 3.951813e-06 9.999154e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 725"
+[1] "pos"
+[1] 2.905925e-06 9.999169e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 726"
+[1] "pos"
+[1] 3.509538e-06 9.999317e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 727"
+[1] "pos"
+[1] 4.772117e-06 9.999317e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 728"
+[1] "pos"
+[1] 3.450010e-06 9.999323e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 729"
+[1] "pos"
+[1] 3.386049e-06 9.999034e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 730"
+[1] "pos"
+[1] 3.259379e-06 9.999319e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 731"
+[1] "pos"
+[1] 2.809932e-06 9.999307e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 732"
+[1] "pos"
+[1] 2.479258e-06 9.999278e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 733"
+[1] "pos"
+[1] 5.241371e-06 9.999204e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 734"
+[1] "pos"
+[1] 5.038993e-06 9.999221e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 735"
+[1] "pos"
+[1] 2.844560e-06 9.999284e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 736"
+[1] "pos"
+[1] 2.756608e-06 9.999144e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 737"
+[1] "pos"
+[1] 2.637552e-06 9.999081e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 738"
+[1] "pos"
+[1] 3.156639e-06 9.999173e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 739"
+[1] "pos"
+[1] 3.146357e-06 9.999297e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 740"
+[1] "pos"
+[1] 3.199826e-06 9.999022e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 741"
+[1] "pos"
+[1] 3.383249e-06 9.999312e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 742"
+[1] "pos"
+[1] 3.417130e-06 9.999182e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 743"
+[1] "pos"
+[1] 3.362136e-06 9.999357e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 744"
+[1] "pos"
+[1] 4.656065e-06 9.999428e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 745"
+[1] "pos"
+[1] 2.978811e-06 9.999178e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 746"
+[1] "pos"
+[1] 2.687664e-06 9.999255e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 747"
+[1] "pos"
+[1] 3.374623e-06 9.999263e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 748"
+[1] "pos"
+[1] 2.821729e-06 9.999336e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 749"
+[1] "pos"
+[1] 3.040828e-06 9.999051e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 750"
+[1] "pos"
+[1] 4.135243e-06 9.999356e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 751"
+[1] "pos"
+[1] 2.547207e-06 9.999243e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 752"
+[1] "pos"
+[1] 4.048495e-06 9.999378e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 753"
+[1] "pos"
+[1] 4.057008e-06 9.998926e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 754"
+[1] "pos"
+[1] 2.842373e-06 9.999176e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 755"
+[1] "pos"
+[1] 3.399844e-06 9.999199e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 756"
+[1] "pos"
+[1] 3.471958e-06 9.998849e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 757"
+[1] "pos"
+[1] 2.913763e-06 9.999337e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 758"
+[1] "pos"
+[1] 2.860358e-06 9.999388e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 759"
+[1] "pos"
+[1] 3.611962e-06 9.998888e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 760"
+[1] "pos"
+[1] 3.041132e-06 9.999278e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 761"
+[1] "pos"
+[1] 4.084179e-06 9.999343e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 762"
+[1] "pos"
+[1] 2.584935e-06 9.999206e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 763"
+[1] "pos"
+[1] 3.069005e-06 9.999245e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 764"
+[1] "pos"
+[1] 4.446473e-06 9.998971e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 765"
+[1] "pos"
+[1] 4.217264e-06 9.999287e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 766"
+[1] "pos"
+[1] 4.425839e-06 9.999176e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 767"
+[1] "pos"
+[1] 4.086714e-06 9.999268e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 768"
+[1] "pos"
+[1] 4.086929e-06 9.999449e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 769"
+[1] "pos"
+[1] 6.307110e-06 9.999372e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 770"
+[1] "pos"
+[1] 2.880495e-06 9.999223e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 771"
+[1] "pos"
+[1] 2.792168e-06 9.999049e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 772"
+[1] "pos"
+[1] 3.264032e-06 9.999424e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 773"
+[1] "pos"
+[1] 2.602623e-06 9.999224e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 774"
+[1] "pos"
+[1] 2.621683e-06 9.999229e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 775"
+[1] "pos"
+[1] 3.187106e-06 9.998965e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 776"
+[1] "pos"
+[1] 2.914738e-06 9.999168e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 777"
+[1] "pos"
+[1] 3.773437e-06 9.998979e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 778"
+[1] "pos"
+[1] 3.908490e-06 9.998992e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 779"
+[1] "pos"
+[1] 2.947372e-06 9.999111e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 780"
+[1] "pos"
+[1] 3.645824e-06 9.999391e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 781"
+[1] "pos"
+[1] 3.601124e-06 9.999338e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 782"
+[1] "pos"
+[1] 3.631751e-06 9.999111e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 783"
+[1] "pos"
+[1] 3.025843e-06 9.999278e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 784"
+[1] "pos"
+[1] 3.194208e-06 9.999040e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 785"
+[1] "pos"
+[1] 2.491324e-06 9.998694e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 786"
+[1] "pos"
+[1] 2.624061e-06 9.999072e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 787"
+[1] "pos"
+[1] 3.911277e-06 9.999056e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 788"
+[1] "pos"
+[1] 4.296244e-06 9.999299e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 789"
+[1] "pos"
+[1] 2.597477e-06 9.998952e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 790"
+[1] "pos"
+[1] 3.37785e-06 9.99862e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 791"
+[1] "pos"
+[1] 3.367238e-06 9.999385e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 792"
+[1] "pos"
+[1] 4.884403e-06 9.999123e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 793"
+[1] "pos"
+[1] 3.760016e-06 9.999192e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 794"
+[1] "pos"
+[1] 3.289482e-06 9.999279e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 795"
+[1] "pos"
+[1] 3.523628e-06 9.999331e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 796"
+[1] "pos"
+[1] 3.158573e-06 9.999299e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 797"
+[1] "pos"
+[1] 4.962674e-06 9.999114e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 798"
+[1] "pos"
+[1] 4.031808e-06 9.999305e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 799"
+[1] "pos"
+[1] 5.756574e-06 9.999170e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 800"
+[1] "pos"
+[1] 2.747249e-06 9.999239e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 801"
+[1] "pos"
+[1] 3.963591e-06 9.999322e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 802"
+[1] "pos"
+[1] 3.047418e-06 9.999131e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 803"
+[1] "pos"
+[1] 3.829272e-06 9.998914e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 804"
+[1] "pos"
+[1] 3.330212e-06 9.999072e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 805"
+[1] "pos"
+[1] 3.659027e-06 9.999223e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 806"
+[1] "pos"
+[1] 3.505634e-06 9.998998e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 807"
+[1] "pos"
+[1] 2.799912e-06 9.998893e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 808"
+[1] "pos"
+[1] 3.569213e-06 9.999230e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 809"
+[1] "pos"
+[1] 3.423872e-06 9.999319e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 810"
+[1] "pos"
+[1] 2.617353e-06 9.999195e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 811"
+[1] "pos"
+[1] 3.531163e-06 9.999052e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 812"
+[1] "pos"
+[1] 4.787417e-06 9.999344e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 813"
+[1] "pos"
+[1] 2.896949e-06 9.999250e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 814"
+[1] "pos"
+[1] 2.559572e-06 9.998843e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 815"
+[1] "pos"
+[1] 3.039631e-06 9.999224e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 816"
+[1] "pos"
+[1] 5.470349e-06 9.998900e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 817"
+[1] "pos"
+[1] 2.589879e-06 9.998402e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 818"
+[1] "pos"
+[1] 3.316151e-06 9.999215e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 819"
+[1] "pos"
+[1] 3.246084e-06 9.999111e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 820"
+[1] "pos"
+[1] 2.395102e-06 9.999410e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 821"
+[1] "pos"
+[1] 3.576275e-06 9.999418e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 822"
+[1] "pos"
+[1] 3.059246e-06 9.999187e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 823"
+[1] "pos"
+[1] 4.048422e-06 9.999188e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 824"
+[1] "pos"
+[1] 5.268246e-06 9.999424e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 825"
+[1] "pos"
+[1] 5.452282e-06 9.999076e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 826"
+[1] "pos"
+[1] 2.961166e-06 9.999020e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 827"
+[1] "pos"
+[1] 2.787254e-06 9.999416e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 828"
+[1] "pos"
+[1] 3.771171e-06 9.999191e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 829"
+[1] "pos"
+[1] 4.293597e-06 9.998945e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 830"
+[1] "pos"
+[1] 2.519017e-06 9.999191e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 831"
+[1] "pos"
+[1] 3.115789e-06 9.999212e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 832"
+[1] "pos"
+[1] 2.815526e-06 9.999361e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 833"
+[1] "pos"
+[1] 2.991536e-06 9.999026e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 834"
+[1] "pos"
+[1] 3.164860e-06 9.999274e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 835"
+[1] "pos"
+[1] 2.993744e-06 9.999357e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 836"
+[1] "pos"
+[1] 2.995416e-06 9.998947e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 837"
+[1] "pos"
+[1] 4.837703e-06 9.998951e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 838"
+[1] "pos"
+[1] 3.951227e-06 9.999268e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 839"
+[1] "pos"
+[1] 3.821986e-06 9.999319e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 840"
+[1] "pos"
+[1] 3.403875e-06 9.998944e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 841"
+[1] "pos"
+[1] 4.260286e-06 9.998881e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 842"
+[1] "pos"
+[1] 2.953014e-06 9.999177e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 843"
+[1] "pos"
+[1] 3.352769e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 844"
+[1] "pos"
+[1] 3.486770e-06 9.999421e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 845"
+[1] "pos"
+[1] 4.185789e-06 9.999164e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 846"
+[1] "pos"
+[1] 4.941528e-06 9.999343e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 847"
+[1] "pos"
+[1] 3.928478e-06 9.999321e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 848"
+[1] "pos"
+[1] 4.207775e-06 9.999392e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 849"
+[1] "pos"
+[1] 2.690519e-06 9.999143e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 850"
+[1] "pos"
+[1] 2.953417e-06 9.998964e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 851"
+[1] "pos"
+[1] 3.571419e-06 9.999349e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 852"
+[1] "pos"
+[1] 4.047946e-06 9.999153e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 853"
+[1] "pos"
+[1] 3.651233e-06 9.998954e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 854"
+[1] "pos"
+[1] 3.283034e-06 9.999326e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 855"
+[1] "pos"
+[1] 6.320073e-06 9.998830e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 856"
+[1] "pos"
+[1] 2.819219e-06 9.999248e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 857"
+[1] "pos"
+[1] 3.521424e-06 9.999372e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 858"
+[1] "pos"
+[1] 4.282143e-06 9.999223e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 859"
+[1] "pos"
+[1] 3.310868e-06 9.999397e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 860"
+[1] "pos"
+[1] 4.249751e-06 9.999216e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 861"
+[1] "pos"
+[1] 6.387799e-06 9.999236e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 862"
+[1] "pos"
+[1] 3.343439e-06 9.999390e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 863"
+[1] "pos"
+[1] 5.079779e-06 9.999297e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 864"
+[1] "pos"
+[1] 2.700185e-06 9.999100e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 865"
+[1] "pos"
+[1] 3.686394e-06 9.999146e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 866"
+[1] "pos"
+[1] 3.028558e-06 9.999234e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 867"
+[1] "pos"
+[1] 3.396601e-06 9.999157e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 868"
+[1] "pos"
+[1] 3.263728e-06 9.999445e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 869"
+[1] "pos"
+[1] 2.874028e-06 9.998447e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 870"
+[1] "pos"
+[1] 4.146299e-06 9.998985e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 871"
+[1] "pos"
+[1] 3.028647e-06 9.998905e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 872"
+[1] "pos"
+[1] 3.157351e-06 9.999357e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 873"
+[1] "pos"
+[1] 0.0000035727 0.9999298423
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 874"
+[1] "pos"
+[1] 3.190324e-06 9.999244e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 875"
+[1] "pos"
+[1] 3.474425e-06 9.999330e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 876"
+[1] "pos"
+[1] 2.521881e-06 9.999077e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 877"
+[1] "pos"
+[1] 3.628024e-06 9.999367e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 878"
+[1] "pos"
+[1] 2.846689e-06 9.999338e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 879"
+[1] "pos"
+[1] 3.458808e-06 9.999392e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 880"
+[1] "pos"
+[1] 2.967183e-06 9.999103e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 881"
+[1] "pos"
+[1] 2.974803e-06 9.999157e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 882"
+[1] "pos"
+[1] 4.356113e-06 9.999261e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 883"
+[1] "pos"
+[1] 3.337010e-06 9.999398e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 884"
+[1] "pos"
+[1] 2.887577e-06 9.999281e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 885"
+[1] "pos"
+[1] 3.466418e-06 9.999255e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 886"
+[1] "pos"
+[1] 2.781077e-06 9.999133e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 887"
+[1] "pos"
+[1] 3.904328e-06 9.999074e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 888"
+[1] "pos"
+[1] 4.669724e-06 9.999405e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 889"
+[1] "pos"
+[1] 2.675962e-06 9.998748e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 890"
+[1] "pos"
+[1] 3.314483e-06 9.999197e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 891"
+[1] "pos"
+[1] 3.448791e-06 9.999398e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 892"
+[1] "pos"
+[1] 2.880284e-06 9.999271e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 893"
+[1] "pos"
+[1] 3.291798e-06 9.999094e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 894"
+[1] "pos"
+[1] 3.006667e-06 9.998503e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 895"
+[1] "pos"
+[1] 3.47474e-06 9.99928e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 896"
+[1] "pos"
+[1] 3.76263e-06 9.99943e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 897"
+[1] "pos"
+[1] 2.825832e-06 9.999312e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 898"
+[1] "pos"
+[1] 3.521674e-06 9.999396e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 899"
+[1] "pos"
+[1] 5.829880e-06 9.999004e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 900"
+[1] "pos"
+[1] 3.334928e-06 9.999096e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 901"
+[1] "pos"
+[1] 3.516605e-06 9.999128e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 902"
+[1] "pos"
+[1] 2.758713e-06 9.999051e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 903"
+[1] "pos"
+[1] 3.171289e-06 9.998951e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 904"
+[1] "pos"
+[1] 3.586602e-06 9.999322e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 905"
+[1] "pos"
+[1] 3.201166e-06 9.999259e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 906"
+[1] "pos"
+[1] 2.580260e-06 9.999387e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 907"
+[1] "pos"
+[1] 3.368559e-06 9.999228e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 908"
+[1] "pos"
+[1] 4.368074e-06 9.999085e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 909"
+[1] "pos"
+[1] 3.623735e-06 9.999320e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 910"
+[1] "pos"
+[1] 3.523597e-06 9.998999e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 911"
+[1] "pos"
+[1] 4.252997e-06 9.999439e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 912"
+[1] "pos"
+[1] 3.066136e-06 9.999362e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 913"
+[1] "pos"
+[1] 3.670850e-06 9.999369e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 914"
+[1] "pos"
+[1] 4.424821e-06 9.999164e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 915"
+[1] "pos"
+[1] 2.965925e-06 9.999192e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 916"
+[1] "pos"
+[1] 2.964359e-06 9.999243e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 917"
+[1] "pos"
+[1] 3.685412e-06 9.999272e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 918"
+[1] "pos"
+[1] 3.542035e-06 9.999350e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 919"
+[1] "pos"
+[1] 4.111745e-06 9.999097e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 920"
+[1] "pos"
+[1] 3.121477e-06 9.999412e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 921"
+[1] "pos"
+[1] 2.686796e-06 9.999218e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 922"
+[1] "pos"
+[1] 4.783084e-06 9.999220e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 923"
+[1] "pos"
+[1] 3.273280e-06 9.998968e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 924"
+[1] "pos"
+[1] 3.495550e-06 9.999074e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 925"
+[1] "pos"
+[1] 3.554830e-06 9.999451e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 926"
+[1] "pos"
+[1] 2.835922e-06 9.999340e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 927"
+[1] "pos"
+[1] 3.034065e-06 9.999320e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 928"
+[1] "pos"
+[1] 2.515346e-06 9.999337e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 929"
+[1] "pos"
+[1] 3.113594e-06 9.999346e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 930"
+[1] "pos"
+[1] 6.837192e-06 9.998646e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 931"
+[1] "pos"
+[1] 3.085322e-06 9.999179e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 932"
+[1] "pos"
+[1] 2.694189e-06 9.999264e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 933"
+[1] "pos"
+[1] 5.550990e-06 9.999183e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 934"
+[1] "pos"
+[1] 3.535662e-06 9.999447e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 935"
+[1] "pos"
+[1] 4.052348e-06 9.999151e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 936"
+[1] "pos"
+[1] 3.226287e-06 9.999403e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 937"
+[1] "pos"
+[1] 3.536362e-06 9.999203e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 938"
+[1] "pos"
+[1] 3.090854e-06 9.999149e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 939"
+[1] "pos"
+[1] 3.190870e-06 9.999419e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 940"
+[1] "pos"
+[1] 4.752026e-06 9.999270e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 941"
+[1] "pos"
+[1] 5.052558e-06 9.998821e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 942"
+[1] "pos"
+[1] 2.813711e-06 9.999158e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 943"
+[1] "pos"
+[1] 2.944087e-06 9.999248e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 944"
+[1] "pos"
+[1] 3.652639e-06 9.999287e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 945"
+[1] "pos"
+[1] 3.037151e-06 9.998928e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 946"
+[1] "pos"
+[1] 3.011543e-06 9.999287e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 947"
+[1] "pos"
+[1] 3.638622e-06 9.999120e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 948"
+[1] "pos"
+[1] 3.932094e-06 9.999141e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 949"
+[1] "pos"
+[1] 3.415486e-06 9.999238e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 950"
+[1] "pos"
+[1] 4.079262e-06 9.999006e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 951"
+[1] "pos"
+[1] 2.534220e-06 9.999139e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 952"
+[1] "pos"
+[1] 2.914171e-06 9.998962e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 953"
+[1] "pos"
+[1] 3.540991e-06 9.998676e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 954"
+[1] "pos"
+[1] 2.616037e-06 9.999226e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 955"
+[1] "pos"
+[1] 3.907536e-06 9.999043e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 956"
+[1] "pos"
+[1] 3.642189e-06 9.999407e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 957"
+[1] "pos"
+[1] 3.993726e-06 9.999374e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 958"
+[1] "pos"
+[1] 3.476421e-06 9.999148e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 959"
+[1] "pos"
+[1] 3.466104e-06 9.999016e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 960"
+[1] "pos"
+[1] 3.417869e-06 9.999326e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 961"
+[1] "pos"
+[1] 5.062307e-06 9.999285e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 962"
+[1] "pos"
+[1] 4.198661e-06 9.998905e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 963"
+[1] "pos"
+[1] 3.462343e-06 9.999265e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 964"
+[1] "pos"
+[1] 2.766869e-06 9.999064e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 965"
+[1] "pos"
+[1] 3.892279e-06 9.999333e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 966"
+[1] "pos"
+[1] 3.711919e-06 9.999225e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 967"
+[1] "pos"
+[1] 3.089470e-06 9.998974e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 968"
+[1] "pos"
+[1] 4.686863e-06 9.999190e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 969"
+[1] "pos"
+[1] 4.914768e-06 9.999427e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 970"
+[1] "pos"
+[1] 3.375866e-06 9.999352e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 971"
+[1] "pos"
+[1] 4.419560e-06 9.999131e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 972"
+[1] "pos"
+[1] 3.441251e-06 9.999391e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 973"
+[1] "pos"
+[1] 2.765070e-06 9.999294e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 974"
+[1] "pos"
+[1] 3.971492e-06 9.999057e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 975"
+[1] "pos"
+[1] 3.028680e-06 9.999145e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 976"
+[1] "pos"
+[1] 2.699410e-06 9.999185e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 977"
+[1] "pos"
+[1] 2.559148e-06 9.999138e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 978"
+[1] "pos"
+[1] 3.788152e-06 9.999249e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 979"
+[1] "pos"
+[1] 3.991734e-06 9.999211e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 980"
+[1] "pos"
+[1] 3.806148e-06 9.999312e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 981"
+[1] "pos"
+[1] 3.130282e-06 9.998963e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 982"
+[1] "pos"
+[1] 3.612613e-06 9.999296e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 983"
+[1] "pos"
+[1] 3.493280e-06 9.999213e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 984"
+[1] "pos"
+[1] 3.307367e-06 9.998999e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 985"
+[1] "pos"
+[1] 2.757599e-06 9.999138e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 986"
+[1] "pos"
+[1] 3.636816e-06 9.998811e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 987"
+[1] "pos"
+[1] 4.446053e-06 9.999293e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 988"
+[1] "pos"
+[1] 3.735476e-06 9.998884e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 989"
+[1] "pos"
+[1] 4.221093e-06 9.999279e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 990"
+[1] "pos"
+[1] 4.175473e-06 9.999305e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 991"
+[1] "pos"
+[1] 3.390220e-06 9.999026e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 992"
+[1] "pos"
+[1] 3.685184e-06 9.999060e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 993"
+[1] "pos"
+[1] 3.805258e-06 9.999316e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 994"
+[1] "pos"
+[1] 6.999394e-06 9.999177e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 995"
+[1] "pos"
+[1] 3.068390e-06 9.999182e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 996"
+[1] "pos"
+[1] 3.33580e-06 9.99917e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 997"
+[1] "pos"
+[1] 2.636269e-06 9.999275e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 998"
+[1] "pos"
+[1] 4.275953e-06 9.999310e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 999"
+[1] "pos"
+[1] 3.032559e-06 9.999142e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+[1] "Iteration number: 1000"
+[1] "pos"
+[1] 2.871459e-06 9.999262e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+Null data.table (0 rows and 0 cols)

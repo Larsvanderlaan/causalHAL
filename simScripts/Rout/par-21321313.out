@@ -1,0 +1,7415 @@
+LOADING R
+R LOADED
+[1] "/home/lvanderl/Rlibs2"                         
+[2] "/app/software/R/4.2.2-foss-2021b/lib/R/library"
+[1] "/home/lvanderl/sieveSims"
+[1] "Iteration number: 1"
+[1] "pos"
+[1] 0.2364973 0.7605788
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02314438
+[1] 0.01675995
+[1] 0.02314438
+[1] 0.2196761 0.7356320
+[1] "cutoff"
+[1] 0.1
+[1] 0.2196761 0.7356320
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009673
+A hal9001 formula object of the form: ~ h(.)[1] 0.02301769
+[1] 0.01667729
+(Intercept) 
+ 0.02301769 
+[1] "Iteration number: 2"
+[1] "pos"
+[1] 0.2354497 0.7542857
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02278498
+[1] 0.01616739
+[1] 0.02278498
+[1] 0.1751380 0.8051863
+[1] "cutoff"
+[1] 0.1
+[1] 0.1751380 0.8051863
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9949118
+A hal9001 formula object of the form: ~ h(.)[1] 0.02280269
+[1] 0.01619202
+(Intercept) 
+ 0.02280269 
+[1] "Iteration number: 3"
+[1] "pos"
+[1] 0.2358319 0.7592064
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02286813
+[1] 0.01581044
+[1] 0.02286813
+[1] 0.2092081 0.7314479
+[1] "cutoff"
+[1] 0.1
+[1] 0.2092081 0.7314479
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9967203
+A hal9001 formula object of the form: ~ h(.)[1] 0.02281802
+[1] 0.01590843
+(Intercept) 
+ 0.02281802 
+[1] "Iteration number: 4"
+[1] "pos"
+[1] 0.2349793 0.7677213
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02303744
+[1] 0.01607706
+[1] 0.02303744
+[1] 0.170336 0.748306
+[1] "cutoff"
+[1] 0.1
+[1] 0.170336 0.748306
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9676234
+A hal9001 formula object of the form: ~ h(.)[1] 0.02299438
+[1] 0.01612206
+(Intercept) 
+ 0.02299438 
+[1] "Iteration number: 5"
+[1] "pos"
+[1] 0.2353231 0.7585826
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02243946
+[1] 0.01567632
+[1] 0.02243946
+[1] 0.1838650 0.7712336
+[1] "cutoff"
+[1] 0.1
+[1] 0.1838650 0.7712336
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9695018
+A hal9001 formula object of the form: ~ h(.)[1] 0.02233477
+[1] 0.01544607
+(Intercept) 
+ 0.02233477 
+[1] "Iteration number: 6"
+[1] "pos"
+[1] 0.2367345 0.7537900
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02314742
+[1] 0.01630303
+[1] 0.02314742
+[1] 0.2041075 0.7963966
+[1] "cutoff"
+[1] 0.1
+[1] 0.2041075 0.7963966
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9906352
+A hal9001 formula object of the form: ~ h(.)[1] 0.02304052
+[1] 0.01636512
+(Intercept) 
+ 0.02304052 
+[1] "Iteration number: 7"
+[1] "pos"
+[1] 0.2348100 0.7574285
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02242263
+[1] 0.01574401
+[1] 0.02242263
+[1] 0.1967282 0.7948334
+[1] "cutoff"
+[1] 0.1
+[1] 0.1967282 0.7948334
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9762573
+A hal9001 formula object of the form: ~ h(.)[1] 0.02245335
+[1] 0.01565701
+(Intercept) 
+ 0.02245335 
+[1] "Iteration number: 8"
+[1] "pos"
+[1] 0.2356392 0.7609753
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0224209
+[1] 0.01538969
+[1] 0.0224209
+[1] 0.2282591 0.7638278
+[1] "cutoff"
+[1] 0.1
+[1] 0.2282591 0.7638278
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9783376
+A hal9001 formula object of the form: ~ h(.)[1] 0.02242724
+[1] 0.01542991
+(Intercept) 
+ 0.02242724 
+[1] "Iteration number: 9"
+[1] "pos"
+[1] 0.2356850 0.7561485
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02297997
+[1] 0.01613905
+[1] 0.02297997
+[1] 0.191108 0.771744
+[1] "cutoff"
+[1] 0.1
+[1] 0.191108 0.771744
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9805915
+A hal9001 formula object of the form: ~ h(.)[1] 0.02279002
+[1] 0.01599015
+(Intercept) 
+ 0.02279002 
+[1] "Iteration number: 10"
+[1] "pos"
+[1] 0.2328481 0.7634268
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02299955
+[1] 0.01623243
+[1] 0.02299955
+[1] 0.2201144 0.7558618
+[1] "cutoff"
+[1] 0.1
+[1] 0.2201144 0.7558618
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9476482
+A hal9001 formula object of the form: ~ h(.)[1] 0.022691
+[1] 0.01613959
+(Intercept) 
+   0.022691 
+[1] "Iteration number: 11"
+[1] "pos"
+[1] 0.2334358 0.7471741
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279771
+[1] 0.0161931
+[1] 0.02279771
+[1] 0.1545696 0.7981638
+[1] "cutoff"
+[1] 0.1
+[1] 0.1545696 0.7981638
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.042407
+A hal9001 formula object of the form: ~ h(.)[1] 0.02264239
+[1] 0.01619102
+(Intercept) 
+ 0.02264239 
+[1] "Iteration number: 12"
+[1] "pos"
+[1] 0.2396369 0.7645390
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02282036
+[1] 0.01622643
+[1] 0.02282036
+[1] 0.1988804 0.7941278
+[1] "cutoff"
+[1] 0.1
+[1] 0.1988804 0.7941278
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018315
+A hal9001 formula object of the form: ~ h(.)[1] 0.0227875
+[1] 0.01599282
+(Intercept) 
+  0.0227875 
+[1] "Iteration number: 13"
+[1] "pos"
+[1] 0.2430840 0.7631848
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02215467
+[1] 0.01555947
+[1] 0.02215467
+[1] 0.2393399 0.7698688
+[1] "cutoff"
+[1] 0.1
+[1] 0.2393399 0.7698688
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9801589
+A hal9001 formula object of the form: ~ h(.)[1] 0.02211692
+[1] 0.01544612
+(Intercept) 
+ 0.02211692 
+[1] "Iteration number: 14"
+[1] "pos"
+[1] 0.2323438 0.7511695
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233149
+[1] 0.01592104
+[1] 0.02233149
+[1] 0.1855611 0.7783480
+[1] "cutoff"
+[1] 0.1
+[1] 0.1855611 0.7783480
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9804107
+A hal9001 formula object of the form: ~ h(.)[1] 0.02251844
+[1] 0.01577655
+(Intercept) 
+ 0.02251844 
+[1] "Iteration number: 15"
+[1] "pos"
+[1] 0.2355057 0.7481304
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02208627
+[1] 0.0156526
+[1] 0.02208627
+[1] 0.1767717 0.8007144
+[1] "cutoff"
+[1] 0.1
+[1] 0.1767717 0.8007144
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.012619
+A hal9001 formula object of the form: ~ h(.)[1] 0.02231867
+[1] 0.01546615
+(Intercept) 
+ 0.02231867 
+[1] "Iteration number: 16"
+[1] "pos"
+[1] 0.2320169 0.7475667
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02262654
+[1] 0.01587072
+[1] 0.02262654
+[1] 0.1870689 0.7811952
+[1] "cutoff"
+[1] 0.1
+[1] 0.1870689 0.7811952
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.030876
+A hal9001 formula object of the form: ~ h(.)[1] 0.02280234
+[1] 0.01596788
+(Intercept) 
+ 0.02280234 
+[1] "Iteration number: 17"
+[1] "pos"
+[1] 0.2336688 0.7556091
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02213808
+[1] 0.01561394
+[1] 0.02213808
+[1] 0.1960696 0.8073312
+[1] "cutoff"
+[1] 0.1
+[1] 0.1960696 0.8073312
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.017372
+A hal9001 formula object of the form: ~ h(.)[1] 0.02199574
+[1] 0.01514876
+(Intercept) 
+ 0.02199574 
+[1] "Iteration number: 18"
+[1] "pos"
+[1] 0.2381505 0.7605081
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252235
+[1] 0.01622496
+[1] 0.02252235
+[1] 0.1358101 0.7876021
+[1] "cutoff"
+[1] 0.1
+[1] 0.1358101 0.7876021
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000645
+A hal9001 formula object of the form: ~ h(.)[1] 0.02233733
+[1] 0.01576309
+(Intercept) 
+ 0.02233733 
+[1] "Iteration number: 19"
+[1] "pos"
+[1] 0.2417042 0.7536373
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0229069
+[1] 0.01619208
+[1] 0.0229069
+[1] 0.1483326 0.8281788
+[1] "cutoff"
+[1] 0.1
+[1] 0.1483326 0.8281788
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.02118
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276986
+[1] 0.01597793
+(Intercept) 
+ 0.02276986 
+[1] "Iteration number: 20"
+[1] "pos"
+[1] 0.2360707 0.7445191
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264208
+[1] 0.015725
+[1] 0.02264208
+[1] 0.2139492 0.7506990
+[1] "cutoff"
+[1] 0.1
+[1] 0.2139492 0.7506990
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.017778
+A hal9001 formula object of the form: ~ h(.)[1] 0.02244076
+[1] 0.01581719
+(Intercept) 
+ 0.02244076 
+[1] "Iteration number: 21"
+[1] "pos"
+[1] 0.2331221 0.7489782
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02275769
+[1] 0.01624695
+[1] 0.02275769
+[1] 0.1947038 0.7327215
+[1] "cutoff"
+[1] 0.1
+[1] 0.1947038 0.7327215
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.020548
+A hal9001 formula object of the form: ~ h(.)[1] 0.02253752
+[1] 0.01611059
+(Intercept) 
+ 0.02253752 
+[1] "Iteration number: 22"
+[1] "pos"
+[1] 0.2398745 0.7466337
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279632
+[1] 0.01629089
+[1] 0.02279632
+[1] 0.2100831 0.7313211
+[1] "cutoff"
+[1] 0.1
+[1] 0.2100831 0.7313211
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9792527
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276013
+[1] 0.01628729
+(Intercept) 
+ 0.02276013 
+[1] "Iteration number: 23"
+[1] "pos"
+[1] 0.2360269 0.7552839
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02318657
+[1] 0.01644888
+[1] 0.02318657
+[1] 0.2018243 0.7388830
+[1] "cutoff"
+[1] 0.1
+[1] 0.2018243 0.7388830
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.030386
+A hal9001 formula object of the form: ~ h(.)[1] 0.02288312
+[1] 0.01617178
+(Intercept) 
+ 0.02288312 
+[1] "Iteration number: 24"
+[1] "pos"
+[1] 0.2356079 0.7619854
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02235949
+[1] 0.01558001
+[1] 0.02235949
+[1] 0.1925605 0.7229585
+[1] "cutoff"
+[1] 0.1
+[1] 0.1925605 0.7229585
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.99515
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257065
+[1] 0.01562952
+(Intercept) 
+ 0.02257065 
+[1] "Iteration number: 25"
+[1] "pos"
+[1] 0.2405051 0.7501133
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02250136
+[1] 0.01633079
+[1] 0.02250136
+[1] 0.2019898 0.7533410
+[1] "cutoff"
+[1] 0.1
+[1] 0.2019898 0.7533410
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9608105
+A hal9001 formula object of the form: ~ h(.)[1] 0.02259368
+[1] 0.01618122
+(Intercept) 
+ 0.02259368 
+[1] "Iteration number: 26"
+[1] "pos"
+[1] 0.2339448 0.7636562
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02258368
+[1] 0.01598381
+[1] 0.02258368
+[1] 0.1967327 0.7818796
+[1] "cutoff"
+[1] 0.1
+[1] 0.1967327 0.7818796
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9920211
+A hal9001 formula object of the form: ~ h(.)[1] 0.02261061
+[1] 0.01598753
+(Intercept) 
+ 0.02261061 
+[1] "Iteration number: 27"
+[1] "pos"
+[1] 0.2326721 0.7578999
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02283483
+[1] 0.01598319
+[1] 0.02283483
+[1] 0.1920376 0.7354836
+[1] "cutoff"
+[1] 0.1
+[1] 0.1920376 0.7354836
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001289
+A hal9001 formula object of the form: ~ h(.)[1] 0.02295951
+[1] 0.01614792
+(Intercept) 
+ 0.02295951 
+[1] "Iteration number: 28"
+[1] "pos"
+[1] 0.2376170 0.7642223
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279395
+[1] 0.01628265
+[1] 0.02279395
+[1] 0.1877448 0.7477740
+[1] "cutoff"
+[1] 0.1
+[1] 0.1877448 0.7477740
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018696
+A hal9001 formula object of the form: ~ h(.)[1] 0.02249779
+[1] 0.01591644
+(Intercept) 
+ 0.02249779 
+[1] "Iteration number: 29"
+[1] "pos"
+[1] 0.2372005 0.7609245
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233453
+[1] 0.01570825
+[1] 0.02233453
+[1] 0.1818866 0.7685755
+[1] "cutoff"
+[1] 0.1
+[1] 0.1818866 0.7685755
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.013579
+A hal9001 formula object of the form: ~ h(.)[1] 0.02233188
+[1] 0.01562624
+(Intercept) 
+ 0.02233188 
+[1] "Iteration number: 30"
+[1] "pos"
+[1] 0.2363749 0.7584386
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02218258
+[1] 0.01540069
+[1] 0.02218258
+[1] 0.2013331 0.7693524
+[1] "cutoff"
+[1] 0.1
+[1] 0.2013331 0.7693524
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9920268
+A hal9001 formula object of the form: ~ h(.)[1] 0.02222978
+[1] 0.0153514
+(Intercept) 
+ 0.02222978 
+[1] "Iteration number: 31"
+[1] "pos"
+[1] 0.2339299 0.7499003
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266099
+[1] 0.01597445
+[1] 0.02266099
+[1] 0.1744028 0.7366233
+[1] "cutoff"
+[1] 0.1
+[1] 0.1744028 0.7366233
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.027468
+A hal9001 formula object of the form: ~ h(.)[1] 0.02256755
+[1] 0.01603591
+(Intercept) 
+ 0.02256755 
+[1] "Iteration number: 32"
+[1] "pos"
+[1] 0.2387022 0.7485168
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02202824
+[1] 0.01545778
+[1] 0.02202824
+[1] 0.1773001 0.7504711
+[1] "cutoff"
+[1] 0.1
+[1] 0.1773001 0.7504711
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.019283
+A hal9001 formula object of the form: ~ h(.)[1] 0.02207021
+[1] 0.01527369
+(Intercept) 
+ 0.02207021 
+[1] "Iteration number: 33"
+[1] "pos"
+[1] 0.2389846 0.7614010
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02286513
+[1] 0.01614394
+[1] 0.02286513
+[1] 0.2323017 0.7642623
+[1] "cutoff"
+[1] 0.1
+[1] 0.2323017 0.7642623
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.036346
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260307
+[1] 0.01609144
+(Intercept) 
+ 0.02260307 
+[1] "Iteration number: 34"
+[1] "pos"
+[1] 0.2355548 0.7520522
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02292491
+[1] 0.01597418
+[1] 0.02292491
+[1] 0.1628448 0.7742752
+[1] "cutoff"
+[1] 0.1
+[1] 0.1628448 0.7742752
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9998629
+A hal9001 formula object of the form: ~ h(.)[1] 0.02262583
+[1] 0.01588287
+(Intercept) 
+ 0.02262583 
+[1] "Iteration number: 35"
+[1] "pos"
+[1] 0.2381258 0.7592515
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02277155
+[1] 0.01612464
+[1] 0.02277155
+[1] 0.2117852 0.7693529
+[1] "cutoff"
+[1] 0.1
+[1] 0.2117852 0.7693529
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9799814
+A hal9001 formula object of the form: ~ h(.)[1] 0.02271602
+[1] 0.01611089
+(Intercept) 
+ 0.02271602 
+[1] "Iteration number: 36"
+[1] "pos"
+[1] 0.2340886 0.7574884
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02280511
+[1] 0.01603266
+[1] 0.02280511
+[1] 0.1992809 0.7808252
+[1] "cutoff"
+[1] 0.1
+[1] 0.1992809 0.7808252
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021398
+A hal9001 formula object of the form: ~ h(.)[1] 0.02287561
+[1] 0.01608332
+(Intercept) 
+ 0.02287561 
+[1] "Iteration number: 37"
+[1] "pos"
+[1] 0.2385246 0.7470513
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02263324
+[1] 0.0160325
+[1] 0.02263324
+[1] 0.2104607 0.7554957
+[1] "cutoff"
+[1] 0.1
+[1] 0.2104607 0.7554957
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000024
+A hal9001 formula object of the form: ~ h(.)[1] 0.02261203
+[1] 0.01614205
+(Intercept) 
+ 0.02261203 
+[1] "Iteration number: 38"
+[1] "pos"
+[1] 0.2398355 0.7599122
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0223666
+[1] 0.01600823
+[1] 0.0223666
+[1] 0.2485437 0.7056127
+[1] "cutoff"
+[1] 0.1
+[1] 0.2485437 0.7056127
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.988028
+A hal9001 formula object of the form: ~ h(.)[1] 0.02248323
+[1] 0.0161107
+(Intercept) 
+ 0.02248323 
+[1] "Iteration number: 39"
+[1] "pos"
+[1] 0.2344441 0.7638079
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02223207
+[1] 0.01537544
+[1] 0.02223207
+[1] 0.2477667 0.7384909
+[1] "cutoff"
+[1] 0.1
+[1] 0.2477667 0.7384909
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9857745
+A hal9001 formula object of the form: ~ h(.)[1] 0.02221428
+[1] 0.01542806
+(Intercept) 
+ 0.02221428 
+[1] "Iteration number: 40"
+[1] "pos"
+[1] 0.2369039 0.7500525
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02245374
+[1] 0.01540255
+[1] 0.02245374
+[1] 0.2203419 0.7644883
+[1] "cutoff"
+[1] 0.1
+[1] 0.2203419 0.7644883
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001973
+A hal9001 formula object of the form: ~ h(.)[1] 0.02228451
+[1] 0.01538382
+(Intercept) 
+ 0.02228451 
+[1] "Iteration number: 41"
+[1] "pos"
+[1] 0.2327022 0.7639840
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264075
+[1] 0.01599074
+[1] 0.02264075
+[1] 0.1756747 0.7465770
+[1] "cutoff"
+[1] 0.1
+[1] 0.1756747 0.7465770
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9927589
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276527
+[1] 0.01605188
+(Intercept) 
+ 0.02276527 
+[1] "Iteration number: 42"
+[1] "pos"
+[1] 0.2367425 0.7504116
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02258091
+[1] 0.01609512
+[1] 0.02258091
+[1] 0.1240681 0.7999334
+[1] "cutoff"
+[1] 0.1
+[1] 0.1240681 0.7999334
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9981747
+A hal9001 formula object of the form: ~ h(.)[1] 0.02247117
+[1] 0.01600239
+(Intercept) 
+ 0.02247117 
+[1] "Iteration number: 43"
+[1] "pos"
+[1] 0.2428555 0.7566175
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02274643
+[1] 0.0159047
+[1] 0.02274643
+[1] 0.1792833 0.7936629
+[1] "cutoff"
+[1] 0.1
+[1] 0.1792833 0.7936629
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.023188
+A hal9001 formula object of the form: ~ h(.)[1] 0.02258599
+[1] 0.01594537
+(Intercept) 
+ 0.02258599 
+[1] "Iteration number: 44"
+[1] "pos"
+[1] 0.2381228 0.7574087
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269304
+[1] 0.01598572
+[1] 0.02269304
+[1] 0.2518313 0.7392646
+[1] "cutoff"
+[1] 0.1
+[1] 0.2518313 0.7392646
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9866278
+A hal9001 formula object of the form: ~ h(.)[1] 0.02267252
+[1] 0.01607801
+(Intercept) 
+ 0.02267252 
+[1] "Iteration number: 45"
+[1] "pos"
+[1] 0.2322095 0.7642128
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260591
+[1] 0.01579405
+[1] 0.02260591
+[1] 0.1701313 0.7564313
+[1] "cutoff"
+[1] 0.1
+[1] 0.1701313 0.7564313
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9793329
+A hal9001 formula object of the form: ~ h(.)[1] 0.02252785
+[1] 0.01573536
+(Intercept) 
+ 0.02252785 
+[1] "Iteration number: 46"
+[1] "pos"
+[1] 0.2413914 0.7620634
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02201147
+[1] 0.01581874
+[1] 0.02201147
+[1] 0.1980202 0.7805885
+[1] "cutoff"
+[1] 0.1
+[1] 0.1980202 0.7805885
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.024866
+A hal9001 formula object of the form: ~ h(.)[1] 0.02207419
+[1] 0.01568625
+(Intercept) 
+ 0.02207419 
+[1] "Iteration number: 47"
+[1] "pos"
+[1] 0.2359553 0.7477174
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02232424
+[1] 0.01568014
+[1] 0.02232424
+[1] 0.1697924 0.7414161
+[1] "cutoff"
+[1] 0.1
+[1] 0.1697924 0.7414161
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011012
+A hal9001 formula object of the form: ~ h(.)[1] 0.02199456
+[1] 0.01547924
+(Intercept) 
+ 0.02199456 
+[1] "Iteration number: 48"
+[1] "pos"
+[1] 0.2384075 0.7579874
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260937
+[1] 0.01582763
+[1] 0.02260937
+[1] 0.1942699 0.7537087
+[1] "cutoff"
+[1] 0.1
+[1] 0.1942699 0.7537087
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9839215
+A hal9001 formula object of the form: ~ h(.)[1] 0.02259813
+[1] 0.01576514
+(Intercept) 
+ 0.02259813 
+[1] "Iteration number: 49"
+[1] "pos"
+[1] 0.2427710 0.7496169
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02294339
+[1] 0.01612185
+[1] 0.02294339
+[1] 0.1891052 0.7335782
+[1] "cutoff"
+[1] 0.1
+[1] 0.1891052 0.7335782
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.017562
+A hal9001 formula object of the form: ~ h(.)[1] 0.02286634
+[1] 0.01620513
+(Intercept) 
+ 0.02286634 
+[1] "Iteration number: 50"
+[1] "pos"
+[1] 0.2385187 0.7673708
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279613
+[1] 0.01582303
+[1] 0.02279613
+[1] 0.1640323 0.7514503
+[1] "cutoff"
+[1] 0.1
+[1] 0.1640323 0.7514503
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9861353
+A hal9001 formula object of the form: ~ h(.)[1] 0.02266493
+[1] 0.01578267
+(Intercept) 
+ 0.02266493 
+[1] "Iteration number: 51"
+[1] "pos"
+[1] 0.2365088 0.7573772
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266338
+[1] 0.01574843
+[1] 0.02266338
+[1] 0.1988457 0.8203263
+[1] "cutoff"
+[1] 0.1
+[1] 0.1988457 0.8203263
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.00271
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257888
+[1] 0.0155471
+(Intercept) 
+ 0.02257888 
+[1] "Iteration number: 52"
+[1] "pos"
+[1] 0.2393568 0.7637918
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252294
+[1] 0.0162502
+[1] 0.02252294
+[1] 0.2415554 0.7211409
+[1] "cutoff"
+[1] 0.1
+[1] 0.2415554 0.7211409
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9861685
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263719
+[1] 0.01613832
+(Intercept) 
+ 0.02263719 
+[1] "Iteration number: 53"
+[1] "pos"
+[1] 0.2364440 0.7600378
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02265017
+[1] 0.01589616
+[1] 0.02265017
+[1] 0.2222840 0.7882983
+[1] "cutoff"
+[1] 0.1
+[1] 0.2222840 0.7882983
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.99746
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260881
+[1] 0.01580972
+(Intercept) 
+ 0.02260881 
+[1] "Iteration number: 54"
+[1] "pos"
+[1] 0.2369201 0.7560462
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02255033
+[1] 0.01573031
+[1] 0.02255033
+[1] 0.1519981 0.7350945
+[1] "cutoff"
+[1] 0.1
+[1] 0.1519981 0.7350945
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9973694
+A hal9001 formula object of the form: ~ h(.)[1] 0.0224353
+[1] 0.01570449
+(Intercept) 
+  0.0224353 
+[1] "Iteration number: 55"
+[1] "pos"
+[1] 0.2420688 0.7659493
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02274438
+[1] 0.01608759
+[1] 0.02274438
+[1] 0.1961350 0.7413565
+[1] "cutoff"
+[1] 0.1
+[1] 0.1961350 0.7413565
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9839653
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225077
+[1] 0.01611467
+(Intercept) 
+  0.0225077 
+[1] "Iteration number: 56"
+[1] "pos"
+[1] 0.2344594 0.7600970
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269548
+[1] 0.0155277
+[1] 0.02269548
+[1] 0.1939949 0.8075468
+[1] "cutoff"
+[1] 0.1
+[1] 0.1939949 0.8075468
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.01921
+A hal9001 formula object of the form: ~ h(.)[1] 0.02269655
+[1] 0.01567706
+(Intercept) 
+ 0.02269655 
+[1] "Iteration number: 57"
+[1] "pos"
+[1] 0.2348173 0.7603751
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02290858
+[1] 0.01570364
+[1] 0.02290858
+[1] 0.1855966 0.7725330
+[1] "cutoff"
+[1] 0.1
+[1] 0.1855966 0.7725330
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9764031
+A hal9001 formula object of the form: ~ h(.)[1] 0.0227553
+[1] 0.01570612
+(Intercept) 
+  0.0227553 
+[1] "Iteration number: 58"
+[1] "pos"
+[1] 0.2399256 0.7665285
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269079
+[1] 0.01595715
+[1] 0.02269079
+[1] 0.1970769 0.7498090
+[1] "cutoff"
+[1] 0.1
+[1] 0.1970769 0.7498090
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9702303
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263814
+[1] 0.01577788
+(Intercept) 
+ 0.02263814 
+[1] "Iteration number: 59"
+[1] "pos"
+[1] 0.2397537 0.7622837
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02342062
+[1] 0.0167143
+[1] 0.02342062
+[1] 0.1560623 0.7114471
+[1] "cutoff"
+[1] 0.1
+[1] 0.1560623 0.7114471
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021677
+A hal9001 formula object of the form: ~ h(.)[1] 0.0233951
+[1] 0.01680208
+(Intercept) 
+  0.0233951 
+[1] "Iteration number: 60"
+[1] "pos"
+[1] 0.2376661 0.7617238
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02321241
+[1] 0.01624198
+[1] 0.02321241
+[1] 0.1609257 0.7793322
+[1] "cutoff"
+[1] 0.1
+[1] 0.1609257 0.7793322
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9935212
+A hal9001 formula object of the form: ~ h(.)[1] 0.02312019
+[1] 0.01626746
+(Intercept) 
+ 0.02312019 
+[1] "Iteration number: 61"
+[1] "pos"
+[1] 0.2353903 0.7632165
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02292433
+[1] 0.01608881
+[1] 0.02292433
+[1] 0.1964661 0.7397263
+[1] "cutoff"
+[1] 0.1
+[1] 0.1964661 0.7397263
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.00276
+A hal9001 formula object of the form: ~ h(.)[1] 0.02281033
+[1] 0.01610416
+(Intercept) 
+ 0.02281033 
+[1] "Iteration number: 62"
+[1] "pos"
+[1] 0.2455546 0.7584086
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02231969
+[1] 0.01585121
+[1] 0.02231969
+[1] 0.1813123 0.7980208
+[1] "cutoff"
+[1] 0.1
+[1] 0.1813123 0.7980208
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.038562
+A hal9001 formula object of the form: ~ h(.)[1] 0.02225632
+[1] 0.0158598
+(Intercept) 
+ 0.02225632 
+[1] "Iteration number: 63"
+[1] "pos"
+[1] 0.2331044 0.7599384
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02257337
+[1] 0.01612162
+[1] 0.02257337
+[1] 0.1386047 0.7935002
+[1] "cutoff"
+[1] 0.1
+[1] 0.1386047 0.7935002
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.032907
+A hal9001 formula object of the form: ~ h(.)[1] 0.0224731
+[1] 0.01585353
+(Intercept) 
+  0.0224731 
+[1] "Iteration number: 64"
+[1] "pos"
+[1] 0.2335223 0.7525355
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02217696
+[1] 0.01550504
+[1] 0.02217696
+[1] 0.2454703 0.7607820
+[1] "cutoff"
+[1] 0.1
+[1] 0.2454703 0.7607820
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9964193
+A hal9001 formula object of the form: ~ h(.)[1] 0.02189384
+[1] 0.01536991
+(Intercept) 
+ 0.02189384 
+[1] "Iteration number: 65"
+[1] "pos"
+[1] 0.2378267 0.7627510
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271288
+[1] 0.01605342
+[1] 0.02271288
+[1] 0.2361100 0.7666942
+[1] "cutoff"
+[1] 0.1
+[1] 0.2361100 0.7666942
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9863259
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260932
+[1] 0.01616262
+(Intercept) 
+ 0.02260932 
+[1] "Iteration number: 66"
+[1] "pos"
+[1] 0.2420287 0.7529222
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0229122
+[1] 0.01587365
+[1] 0.0229122
+[1] 0.1816483 0.7578664
+[1] "cutoff"
+[1] 0.1
+[1] 0.1816483 0.7578664
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9677487
+A hal9001 formula object of the form: ~ h(.)[1] 0.02300315
+[1] 0.01606018
+(Intercept) 
+ 0.02300315 
+[1] "Iteration number: 67"
+[1] "pos"
+[1] 0.2392217 0.7504321
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02189014
+[1] 0.01529029
+[1] 0.02189014
+[1] 0.1839177 0.7312324
+[1] "cutoff"
+[1] 0.1
+[1] 0.1839177 0.7312324
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9823414
+A hal9001 formula object of the form: ~ h(.)[1] 0.02172833
+[1] 0.0151913
+(Intercept) 
+ 0.02172833 
+[1] "Iteration number: 68"
+[1] "pos"
+[1] 0.2346653 0.7507669
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02230118
+[1] 0.01603825
+[1] 0.02230118
+[1] 0.1756793 0.7335352
+[1] "cutoff"
+[1] 0.1
+[1] 0.1756793 0.7335352
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.019622
+A hal9001 formula object of the form: ~ h(.)[1] 0.02251477
+[1] 0.01593027
+(Intercept) 
+ 0.02251477 
+[1] "Iteration number: 69"
+[1] "pos"
+[1] 0.2431841 0.7588394
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02319363
+[1] 0.0159661
+[1] 0.02319363
+[1] 0.1059616 0.8046343
+[1] "cutoff"
+[1] 0.1
+[1] 0.1059616 0.8046343
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009821
+A hal9001 formula object of the form: ~ h(.)[1] 0.02307309
+[1] 0.01609573
+(Intercept) 
+ 0.02307309 
+[1] "Iteration number: 70"
+[1] "pos"
+[1] 0.2424327 0.7608353
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02249048
+[1] 0.01578071
+[1] 0.02249048
+[1] 0.2097006 0.7477928
+[1] "cutoff"
+[1] 0.1
+[1] 0.2097006 0.7477928
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.015202
+A hal9001 formula object of the form: ~ h(.)[1] 0.02232306
+[1] 0.01561344
+(Intercept) 
+ 0.02232306 
+[1] "Iteration number: 71"
+[1] "pos"
+[1] 0.2362489 0.7598147
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02214275
+[1] 0.01552732
+[1] 0.02214275
+[1] 0.1432112 0.7721838
+[1] "cutoff"
+[1] 0.1
+[1] 0.1432112 0.7721838
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9882241
+A hal9001 formula object of the form: ~ h(.)[1] 0.02216195
+[1] 0.01540393
+(Intercept) 
+ 0.02216195 
+[1] "Iteration number: 72"
+[1] "pos"
+[1] 0.2352410 0.7531127
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02244135
+[1] 0.01601371
+[1] 0.02244135
+[1] 0.1986577 0.7598499
+[1] "cutoff"
+[1] 0.1
+[1] 0.1986577 0.7598499
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.036969
+A hal9001 formula object of the form: ~ h(.)[1] 0.02232298
+[1] 0.01578593
+(Intercept) 
+ 0.02232298 
+[1] "Iteration number: 73"
+[1] "pos"
+[1] 0.2393073 0.7581909
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02255499
+[1] 0.01559536
+[1] 0.02255499
+[1] 0.2213627 0.7479399
+[1] "cutoff"
+[1] 0.1
+[1] 0.2213627 0.7479399
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9963257
+A hal9001 formula object of the form: ~ h(.)[1] 0.02240966
+[1] 0.01551518
+(Intercept) 
+ 0.02240966 
+[1] "Iteration number: 74"
+[1] "pos"
+[1] 0.2396592 0.7575973
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02291225
+[1] 0.01587427
+[1] 0.02291225
+[1] 0.1682611 0.7700629
+[1] "cutoff"
+[1] 0.1
+[1] 0.1682611 0.7700629
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9878582
+A hal9001 formula object of the form: ~ h(.)[1] 0.02285275
+[1] 0.01576471
+(Intercept) 
+ 0.02285275 
+[1] "Iteration number: 75"
+[1] "pos"
+[1] 0.2388913 0.7609208
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02261756
+[1] 0.01625145
+[1] 0.02261756
+[1] 0.1925846 0.7566178
+[1] "cutoff"
+[1] 0.1
+[1] 0.1925846 0.7566178
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9963048
+A hal9001 formula object of the form: ~ h(.)[1] 0.02255785
+[1] 0.01632625
+(Intercept) 
+ 0.02255785 
+[1] "Iteration number: 76"
+[1] "pos"
+[1] 0.2372063 0.7555180
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02257412
+[1] 0.01592877
+[1] 0.02257412
+[1] 0.1836640 0.8169946
+[1] "cutoff"
+[1] 0.1
+[1] 0.1836640 0.8169946
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9971984
+A hal9001 formula object of the form: ~ h(.)[1] 0.02254692
+[1] 0.01589663
+(Intercept) 
+ 0.02254692 
+[1] "Iteration number: 77"
+[1] "pos"
+[1] 0.2354138 0.7566047
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0229364
+[1] 0.01655889
+[1] 0.0229364
+[1] 0.2252915 0.7461270
+[1] "cutoff"
+[1] 0.1
+[1] 0.2252915 0.7461270
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000297
+A hal9001 formula object of the form: ~ h(.)[1] 0.0228122
+[1] 0.01651441
+(Intercept) 
+  0.0228122 
+[1] "Iteration number: 78"
+[1] "pos"
+[1] 0.2346797 0.7551710
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02268112
+[1] 0.0157915
+[1] 0.02268112
+[1] 0.1639489 0.7695226
+[1] "cutoff"
+[1] 0.1
+[1] 0.1639489 0.7695226
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9863591
+A hal9001 formula object of the form: ~ h(.)[1] 0.02264765
+[1] 0.01586305
+(Intercept) 
+ 0.02264765 
+[1] "Iteration number: 79"
+[1] "pos"
+[1] 0.2378509 0.7594655
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02255907
+[1] 0.01572791
+[1] 0.02255907
+[1] 0.1861911 0.7275266
+[1] "cutoff"
+[1] 0.1
+[1] 0.1861911 0.7275266
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.014222
+A hal9001 formula object of the form: ~ h(.)[1] 0.02229733
+[1] 0.01542823
+(Intercept) 
+ 0.02229733 
+[1] "Iteration number: 80"
+[1] "pos"
+[1] 0.2343188 0.7571489
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02245841
+[1] 0.01592552
+[1] 0.02245841
+[1] 0.1829389 0.7356302
+[1] "cutoff"
+[1] 0.1
+[1] 0.1829389 0.7356302
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9825668
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241498
+[1] 0.01596036
+(Intercept) 
+ 0.02241498 
+[1] "Iteration number: 81"
+[1] "pos"
+[1] 0.2356585 0.7594624
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02265596
+[1] 0.01624591
+[1] 0.02265596
+[1] 0.1906197 0.7483525
+[1] "cutoff"
+[1] 0.1
+[1] 0.1906197 0.7483525
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006922
+A hal9001 formula object of the form: ~ h(.)[1] 0.02264387
+[1] 0.01608887
+(Intercept) 
+ 0.02264387 
+[1] "Iteration number: 82"
+[1] "pos"
+[1] 0.2331911 0.7639044
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264824
+[1] 0.01617317
+[1] 0.02264824
+[1] 0.2675865 0.7220884
+[1] "cutoff"
+[1] 0.1
+[1] 0.2675865 0.7220884
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9875232
+A hal9001 formula object of the form: ~ h(.)[1] 0.02274199
+[1] 0.01628697
+(Intercept) 
+ 0.02274199 
+[1] "Iteration number: 83"
+[1] "pos"
+[1] 0.2412930 0.7481829
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02287746
+[1] 0.01626956
+[1] 0.02287746
+[1] 0.1625108 0.8227514
+[1] "cutoff"
+[1] 0.1
+[1] 0.1625108 0.8227514
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9756842
+A hal9001 formula object of the form: ~ h(.)[1] 0.02290495
+[1] 0.01640099
+(Intercept) 
+ 0.02290495 
+[1] "Iteration number: 84"
+[1] "pos"
+[1] 0.2332474 0.7618376
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.023348
+[1] 0.0166384
+[1] 0.023348
+[1] 0.1509318 0.7991745
+[1] "cutoff"
+[1] 0.1
+[1] 0.1509318 0.7991745
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9823181
+A hal9001 formula object of the form: ~ h(.)[1] 0.02317842
+[1] 0.01641167
+(Intercept) 
+ 0.02317842 
+[1] "Iteration number: 85"
+[1] "pos"
+[1] 0.2365524 0.7640976
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02232272
+[1] 0.01580453
+[1] 0.02232272
+[1] 0.2455462 0.7565252
+[1] "cutoff"
+[1] 0.1
+[1] 0.2455462 0.7565252
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9710418
+A hal9001 formula object of the form: ~ h(.)[1] 0.02222928
+[1] 0.0155832
+(Intercept) 
+ 0.02222928 
+[1] "Iteration number: 86"
+[1] "pos"
+[1] 0.2374849 0.7486313
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02273
+[1] 0.01620998
+[1] 0.02273
+[1] 0.2164881 0.7786109
+[1] "cutoff"
+[1] 0.1
+[1] 0.2164881 0.7786109
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.047452
+A hal9001 formula object of the form: ~ h(.)[1] 0.02269727
+[1] 0.01635264
+(Intercept) 
+ 0.02269727 
+[1] "Iteration number: 87"
+[1] "pos"
+[1] 0.2377775 0.7542666
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02283016
+[1] 0.01666359
+[1] 0.02283016
+[1] 0.1716234 0.7495044
+[1] "cutoff"
+[1] 0.1
+[1] 0.1716234 0.7495044
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011769
+A hal9001 formula object of the form: ~ h(.)[1] 0.02266792
+[1] 0.01629863
+(Intercept) 
+ 0.02266792 
+[1] "Iteration number: 88"
+[1] "pos"
+[1] 0.2360826 0.7550532
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02251363
+[1] 0.01646871
+[1] 0.02251363
+[1] 0.1915088 0.7682590
+[1] "cutoff"
+[1] 0.1
+[1] 0.1915088 0.7682590
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009453
+A hal9001 formula object of the form: ~ h(.)[1] 0.02253673
+[1] 0.01604448
+(Intercept) 
+ 0.02253673 
+[1] "Iteration number: 89"
+[1] "pos"
+[1] 0.2381806 0.7601925
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0226078
+[1] 0.01584361
+[1] 0.0226078
+[1] 0.2207600 0.7403267
+[1] "cutoff"
+[1] 0.1
+[1] 0.2207600 0.7403267
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9905237
+A hal9001 formula object of the form: ~ h(.)[1] 0.02248512
+[1] 0.0157797
+(Intercept) 
+ 0.02248512 
+[1] "Iteration number: 90"
+[1] "pos"
+[1] 0.2357128 0.7597323
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02283701
+[1] 0.01592275
+[1] 0.02283701
+[1] 0.1566883 0.7623690
+[1] "cutoff"
+[1] 0.1
+[1] 0.1566883 0.7623690
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9785633
+A hal9001 formula object of the form: ~ h(.)[1] 0.02278098
+[1] 0.01606396
+(Intercept) 
+ 0.02278098 
+[1] "Iteration number: 91"
+[1] "pos"
+[1] 0.2348153 0.7399098
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02231656
+[1] 0.0156633
+[1] 0.02231656
+[1] 0.1852308 0.7648884
+[1] "cutoff"
+[1] 0.1
+[1] 0.1852308 0.7648884
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.962971
+A hal9001 formula object of the form: ~ h(.)[1] 0.02234737
+[1] 0.01578487
+(Intercept) 
+ 0.02234737 
+[1] "Iteration number: 92"
+[1] "pos"
+[1] 0.2369437 0.7619882
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02268058
+[1] 0.01646245
+[1] 0.02268058
+[1] 0.1552239 0.8392040
+[1] "cutoff"
+[1] 0.1
+[1] 0.1552239 0.8392040
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9993582
+A hal9001 formula object of the form: ~ h(.)[1] 0.02277008
+[1] 0.01627936
+(Intercept) 
+ 0.02277008 
+[1] "Iteration number: 93"
+[1] "pos"
+[1] 0.2420705 0.7580614
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0230196
+[1] 0.01621942
+[1] 0.0230196
+[1] 0.1690051 0.7685179
+[1] "cutoff"
+[1] 0.1
+[1] 0.1690051 0.7685179
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9848212
+A hal9001 formula object of the form: ~ h(.)[1] 0.0229068
+[1] 0.01618951
+(Intercept) 
+  0.0229068 
+[1] "Iteration number: 94"
+[1] "pos"
+[1] 0.2401408 0.7566221
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0225155
+[1] 0.0158861
+[1] 0.0225155
+[1] 0.1967754 0.7228126
+[1] "cutoff"
+[1] 0.1
+[1] 0.1967754 0.7228126
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9664548
+A hal9001 formula object of the form: ~ h(.)[1] 0.02244763
+[1] 0.01581718
+(Intercept) 
+ 0.02244763 
+[1] "Iteration number: 95"
+[1] "pos"
+[1] 0.2372664 0.7571860
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233286
+[1] 0.01540876
+[1] 0.02233286
+[1] 0.1786643 0.7692723
+[1] "cutoff"
+[1] 0.1
+[1] 0.1786643 0.7692723
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006087
+A hal9001 formula object of the form: ~ h(.)[1] 0.02229078
+[1] 0.0153336
+(Intercept) 
+ 0.02229078 
+[1] "Iteration number: 96"
+[1] "pos"
+[1] 0.2377744 0.7441255
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02256663
+[1] 0.01609874
+[1] 0.02256663
+[1] 0.1769066 0.7650441
+[1] "cutoff"
+[1] 0.1
+[1] 0.1769066 0.7650441
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9878113
+A hal9001 formula object of the form: ~ h(.)[1] 0.02249718
+[1] 0.0160352
+(Intercept) 
+ 0.02249718 
+[1] "Iteration number: 97"
+[1] "pos"
+[1] 0.2333411 0.7667091
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02296826
+[1] 0.01641306
+[1] 0.02296826
+[1] 0.1673497 0.8014233
+[1] "cutoff"
+[1] 0.1
+[1] 0.1673497 0.8014233
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9742059
+A hal9001 formula object of the form: ~ h(.)[1] 0.02306145
+[1] 0.01649885
+(Intercept) 
+ 0.02306145 
+[1] "Iteration number: 98"
+[1] "pos"
+[1] 0.2347268 0.7521893
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0221987
+[1] 0.01553622
+[1] 0.0221987
+[1] 0.2136441 0.7862415
+[1] "cutoff"
+[1] 0.1
+[1] 0.2136441 0.7862415
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.03211
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241995
+[1] 0.01577702
+(Intercept) 
+ 0.02241995 
+[1] "Iteration number: 99"
+[1] "pos"
+[1] 0.2348066 0.7618269
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02292007
+[1] 0.01601615
+[1] 0.02292007
+[1] 0.2004113 0.7845424
+[1] "cutoff"
+[1] 0.1
+[1] 0.2004113 0.7845424
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9943759
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225212
+[1] 0.01597851
+(Intercept) 
+  0.0225212 
+[1] "Iteration number: 100"
+[1] "pos"
+[1] 0.2367449 0.7620625
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252749
+[1] 0.01569904
+[1] 0.02252749
+[1] 0.2183496 0.7305090
+[1] "cutoff"
+[1] 0.1
+[1] 0.2183496 0.7305090
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.016275
+A hal9001 formula object of the form: ~ h(.)[1] 0.02256385
+[1] 0.01574006
+(Intercept) 
+ 0.02256385 
+[1] "Iteration number: 101"
+[1] "pos"
+[1] 0.2335696 0.7667927
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233388
+[1] 0.01569375
+[1] 0.02233388
+[1] 0.2086593 0.8280472
+[1] "cutoff"
+[1] 0.1
+[1] 0.2086593 0.8280472
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.980746
+A hal9001 formula object of the form: ~ h(.)[1] 0.02231483
+[1] 0.0157222
+(Intercept) 
+ 0.02231483 
+[1] "Iteration number: 102"
+[1] "pos"
+[1] 0.2382809 0.7540644
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252103
+[1] 0.01604948
+[1] 0.02252103
+[1] 0.1931142 0.7945351
+[1] "cutoff"
+[1] 0.1
+[1] 0.1931142 0.7945351
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.005533
+A hal9001 formula object of the form: ~ h(.)[1] 0.02238473
+[1] 0.01594245
+(Intercept) 
+ 0.02238473 
+[1] "Iteration number: 103"
+[1] "pos"
+[1] 0.2346027 0.7620104
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0224988
+[1] 0.01592622
+[1] 0.0224988
+[1] 0.1548901 0.7482634
+[1] "cutoff"
+[1] 0.1
+[1] 0.1548901 0.7482634
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.027366
+A hal9001 formula object of the form: ~ h(.)[1] 0.02244758
+[1] 0.01587593
+(Intercept) 
+ 0.02244758 
+[1] "Iteration number: 104"
+[1] "pos"
+[1] 0.2352423 0.7601389
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271974
+[1] 0.01608957
+[1] 0.02271974
+[1] 0.2217989 0.8203384
+[1] "cutoff"
+[1] 0.1
+[1] 0.2217989 0.8203384
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9909442
+A hal9001 formula object of the form: ~ h(.)[1] 0.02272473
+[1] 0.01620802
+(Intercept) 
+ 0.02272473 
+[1] "Iteration number: 105"
+[1] "pos"
+[1] 0.2434643 0.7405745
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02299667
+[1] 0.01638941
+[1] 0.02299667
+[1] 0.1707916 0.7915214
+[1] "cutoff"
+[1] 0.1
+[1] 0.1707916 0.7915214
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.032028
+A hal9001 formula object of the form: ~ h(.)[1] 0.02284428
+[1] 0.01617833
+(Intercept) 
+ 0.02284428 
+[1] "Iteration number: 106"
+[1] "pos"
+[1] 0.238519 0.761960
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0224728
+[1] 0.01577777
+[1] 0.0224728
+[1] 0.1905588 0.7148833
+[1] "cutoff"
+[1] 0.1
+[1] 0.1905588 0.7148833
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006641
+A hal9001 formula object of the form: ~ h(.)[1] 0.02246978
+[1] 0.01585104
+(Intercept) 
+ 0.02246978 
+[1] "Iteration number: 107"
+[1] "pos"
+[1] 0.2367028 0.7665958
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02241262
+[1] 0.0155164
+[1] 0.02241262
+[1] 0.1720773 0.7433323
+[1] "cutoff"
+[1] 0.1
+[1] 0.1720773 0.7433323
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021169
+A hal9001 formula object of the form: ~ h(.)[1] 0.02236285
+[1] 0.01552243
+(Intercept) 
+ 0.02236285 
+[1] "Iteration number: 108"
+[1] "pos"
+[1] 0.2386737 0.7552503
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02235398
+[1] 0.01605073
+[1] 0.02235398
+[1] 0.1925688 0.7704282
+[1] "cutoff"
+[1] 0.1
+[1] 0.1925688 0.7704282
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.032566
+A hal9001 formula object of the form: ~ h(.)[1] 0.02219479
+[1] 0.01574682
+(Intercept) 
+ 0.02219479 
+[1] "Iteration number: 109"
+[1] "pos"
+[1] 0.2361731 0.7608818
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252096
+[1] 0.01625232
+[1] 0.02252096
+[1] 0.2322834 0.7896602
+[1] "cutoff"
+[1] 0.1
+[1] 0.2322834 0.7896602
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9703382
+A hal9001 formula object of the form: ~ h(.)[1] 0.02252408
+[1] 0.0161353
+(Intercept) 
+ 0.02252408 
+[1] "Iteration number: 110"
+[1] "pos"
+[1] 0.2375233 0.7582328
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02245056
+[1] 0.01592541
+[1] 0.02245056
+[1] 0.1579085 0.7699594
+[1] "cutoff"
+[1] 0.1
+[1] 0.1579085 0.7699594
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.005978
+A hal9001 formula object of the form: ~ h(.)[1] 0.02255552
+[1] 0.01600985
+(Intercept) 
+ 0.02255552 
+[1] "Iteration number: 111"
+[1] "pos"
+[1] 0.2391233 0.7621127
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02306303
+[1] 0.0162745
+[1] 0.02306303
+[1] 0.1677098 0.7442376
+[1] "cutoff"
+[1] 0.1
+[1] 0.1677098 0.7442376
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9667229
+A hal9001 formula object of the form: ~ h(.)[1] 0.02301835
+[1] 0.0161831
+(Intercept) 
+ 0.02301835 
+[1] "Iteration number: 112"
+[1] "pos"
+[1] 0.2356723 0.7665412
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02325079
+[1] 0.01694163
+[1] 0.02325079
+[1] 0.2184138 0.7937449
+[1] "cutoff"
+[1] 0.1
+[1] 0.2184138 0.7937449
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9963115
+A hal9001 formula object of the form: ~ h(.)[1] 0.02309785
+[1] 0.01680422
+(Intercept) 
+ 0.02309785 
+[1] "Iteration number: 113"
+[1] "pos"
+[1] 0.2347734 0.7585061
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02282456
+[1] 0.01616793
+[1] 0.02282456
+[1] 0.1668237 0.7856712
+[1] "cutoff"
+[1] 0.1
+[1] 0.1668237 0.7856712
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9431478
+A hal9001 formula object of the form: ~ h(.)[1] 0.0227475
+[1] 0.01617521
+(Intercept) 
+  0.0227475 
+[1] "Iteration number: 114"
+[1] "pos"
+[1] 0.2341082 0.7637124
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02275926
+[1] 0.01641694
+[1] 0.02275926
+[1] 0.1704313 0.7789370
+[1] "cutoff"
+[1] 0.1
+[1] 0.1704313 0.7789370
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.003425
+A hal9001 formula object of the form: ~ h(.)[1] 0.02268195
+[1] 0.01601334
+(Intercept) 
+ 0.02268195 
+[1] "Iteration number: 115"
+[1] "pos"
+[1] 0.2368938 0.7541917
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02312641
+[1] 0.01631452
+[1] 0.02312641
+[1] 0.1733123 0.7691601
+[1] "cutoff"
+[1] 0.1
+[1] 0.1733123 0.7691601
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9769492
+A hal9001 formula object of the form: ~ h(.)[1] 0.02293383
+[1] 0.01624252
+(Intercept) 
+ 0.02293383 
+[1] "Iteration number: 116"
+[1] "pos"
+[1] 0.2365441 0.7616639
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02228503
+[1] 0.01589208
+[1] 0.02228503
+[1] 0.0987671 0.8067125
+[1] "cutoff"
+[1] 0.09839357
+[1] 0.0987671 0.8067125
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9879686
+A hal9001 formula object of the form: ~ h(.)[1] 0.02243475
+[1] 0.01550508
+(Intercept) 
+ 0.02243475 
+[1] "Iteration number: 117"
+[1] "pos"
+[1] 0.2369346 0.7543398
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02257631
+[1] 0.01634871
+[1] 0.02257631
+[1] 0.1616433 0.8076545
+[1] "cutoff"
+[1] 0.1
+[1] 0.1616433 0.8076545
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.022974
+A hal9001 formula object of the form: ~ h(.)[1] 0.02259825
+[1] 0.01628097
+(Intercept) 
+ 0.02259825 
+[1] "Iteration number: 118"
+[1] "pos"
+[1] 0.2353322 0.7540048
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02295857
+[1] 0.0161967
+[1] 0.02295857
+[1] 0.1832260 0.7594508
+[1] "cutoff"
+[1] 0.1
+[1] 0.1832260 0.7594508
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9957912
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276408
+[1] 0.01614651
+(Intercept) 
+ 0.02276408 
+[1] "Iteration number: 119"
+[1] "pos"
+[1] 0.2383013 0.7575910
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260182
+[1] 0.01641433
+[1] 0.02260182
+[1] 0.2140410 0.7303811
+[1] "cutoff"
+[1] 0.1
+[1] 0.2140410 0.7303811
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9713573
+A hal9001 formula object of the form: ~ h(.)[1] 0.02245783
+[1] 0.01606994
+(Intercept) 
+ 0.02245783 
+[1] "Iteration number: 120"
+[1] "pos"
+[1] 0.2342463 0.7668467
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02304373
+[1] 0.01622946
+[1] 0.02304373
+[1] 0.2189041 0.8132530
+[1] "cutoff"
+[1] 0.1
+[1] 0.2189041 0.8132530
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9868731
+A hal9001 formula object of the form: ~ h(.)[1] 0.02289001
+[1] 0.01618547
+(Intercept) 
+ 0.02289001 
+[1] "Iteration number: 121"
+[1] "pos"
+[1] 0.2381597 0.7568668
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02251292
+[1] 0.01554773
+[1] 0.02251292
+[1] 0.1742555 0.7205082
+[1] "cutoff"
+[1] 0.1
+[1] 0.1742555 0.7205082
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009474
+A hal9001 formula object of the form: ~ h(.)[1] 0.02242678
+[1] 0.01550035
+(Intercept) 
+ 0.02242678 
+[1] "Iteration number: 122"
+[1] "pos"
+[1] 0.2381738 0.7594946
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02288927
+[1] 0.01622307
+[1] 0.02288927
+[1] 0.2397542 0.7148787
+[1] "cutoff"
+[1] 0.1
+[1] 0.2397542 0.7148787
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9839934
+A hal9001 formula object of the form: ~ h(.)[1] 0.02265804
+[1] 0.01601594
+(Intercept) 
+ 0.02265804 
+[1] "Iteration number: 123"
+[1] "pos"
+[1] 0.2356344 0.7632255
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02285011
+[1] 0.01595893
+[1] 0.02285011
+[1] 0.2110691 0.7335564
+[1] "cutoff"
+[1] 0.1
+[1] 0.2110691 0.7335564
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9823734
+A hal9001 formula object of the form: ~ h(.)[1] 0.02277747
+[1] 0.01583788
+(Intercept) 
+ 0.02277747 
+[1] "Iteration number: 124"
+[1] "pos"
+[1] 0.2406946 0.7522383
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02245114
+[1] 0.01602642
+[1] 0.02245114
+[1] 0.1394317 0.7392364
+[1] "cutoff"
+[1] 0.1
+[1] 0.1394317 0.7392364
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000393
+A hal9001 formula object of the form: ~ h(.)[1] 0.02250081
+[1] 0.01598227
+(Intercept) 
+ 0.02250081 
+[1] "Iteration number: 125"
+[1] "pos"
+[1] 0.2395335 0.7565875
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252323
+[1] 0.01581064
+[1] 0.02252323
+[1] 0.1885642 0.7576802
+[1] "cutoff"
+[1] 0.1
+[1] 0.1885642 0.7576802
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9939386
+A hal9001 formula object of the form: ~ h(.)[1] 0.02267751
+[1] 0.01578776
+(Intercept) 
+ 0.02267751 
+[1] "Iteration number: 126"
+[1] "pos"
+[1] 0.2356706 0.7564424
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02242574
+[1] 0.01544816
+[1] 0.02242574
+[1] 0.2122256 0.8183153
+[1] "cutoff"
+[1] 0.1
+[1] 0.2122256 0.8183153
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.029878
+A hal9001 formula object of the form: ~ h(.)[1] 0.02248315
+[1] 0.0156604
+(Intercept) 
+ 0.02248315 
+[1] "Iteration number: 127"
+[1] "pos"
+[1] 0.2344662 0.7662481
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02275459
+[1] 0.016088
+[1] 0.02275459
+[1] 0.1635527 0.7720803
+[1] "cutoff"
+[1] 0.1
+[1] 0.1635527 0.7720803
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9986787
+A hal9001 formula object of the form: ~ h(.)[1] 0.02266576
+[1] 0.01612406
+(Intercept) 
+ 0.02266576 
+[1] "Iteration number: 128"
+[1] "pos"
+[1] 0.2350747 0.7477353
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02262375
+[1] 0.01590599
+[1] 0.02262375
+[1] 0.1854558 0.7151572
+[1] "cutoff"
+[1] 0.1
+[1] 0.1854558 0.7151572
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.020185
+A hal9001 formula object of the form: ~ h(.)[1] 0.02252696
+[1] 0.01599879
+(Intercept) 
+ 0.02252696 
+[1] "Iteration number: 129"
+[1] "pos"
+[1] 0.2370594 0.7535303
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02277217
+[1] 0.0163128
+[1] 0.02277217
+[1] 0.1975388 0.7103545
+[1] "cutoff"
+[1] 0.1
+[1] 0.1975388 0.7103545
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9599894
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257988
+[1] 0.01605138
+(Intercept) 
+ 0.02257988 
+[1] "Iteration number: 130"
+[1] "pos"
+[1] 0.2333206 0.7584146
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02236221
+[1] 0.01608865
+[1] 0.02236221
+[1] 0.2319328 0.7263086
+[1] "cutoff"
+[1] 0.1
+[1] 0.2319328 0.7263086
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9936944
+A hal9001 formula object of the form: ~ h(.)[1] 0.02235766
+[1] 0.01574199
+(Intercept) 
+ 0.02235766 
+[1] "Iteration number: 131"
+[1] "pos"
+[1] 0.2345417 0.7496753
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269943
+[1] 0.01613659
+[1] 0.02269943
+[1] 0.1807562 0.8002585
+[1] "cutoff"
+[1] 0.1
+[1] 0.1807562 0.8002585
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.045991
+A hal9001 formula object of the form: ~ h(.)[1] 0.02245126
+[1] 0.01588972
+(Intercept) 
+ 0.02245126 
+[1] "Iteration number: 132"
+[1] "pos"
+[1] 0.2359487 0.7530646
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02272645
+[1] 0.01605518
+[1] 0.02272645
+[1] 0.1737895 0.8229261
+[1] "cutoff"
+[1] 0.1
+[1] 0.1737895 0.8229261
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9895884
+A hal9001 formula object of the form: ~ h(.)[1] 0.02256589
+[1] 0.01602784
+(Intercept) 
+ 0.02256589 
+[1] "Iteration number: 133"
+[1] "pos"
+[1] 0.2352330 0.7637037
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02228357
+[1] 0.01525129
+[1] 0.02228357
+[1] 0.2270940 0.7475132
+[1] "cutoff"
+[1] 0.1
+[1] 0.2270940 0.7475132
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021463
+A hal9001 formula object of the form: ~ h(.)[1] 0.02205089
+[1] 0.01513892
+(Intercept) 
+ 0.02205089 
+[1] "Iteration number: 134"
+[1] "pos"
+[1] 0.2329769 0.7565855
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269371
+[1] 0.01599042
+[1] 0.02269371
+[1] 0.1804145 0.7584516
+[1] "cutoff"
+[1] 0.1
+[1] 0.1804145 0.7584516
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9942207
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260732
+[1] 0.01588848
+(Intercept) 
+ 0.02260732 
+[1] "Iteration number: 135"
+[1] "pos"
+[1] 0.236581 0.753438
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271415
+[1] 0.01594149
+[1] 0.02271415
+[1] 0.1834032 0.8124979
+[1] "cutoff"
+[1] 0.1
+[1] 0.1834032 0.8124979
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.039512
+A hal9001 formula object of the form: ~ h(.)[1] 0.02245868
+[1] 0.01576331
+(Intercept) 
+ 0.02245868 
+[1] "Iteration number: 136"
+[1] "pos"
+[1] 0.2351778 0.7603325
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02300692
+[1] 0.01628718
+[1] 0.02300692
+[1] 0.1894354 0.7308713
+[1] "cutoff"
+[1] 0.1
+[1] 0.1894354 0.7308713
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.993395
+A hal9001 formula object of the form: ~ h(.)[1] 0.02304136
+[1] 0.01647188
+(Intercept) 
+ 0.02304136 
+[1] "Iteration number: 137"
+[1] "pos"
+[1] 0.2342893 0.7604941
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02217775
+[1] 0.01557842
+[1] 0.02217775
+[1] 0.2111588 0.7876938
+[1] "cutoff"
+[1] 0.1
+[1] 0.2111588 0.7876938
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.94336
+A hal9001 formula object of the form: ~ h(.)[1] 0.02208279
+[1] 0.01537568
+(Intercept) 
+ 0.02208279 
+[1] "Iteration number: 138"
+[1] "pos"
+[1] 0.2361713 0.7599924
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02265693
+[1] 0.01620938
+[1] 0.02265693
+[1] 0.2145482 0.7759501
+[1] "cutoff"
+[1] 0.1
+[1] 0.2145482 0.7759501
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021592
+A hal9001 formula object of the form: ~ h(.)[1] 0.02262575
+[1] 0.01598161
+(Intercept) 
+ 0.02262575 
+[1] "Iteration number: 139"
+[1] "pos"
+[1] 0.2344382 0.7663464
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02227875
+[1] 0.01556481
+[1] 0.02227875
+[1] 0.2150799 0.7597603
+[1] "cutoff"
+[1] 0.1
+[1] 0.2150799 0.7597603
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001593
+A hal9001 formula object of the form: ~ h(.)[1] 0.02246562
+[1] 0.0155953
+(Intercept) 
+ 0.02246562 
+[1] "Iteration number: 140"
+[1] "pos"
+[1] 0.2372922 0.7602766
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02253426
+[1] 0.01562847
+[1] 0.02253426
+[1] 0.2384840 0.7388877
+[1] "cutoff"
+[1] 0.1
+[1] 0.2384840 0.7388877
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.041915
+A hal9001 formula object of the form: ~ h(.)[1] 0.02242525
+[1] 0.01570954
+(Intercept) 
+ 0.02242525 
+[1] "Iteration number: 141"
+[1] "pos"
+[1] 0.2352788 0.7558129
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02243831
+[1] 0.01586177
+[1] 0.02243831
+[1] 0.1827764 0.7622804
+[1] "cutoff"
+[1] 0.1
+[1] 0.1827764 0.7622804
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000526
+A hal9001 formula object of the form: ~ h(.)[1] 0.0223081
+[1] 0.01563276
+(Intercept) 
+  0.0223081 
+[1] "Iteration number: 142"
+[1] "pos"
+[1] 0.2351574 0.7614333
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02294731
+[1] 0.01618115
+[1] 0.02294731
+[1] 0.1363270 0.7850665
+[1] "cutoff"
+[1] 0.1
+[1] 0.1363270 0.7850665
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.002792
+A hal9001 formula object of the form: ~ h(.)[1] 0.02274955
+[1] 0.01586881
+(Intercept) 
+ 0.02274955 
+[1] "Iteration number: 143"
+[1] "pos"
+[1] 0.2382196 0.7599027
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0227215
+[1] 0.01591408
+[1] 0.0227215
+[1] 0.2124670 0.7333906
+[1] "cutoff"
+[1] 0.1
+[1] 0.2124670 0.7333906
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.035901
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225465
+[1] 0.01585412
+(Intercept) 
+  0.0225465 
+[1] "Iteration number: 144"
+[1] "pos"
+[1] 0.2355517 0.7576271
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02261029
+[1] 0.01615949
+[1] 0.02261029
+[1] 0.2030097 0.7566157
+[1] "cutoff"
+[1] 0.1
+[1] 0.2030097 0.7566157
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9873188
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225439
+[1] 0.01626285
+(Intercept) 
+  0.0225439 
+[1] "Iteration number: 145"
+[1] "pos"
+[1] 0.2361756 0.7571804
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0219737
+[1] 0.01538536
+[1] 0.0219737
+[1] 0.1821684 0.7567220
+[1] "cutoff"
+[1] 0.1
+[1] 0.1821684 0.7567220
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.026937
+A hal9001 formula object of the form: ~ h(.)[1] 0.02201895
+[1] 0.01534687
+(Intercept) 
+ 0.02201895 
+[1] "Iteration number: 146"
+[1] "pos"
+[1] 0.2437525 0.7627826
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02253443
+[1] 0.01577732
+[1] 0.02253443
+[1] 0.2115219 0.7785752
+[1] "cutoff"
+[1] 0.1
+[1] 0.2115219 0.7785752
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9830304
+A hal9001 formula object of the form: ~ h(.)[1] 0.02250083
+[1] 0.01580735
+(Intercept) 
+ 0.02250083 
+[1] "Iteration number: 147"
+[1] "pos"
+[1] 0.2351966 0.7653200
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02227146
+[1] 0.0157316
+[1] 0.02227146
+[1] 0.1628047 0.7340856
+[1] "cutoff"
+[1] 0.1
+[1] 0.1628047 0.7340856
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.029391
+A hal9001 formula object of the form: ~ h(.)[1] 0.02232292
+[1] 0.01551811
+(Intercept) 
+ 0.02232292 
+[1] "Iteration number: 148"
+[1] "pos"
+[1] 0.2359873 0.7449866
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02228251
+[1] 0.01591011
+[1] 0.02228251
+[1] 0.2140951 0.6988836
+[1] "cutoff"
+[1] 0.1
+[1] 0.2140951 0.6988836
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9844681
+A hal9001 formula object of the form: ~ h(.)[1] 0.0222866
+[1] 0.01583129
+(Intercept) 
+  0.0222866 
+[1] "Iteration number: 149"
+[1] "pos"
+[1] 0.2393883 0.7568606
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02240637
+[1] 0.01571385
+[1] 0.02240637
+[1] 0.1698391 0.7783454
+[1] "cutoff"
+[1] 0.1
+[1] 0.1698391 0.7783454
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.007142
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241713
+[1] 0.01572754
+(Intercept) 
+ 0.02241713 
+[1] "Iteration number: 150"
+[1] "pos"
+[1] 0.2344563 0.7592067
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02259415
+[1] 0.01569848
+[1] 0.02259415
+[1] 0.2285180 0.7436165
+[1] "cutoff"
+[1] 0.1
+[1] 0.2285180 0.7436165
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.00094
+A hal9001 formula object of the form: ~ h(.)[1] 0.02249076
+[1] 0.01575259
+(Intercept) 
+ 0.02249076 
+[1] "Iteration number: 151"
+[1] "pos"
+[1] 0.2385344 0.7522689
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02213595
+[1] 0.01561335
+[1] 0.02213595
+[1] 0.1382857 0.7393686
+[1] "cutoff"
+[1] 0.1
+[1] 0.1382857 0.7393686
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9915985
+A hal9001 formula object of the form: ~ h(.)[1] 0.02216945
+[1] 0.01553347
+(Intercept) 
+ 0.02216945 
+[1] "Iteration number: 152"
+[1] "pos"
+[1] 0.2330657 0.7548301
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02234909
+[1] 0.01568148
+[1] 0.02234909
+[1] 0.1849388 0.7969101
+[1] "cutoff"
+[1] 0.1
+[1] 0.1849388 0.7969101
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000093
+A hal9001 formula object of the form: ~ h(.)[1] 0.022374
+[1] 0.01569187
+(Intercept) 
+   0.022374 
+[1] "Iteration number: 153"
+[1] "pos"
+[1] 0.2367217 0.7606978
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266231
+[1] 0.01624789
+[1] 0.02266231
+[1] 0.1502113 0.8136094
+[1] "cutoff"
+[1] 0.1
+[1] 0.1502113 0.8136094
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9874372
+A hal9001 formula object of the form: ~ h(.)[1] 0.02268274
+[1] 0.01627233
+(Intercept) 
+ 0.02268274 
+[1] "Iteration number: 154"
+[1] "pos"
+[1] 0.2362146 0.7612175
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02258423
+[1] 0.01605941
+[1] 0.02258423
+[1] 0.1862654 0.7329679
+[1] "cutoff"
+[1] 0.1
+[1] 0.1862654 0.7329679
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.97296
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276979
+[1] 0.01615252
+(Intercept) 
+ 0.02276979 
+[1] "Iteration number: 155"
+[1] "pos"
+[1] 0.2340518 0.7543598
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02289004
+[1] 0.01632247
+[1] 0.02289004
+[1] 0.2342812 0.7156747
+[1] "cutoff"
+[1] 0.1
+[1] 0.2342812 0.7156747
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.013172
+A hal9001 formula object of the form: ~ h(.)[1] 0.0229073
+[1] 0.0163621
+(Intercept) 
+  0.0229073 
+[1] "Iteration number: 156"
+[1] "pos"
+[1] 0.2349124 0.7607528
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02230336
+[1] 0.01560311
+[1] 0.02230336
+[1] 0.2153518 0.7752943
+[1] "cutoff"
+[1] 0.1
+[1] 0.2153518 0.7752943
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9970923
+A hal9001 formula object of the form: ~ h(.)[1] 0.02227759
+[1] 0.01555253
+(Intercept) 
+ 0.02227759 
+[1] "Iteration number: 157"
+[1] "pos"
+[1] 0.2404426 0.7653173
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02249926
+[1] 0.0158671
+[1] 0.02249926
+[1] 0.2164437 0.7992240
+[1] "cutoff"
+[1] 0.1
+[1] 0.2164437 0.7992240
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.016891
+A hal9001 formula object of the form: ~ h(.)[1] 0.02233925
+[1] 0.01576714
+(Intercept) 
+ 0.02233925 
+[1] "Iteration number: 158"
+[1] "pos"
+[1] 0.2374510 0.7627065
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02287688
+[1] 0.01574345
+[1] 0.02287688
+[1] 0.1572217 0.8493881
+[1] "cutoff"
+[1] 0.1
+[1] 0.1572217 0.8493881
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000401
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276196
+[1] 0.01586398
+(Intercept) 
+ 0.02276196 
+[1] "Iteration number: 159"
+[1] "pos"
+[1] 0.2348967 0.7630518
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0225139
+[1] 0.01593038
+[1] 0.0225139
+[1] 0.1870400 0.7986125
+[1] "cutoff"
+[1] 0.1
+[1] 0.1870400 0.7986125
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9954649
+A hal9001 formula object of the form: ~ h(.)[1] 0.02251412
+[1] 0.01588539
+(Intercept) 
+ 0.02251412 
+[1] "Iteration number: 160"
+[1] "pos"
+[1] 0.2398671 0.7566315
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02237515
+[1] 0.01591351
+[1] 0.02237515
+[1] 0.1810488 0.8195199
+[1] "cutoff"
+[1] 0.1
+[1] 0.1810488 0.8195199
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.99037
+A hal9001 formula object of the form: ~ h(.)[1] 0.02251176
+[1] 0.01597231
+(Intercept) 
+ 0.02251176 
+[1] "Iteration number: 161"
+[1] "pos"
+[1] 0.2340739 0.7557542
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02227282
+[1] 0.01613007
+[1] 0.02227282
+[1] 0.1706429 0.7682699
+[1] "cutoff"
+[1] 0.1
+[1] 0.1706429 0.7682699
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.0342
+A hal9001 formula object of the form: ~ h(.)[1] 0.02231409
+[1] 0.01586278
+(Intercept) 
+ 0.02231409 
+[1] "Iteration number: 162"
+[1] "pos"
+[1] 0.2400454 0.7555667
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02272176
+[1] 0.01598617
+[1] 0.02272176
+[1] 0.2348436 0.7395194
+[1] "cutoff"
+[1] 0.1
+[1] 0.2348436 0.7395194
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009438
+A hal9001 formula object of the form: ~ h(.)[1] 0.02269103
+[1] 0.01584212
+(Intercept) 
+ 0.02269103 
+[1] "Iteration number: 163"
+[1] "pos"
+[1] 0.2388045 0.7471648
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02307442
+[1] 0.01590989
+[1] 0.02307442
+[1] 0.2013187 0.7323583
+[1] "cutoff"
+[1] 0.1
+[1] 0.2013187 0.7323583
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9959435
+A hal9001 formula object of the form: ~ h(.)[1] 0.02295189
+[1] 0.01590878
+(Intercept) 
+ 0.02295189 
+[1] "Iteration number: 164"
+[1] "pos"
+[1] 0.2406271 0.7530117
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271742
+[1] 0.01625352
+[1] 0.02271742
+[1] 0.2308919 0.7533643
+[1] "cutoff"
+[1] 0.1
+[1] 0.2308919 0.7533643
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9853763
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263015
+[1] 0.01620582
+(Intercept) 
+ 0.02263015 
+[1] "Iteration number: 165"
+[1] "pos"
+[1] 0.2364580 0.7475173
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02295912
+[1] 0.0162757
+[1] 0.02295912
+[1] 0.1838390 0.7804767
+[1] "cutoff"
+[1] 0.1
+[1] 0.1838390 0.7804767
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9510083
+A hal9001 formula object of the form: ~ h(.)[1] 0.02274966
+[1] 0.01603015
+(Intercept) 
+ 0.02274966 
+[1] "Iteration number: 166"
+[1] "pos"
+[1] 0.2373079 0.7581558
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0222356
+[1] 0.01599616
+[1] 0.0222356
+[1] 0.2339579 0.7285760
+[1] "cutoff"
+[1] 0.1
+[1] 0.2339579 0.7285760
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9929678
+A hal9001 formula object of the form: ~ h(.)[1] 0.022403
+[1] 0.01583906
+(Intercept) 
+   0.022403 
+[1] "Iteration number: 167"
+[1] "pos"
+[1] 0.2375775 0.7526886
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02225253
+[1] 0.01552515
+[1] 0.02225253
+[1] 0.1866533 0.7579736
+[1] "cutoff"
+[1] 0.1
+[1] 0.1866533 0.7579736
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.034081
+A hal9001 formula object of the form: ~ h(.)[1] 0.0222496
+[1] 0.01549179
+(Intercept) 
+  0.0222496 
+[1] "Iteration number: 168"
+[1] "pos"
+[1] 0.2359850 0.7537548
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233214
+[1] 0.01538669
+[1] 0.02233214
+[1] 0.1858010 0.7767308
+[1] "cutoff"
+[1] 0.1
+[1] 0.1858010 0.7767308
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9929445
+A hal9001 formula object of the form: ~ h(.)[1] 0.0221375
+[1] 0.01529836
+(Intercept) 
+  0.0221375 
+[1] "Iteration number: 169"
+[1] "pos"
+[1] 0.2402017 0.7556837
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02272197
+[1] 0.01607103
+[1] 0.02272197
+[1] 0.2362392 0.7292039
+[1] "cutoff"
+[1] 0.1
+[1] 0.2362392 0.7292039
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9833069
+A hal9001 formula object of the form: ~ h(.)[1] 0.02267348
+[1] 0.01581806
+(Intercept) 
+ 0.02267348 
+[1] "Iteration number: 170"
+[1] "pos"
+[1] 0.2361331 0.7490522
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02256552
+[1] 0.01618612
+[1] 0.02256552
+[1] 0.1760762 0.7385749
+[1] "cutoff"
+[1] 0.1
+[1] 0.1760762 0.7385749
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.015047
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225934
+[1] 0.01620023
+(Intercept) 
+  0.0225934 
+[1] "Iteration number: 171"
+[1] "pos"
+[1] 0.2348956 0.7514392
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252037
+[1] 0.01579988
+[1] 0.02252037
+[1] 0.1952031 0.7564226
+[1] "cutoff"
+[1] 0.1
+[1] 0.1952031 0.7564226
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9728717
+A hal9001 formula object of the form: ~ h(.)[1] 0.02258315
+[1] 0.01590636
+(Intercept) 
+ 0.02258315 
+[1] "Iteration number: 172"
+[1] "pos"
+[1] 0.2363124 0.7639660
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02278862
+[1] 0.01573501
+[1] 0.02278862
+[1] 0.1504126 0.7781991
+[1] "cutoff"
+[1] 0.1
+[1] 0.1504126 0.7781991
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.014955
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263858
+[1] 0.01550428
+(Intercept) 
+ 0.02263858 
+[1] "Iteration number: 173"
+[1] "pos"
+[1] 0.2354845 0.7649896
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02251928
+[1] 0.01578864
+[1] 0.02251928
+[1] 0.1688882 0.8030917
+[1] "cutoff"
+[1] 0.1
+[1] 0.1688882 0.8030917
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011569
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241929
+[1] 0.01569089
+(Intercept) 
+ 0.02241929 
+[1] "Iteration number: 174"
+[1] "pos"
+[1] 0.2342830 0.7643715
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02278274
+[1] 0.01597524
+[1] 0.02278274
+[1] 0.2351365 0.7797408
+[1] "cutoff"
+[1] 0.1
+[1] 0.2351365 0.7797408
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.010652
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263622
+[1] 0.01583
+(Intercept) 
+ 0.02263622 
+[1] "Iteration number: 175"
+[1] "pos"
+[1] 0.2403245 0.7539340
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02270037
+[1] 0.0161182
+[1] 0.02270037
+[1] 0.1979534 0.7962476
+[1] "cutoff"
+[1] 0.1
+[1] 0.1979534 0.7962476
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9810281
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263846
+[1] 0.01606351
+(Intercept) 
+ 0.02263846 
+[1] "Iteration number: 176"
+[1] "pos"
+[1] 0.2328843 0.7573345
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264329
+[1] 0.01600348
+[1] 0.02264329
+[1] 0.1551992 0.8208441
+[1] "cutoff"
+[1] 0.1
+[1] 0.1551992 0.8208441
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9956255
+A hal9001 formula object of the form: ~ h(.)[1] 0.02261503
+[1] 0.01616075
+(Intercept) 
+ 0.02261503 
+[1] "Iteration number: 177"
+[1] "pos"
+[1] 0.2363810 0.7554732
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02307988
+[1] 0.01670218
+[1] 0.02307988
+[1] 0.1877247 0.7239255
+[1] "cutoff"
+[1] 0.1
+[1] 0.1877247 0.7239255
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9909287
+A hal9001 formula object of the form: ~ h(.)[1] 0.02312417
+[1] 0.01672217
+(Intercept) 
+ 0.02312417 
+[1] "Iteration number: 178"
+[1] "pos"
+[1] 0.2354642 0.7592785
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02284246
+[1] 0.01597117
+[1] 0.02284246
+[1] 0.2380846 0.7277657
+[1] "cutoff"
+[1] 0.1
+[1] 0.2380846 0.7277657
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.023395
+A hal9001 formula object of the form: ~ h(.)[1] 0.02283256
+[1] 0.01601971
+(Intercept) 
+ 0.02283256 
+[1] "Iteration number: 179"
+[1] "pos"
+[1] 0.2394109 0.7545689
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0227226
+[1] 0.016045
+[1] 0.0227226
+[1] 0.1979191 0.7216088
+[1] "cutoff"
+[1] 0.1
+[1] 0.1979191 0.7216088
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018003
+A hal9001 formula object of the form: ~ h(.)[1] 0.02281994
+[1] 0.0160431
+(Intercept) 
+ 0.02281994 
+[1] "Iteration number: 180"
+[1] "pos"
+[1] 0.2364245 0.7465454
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02276261
+[1] 0.01619037
+[1] 0.02276261
+[1] 0.2352479 0.6861200
+[1] "cutoff"
+[1] 0.1
+[1] 0.2352479 0.6861200
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.981825
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241238
+[1] 0.01579603
+(Intercept) 
+ 0.02241238 
+[1] "Iteration number: 181"
+[1] "pos"
+[1] 0.2379742 0.7545437
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02277879
+[1] 0.01638539
+[1] 0.02277879
+[1] 0.1843315 0.7629912
+[1] "cutoff"
+[1] 0.1
+[1] 0.1843315 0.7629912
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9983269
+A hal9001 formula object of the form: ~ h(.)[1] 0.02279074
+[1] 0.01643489
+(Intercept) 
+ 0.02279074 
+[1] "Iteration number: 182"
+[1] "pos"
+[1] 0.2414348 0.7530431
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02239722
+[1] 0.01574502
+[1] 0.02239722
+[1] 0.2196903 0.7262930
+[1] "cutoff"
+[1] 0.1
+[1] 0.2196903 0.7262930
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.003062
+A hal9001 formula object of the form: ~ h(.)[1] 0.02231954
+[1] 0.01595139
+(Intercept) 
+ 0.02231954 
+[1] "Iteration number: 183"
+[1] "pos"
+[1] 0.2354134 0.7541940
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02292442
+[1] 0.01601244
+[1] 0.02292442
+[1] 0.1742774 0.8065649
+[1] "cutoff"
+[1] 0.1
+[1] 0.1742774 0.8065649
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.998875
+A hal9001 formula object of the form: ~ h(.)[1] 0.02278194
+[1] 0.01603204
+(Intercept) 
+ 0.02278194 
+[1] "Iteration number: 184"
+[1] "pos"
+[1] 0.236834 0.761950
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02240935
+[1] 0.01585306
+[1] 0.02240935
+[1] 0.2130817 0.7467837
+[1] "cutoff"
+[1] 0.1
+[1] 0.2130817 0.7467837
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006587
+A hal9001 formula object of the form: ~ h(.)[1] 0.02253667
+[1] 0.01581765
+(Intercept) 
+ 0.02253667 
+[1] "Iteration number: 185"
+[1] "pos"
+[1] 0.2342325 0.7501599
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266169
+[1] 0.01586624
+[1] 0.02266169
+[1] 0.1741730 0.7942628
+[1] "cutoff"
+[1] 0.1
+[1] 0.1741730 0.7942628
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9554779
+A hal9001 formula object of the form: ~ h(.)[1] 0.02268607
+[1] 0.01587394
+(Intercept) 
+ 0.02268607 
+[1] "Iteration number: 186"
+[1] "pos"
+[1] 0.2389542 0.7590486
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02256544
+[1] 0.01549318
+[1] 0.02256544
+[1] 0.2334007 0.7060011
+[1] "cutoff"
+[1] 0.1
+[1] 0.2334007 0.7060011
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9823486
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241357
+[1] 0.01547367
+(Intercept) 
+ 0.02241357 
+[1] "Iteration number: 187"
+[1] "pos"
+[1] 0.2368668 0.7616702
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02209676
+[1] 0.01567955
+[1] 0.02209676
+[1] 0.1776136 0.7367978
+[1] "cutoff"
+[1] 0.1
+[1] 0.1776136 0.7367978
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.029161
+A hal9001 formula object of the form: ~ h(.)[1] 0.02208742
+[1] 0.0155973
+(Intercept) 
+ 0.02208742 
+[1] "Iteration number: 188"
+[1] "pos"
+[1] 0.2393066 0.7632213
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260361
+[1] 0.01630958
+[1] 0.02260361
+[1] 0.2382935 0.7723280
+[1] "cutoff"
+[1] 0.1
+[1] 0.2382935 0.7723280
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.038684
+A hal9001 formula object of the form: ~ h(.)[1] 0.02270201
+[1] 0.0163894
+(Intercept) 
+ 0.02270201 
+[1] "Iteration number: 189"
+[1] "pos"
+[1] 0.2354241 0.7534471
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02282044
+[1] 0.0160608
+[1] 0.02282044
+[1] 0.2175299 0.7536656
+[1] "cutoff"
+[1] 0.1
+[1] 0.2175299 0.7536656
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.002906
+A hal9001 formula object of the form: ~ h(.)[1] 0.02262402
+[1] 0.01595264
+(Intercept) 
+ 0.02262402 
+[1] "Iteration number: 190"
+[1] "pos"
+[1] 0.2345885 0.7563438
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271278
+[1] 0.01553791
+[1] 0.02271278
+[1] 0.1686576 0.7747237
+[1] "cutoff"
+[1] 0.1
+[1] 0.1686576 0.7747237
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9501348
+A hal9001 formula object of the form: ~ h(.)[1] 0.02255376
+[1] 0.01553362
+(Intercept) 
+ 0.02255376 
+[1] "Iteration number: 191"
+[1] "pos"
+[1] 0.2411054 0.7620411
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02253454
+[1] 0.01607152
+[1] 0.02253454
+[1] 0.03289724 1.00002283
+[1] "cutoff"
+[1] 1e-08
+[1] 0.03289724 0.99999999
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.030121
+A hal9001 formula object of the form: ~ h(.)[1] 0.02239522
+[1] 0.01612126
+(Intercept) 
+ 0.02239522 
+[1] "Iteration number: 192"
+[1] "pos"
+[1] 0.2316153 0.7585569
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266248
+[1] 0.01572223
+[1] 0.02266248
+[1] 0.1528269 0.7864564
+[1] "cutoff"
+[1] 0.1
+[1] 0.1528269 0.7864564
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9732163
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241425
+[1] 0.01573645
+(Intercept) 
+ 0.02241425 
+[1] "Iteration number: 193"
+[1] "pos"
+[1] 0.2345805 0.7598105
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264208
+[1] 0.0157858
+[1] 0.02264208
+[1] 0.1617259 0.7440495
+[1] "cutoff"
+[1] 0.1
+[1] 0.1617259 0.7440495
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9684832
+A hal9001 formula object of the form: ~ h(.)[1] 0.02243151
+[1] 0.01585172
+(Intercept) 
+ 0.02243151 
+[1] "Iteration number: 194"
+[1] "pos"
+[1] 0.2385267 0.7585261
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02300638
+[1] 0.01619709
+[1] 0.02300638
+[1] 0.2039085 0.7469131
+[1] "cutoff"
+[1] 0.1
+[1] 0.2039085 0.7469131
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9821896
+A hal9001 formula object of the form: ~ h(.)[1] 0.0226345
+[1] 0.01598599
+(Intercept) 
+  0.0226345 
+[1] "Iteration number: 195"
+[1] "pos"
+[1] 0.2372391 0.7629356
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02224638
+[1] 0.01559902
+[1] 0.02224638
+[1] 0.2487687 0.6921536
+[1] "cutoff"
+[1] 0.1
+[1] 0.2487687 0.6921536
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9751389
+A hal9001 formula object of the form: ~ h(.)[1] 0.02226584
+[1] 0.01538444
+(Intercept) 
+ 0.02226584 
+[1] "Iteration number: 196"
+[1] "pos"
+[1] 0.2410971 0.7494011
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0227213
+[1] 0.01613453
+[1] 0.0227213
+[1] 0.2480398 0.7565635
+[1] "cutoff"
+[1] 0.1
+[1] 0.2480398 0.7565635
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9992063
+A hal9001 formula object of the form: ~ h(.)[1] 0.02272545
+[1] 0.01617776
+(Intercept) 
+ 0.02272545 
+[1] "Iteration number: 197"
+[1] "pos"
+[1] 0.2406519 0.7576285
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02247368
+[1] 0.01561271
+[1] 0.02247368
+[1] 0.1967237 0.7795632
+[1] "cutoff"
+[1] 0.1
+[1] 0.1967237 0.7795632
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9796388
+A hal9001 formula object of the form: ~ h(.)[1] 0.02246323
+[1] 0.01571285
+(Intercept) 
+ 0.02246323 
+[1] "Iteration number: 198"
+[1] "pos"
+[1] 0.2369839 0.7559341
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271558
+[1] 0.01590085
+[1] 0.02271558
+[1] 0.1303205 0.8115972
+[1] "cutoff"
+[1] 0.1
+[1] 0.1303205 0.8115972
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9848572
+A hal9001 formula object of the form: ~ h(.)[1] 0.02292629
+[1] 0.01600815
+(Intercept) 
+ 0.02292629 
+[1] "Iteration number: 199"
+[1] "pos"
+[1] 0.2346080 0.7606251
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0225176
+[1] 0.01559554
+[1] 0.0225176
+[1] 0.1597149 0.8040854
+[1] "cutoff"
+[1] 0.1
+[1] 0.1597149 0.8040854
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9974864
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225071
+[1] 0.01559722
+(Intercept) 
+  0.0225071 
+[1] "Iteration number: 200"
+[1] "pos"
+[1] 0.2349940 0.7675092
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260933
+[1] 0.0158739
+[1] 0.02260933
+[1] 0.2146758 0.8204104
+[1] "cutoff"
+[1] 0.1
+[1] 0.2146758 0.8204104
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9737723
+A hal9001 formula object of the form: ~ h(.)[1] 0.02265333
+[1] 0.01596683
+(Intercept) 
+ 0.02265333 
+[1] "Iteration number: 201"
+[1] "pos"
+[1] 0.2353930 0.7659464
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0230473
+[1] 0.01614607
+[1] 0.0230473
+[1] 0.1201532 0.7647877
+[1] "cutoff"
+[1] 0.1
+[1] 0.1201532 0.7647877
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9887377
+A hal9001 formula object of the form: ~ h(.)[1] 0.02308972
+[1] 0.01603805
+(Intercept) 
+ 0.02308972 
+[1] "Iteration number: 202"
+[1] "pos"
+[1] 0.2365000 0.7615036
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02224601
+[1] 0.01556603
+[1] 0.02224601
+[1] 0.1710937 0.7891290
+[1] "cutoff"
+[1] 0.1
+[1] 0.1710937 0.7891290
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006986
+A hal9001 formula object of the form: ~ h(.)[1] 0.02200385
+[1] 0.01530159
+(Intercept) 
+ 0.02200385 
+[1] "Iteration number: 203"
+[1] "pos"
+[1] 0.2330726 0.7520318
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02235245
+[1] 0.01587807
+[1] 0.02235245
+[1] 0.2291218 0.7545981
+[1] "cutoff"
+[1] 0.1
+[1] 0.2291218 0.7545981
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.008136
+A hal9001 formula object of the form: ~ h(.)[1] 0.02235032
+[1] 0.01581622
+(Intercept) 
+ 0.02235032 
+[1] "Iteration number: 204"
+[1] "pos"
+[1] 0.2390477 0.7628565
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02295084
+[1] 0.01602915
+[1] 0.02295084
+[1] 0.1851860 0.7850731
+[1] "cutoff"
+[1] 0.1
+[1] 0.1851860 0.7850731
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.020234
+A hal9001 formula object of the form: ~ h(.)[1] 0.0228969
+[1] 0.01618411
+(Intercept) 
+  0.0228969 
+[1] "Iteration number: 205"
+[1] "pos"
+[1] 0.2393826 0.7629624
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02290935
+[1] 0.01632071
+[1] 0.02290935
+[1] 0.1848367 0.7684915
+[1] "cutoff"
+[1] 0.1
+[1] 0.1848367 0.7684915
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006436
+A hal9001 formula object of the form: ~ h(.)[1] 0.02282409
+[1] 0.01625439
+(Intercept) 
+ 0.02282409 
+[1] "Iteration number: 206"
+[1] "pos"
+[1] 0.2371041 0.7636477
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02224283
+[1] 0.01626344
+[1] 0.02224283
+[1] 0.1691607 0.6849330
+[1] "cutoff"
+[1] 0.1
+[1] 0.1691607 0.6849330
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9762677
+A hal9001 formula object of the form: ~ h(.)[1] 0.02223356
+[1] 0.01591383
+(Intercept) 
+ 0.02223356 
+[1] "Iteration number: 207"
+[1] "pos"
+[1] 0.2329446 0.7628672
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02272432
+[1] 0.01592199
+[1] 0.02272432
+[1] 0.1308600 0.7963344
+[1] "cutoff"
+[1] 0.1
+[1] 0.1308600 0.7963344
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9845382
+A hal9001 formula object of the form: ~ h(.)[1] 0.02252114
+[1] 0.01588643
+(Intercept) 
+ 0.02252114 
+[1] "Iteration number: 208"
+[1] "pos"
+[1] 0.2371128 0.7631794
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02316185
+[1] 0.01637661
+[1] 0.02316185
+[1] 0.2028167 0.8017720
+[1] "cutoff"
+[1] 0.1
+[1] 0.2028167 0.8017720
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9957309
+A hal9001 formula object of the form: ~ h(.)[1] 0.02304628
+[1] 0.0164212
+(Intercept) 
+ 0.02304628 
+[1] "Iteration number: 209"
+[1] "pos"
+[1] 0.2361772 0.7571067
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02316833
+[1] 0.01651211
+[1] 0.02316833
+[1] 0.1095065 0.7914539
+[1] "cutoff"
+[1] 0.1
+[1] 0.1095065 0.7914539
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.017395
+A hal9001 formula object of the form: ~ h(.)[1] 0.02299944
+[1] 0.0164318
+(Intercept) 
+ 0.02299944 
+[1] "Iteration number: 210"
+[1] "pos"
+[1] 0.2390544 0.7580540
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02288448
+[1] 0.01584627
+[1] 0.02288448
+[1] 0.1947925 0.8220383
+[1] "cutoff"
+[1] 0.1
+[1] 0.1947925 0.8220383
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9764856
+A hal9001 formula object of the form: ~ h(.)[1] 0.02275227
+[1] 0.01587599
+(Intercept) 
+ 0.02275227 
+[1] "Iteration number: 211"
+[1] "pos"
+[1] 0.2336132 0.7597317
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02187598
+[1] 0.0152017
+[1] 0.02187598
+[1] 0.09128884 0.79050733
+[1] "cutoff"
+[1] 0.09116466
+[1] 0.09128884 0.79050733
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9805925
+A hal9001 formula object of the form: ~ h(.)[1] 0.02179728
+[1] 0.01515026
+(Intercept) 
+ 0.02179728 
+[1] "Iteration number: 212"
+[1] "pos"
+[1] 0.2396794 0.7451777
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233035
+[1] 0.01554841
+[1] 0.02233035
+[1] 0.1939763 0.8152475
+[1] "cutoff"
+[1] 0.1
+[1] 0.1939763 0.8152475
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9792535
+A hal9001 formula object of the form: ~ h(.)[1] 0.02240887
+[1] 0.01555265
+(Intercept) 
+ 0.02240887 
+[1] "Iteration number: 213"
+[1] "pos"
+[1] 0.2441294 0.7618243
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02301679
+[1] 0.01607355
+[1] 0.02301679
+[1] 0.1689752 0.7766390
+[1] "cutoff"
+[1] 0.1
+[1] 0.1689752 0.7766390
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9649979
+A hal9001 formula object of the form: ~ h(.)[1] 0.02290726
+[1] 0.01614128
+(Intercept) 
+ 0.02290726 
+[1] "Iteration number: 214"
+[1] "pos"
+[1] 0.2338180 0.7519795
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02249161
+[1] 0.01597021
+[1] 0.02249161
+[1] 0.1918849 0.7904611
+[1] "cutoff"
+[1] 0.1
+[1] 0.1918849 0.7904611
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.02362
+A hal9001 formula object of the form: ~ h(.)[1] 0.02238035
+[1] 0.01601955
+(Intercept) 
+ 0.02238035 
+[1] "Iteration number: 215"
+[1] "pos"
+[1] 0.2360610 0.7575012
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02234915
+[1] 0.01594652
+[1] 0.02234915
+[1] 0.1933181 0.8127636
+[1] "cutoff"
+[1] 0.1
+[1] 0.1933181 0.8127636
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018174
+A hal9001 formula object of the form: ~ h(.)[1] 0.02231266
+[1] 0.01573122
+(Intercept) 
+ 0.02231266 
+[1] "Iteration number: 216"
+[1] "pos"
+[1] 0.2345214 0.7637134
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02238202
+[1] 0.01592431
+[1] 0.02238202
+[1] 0.2221498 0.7185645
+[1] "cutoff"
+[1] 0.1
+[1] 0.2221498 0.7185645
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.056386
+A hal9001 formula object of the form: ~ h(.)[1] 0.0224134
+[1] 0.01569639
+(Intercept) 
+  0.0224134 
+[1] "Iteration number: 217"
+[1] "pos"
+[1] 0.2373713 0.7538194
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02213201
+[1] 0.0153527
+[1] 0.02213201
+[1] 0.1962608 0.7787599
+[1] "cutoff"
+[1] 0.1
+[1] 0.1962608 0.7787599
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011961
+A hal9001 formula object of the form: ~ h(.)[1] 0.02201677
+[1] 0.01532621
+(Intercept) 
+ 0.02201677 
+[1] "Iteration number: 218"
+[1] "pos"
+[1] 0.2342902 0.7631922
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260126
+[1] 0.01574638
+[1] 0.02260126
+[1] 0.2076254 0.8058507
+[1] "cutoff"
+[1] 0.1
+[1] 0.2076254 0.8058507
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.02454
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260485
+[1] 0.01594981
+(Intercept) 
+ 0.02260485 
+[1] "Iteration number: 219"
+[1] "pos"
+[1] 0.2319477 0.7507911
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02273217
+[1] 0.01612631
+[1] 0.02273217
+[1] 0.1841066 0.7757675
+[1] "cutoff"
+[1] 0.1
+[1] 0.1841066 0.7757675
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.010837
+A hal9001 formula object of the form: ~ h(.)[1] 0.02261653
+[1] 0.01604114
+(Intercept) 
+ 0.02261653 
+[1] "Iteration number: 220"
+[1] "pos"
+[1] 0.2349496 0.7646923
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0227963
+[1] 0.01634121
+[1] 0.0227963
+[1] 0.1755673 0.7745672
+[1] "cutoff"
+[1] 0.1
+[1] 0.1755673 0.7745672
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9673687
+A hal9001 formula object of the form: ~ h(.)[1] 0.02300113
+[1] 0.01652033
+(Intercept) 
+ 0.02300113 
+[1] "Iteration number: 221"
+[1] "pos"
+[1] 0.2339570 0.7473943
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02248268
+[1] 0.0158074
+[1] 0.02248268
+[1] 0.1602575 0.8370126
+[1] "cutoff"
+[1] 0.1
+[1] 0.1602575 0.8370126
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021536
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257076
+[1] 0.01595421
+(Intercept) 
+ 0.02257076 
+[1] "Iteration number: 222"
+[1] "pos"
+[1] 0.2357840 0.7514315
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0225597
+[1] 0.01550628
+[1] 0.0225597
+[1] 0.1075581 0.7669140
+[1] "cutoff"
+[1] 0.1
+[1] 0.1075581 0.7669140
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011889
+A hal9001 formula object of the form: ~ h(.)[1] 0.02251509
+[1] 0.01555022
+(Intercept) 
+ 0.02251509 
+[1] "Iteration number: 223"
+[1] "pos"
+[1] 0.2359028 0.7494892
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02231057
+[1] 0.01589108
+[1] 0.02231057
+[1] 0.2029505 0.7357241
+[1] "cutoff"
+[1] 0.1
+[1] 0.2029505 0.7357241
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9874257
+A hal9001 formula object of the form: ~ h(.)[1] 0.02221084
+[1] 0.01565398
+(Intercept) 
+ 0.02221084 
+[1] "Iteration number: 224"
+[1] "pos"
+[1] 0.2391194 0.7532388
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0229765
+[1] 0.01661104
+[1] 0.0229765
+[1] 0.1809023 0.7417858
+[1] "cutoff"
+[1] 0.1
+[1] 0.1809023 0.7417858
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.022967
+A hal9001 formula object of the form: ~ h(.)[1] 0.02297718
+[1] 0.01663248
+(Intercept) 
+ 0.02297718 
+[1] "Iteration number: 225"
+[1] "pos"
+[1] 0.2378530 0.7549748
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02270414
+[1] 0.01563523
+[1] 0.02270414
+[1] 0.2063623 0.7965540
+[1] "cutoff"
+[1] 0.1
+[1] 0.2063623 0.7965540
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9834899
+A hal9001 formula object of the form: ~ h(.)[1] 0.02250573
+[1] 0.01549951
+(Intercept) 
+ 0.02250573 
+[1] "Iteration number: 226"
+[1] "pos"
+[1] 0.2360519 0.7566362
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02267697
+[1] 0.01601021
+[1] 0.02267697
+[1] 0.1592841 0.7801431
+[1] "cutoff"
+[1] 0.1
+[1] 0.1592841 0.7801431
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9734994
+A hal9001 formula object of the form: ~ h(.)[1] 0.02253618
+[1] 0.01593424
+(Intercept) 
+ 0.02253618 
+[1] "Iteration number: 227"
+[1] "pos"
+[1] 0.2353263 0.7545712
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0222957
+[1] 0.01549215
+[1] 0.0222957
+[1] 0.1802716 0.7900117
+[1] "cutoff"
+[1] 0.1
+[1] 0.1802716 0.7900117
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.004901
+A hal9001 formula object of the form: ~ h(.)[1] 0.02226162
+[1] 0.01550733
+(Intercept) 
+ 0.02226162 
+[1] "Iteration number: 228"
+[1] "pos"
+[1] 0.2362575 0.7670869
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02261345
+[1] 0.01570526
+[1] 0.02261345
+[1] 0.2010909 0.7714186
+[1] "cutoff"
+[1] 0.1
+[1] 0.2010909 0.7714186
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9737717
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257669
+[1] 0.01572573
+(Intercept) 
+ 0.02257669 
+[1] "Iteration number: 229"
+[1] "pos"
+[1] 0.2346254 0.7483421
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02343811
+[1] 0.01663522
+[1] 0.02343811
+[1] 0.1842210 0.7462051
+[1] "cutoff"
+[1] 0.1
+[1] 0.1842210 0.7462051
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9995138
+A hal9001 formula object of the form: ~ h(.)[1] 0.02342468
+[1] 0.01672427
+(Intercept) 
+ 0.02342468 
+[1] "Iteration number: 230"
+[1] "pos"
+[1] 0.2359091 0.7569684
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02246453
+[1] 0.01603057
+[1] 0.02246453
+[1] 0.2018489 0.7982598
+[1] "cutoff"
+[1] 0.1
+[1] 0.2018489 0.7982598
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.009078
+A hal9001 formula object of the form: ~ h(.)[1] 0.02256577
+[1] 0.0158735
+(Intercept) 
+ 0.02256577 
+[1] "Iteration number: 231"
+[1] "pos"
+[1] 0.2388841 0.7621258
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02258979
+[1] 0.01626876
+[1] 0.02258979
+[1] 0.2336107 0.7660486
+[1] "cutoff"
+[1] 0.1
+[1] 0.2336107 0.7660486
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9994523
+A hal9001 formula object of the form: ~ h(.)[1] 0.02245654
+[1] 0.01600765
+(Intercept) 
+ 0.02245654 
+[1] "Iteration number: 232"
+[1] "pos"
+[1] 0.2346293 0.7517939
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02238089
+[1] 0.01589479
+[1] 0.02238089
+[1] 0.1939429 0.7964031
+[1] "cutoff"
+[1] 0.1
+[1] 0.1939429 0.7964031
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.014092
+A hal9001 formula object of the form: ~ h(.)[1] 0.02229852
+[1] 0.01560866
+(Intercept) 
+ 0.02229852 
+[1] "Iteration number: 233"
+[1] "pos"
+[1] 0.2357142 0.7541115
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02283279
+[1] 0.01592709
+[1] 0.02283279
+[1] 0.1842474 0.8167282
+[1] "cutoff"
+[1] 0.1
+[1] 0.1842474 0.8167282
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9779057
+A hal9001 formula object of the form: ~ h(.)[1] 0.02256483
+[1] 0.01599827
+(Intercept) 
+ 0.02256483 
+[1] "Iteration number: 234"
+[1] "pos"
+[1] 0.2364384 0.7493683
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02305871
+[1] 0.01637998
+[1] 0.02305871
+[1] 0.1853806 0.7523982
+[1] "cutoff"
+[1] 0.1
+[1] 0.1853806 0.7523982
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.972295
+A hal9001 formula object of the form: ~ h(.)[1] 0.02290405
+[1] 0.01616776
+(Intercept) 
+ 0.02290405 
+[1] "Iteration number: 235"
+[1] "pos"
+[1] 0.2414033 0.7585909
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02226292
+[1] 0.01570107
+[1] 0.02226292
+[1] 0.2323547 0.7680885
+[1] "cutoff"
+[1] 0.1
+[1] 0.2323547 0.7680885
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9665574
+A hal9001 formula object of the form: ~ h(.)[1] 0.02221616
+[1] 0.01549866
+(Intercept) 
+ 0.02221616 
+[1] "Iteration number: 236"
+[1] "pos"
+[1] 0.2380799 0.7614662
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271581
+[1] 0.01566761
+[1] 0.02271581
+[1] 0.1389133 0.7764675
+[1] "cutoff"
+[1] 0.1
+[1] 0.1389133 0.7764675
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9838055
+A hal9001 formula object of the form: ~ h(.)[1] 0.02268598
+[1] 0.01575447
+(Intercept) 
+ 0.02268598 
+[1] "Iteration number: 237"
+[1] "pos"
+[1] 0.2397977 0.7492287
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02244868
+[1] 0.01562504
+[1] 0.02244868
+[1] 0.2035742 0.7366198
+[1] "cutoff"
+[1] 0.1
+[1] 0.2035742 0.7366198
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.012613
+A hal9001 formula object of the form: ~ h(.)[1] 0.02242002
+[1] 0.01553078
+(Intercept) 
+ 0.02242002 
+[1] "Iteration number: 238"
+[1] "pos"
+[1] 0.2336156 0.7619326
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02226725
+[1] 0.01601474
+[1] 0.02226725
+[1] 0.1650580 0.7997846
+[1] "cutoff"
+[1] 0.1
+[1] 0.1650580 0.7997846
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9985
+A hal9001 formula object of the form: ~ h(.)[1] 0.02241775
+[1] 0.01583572
+(Intercept) 
+ 0.02241775 
+[1] "Iteration number: 239"
+[1] "pos"
+[1] 0.2373278 0.7539791
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02208198
+[1] 0.01553395
+[1] 0.02208198
+[1] 0.1824262 0.7492807
+[1] "cutoff"
+[1] 0.1
+[1] 0.1824262 0.7492807
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.003962
+A hal9001 formula object of the form: ~ h(.)[1] 0.02215173
+[1] 0.01557229
+(Intercept) 
+ 0.02215173 
+[1] "Iteration number: 240"
+[1] "pos"
+[1] 0.2391490 0.7537279
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02286019
+[1] 0.01613577
+[1] 0.02286019
+[1] 0.1764117 0.7463880
+[1] "cutoff"
+[1] 0.1
+[1] 0.1764117 0.7463880
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.005993
+A hal9001 formula object of the form: ~ h(.)[1] 0.0228996
+[1] 0.01623466
+(Intercept) 
+  0.0228996 
+[1] "Iteration number: 241"
+[1] "pos"
+[1] 0.2366233 0.7601115
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02295191
+[1] 0.01616271
+[1] 0.02295191
+[1] 0.1915792 0.7621813
+[1] "cutoff"
+[1] 0.1
+[1] 0.1915792 0.7621813
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.004413
+A hal9001 formula object of the form: ~ h(.)[1] 0.02282963
+[1] 0.01601551
+(Intercept) 
+ 0.02282963 
+[1] "Iteration number: 242"
+[1] "pos"
+[1] 0.2409310 0.7526596
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02229093
+[1] 0.01554514
+[1] 0.02229093
+[1] 0.1591450 0.7872659
+[1] "cutoff"
+[1] 0.1
+[1] 0.1591450 0.7872659
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018425
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225582
+[1] 0.01571313
+(Intercept) 
+  0.0225582 
+[1] "Iteration number: 243"
+[1] "pos"
+[1] 0.2402696 0.7565126
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02249703
+[1] 0.01561595
+[1] 0.02249703
+[1] 0.2140600 0.7219176
+[1] "cutoff"
+[1] 0.1
+[1] 0.2140600 0.7219176
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9854866
+A hal9001 formula object of the form: ~ h(.)[1] 0.0220184
+[1] 0.01550543
+(Intercept) 
+  0.0220184 
+[1] "Iteration number: 244"
+[1] "pos"
+[1] 0.2337105 0.7576065
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02253927
+[1] 0.01570001
+[1] 0.02253927
+[1] 0.2058070 0.7558761
+[1] "cutoff"
+[1] 0.1
+[1] 0.2058070 0.7558761
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9846008
+A hal9001 formula object of the form: ~ h(.)[1] 0.02228272
+[1] 0.01559906
+(Intercept) 
+ 0.02228272 
+[1] "Iteration number: 245"
+[1] "pos"
+[1] 0.2348796 0.7545762
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02314269
+[1] 0.01627439
+[1] 0.02314269
+[1] 0.2067757 0.7568665
+[1] "cutoff"
+[1] 0.1
+[1] 0.2067757 0.7568665
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.003195
+A hal9001 formula object of the form: ~ h(.)[1] 0.02299551
+[1] 0.01635585
+(Intercept) 
+ 0.02299551 
+[1] "Iteration number: 246"
+[1] "pos"
+[1] 0.2357658 0.7406409
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02307599
+[1] 0.0161653
+[1] 0.02307599
+[1] 0.2212718 0.7442045
+[1] "cutoff"
+[1] 0.1
+[1] 0.2212718 0.7442045
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.040336
+A hal9001 formula object of the form: ~ h(.)[1] 0.02288403
+[1] 0.01618683
+(Intercept) 
+ 0.02288403 
+[1] "Iteration number: 247"
+[1] "pos"
+[1] 0.2405189 0.7534558
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02256331
+[1] 0.01581401
+[1] 0.02256331
+[1] 0.1804916 0.7509059
+[1] "cutoff"
+[1] 0.1
+[1] 0.1804916 0.7509059
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.003004
+A hal9001 formula object of the form: ~ h(.)[1] 0.02236251
+[1] 0.0155221
+(Intercept) 
+ 0.02236251 
+[1] "Iteration number: 248"
+[1] "pos"
+[1] 0.2336508 0.7595764
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0226839
+[1] 0.01564407
+[1] 0.0226839
+[1] 0.1786893 0.7610491
+[1] "cutoff"
+[1] 0.1
+[1] 0.1786893 0.7610491
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.020042
+A hal9001 formula object of the form: ~ h(.)[1] 0.02268043
+[1] 0.01567662
+(Intercept) 
+ 0.02268043 
+[1] "Iteration number: 249"
+[1] "pos"
+[1] 0.2335235 0.7499385
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02248072
+[1] 0.015897
+[1] 0.02248072
+[1] 0.1697704 0.7588547
+[1] "cutoff"
+[1] 0.1
+[1] 0.1697704 0.7588547
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.020716
+A hal9001 formula object of the form: ~ h(.)[1] 0.02236862
+[1] 0.01566835
+(Intercept) 
+ 0.02236862 
+[1] "Iteration number: 250"
+[1] "pos"
+[1] 0.2405872 0.7523225
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02268981
+[1] 0.01599488
+[1] 0.02268981
+[1] 0.2008044 0.7645968
+[1] "cutoff"
+[1] 0.1
+[1] 0.2008044 0.7645968
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.023312
+A hal9001 formula object of the form: ~ h(.)[1] 0.02270237
+[1] 0.01591172
+(Intercept) 
+ 0.02270237 
+[1] "Iteration number: 251"
+[1] "pos"
+[1] 0.2408545 0.7488337
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02241905
+[1] 0.01540653
+[1] 0.02241905
+[1] 0.133971 0.785332
+[1] "cutoff"
+[1] 0.1
+[1] 0.133971 0.785332
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9511958
+A hal9001 formula object of the form: ~ h(.)[1] 0.0224293
+[1] 0.01544175
+(Intercept) 
+  0.0224293 
+[1] "Iteration number: 252"
+[1] "pos"
+[1] 0.2362481 0.7589293
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252824
+[1] 0.01576953
+[1] 0.02252824
+[1] 0.1717781 0.7869872
+[1] "cutoff"
+[1] 0.1
+[1] 0.1717781 0.7869872
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9890262
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257962
+[1] 0.01585947
+(Intercept) 
+ 0.02257962 
+[1] "Iteration number: 253"
+[1] "pos"
+[1] 0.2370771 0.7618554
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02289015
+[1] 0.01620271
+[1] 0.02289015
+[1] 0.1786662 0.8154424
+[1] "cutoff"
+[1] 0.1
+[1] 0.1786662 0.8154424
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.041147
+A hal9001 formula object of the form: ~ h(.)[1] 0.02268422
+[1] 0.01609093
+(Intercept) 
+ 0.02268422 
+[1] "Iteration number: 254"
+[1] "pos"
+[1] 0.2340869 0.7612932
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02250455
+[1] 0.01555149
+[1] 0.02250455
+[1] 0.1619950 0.8081882
+[1] "cutoff"
+[1] 0.1
+[1] 0.1619950 0.8081882
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9802515
+A hal9001 formula object of the form: ~ h(.)[1] 0.02244699
+[1] 0.01554744
+(Intercept) 
+ 0.02244699 
+[1] "Iteration number: 255"
+[1] "pos"
+[1] 0.2329182 0.7659259
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02251179
+[1] 0.0157846
+[1] 0.02251179
+[1] 0.1442714 0.7932762
+[1] "cutoff"
+[1] 0.1
+[1] 0.1442714 0.7932762
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.029213
+A hal9001 formula object of the form: ~ h(.)[1] 0.02233027
+[1] 0.01551349
+(Intercept) 
+ 0.02233027 
+[1] "Iteration number: 256"
+[1] "pos"
+[1] 0.2364712 0.7661792
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260608
+[1] 0.01582286
+[1] 0.02260608
+[1] 0.1909879 0.8048730
+[1] "cutoff"
+[1] 0.1
+[1] 0.1909879 0.8048730
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9401591
+A hal9001 formula object of the form: ~ h(.)[1] 0.02251839
+[1] 0.01562449
+(Intercept) 
+ 0.02251839 
+[1] "Iteration number: 257"
+[1] "pos"
+[1] 0.2379043 0.7538195
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02333835
+[1] 0.01679198
+[1] 0.02333835
+[1] 0.1988377 0.7540113
+[1] "cutoff"
+[1] 0.1
+[1] 0.1988377 0.7540113
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9902373
+A hal9001 formula object of the form: ~ h(.)[1] 0.02296158
+[1] 0.01647952
+(Intercept) 
+ 0.02296158 
+[1] "Iteration number: 258"
+[1] "pos"
+[1] 0.2338191 0.7517020
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02300148
+[1] 0.01655716
+[1] 0.02300148
+[1] 0.1981406 0.7806864
+[1] "cutoff"
+[1] 0.1
+[1] 0.1981406 0.7806864
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9869197
+A hal9001 formula object of the form: ~ h(.)[1] 0.02301254
+[1] 0.01656779
+(Intercept) 
+ 0.02301254 
+[1] "Iteration number: 259"
+[1] "pos"
+[1] 0.2343820 0.7577178
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02287574
+[1] 0.01656265
+[1] 0.02287574
+[1] 0.1840639 0.7809928
+[1] "cutoff"
+[1] 0.1
+[1] 0.1840639 0.7809928
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9811286
+A hal9001 formula object of the form: ~ h(.)[1] 0.02295349
+[1] 0.01647755
+(Intercept) 
+ 0.02295349 
+[1] "Iteration number: 260"
+[1] "pos"
+[1] 0.2364854 0.7648757
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02250796
+[1] 0.01597004
+[1] 0.02250796
+[1] 0.1784603 0.7987077
+[1] "cutoff"
+[1] 0.1
+[1] 0.1784603 0.7987077
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9500287
+A hal9001 formula object of the form: ~ h(.)[1] 0.02226793
+[1] 0.01553912
+(Intercept) 
+ 0.02226793 
+[1] "Iteration number: 261"
+[1] "pos"
+[1] 0.2355996 0.7657461
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02253812
+[1] 0.01591785
+[1] 0.02253812
+[1] 0.2150305 0.7897414
+[1] "cutoff"
+[1] 0.1
+[1] 0.2150305 0.7897414
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.00369
+A hal9001 formula object of the form: ~ h(.)[1] 0.02255946
+[1] 0.01589815
+(Intercept) 
+ 0.02255946 
+[1] "Iteration number: 262"
+[1] "pos"
+[1] 0.2397781 0.7609428
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02218417
+[1] 0.01529384
+[1] 0.02218417
+[1] 0.2353443 0.7398880
+[1] "cutoff"
+[1] 0.1
+[1] 0.2353443 0.7398880
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021421
+A hal9001 formula object of the form: ~ h(.)[1] 0.02197909
+[1] 0.01528258
+(Intercept) 
+ 0.02197909 
+[1] "Iteration number: 263"
+[1] "pos"
+[1] 0.2411051 0.7548051
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02297985
+[1] 0.0163673
+[1] 0.02297985
+[1] 0.1790998 0.7273595
+[1] "cutoff"
+[1] 0.1
+[1] 0.1790998 0.7273595
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000865
+A hal9001 formula object of the form: ~ h(.)[1] 0.02278447
+[1] 0.01626945
+(Intercept) 
+ 0.02278447 
+[1] "Iteration number: 264"
+[1] "pos"
+[1] 0.2374440 0.7566828
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02232442
+[1] 0.01577395
+[1] 0.02232442
+[1] 0.1316652 0.7289929
+[1] "cutoff"
+[1] 0.1
+[1] 0.1316652 0.7289929
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.993655
+A hal9001 formula object of the form: ~ h(.)[1] 0.0221957
+[1] 0.01554587
+(Intercept) 
+  0.0221957 
+[1] "Iteration number: 265"
+[1] "pos"
+[1] 0.2341931 0.7430054
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279756
+[1] 0.01593814
+[1] 0.02279756
+[1] 0.2349349 0.7517216
+[1] "cutoff"
+[1] 0.1
+[1] 0.2349349 0.7517216
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.996035
+A hal9001 formula object of the form: ~ h(.)[1] 0.02249033
+[1] 0.01580379
+(Intercept) 
+ 0.02249033 
+[1] "Iteration number: 266"
+[1] "pos"
+[1] 0.2371275 0.7531131
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0222691
+[1] 0.01568322
+[1] 0.0222691
+[1] 0.2283256 0.7975627
+[1] "cutoff"
+[1] 0.1
+[1] 0.2283256 0.7975627
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9794266
+A hal9001 formula object of the form: ~ h(.)[1] 0.02245421
+[1] 0.01569953
+(Intercept) 
+ 0.02245421 
+[1] "Iteration number: 267"
+[1] "pos"
+[1] 0.2396841 0.7459446
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02280549
+[1] 0.01618388
+[1] 0.02280549
+[1] 0.2344919 0.7301632
+[1] "cutoff"
+[1] 0.1
+[1] 0.2344919 0.7301632
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000873
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263822
+[1] 0.01602073
+(Intercept) 
+ 0.02263822 
+[1] "Iteration number: 268"
+[1] "pos"
+[1] 0.2352532 0.7537894
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02282941
+[1] 0.01579919
+[1] 0.02282941
+[1] 0.2170145 0.7486152
+[1] "cutoff"
+[1] 0.1
+[1] 0.2170145 0.7486152
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.019187
+A hal9001 formula object of the form: ~ h(.)[1] 0.02274346
+[1] 0.01582972
+(Intercept) 
+ 0.02274346 
+[1] "Iteration number: 269"
+[1] "pos"
+[1] 0.2339150 0.7558695
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02280933
+[1] 0.01565036
+[1] 0.02280933
+[1] 0.1889449 0.7736807
+[1] "cutoff"
+[1] 0.1
+[1] 0.1889449 0.7736807
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9945625
+A hal9001 formula object of the form: ~ h(.)[1] 0.02266726
+[1] 0.01577616
+(Intercept) 
+ 0.02266726 
+[1] "Iteration number: 270"
+[1] "pos"
+[1] 0.2365151 0.7394855
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02282961
+[1] 0.01593217
+[1] 0.02282961
+[1] 0.1276427 0.7589879
+[1] "cutoff"
+[1] 0.1
+[1] 0.1276427 0.7589879
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.026525
+A hal9001 formula object of the form: ~ h(.)[1] 0.02273779
+[1] 0.01576375
+(Intercept) 
+ 0.02273779 
+[1] "Iteration number: 271"
+[1] "pos"
+[1] 0.2432390 0.7448367
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02236329
+[1] 0.01591577
+[1] 0.02236329
+[1] 0.1867109 0.7305088
+[1] "cutoff"
+[1] 0.1
+[1] 0.1867109 0.7305088
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9632884
+A hal9001 formula object of the form: ~ h(.)[1] 0.02230226
+[1] 0.0157671
+(Intercept) 
+ 0.02230226 
+[1] "Iteration number: 272"
+[1] "pos"
+[1] 0.2336519 0.7482928
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264277
+[1] 0.01596943
+[1] 0.02264277
+[1] 0.2018089 0.7295729
+[1] "cutoff"
+[1] 0.1
+[1] 0.2018089 0.7295729
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9915043
+A hal9001 formula object of the form: ~ h(.)[1] 0.02267713
+[1] 0.01593322
+(Intercept) 
+ 0.02267713 
+[1] "Iteration number: 273"
+[1] "pos"
+[1] 0.2359216 0.7617568
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02238057
+[1] 0.01589384
+[1] 0.02238057
+[1] 0.2428610 0.7037084
+[1] "cutoff"
+[1] 0.1
+[1] 0.2428610 0.7037084
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9766258
+A hal9001 formula object of the form: ~ h(.)[1] 0.02232629
+[1] 0.0157863
+(Intercept) 
+ 0.02232629 
+[1] "Iteration number: 274"
+[1] "pos"
+[1] 0.2378035 0.7607682
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02289124
+[1] 0.01609553
+[1] 0.02289124
+[1] 0.1756718 0.7898142
+[1] "cutoff"
+[1] 0.1
+[1] 0.1756718 0.7898142
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.012323
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276094
+[1] 0.01606913
+(Intercept) 
+ 0.02276094 
+[1] "Iteration number: 275"
+[1] "pos"
+[1] 0.2432254 0.7620698
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02310168
+[1] 0.01617334
+[1] 0.02310168
+[1] 0.2220202 0.7815062
+[1] "cutoff"
+[1] 0.1
+[1] 0.2220202 0.7815062
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.006722
+A hal9001 formula object of the form: ~ h(.)[1] 0.02288785
+[1] 0.01607237
+(Intercept) 
+ 0.02288785 
+[1] "Iteration number: 276"
+[1] "pos"
+[1] 0.2364633 0.7631226
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02313983
+[1] 0.01648908
+[1] 0.02313983
+[1] 0.2103620 0.7789249
+[1] "cutoff"
+[1] 0.1
+[1] 0.2103620 0.7789249
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.053709
+A hal9001 formula object of the form: ~ h(.)[1] 0.02316028
+[1] 0.01656346
+(Intercept) 
+ 0.02316028 
+[1] "Iteration number: 277"
+[1] "pos"
+[1] 0.2398745 0.7466337
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279632
+[1] 0.01629089
+[1] 0.02279632
+[1] 0.2100831 0.7313211
+[1] "cutoff"
+[1] 0.1
+[1] 0.2100831 0.7313211
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9792527
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276013
+[1] 0.01628729
+(Intercept) 
+ 0.02276013 
+[1] "Iteration number: 278"
+[1] "pos"
+[1] 0.2360269 0.7552839
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02318657
+[1] 0.01644888
+[1] 0.02318657
+[1] 0.2018243 0.7388830
+[1] "cutoff"
+[1] 0.1
+[1] 0.2018243 0.7388830
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.030386
+A hal9001 formula object of the form: ~ h(.)[1] 0.02288312
+[1] 0.01617178
+(Intercept) 
+ 0.02288312 
+[1] "Iteration number: 279"
+[1] "pos"
+[1] 0.2356079 0.7619854
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02235949
+[1] 0.01558001
+[1] 0.02235949
+[1] 0.1925605 0.7229585
+[1] "cutoff"
+[1] 0.1
+[1] 0.1925605 0.7229585
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.99515
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257065
+[1] 0.01562952
+(Intercept) 
+ 0.02257065 
+[1] "Iteration number: 280"
+[1] "pos"
+[1] 0.2405051 0.7501133
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02250136
+[1] 0.01633079
+[1] 0.02250136
+[1] 0.2019898 0.7533410
+[1] "cutoff"
+[1] 0.1
+[1] 0.2019898 0.7533410
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9608105
+A hal9001 formula object of the form: ~ h(.)[1] 0.02259368
+[1] 0.01618122
+(Intercept) 
+ 0.02259368 
+[1] "Iteration number: 281"
+[1] "pos"
+[1] 0.2339448 0.7636562
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02258368
+[1] 0.01598381
+[1] 0.02258368
+[1] 0.1967327 0.7818796
+[1] "cutoff"
+[1] 0.1
+[1] 0.1967327 0.7818796
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9920211
+A hal9001 formula object of the form: ~ h(.)[1] 0.02261061
+[1] 0.01598753
+(Intercept) 
+ 0.02261061 
+[1] "Iteration number: 282"
+[1] "pos"
+[1] 0.2326721 0.7578999
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02283483
+[1] 0.01598319
+[1] 0.02283483
+[1] 0.1920376 0.7354836
+[1] "cutoff"
+[1] 0.1
+[1] 0.1920376 0.7354836
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001289
+A hal9001 formula object of the form: ~ h(.)[1] 0.02295951
+[1] 0.01614792
+(Intercept) 
+ 0.02295951 
+[1] "Iteration number: 283"
+[1] "pos"
+[1] 0.2376170 0.7642223
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279395
+[1] 0.01628265
+[1] 0.02279395
+[1] 0.1877448 0.7477740
+[1] "cutoff"
+[1] 0.1
+[1] 0.1877448 0.7477740
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.018696
+A hal9001 formula object of the form: ~ h(.)[1] 0.02249779
+[1] 0.01591644
+(Intercept) 
+ 0.02249779 
+[1] "Iteration number: 284"
+[1] "pos"
+[1] 0.2372005 0.7609245
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02233453
+[1] 0.01570825
+[1] 0.02233453
+[1] 0.1818866 0.7685755
+[1] "cutoff"
+[1] 0.1
+[1] 0.1818866 0.7685755
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.013579
+A hal9001 formula object of the form: ~ h(.)[1] 0.02233188
+[1] 0.01562624
+(Intercept) 
+ 0.02233188 
+[1] "Iteration number: 285"
+[1] "pos"
+[1] 0.2363749 0.7584386
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02218258
+[1] 0.01540069
+[1] 0.02218258
+[1] 0.2013331 0.7693524
+[1] "cutoff"
+[1] 0.1
+[1] 0.2013331 0.7693524
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9920268
+A hal9001 formula object of the form: ~ h(.)[1] 0.02222978
+[1] 0.0153514
+(Intercept) 
+ 0.02222978 
+[1] "Iteration number: 286"
+[1] "pos"
+[1] 0.2339299 0.7499003
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266099
+[1] 0.01597445
+[1] 0.02266099
+[1] 0.1744028 0.7366233
+[1] "cutoff"
+[1] 0.1
+[1] 0.1744028 0.7366233
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.027468
+A hal9001 formula object of the form: ~ h(.)[1] 0.02256755
+[1] 0.01603591
+(Intercept) 
+ 0.02256755 
+[1] "Iteration number: 287"
+[1] "pos"
+[1] 0.2387022 0.7485168
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02202824
+[1] 0.01545778
+[1] 0.02202824
+[1] 0.1773001 0.7504711
+[1] "cutoff"
+[1] 0.1
+[1] 0.1773001 0.7504711
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.019283
+A hal9001 formula object of the form: ~ h(.)[1] 0.02207021
+[1] 0.01527369
+(Intercept) 
+ 0.02207021 
+[1] "Iteration number: 288"
+[1] "pos"
+[1] 0.2389846 0.7614010
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02286513
+[1] 0.01614394
+[1] 0.02286513
+[1] 0.2323017 0.7642623
+[1] "cutoff"
+[1] 0.1
+[1] 0.2323017 0.7642623
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.036346
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260307
+[1] 0.01609144
+(Intercept) 
+ 0.02260307 
+[1] "Iteration number: 289"
+[1] "pos"
+[1] 0.2355548 0.7520522
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02292491
+[1] 0.01597418
+[1] 0.02292491
+[1] 0.1628448 0.7742752
+[1] "cutoff"
+[1] 0.1
+[1] 0.1628448 0.7742752
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9998629
+A hal9001 formula object of the form: ~ h(.)[1] 0.02262583
+[1] 0.01588287
+(Intercept) 
+ 0.02262583 
+[1] "Iteration number: 290"
+[1] "pos"
+[1] 0.2381258 0.7592515
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02277155
+[1] 0.01612464
+[1] 0.02277155
+[1] 0.2117852 0.7693529
+[1] "cutoff"
+[1] 0.1
+[1] 0.2117852 0.7693529
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9799814
+A hal9001 formula object of the form: ~ h(.)[1] 0.02271602
+[1] 0.01611089
+(Intercept) 
+ 0.02271602 
+[1] "Iteration number: 291"
+[1] "pos"
+[1] 0.2340886 0.7574884
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02280511
+[1] 0.01603266
+[1] 0.02280511
+[1] 0.1992809 0.7808252
+[1] "cutoff"
+[1] 0.1
+[1] 0.1992809 0.7808252
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021398
+A hal9001 formula object of the form: ~ h(.)[1] 0.02287561
+[1] 0.01608332
+(Intercept) 
+ 0.02287561 
+[1] "Iteration number: 292"
+[1] "pos"
+[1] 0.2385246 0.7470513
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02263324
+[1] 0.0160325
+[1] 0.02263324
+[1] 0.2104607 0.7554957
+[1] "cutoff"
+[1] 0.1
+[1] 0.2104607 0.7554957
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.000024
+A hal9001 formula object of the form: ~ h(.)[1] 0.02261203
+[1] 0.01614205
+(Intercept) 
+ 0.02261203 
+[1] "Iteration number: 293"
+[1] "pos"
+[1] 0.2398355 0.7599122
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0223666
+[1] 0.01600823
+[1] 0.0223666
+[1] 0.2485437 0.7056127
+[1] "cutoff"
+[1] 0.1
+[1] 0.2485437 0.7056127
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.988028
+A hal9001 formula object of the form: ~ h(.)[1] 0.02248323
+[1] 0.0161107
+(Intercept) 
+ 0.02248323 
+[1] "Iteration number: 294"
+[1] "pos"
+[1] 0.2344441 0.7638079
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02223207
+[1] 0.01537544
+[1] 0.02223207
+[1] 0.2477667 0.7384909
+[1] "cutoff"
+[1] 0.1
+[1] 0.2477667 0.7384909
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9857745
+A hal9001 formula object of the form: ~ h(.)[1] 0.02221428
+[1] 0.01542806
+(Intercept) 
+ 0.02221428 
+[1] "Iteration number: 295"
+[1] "pos"
+[1] 0.2369039 0.7500525
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02245374
+[1] 0.01540255
+[1] 0.02245374
+[1] 0.2203419 0.7644883
+[1] "cutoff"
+[1] 0.1
+[1] 0.2203419 0.7644883
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.001973
+A hal9001 formula object of the form: ~ h(.)[1] 0.02228451
+[1] 0.01538382
+(Intercept) 
+ 0.02228451 
+[1] "Iteration number: 296"
+[1] "pos"
+[1] 0.2327022 0.7639840
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02264075
+[1] 0.01599074
+[1] 0.02264075
+[1] 0.1756747 0.7465770
+[1] "cutoff"
+[1] 0.1
+[1] 0.1756747 0.7465770
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9927589
+A hal9001 formula object of the form: ~ h(.)[1] 0.02276527
+[1] 0.01605188
+(Intercept) 
+ 0.02276527 
+[1] "Iteration number: 297"
+[1] "pos"
+[1] 0.2367425 0.7504116
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02258091
+[1] 0.01609512
+[1] 0.02258091
+[1] 0.1240681 0.7999334
+[1] "cutoff"
+[1] 0.1
+[1] 0.1240681 0.7999334
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9981747
+A hal9001 formula object of the form: ~ h(.)[1] 0.02247117
+[1] 0.01600239
+(Intercept) 
+ 0.02247117 
+[1] "Iteration number: 298"
+[1] "pos"
+[1] 0.2428555 0.7566175
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02274643
+[1] 0.0159047
+[1] 0.02274643
+[1] 0.1792833 0.7936629
+[1] "cutoff"
+[1] 0.1
+[1] 0.1792833 0.7936629
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.023188
+A hal9001 formula object of the form: ~ h(.)[1] 0.02258599
+[1] 0.01594537
+(Intercept) 
+ 0.02258599 
+[1] "Iteration number: 299"
+[1] "pos"
+[1] 0.2381228 0.7574087
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269304
+[1] 0.01598572
+[1] 0.02269304
+[1] 0.2518313 0.7392646
+[1] "cutoff"
+[1] 0.1
+[1] 0.2518313 0.7392646
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9866278
+A hal9001 formula object of the form: ~ h(.)[1] 0.02267252
+[1] 0.01607801
+(Intercept) 
+ 0.02267252 
+[1] "Iteration number: 300"
+[1] "pos"
+[1] 0.2322095 0.7642128
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260591
+[1] 0.01579405
+[1] 0.02260591
+[1] 0.1701313 0.7564313
+[1] "cutoff"
+[1] 0.1
+[1] 0.1701313 0.7564313
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9793329
+A hal9001 formula object of the form: ~ h(.)[1] 0.02252785
+[1] 0.01573536
+(Intercept) 
+ 0.02252785 
+[1] "Iteration number: 301"
+[1] "pos"
+[1] 0.2413914 0.7620634
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02201147
+[1] 0.01581874
+[1] 0.02201147
+[1] 0.1980202 0.7805885
+[1] "cutoff"
+[1] 0.1
+[1] 0.1980202 0.7805885
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.024866
+A hal9001 formula object of the form: ~ h(.)[1] 0.02207419
+[1] 0.01568625
+(Intercept) 
+ 0.02207419 
+[1] "Iteration number: 302"
+[1] "pos"
+[1] 0.2359553 0.7477174
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02232424
+[1] 0.01568014
+[1] 0.02232424
+[1] 0.1697924 0.7414161
+[1] "cutoff"
+[1] 0.1
+[1] 0.1697924 0.7414161
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.011012
+A hal9001 formula object of the form: ~ h(.)[1] 0.02199456
+[1] 0.01547924
+(Intercept) 
+ 0.02199456 
+[1] "Iteration number: 303"
+[1] "pos"
+[1] 0.2384075 0.7579874
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02260937
+[1] 0.01582763
+[1] 0.02260937
+[1] 0.1942699 0.7537087
+[1] "cutoff"
+[1] 0.1
+[1] 0.1942699 0.7537087
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9839215
+A hal9001 formula object of the form: ~ h(.)[1] 0.02259813
+[1] 0.01576514
+(Intercept) 
+ 0.02259813 
+[1] "Iteration number: 304"
+[1] "pos"
+[1] 0.2427710 0.7496169
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02294339
+[1] 0.01612185
+[1] 0.02294339
+[1] 0.1891052 0.7335782
+[1] "cutoff"
+[1] 0.1
+[1] 0.1891052 0.7335782
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.017562
+A hal9001 formula object of the form: ~ h(.)[1] 0.02286634
+[1] 0.01620513
+(Intercept) 
+ 0.02286634 
+[1] "Iteration number: 305"
+[1] "pos"
+[1] 0.2385187 0.7673708
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02279613
+[1] 0.01582303
+[1] 0.02279613
+[1] 0.1640323 0.7514503
+[1] "cutoff"
+[1] 0.1
+[1] 0.1640323 0.7514503
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9861353
+A hal9001 formula object of the form: ~ h(.)[1] 0.02266493
+[1] 0.01578267
+(Intercept) 
+ 0.02266493 
+[1] "Iteration number: 306"
+[1] "pos"
+[1] 0.2365088 0.7573772
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02266338
+[1] 0.01574843
+[1] 0.02266338
+[1] 0.1988457 0.8203263
+[1] "cutoff"
+[1] 0.1
+[1] 0.1988457 0.8203263
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.00271
+A hal9001 formula object of the form: ~ h(.)[1] 0.02257888
+[1] 0.0155471
+(Intercept) 
+ 0.02257888 
+[1] "Iteration number: 307"
+[1] "pos"
+[1] 0.2393568 0.7637918
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02252294
+[1] 0.0162502
+[1] 0.02252294
+[1] 0.2415554 0.7211409
+[1] "cutoff"
+[1] 0.1
+[1] 0.2415554 0.7211409
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9861685
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263719
+[1] 0.01613832
+(Intercept) 
+ 0.02263719 
+[1] "Iteration number: 308"
+[1] "pos"
+[1] 0.2364440 0.7600378
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02265017
+[1] 0.01589616
+[1] 0.02265017
+[1] 0.2222840 0.7882983
+[1] "cutoff"
+[1] 0.1
+[1] 0.2222840 0.7882983
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.99746
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260881
+[1] 0.01580972
+(Intercept) 
+ 0.02260881 
+[1] "Iteration number: 309"
+[1] "pos"
+[1] 0.2369201 0.7560462
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02255033
+[1] 0.01573031
+[1] 0.02255033
+[1] 0.1519981 0.7350945
+[1] "cutoff"
+[1] 0.1
+[1] 0.1519981 0.7350945
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9973694
+A hal9001 formula object of the form: ~ h(.)[1] 0.0224353
+[1] 0.01570449
+(Intercept) 
+  0.0224353 
+[1] "Iteration number: 310"
+[1] "pos"
+[1] 0.2420688 0.7659493
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02274438
+[1] 0.01608759
+[1] 0.02274438
+[1] 0.1961350 0.7413565
+[1] "cutoff"
+[1] 0.1
+[1] 0.1961350 0.7413565
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9839653
+A hal9001 formula object of the form: ~ h(.)[1] 0.0225077
+[1] 0.01611467
+(Intercept) 
+  0.0225077 
+[1] "Iteration number: 311"
+[1] "pos"
+[1] 0.2344594 0.7600970
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269548
+[1] 0.0155277
+[1] 0.02269548
+[1] 0.1939949 0.8075468
+[1] "cutoff"
+[1] 0.1
+[1] 0.1939949 0.8075468
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.01921
+A hal9001 formula object of the form: ~ h(.)[1] 0.02269655
+[1] 0.01567706
+(Intercept) 
+ 0.02269655 
+[1] "Iteration number: 312"
+[1] "pos"
+[1] 0.2348173 0.7603751
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02290858
+[1] 0.01570364
+[1] 0.02290858
+[1] 0.1855966 0.7725330
+[1] "cutoff"
+[1] 0.1
+[1] 0.1855966 0.7725330
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9764031
+A hal9001 formula object of the form: ~ h(.)[1] 0.0227553
+[1] 0.01570612
+(Intercept) 
+  0.0227553 
+[1] "Iteration number: 313"
+[1] "pos"
+[1] 0.2399256 0.7665285
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02269079
+[1] 0.01595715
+[1] 0.02269079
+[1] 0.1970769 0.7498090
+[1] "cutoff"
+[1] 0.1
+[1] 0.1970769 0.7498090
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9702303
+A hal9001 formula object of the form: ~ h(.)[1] 0.02263814
+[1] 0.01577788
+(Intercept) 
+ 0.02263814 
+[1] "Iteration number: 314"
+[1] "pos"
+[1] 0.2397537 0.7622837
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02342062
+[1] 0.0167143
+[1] 0.02342062
+[1] 0.1560623 0.7114471
+[1] "cutoff"
+[1] 0.1
+[1] 0.1560623 0.7114471
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.021677
+A hal9001 formula object of the form: ~ h(.)[1] 0.0233951
+[1] 0.01680208
+(Intercept) 
+  0.0233951 
+[1] "Iteration number: 315"
+[1] "pos"
+[1] 0.2376661 0.7617238
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02321241
+[1] 0.01624198
+[1] 0.02321241
+[1] 0.1609257 0.7793322
+[1] "cutoff"
+[1] 0.1
+[1] 0.1609257 0.7793322
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9935212
+A hal9001 formula object of the form: ~ h(.)[1] 0.02312019
+[1] 0.01626746
+(Intercept) 
+ 0.02312019 
+[1] "Iteration number: 316"
+[1] "pos"
+[1] 0.2353903 0.7632165
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02292433
+[1] 0.01608881
+[1] 0.02292433
+[1] 0.1964661 0.7397263
+[1] "cutoff"
+[1] 0.1
+[1] 0.1964661 0.7397263
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.00276
+A hal9001 formula object of the form: ~ h(.)[1] 0.02281033
+[1] 0.01610416
+(Intercept) 
+ 0.02281033 
+[1] "Iteration number: 317"
+[1] "pos"
+[1] 0.2455546 0.7584086
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02231969
+[1] 0.01585121
+[1] 0.02231969
+[1] 0.1813123 0.7980208
+[1] "cutoff"
+[1] 0.1
+[1] 0.1813123 0.7980208
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.038562
+A hal9001 formula object of the form: ~ h(.)[1] 0.02225632
+[1] 0.0158598
+(Intercept) 
+ 0.02225632 
+[1] "Iteration number: 318"
+[1] "pos"
+[1] 0.2331044 0.7599384
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02257337
+[1] 0.01612162
+[1] 0.02257337
+[1] 0.1386047 0.7935002
+[1] "cutoff"
+[1] 0.1
+[1] 0.1386047 0.7935002
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.032907
+A hal9001 formula object of the form: ~ h(.)[1] 0.0224731
+[1] 0.01585353
+(Intercept) 
+  0.0224731 
+[1] "Iteration number: 319"
+[1] "pos"
+[1] 0.2335223 0.7525355
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02217696
+[1] 0.01550504
+[1] 0.02217696
+[1] 0.2454703 0.7607820
+[1] "cutoff"
+[1] 0.1
+[1] 0.2454703 0.7607820
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9964193
+A hal9001 formula object of the form: ~ h(.)[1] 0.02189384
+[1] 0.01536991
+(Intercept) 
+ 0.02189384 
+[1] "Iteration number: 320"
+[1] "pos"
+[1] 0.2378267 0.7627510
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02271288
+[1] 0.01605342
+[1] 0.02271288
+[1] 0.2361100 0.7666942
+[1] "cutoff"
+[1] 0.1
+[1] 0.2361100 0.7666942
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9863259
+A hal9001 formula object of the form: ~ h(.)[1] 0.02260932
+[1] 0.01616262
+(Intercept) 
+ 0.02260932 
+[1] "Iteration number: 321"
+[1] "pos"
+[1] 0.2420287 0.7529222
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0229122
+[1] 0.01587365
+[1] 0.0229122
+[1] 0.1816483 0.7578664
+[1] "cutoff"
+[1] 0.1
+[1] 0.1816483 0.7578664
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9677487
+A hal9001 formula object of the form: ~ h(.)[1] 0.02300315
+[1] 0.01606018
+(Intercept) 
+ 0.02300315 
+[1] "Iteration number: 322"
+[1] "pos"
+[1] 0.2392217 0.7504321
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02189014
+[1] 0.01529029
+[1] 0.02189014
+[1] 0.1839177 0.7312324
+[1] "cutoff"
+[1] 0.1
+[1] 0.1839177 0.7312324
+[1] "Fitting mu = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9823414
+A hal9001 formula object of the form: ~ h(.)[1] 0.02172833
+[1] 0.0151913
+(Intercept) 
+ 0.02172833 
+[1] "Iteration number: 323"
+[1] "pos"
+[1] 0.2346653 0.7507669
+[1] "Fitting mu0 = E[Y|A=0,W]"

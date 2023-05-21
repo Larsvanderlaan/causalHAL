@@ -1,0 +1,54 @@
+Skipping install of 'hal9001' from a github remote, the SHA1 (afc4d664) has not changed since last install.
+  Use `force = TRUE` to force installation
+Skipping install of 'sl3' from a github remote, the SHA1 (3701e66d) has not changed since last install.
+  Use `force = TRUE` to force installation
+Skipping install of 'doMC' from a cran remote, the SHA1 (1.3.8) has not changed since last install.
+  Use `force = TRUE` to force installation
+Downloading GitHub repo Larsvanderlaan/causalHAL@HEAD
+Installing 3 packages: vctrs, rlang, htmltools
+Installing packages into ‘/home/lvanderl/Rlibs2’
+(as ‘lib’ is unspecified)
+trying URL 'https://cloud.r-project.org/src/contrib/vctrs_0.6.2.tar.gz'
+Content type 'application/x-gzip' length 964633 bytes (942 KB)
+==================================================
+downloaded 942 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rlang_1.1.1.tar.gz'
+Content type 'application/x-gzip' length 762533 bytes (744 KB)
+==================================================
+downloaded 744 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmltools_0.5.5.tar.gz'
+Content type 'application/x-gzip' length 131880 bytes (128 KB)
+==================================================
+downloaded 128 KB
+
+ERROR: failed to lock directory ‘/home/lvanderl/Rlibs2’ for modifying
+Try removing ‘/home/lvanderl/Rlibs2/00LOCK-rlang’
+ERROR: failed to lock directory ‘/home/lvanderl/Rlibs2’ for modifying
+Try removing ‘/home/lvanderl/Rlibs2/00LOCK-vctrs’
+ERROR: failed to lock directory ‘/home/lvanderl/Rlibs2’ for modifying
+Try removing ‘/home/lvanderl/Rlibs2/00LOCK-htmltools’
+
+The downloaded source packages are in
+	‘/loc/scratch/21462146/RtmpleTfVs/downloaded_packages’
+Installing package into ‘/home/lvanderl/Rlibs2’
+(as ‘lib’ is unspecified)
+* installing *source* package ‘causalHAL’ ...
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+ERROR: loading failed
+* removing ‘/home/lvanderl/Rlibs2/causalHAL’
+* restoring previous ‘/home/lvanderl/Rlibs2/causalHAL’
+Warning messages:
+1: In i.p(...) : installation of package ‘rlang’ had non-zero exit status
+2: In i.p(...) : installation of package ‘vctrs’ had non-zero exit status
+3: In i.p(...) :
+  installation of package ‘htmltools’ had non-zero exit status
+4: In i.p(...) :
+  installation of package ‘/loc/scratch/21462146/RtmpleTfVs/file532e42542239/causalHAL_0.1.0.tar.gz’ had non-zero exit status

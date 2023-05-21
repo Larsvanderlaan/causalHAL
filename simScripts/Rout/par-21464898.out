@@ -1,0 +1,367 @@
+LOADING R
+R LOADED
+[1] "/home/lvanderl/Rlibs2"                         
+[2] "/app/software/R/4.2.2-foss-2021b/lib/R/library"
+[1] "/home/lvanderl/sieveSims"
+[1] "Iteration number: 1"
+[1] "pos"
+[1] 9.250356e-09 9.999969e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05261648
+[1] 0.03365449
+[1] 0.05261648
+[1] -0.2945028  1.4719296
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.975517
+NULL
+[1] 0.06071566
+[1] 0.03109148
+(Intercept) 
+ 0.06071566 
+[1] "Iteration number: 2"
+[1] "pos"
+[1] 6.909174e-09 9.999981e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.06760419
+[1] 0.03116587
+[1] 0.06760419
+[1] -0.327710  1.482555
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9289637
+NULL
+[1] 0.0600091
+[1] 0.03031798
+(Intercept) 
+  0.0600091 
+[1] "Iteration number: 3"
+[1] "pos"
+[1] 1.490650e-08 9.999986e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05568478
+[1] 0.03529981
+[1] 0.05568478
+[1] -0.3893475  1.4864896
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.02755
+NULL
+[1] 0.06292817
+[1] 0.03367325
+(Intercept) 
+ 0.06292817 
+[1] "Iteration number: 4"
+[1] "pos"
+[1] 4.434371e-08 9.999994e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05267629
+[1] 0.03205464
+[1] 0.05267629
+[1] -0.3390881  1.5044669
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.122302
+NULL
+[1] 0.06525995
+[1] 0.03575088
+(Intercept) 
+ 0.06525995 
+[1] "Iteration number: 5"
+[1] "pos"
+[1] 1.223750e-08 9.999989e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05631021
+[1] 0.03337151
+[1] 0.05631021
+[1] -0.2948661  1.4841827
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.06262
+NULL
+[1] 0.06407527
+[1] 0.03392662
+(Intercept) 
+ 0.06407527 
+[1] "Iteration number: 6"
+[1] "pos"
+[1] 1.291405e-08 9.999991e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.04857624
+[1] 0.02838909
+[1] 0.04857624
+[1] -0.3562801  1.4676760
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.126797
+NULL
+[1] 0.0587495
+[1] 0.02559797
+(Intercept) 
+  0.0587495 
+[1] "Iteration number: 7"
+[1] "pos"
+[1] 6.303232e-09 9.999989e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05006639
+[1] 0.03037291
+[1] 0.05006639
+[1] -0.2770192  1.5298404
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.05004
+NULL
+[1] 0.06237131
+[1] 0.029176
+(Intercept) 
+ 0.06237131 
+[1] "Iteration number: 8"
+[1] "pos"
+[1] 6.250799e-09 9.999993e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.0584802
+[1] 0.03327199
+[1] 0.0584802
+[1] -0.3292061  1.4771400
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9351914
+NULL
+[1] 0.06673699
+[1] 0.03853213
+(Intercept) 
+ 0.06673699 
+[1] "Iteration number: 9"
+[1] "pos"
+[1] 7.394982e-08 9.999987e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] "Iteration number: 10"
+[1] "pos"
+[1] 9.882387e-09 9.999988e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.04943918
+[1] 0.02984961
+[1] 0.04943918
+[1] -0.3948913  1.5031348
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9826337
+NULL
+[1] 0.06132387
+[1] 0.0290702
+(Intercept) 
+ 0.06132387 
+[1] "Iteration number: 11"
+[1] "pos"
+[1] 7.891658e-09 9.999991e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05337734
+[1] 0.03104724
+[1] 0.05337734
+[1] -0.296209  1.503416
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9344941
+NULL
+[1] 0.05964726
+[1] 0.03063775
+(Intercept) 
+ 0.05964726 
+[1] "Iteration number: 12"
+[1] "pos"
+[1] 4.214583e-08 9.999963e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.04888571
+[1] 0.0313432
+[1] 0.04888571
+[1] -0.3720911  1.5023313
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9938242
+NULL
+[1] 0.06095499
+[1] 0.03126339
+(Intercept) 
+ 0.06095499 
+[1] "Iteration number: 13"
+[1] "pos"
+[1] 7.049699e-09 9.999996e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05368836
+[1] 0.03392482
+[1] 0.05368836
+[1] -0.3517877  1.4505270
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.032925
+NULL
+[1] 0.06366098
+[1] 0.03317564
+(Intercept) 
+ 0.06366098 
+[1] "Iteration number: 14"
+[1] "pos"
+[1] 1.586366e-08 9.999973e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05141847
+[1] 0.03199064
+[1] 0.05141847
+[1] -0.4006407  1.5661424
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9199834
+NULL
+[1] 0.06487302
+[1] 0.03152185
+(Intercept) 
+ 0.06487302 
+[1] "Iteration number: 15"
+[1] "pos"
+[1] 6.259333e-09 9.999987e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05128996
+[1] 0.03254541
+[1] 0.05128996
+[1] -0.3075981  1.6295471
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.9634256
+NULL
+[1] 0.06166165
+[1] 0.03374481
+(Intercept) 
+ 0.06166165 
+[1] "Iteration number: 16"
+[1] "pos"
+[1] 7.197162e-09 9.999992e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05117969
+[1] 0.03054954
+[1] 0.05117969
+[1] -0.3529453  1.5212139
+[1] "cutoff"
+[1] 1e-08
+[1] 1e-08 1e+00
+[1] "Fitting m = E[Y|W]"
+[1] "Fitting pi = E[A|W]"
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 0.984286
+NULL
+[1] 0.06597894
+[1] 0.03137018
+(Intercept) 
+ 0.06597894 
+[1] "Iteration number: 17"
+[1] "pos"
+[1] 8.473780e-09 9.999992e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.05655802
+[1] 0.03207864
+[1] 0.05655802
