@@ -24,7 +24,7 @@ do_sims <- function(niter, n, pos_const, muIsHard, do_local_alt = FALSE) {
     })
     return(data.table())
   }))
-  key <- paste0("iter=", niter, "_n=", n, "_pos=", pos_const, "_hard=", muIsHard)
+  key <- paste0("iter=", niter, "_n=", n, "_pos=", pos_const, "_hard=", muIsHard, "_local_",do_local_alt )
   try({fwrite(sim_results, paste0("~/causalHAL/simResults/sim_results_", key, ".csv"))})
   return(sim_results)
 }
