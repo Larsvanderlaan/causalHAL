@@ -9,36 +9,36 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
- 
+
 
 ```{r}
 n <- 1000
- 
- data_list$W <- data_list$W[,c(1,2,3,4,5)]
+
+data_list$W <- data_list$W[,c(1,2,3,4,5)]
 boot_est <- sapply(1:2, function(i) {
   data_list <- data_list
   index <- sample(1:n, n, replace = T)
   W <- data_list$W[index, ]
- Y <- data_list$Y[index]
+  Y <- data_list$Y[index]
   A <- data_list$A[index]
   X <-  cbind(1, W[,c(1,2,4,5)], A, A * W[,c(1,3,5)])
   beta <- coef(glm.fit(
-   X
-                       , Y))
- 
- X1 <- cbind(1, W[,c(1,2,4,5)], 1, 1 * W[,c(1,3,5)])
- X0 <-  cbind(1, W[,c(1,2,4,5)], 0, 0 * W[,c(1,3,5)])
- alpha <- X %*% solve(t(X) %*% X/n, colMeans(X1 - X0))
+    X
+    , Y))
+  
+  X1 <- cbind(1, W[,c(1,2,4,5)], 1, 1 * W[,c(1,3,5)])
+  X0 <-  cbind(1, W[,c(1,2,4,5)], 0, 0 * W[,c(1,3,5)])
+  alpha <- X %*% solve(t(X) %*% X/n, colMeans(X1 - X0))
   IF_Y_map <- function(...) {
     x_basis <- X
     n <- nrow(W)
-   #M <- x_proj %*% solve((t(x_proj) %*% x_proj) / n, t(x_proj))
+    #M <- x_proj %*% solve((t(x_proj) %*% x_proj) / n, t(x_proj))
     alpha <- x_basis %*% solve(t(x_basis) %*% x_basis/n, colMeans(X1 - X0)  )
     IF <- alpha * (Y - x_basis %*% beta)
   }
- 
+  
   print( sd( alpha * (Y - X %*% beta)    + X1 %*% beta - X0 %*% beta )/sqrt(n))
-
+  
   return(mean( X1 %*% beta - X0 %*% beta))
 })
 
@@ -46,11 +46,11 @@ sd(boot_est)
 ```
 
 ```{r}
- 
- 
-   data_list <- get_data(1000, 1, FALSE)
-    fit_T <- fit_hal_cate(data_list$W, data_list$A, data_list$Y,  max_degree = 1, num_knots = 1, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = 1, smoothness_orders_cate = 1,    screen_variables = TRUE, fit_control = list(parallel = TRUE))
-  ate_T <- unlist(inference_cate(fit_T))
+
+
+data_list <- get_data(1000, 1, FALSE)
+fit_T <- fit_hal_cate(data_list$W, data_list$A, data_list$Y,  max_degree = 1, num_knots = 1, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = 1, smoothness_orders_cate = 1,    screen_variables = TRUE, fit_control = list(parallel = TRUE))
+ate_T <- unlist(inference_cate(fit_T))
 ate_T
 
 ```
@@ -58,15 +58,15 @@ ate_T
 
 ```{r}
 sim_results <- rbindlist(lapply(1:5, function(iter) {
-    print(paste0("Iteration number: ", iter))
-    try({
+  print(paste0("Iteration number: ", iter))
+  try({
     data_list <- get_data(1000, 1, FALSE)
     fit_T <- fit_hal_cate(data_list$W, data_list$A, data_list$Y,  max_degree = 1, num_knots = 1, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = 1, smoothness_orders_cate = 1,    screen_variables = TRUE, fit_control = list(parallel = TRUE))
-  ate_T <- unlist(inference_cate(fit_T))
+    ate_T <- unlist(inference_cate(fit_T))
     return(as.data.table(ate_T))
-    })
-    return(data.table())
-  }))
+  })
+  return(data.table())
+}))
 
 ```
 
@@ -79,22 +79,111 @@ right <- as.numeric(sim_results$ate_T[c(5,5+ 5*1:round((229/6)))] )
 table(1 <= right & 1 >= left )
 ```
 
+
+
+```{r}
+library(data.table)
+local <- TRUE
+complexity <- FALSE
+results <- rbindlist(unlist(lapply(c( 0, 0.5, 1, 2 ), function(pos){
+  set.seed(123)
+   
  
+   dat <-  get_data(100000, pos, muIsHard = complexity) 
+  pi <-dat$pi
+  pos_const <- signif(min(pi, 1-pi),1)
+  lapply( c(500, 1000, 2000, 3000, 4000), function(n){
+    if(!local){
+    ATE <- 1
+  } else {
+    ATE <-  get_data_local_alt(n, pos, muIsHard = complexity)$ATE
+  }
+    
+    try({ data <- fread(paste0("simResults/sim_results_iter=5000_n=",n,"_pos=", pos, "_hard=", complexity, "_local_", local, ".csv"))
+    data$n <- n
+    data$ATE <- ATE
+    data$pos <- paste0("Overlap: ", pos_const)
+    data$pos_const <- as.numeric(pos_const)
+    return(data)
+    })
+    return(data.table())
+  })
+}), recursive = F))
+results$pos <- factor(results$pos, levels = paste0("Overlap: ", rev(sort(unique(results$pos_const)))))
+method_names <- c("Rlearner", "Tlearner", "intercept", "AIPW")
+names(method_names) <- c("AMLE-partially linear (*)", "AMLE-plugin (*)", "intercept", "AIPW")
+results$method <- names(method_names)[match(results$method , method_names)]
+unique(results[, max(abs(coef)), by =  c("n", "pos", "method" )])
+ 
+results_summary <- unique(results[, 
+                                  .(bias = abs(mean(coef)-ATE), se = sd(coef), pos_const = pos_const[1], coverage =  mean(CI_left <= ATE & CI_right >= ATE))
+                                  , by = c("n", "pos", "method" )])
+results_summary[, mse := sqrt(se^2 + bias^2)]
+
+#results_summary[, se := se/mse]
+# results_summary[, bias := bias/mse]
+
+library(ggplot2)
+w <- 4
+h <- 3
+for(pos_const in unique(results_summary$pos_const)) {
+  
+  tmp <- as.data.frame(results_summary)[results_summary$pos_const == pos_const,]
+  
+  
+ 
+  if(local){
+     
+  maxval <- min(2*min(tmp$mse[tmp$n ==500]), max(tmp$mse))
+  tmp$bias <- pmin(tmp$bias, maxval)
+  tmp$se <- pmin(tmp$se, maxval)
+  tmp$mse <- pmin(tmp$mse, maxval)
+  } else {
+     maxval <- 3*min(tmp$mse[tmp$n ==500])
+  tmp$bias <- pmin(tmp$bias, maxval)
+  tmp$se <- pmin(tmp$se, maxval)
+  tmp$mse <- pmin(tmp$mse, maxval)
+  }
+    limits <- c(0, maxval + .01)
+  ggplot(tmp, aes(x= n, y = bias, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1)  + theme_bw() + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  )  + labs(x = "Sample Size (n)", y = "Bias", color = "Method", group = "Method", linetype = "Method") +  scale_y_continuous( limits = limits) 
+  
+  ggsave(file = paste0("simResults/AdaptSimsHard=", complexity,"_",pos_const, "_local_", local, "Bias.pdf") , width = w, height = h)
+  
+  ggplot(tmp, aes(x= n, y = se, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1) + theme_bw()  + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  )  + labs(x = "Sample Size (n)", y = "Standard Error", color = "Method", group = "Method", linetype = "Method") +  scale_y_continuous( limits = limits)
+  
+  ggsave(file = paste0("simResults/AdaptSimsHard=", complexity,"_",pos_const, "_local_", local, "SE.pdf"), width = w, height = h)
+  ggplot(tmp, aes(x= n, y = mse, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1) + theme_bw()  + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  )  + labs(x = "Sample Size (n)", y = "Root Mean Square Error", color = "Method", group = "Method", linetype = "Method")  +  scale_y_continuous( limits = limits)
+  
+  ggsave(file = paste0("simResults/AdaptSimsHard=", complexity, "_",pos_const, "_local_", local,"MSE.pdf"), width = w, height = h)
+  
+  p <- ggplot(tmp, aes(x= n, y = coverage, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1)+ scale_y_log10() + geom_hline(yintercept = 0.95, color = "grey") + theme_bw() + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  )  + labs(x = "Sample Size (n)", y = "CI Coverage", color = "Method", group = "Method", linetype = "Method")  
+  
+  if(!local){
+   p <-p +  scale_y_continuous(limits = c(0.85,1))
+  }
+ p  
+  ggsave(file = paste0("simResults/AdaptSimsHard=", complexity,"_",pos_const, "_local_", local,  "CI.pdf"), width = w, height = h)
+}
+```
 
 ```{r}
 
 library(data.table)
 #data <- do_sims(20, 2000, 1, F)
- #data <- as.data.table(data)
- 
+#data <- as.data.table(data)
+
 #data <- fread("simResults/sim_results_iter=1000_n=500_pos=3_hard=TRUE.csv")
 #data <- out
 data <- as.data.table(out)
- data[, mean(as.numeric(coef) ), by = method ]
-  data[, mean(as.numeric(se) ), by = method ]
-  
-  data[, sd(as.numeric(coef) ), by = method ]
-  n <- 3000
- ATE <-1 +  14.35106/sqrt(n)
- data[, mean(as.numeric(CI_left) <= ATE & as.numeric(CI_right) >= ATE), by = method ]
+data[, mean(as.numeric(coef) ), by = method ]
+data[, mean(as.numeric(se) ), by = method ]
+
+data[, sd(as.numeric(coef) ), by = method ]
+n <- 3000
+ATE <-1 +  14.35106/sqrt(n)
+data[, mean(as.numeric(CI_left) <= ATE & as.numeric(CI_right) >= ATE), by = method ]
 ```

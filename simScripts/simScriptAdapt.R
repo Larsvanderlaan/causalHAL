@@ -48,14 +48,17 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   }
   tau <- 1 + W[,1] + W[,2] + W[,4]
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1, pi = pi))
+  return(list(W=W, A = A, Y = Y, ATE = 1, pi = pi0))
 }
 
 get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
+  ates <- list("0" = 4, "0.5" = 5.219036, "1"= 14.44244, "2"= 1048.994)
+
   d <- 4
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
   pi0 <- plogis(pos_const * ( W[,1] + sin(4*W[,1]) +   W[,2] + cos(4*W[,2]) + W[,3] + sin(4*W[,3]) + W[,4] + cos(4*W[,4]) ))
+
   print("pos")
   print(range(pi0))
   A <- rbinom(n, 1, pi0)
@@ -68,7 +71,7 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
   mu0 <- mu0 - (pi0/(pi0*(1-pi0)))/sqrt(n)
   tau <- 1 +   ( 1 / (pi0*(1-pi0))  )/sqrt(n)
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1 +  14.26085/sqrt(n), pi = pi))
+  return(list(W=W, A = A, Y = Y, ATE = 1 +  ates[[as.character(pos_const)]]/sqrt(n), pi = pi))
 }
 
 #' Given simulated data (W,A,Y) and simulation iteration number `iter`,
