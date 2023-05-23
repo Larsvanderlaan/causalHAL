@@ -85,3 +85,7 @@ In addition: There were 50 or more warnings (use warnings() to see the first 50)
 Error in glm.fit(x_basis, pseudo_outcome, weights = pseudo_weights) : 
   NA/NaN/Inf in 'y'
 In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error in glm.fit(x_basis, pseudo_outcome, weights = pseudo_weights) : 
+  NA/NaN/Inf in 'y'
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+slurmstepd-gizmoj29: error: *** JOB 21547117 ON gizmoj29 CANCELLED AT 2023-05-21T10:55:42 ***

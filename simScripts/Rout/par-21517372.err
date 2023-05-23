@@ -100,3 +100,7 @@ In addition: There were 50 or more warnings (use warnings() to see the first 50)
 Error in glm.fit(x_basis, pseudo_outcome, weights = pseudo_weights) : 
   NA/NaN/Inf in 'y'
 In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error in glm.fit(x_basis, pseudo_outcome, weights = pseudo_weights) : 
+  NA/NaN/Inf in 'y'
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
