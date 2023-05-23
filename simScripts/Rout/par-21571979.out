@@ -100576,3 +100576,19 @@ NULL
 [1] "Fitting m = E[Y|W]"
 [1] "Fitting pi = E[A|W]"
 [1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+[1] 1.169651
+NULL
+[1] 0.04169894
+[1] 0
+(Intercept) 
+ 0.04169894 
+[1] "Iteration number: 4374"
+[1] "pos"
+[1] 2.708363e-06 9.999137e-01
+[1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
+NULL
+[1] 0.02031169
+[1] 0.0006556119
+[1] 0.02031169

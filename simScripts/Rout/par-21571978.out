@@ -91570,3 +91570,5 @@ NULL
 [1] "pos"
 [1] 2.818685e-06 9.999370e-01
 [1] "Fitting mu0 = E[Y|A=0,W]"
+NULL
+[1] "Fitting tau = E[Y|A=1,W] - E[Y|A=0,W]"
