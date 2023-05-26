@@ -28,3 +28,4 @@ Loaded glmnet 4.1-7
 Error in solve.default(t(x_basis) %*% x_basis/n, colMeans(x_basis1 - x_basis0)) : 
   system is computationally singular: reciprocal condition number = 4.38147e-17
 In addition: There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
