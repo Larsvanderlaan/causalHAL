@@ -41,7 +41,7 @@ inference_cate <- function(fit_cate, formula =  ~ 1, alpha = 0.05, return_cov_ma
   IF_proj <-   x_basis_proj * as.vector(tau - tau_proj)  # residual if intercept model
   IF_proj <- IF_proj %*% scale
 
-  IF_cate <- internal$IF_Y_map(x_basis_proj)
+  IF_cate <- internal$IF_Y_map(x_basis)
   # x_basis_proj = x_basis then we recover nonprojection case
   #scale2 <- solve(t(x_basis_proj) %*% diag(pseudo_weights) %*% x_basis_proj / n)
   #IF_cate <- (x_basis_proj) *  pseudo_weights* as.vector(pseudo_outcome - tau)

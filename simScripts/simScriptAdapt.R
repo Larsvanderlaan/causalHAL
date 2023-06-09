@@ -7,7 +7,7 @@ library(future)
 
 doFuture::registerDoFuture()
 future::plan(multisession, workers = 11)
-#out <- do_sims(20, 3000, 1, FALSE, do_local_alt = TRUE)
+#out <- do_sims(100, 3000, 2, TRUE, do_local_alt = FALSE)
 
 
 
@@ -44,9 +44,9 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   if(muIsHard) {
     mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
   } else {
-    mu0 <-  W[,1] + W[,2]  + W[,3] + W[,4]
+    mu0 <-  W[,1] + abs(W[,2])  + W[,3] + abs(W[,4])
   }
-  tau <- 1 + W[,1] + W[,2] + W[,4]
+  tau <- 1 + W[,1] + abs(W[,2]) + cos(4*W[,3]) + W[,4]
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
   return(list(W=W, A = A, Y = Y, ATE = 1, pi = pi0))
 }
@@ -65,9 +65,9 @@ get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
   if(muIsHard) {
     mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
   } else {
-    mu0 <-  W[,1] + W[,2]  + W[,3] + W[,4]
-
+    mu0 <-  W[,1] + abs(W[,2])  + W[,3] + abs(W[,4])
   }
+
   mu0 <- mu0 - (pi0/(pi0*(1-pi0)))/sqrt(n)
   tau <- 1 +   ( 1 / (pi0*(1-pi0))  )/sqrt(n)
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
@@ -87,7 +87,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   } else{
     num_knots <- c(100, 50, 50,50)
   }
-  fit_T <- fit_hal_cate (W, A, Y,   max_degree_cate = 1, num_knots_cate = num_knots , smoothness_orders_cate = 1, screen_variable_cate = FALSE,   params_EY0W =  list(max_degree = 1, num_knots =  num_knots , smoothness_orders = 1, screen_variables = FALSE, fit_control = list(parallel = TRUE)), fit_control = list(parallel = TRUE), include_propensity_score = FALSE,   verbose = TRUE )
+  fit_T <- fit_hal_cate_plugin (W, A, Y,   max_degree_cate = 1, num_knots_cate = num_knots , smoothness_orders_cate = 1, screen_variable_cate = FALSE,   params_EY0W =  list(max_degree = 1, num_knots =  num_knots , smoothness_orders = 1, screen_variables = FALSE, fit_control = list(parallel = TRUE)), fit_control = list(parallel = TRUE), include_propensity_score = FALSE,   verbose = TRUE )
 
   #fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, fit_control = list(parallel = TRUE))
   ate_T <- unlist(inference_cate(fit_T))
@@ -134,7 +134,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   #lrnr_Y <- Stack$new(Lrnr_earth$new(degree = 3), Lrnr_ranger$new(), Lrnr_gam$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5))
   # lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5)))
   # lrnr_cv <- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
-  fit_R <- fit_hal_cate_Rlearner(W, A, Y,  fit_control = list(parallel = TRUE), pA1W = pi, EYW = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1, screen_variables_cate = FALSE,     verbose = TRUE)
+  fit_R <- fit_hal_cate_partially_linear(W, A, Y,  fit_control = list(parallel = TRUE), pA1W = pi, EYW = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1, screen_variables_cate = FALSE,     verbose = TRUE)
 
   #fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = m, lrnr_A = pi,  max_degree = sum(num_knots > 0), num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
   ate_R<-  unlist(inference_cate(fit_R))

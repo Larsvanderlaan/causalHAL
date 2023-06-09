@@ -1,7 +1,7 @@
 ---
 title: "sims"
 output: html_document
-date: '2023-04-11'
+date: '1823-04-11'
 ---
 
 ```{r setup, include=FALSE}
@@ -83,16 +83,16 @@ table(1 <= right & 1 >= left )
 
 ```{r}
 library(data.table)
-local <- TRUE
+local <- FALSE
 complexity <- FALSE
-results <- rbindlist(unlist(lapply(c( 0, 0.5, 1, 2 ), function(pos){
+results <- rbindlist(unlist(lapply(c(  0.5, 1, 2 ), function(pos){
   set.seed(123)
    
  
    dat <-  get_data(100000, pos, muIsHard = complexity) 
   pi <-dat$pi
   pos_const <- signif(min(pi, 1-pi),1)
-  lapply( c(500, 1000, 2000, 3000, 4000), function(n){
+  lapply( c(500, 1000, 1800, 3000, 4000, 5000), function(n){
     if(!local){
     ATE <- 1
   } else {
@@ -109,9 +109,10 @@ results <- rbindlist(unlist(lapply(c( 0, 0.5, 1, 2 ), function(pos){
     return(data.table())
   })
 }), recursive = F))
+ 
 results$pos <- factor(results$pos, levels = paste0("Overlap: ", rev(sort(unique(results$pos_const)))))
 method_names <- c("Rlearner", "Tlearner", "intercept", "AIPW")
-names(method_names) <- c("AMLE-partially linear (*)", "AMLE-plugin (*)", "intercept", "AIPW")
+names(method_names) <- c("AMLE-partially linear (*)", "AMLE-plugin (*)", "semiparametric", "AIPW")
 results$method <- names(method_names)[match(results$method , method_names)]
 unique(results[, max(abs(coef)), by =  c("n", "pos", "method" )])
  
@@ -124,8 +125,8 @@ results_summary[, mse := sqrt(se^2 + bias^2)]
 # results_summary[, bias := bias/mse]
 
 library(ggplot2)
-w <- 4
-h <- 3
+w <- 5
+h <- 4
 for(pos_const in unique(results_summary$pos_const)) {
   
   tmp <- as.data.frame(results_summary)[results_summary$pos_const == pos_const,]
@@ -145,21 +146,26 @@ for(pos_const in unique(results_summary$pos_const)) {
   tmp$mse <- pmin(tmp$mse, maxval)
   }
     limits <- c(0, maxval + .01)
-  ggplot(tmp, aes(x= n, y = bias, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1)  + theme_bw() + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  ggplot(tmp, aes(x= n, y = bias, color = method, linetype = method)) + geom_line(size = 0.8) + facet_wrap(~pos, ncol =1)  + theme_bw() +     theme(  text = element_text(size=18), axis.text.x = element_text(size = 14 , hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
   )  + labs(x = "Sample Size (n)", y = "Bias", color = "Method", group = "Method", linetype = "Method") +  scale_y_continuous( limits = limits) 
   
   ggsave(file = paste0("simResults/AdaptSimsHard=", complexity,"_",pos_const, "_local_", local, "Bias.pdf") , width = w, height = h)
-  
-  ggplot(tmp, aes(x= n, y = se, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1) + theme_bw()  + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+ 
+      
+ 
+      
+                                      
+                                     
+  ggplot(tmp, aes(x= n, y = se, color = method, linetype = method)) + geom_line(size = 0.8) + facet_wrap(~pos, ncol =1) + theme_bw()  +     theme(  text = element_text(size=18), axis.text.x = element_text(size = 14 , hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
   )  + labs(x = "Sample Size (n)", y = "Standard Error", color = "Method", group = "Method", linetype = "Method") +  scale_y_continuous( limits = limits)
   
   ggsave(file = paste0("simResults/AdaptSimsHard=", complexity,"_",pos_const, "_local_", local, "SE.pdf"), width = w, height = h)
-  ggplot(tmp, aes(x= n, y = mse, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1) + theme_bw()  + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  ggplot(tmp, aes(x= n, y = mse, color = method, linetype = method)) + geom_line(size = 0.8) + facet_wrap(~pos, ncol =1) + theme_bw()  +     theme(  text = element_text(size=18), axis.text.x = element_text(size = 14 , hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
   )  + labs(x = "Sample Size (n)", y = "Root Mean Square Error", color = "Method", group = "Method", linetype = "Method")  +  scale_y_continuous( limits = limits)
   
   ggsave(file = paste0("simResults/AdaptSimsHard=", complexity, "_",pos_const, "_local_", local,"MSE.pdf"), width = w, height = h)
   
-  p <- ggplot(tmp, aes(x= n, y = coverage, color = method, linetype = method)) + geom_line() + facet_wrap(~pos, ncol =1)+ scale_y_log10() + geom_hline(yintercept = 0.95, color = "grey") + theme_bw() + theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "horizontal" 
+  p <- ggplot(tmp, aes(x= n, y = coverage, color = method, linetype = method)) + geom_line(size = 0.8) + facet_wrap(~pos, ncol =1)+ scale_y_log10() + geom_hline(yintercept = 0.95, color = "grey") + theme_bw() +     theme(  text = element_text(size=18), axis.text.x = element_text(size = 14 , hjust = 1, vjust = 0.5), legend.position = "none",   legend.box = "none" 
   )  + labs(x = "Sample Size (n)", y = "CI Coverage", color = "Method", group = "Method", linetype = "Method")  
   
   if(!local){
@@ -168,12 +174,22 @@ for(pos_const in unique(results_summary$pos_const)) {
  p  
   ggsave(file = paste0("simResults/AdaptSimsHard=", complexity,"_",pos_const, "_local_", local,  "CI.pdf"), width = w, height = h)
 }
+
+
+  p <- ggplot(tmp, aes(x= n, y = coverage, color = method, linetype = method)) + geom_line(size = 0.8) + facet_wrap(~pos, ncol =1)+ scale_y_log10() + geom_hline(yintercept = 0.95, color = "grey") + theme_bw() +     theme(  text = element_text(size=18), axis.text.x = element_text(size = 14 , hjust = 1, vjust = 0.5), legend.position = "bottom",   legend.box = "horizontal" , legend.title = element_blank()
+  )  + labs(x = "Sample Size (n)", y = "CI Coverage", color = "Method", group = "Method", linetype = "Method")  
+  
+  if(!local){
+   p <-p +  scale_y_continuous(limits = c(0.85,1))
+  }
+ p  
+  ggsave(file = paste0("simResults/AdaptSimsLegend.pdf"), width = 10, height = 6)
 ```
 
 ```{r}
 
 library(data.table)
-#data <- do_sims(20, 2000, 1, F)
+#data <- do_sims(18, 1800, 1, F)
 #data <- as.data.table(data)
 
 #data <- fread("simResults/sim_results_iter=1000_n=500_pos=3_hard=TRUE.csv")
@@ -184,6 +200,6 @@ data[, mean(as.numeric(se) ), by = method ]
 
 data[, sd(as.numeric(coef) ), by = method ]
 n <- 3000
-ATE <-1 +  14.35106/sqrt(n)
+ATE <-0.8132226
 data[, mean(as.numeric(CI_left) <= ATE & as.numeric(CI_right) >= ATE), by = method ]
 ```
