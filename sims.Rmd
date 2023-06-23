@@ -200,6 +200,6 @@ data[, mean(as.numeric(se) ), by = method ]
 
 data[, sd(as.numeric(coef) ), by = method ]
 n <- 3000
-ATE <-0.8132226
+ATE <-1.300789
 data[, mean(as.numeric(CI_left) <= ATE & as.numeric(CI_right) >= ATE), by = method ]
 ```
