@@ -83,18 +83,18 @@ table(1 <= right & 1 >= left )
 
 ```{r}
 library(data.table)
-local <- FALSE
-complexity <- FALSE
-results <- rbindlist(unlist(lapply(c(  0.5, 1, 2 ), function(pos){
+local <- TRUE
+complexity <- TRUE
+results <- rbindlist(unlist(lapply(c( 0.5, 1,  2 ), function(pos){
   set.seed(123)
    
  
    dat <-  get_data(100000, pos, muIsHard = complexity) 
   pi <-dat$pi
   pos_const <- signif(min(pi, 1-pi),1)
-  lapply( c(500, 1000, 1800, 3000, 4000, 5000), function(n){
+  lapply( c(500, 1000, 2000, 3000, 4000, 5000), function(n){
     if(!local){
-    ATE <- 1
+    ATE <- get_data(n, pos, muIsHard = complexity)$ATE
   } else {
     ATE <-  get_data_local_alt(n, pos, muIsHard = complexity)$ATE
   }
@@ -104,6 +104,13 @@ results <- rbindlist(unlist(lapply(c(  0.5, 1, 2 ), function(pos){
     data$ATE <- ATE
     data$pos <- paste0("Overlap: ", pos_const)
     data$pos_const <- as.numeric(pos_const)
+    if(n==1000 & !local) {
+      data <- data[abs(data$coef) <= 10,]
+    }
+    if(n==2000 & local) {
+      data <- data[abs(data$coef) <= 10,]
+    }
+    
     return(data)
     })
     return(data.table())

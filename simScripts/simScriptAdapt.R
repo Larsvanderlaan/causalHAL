@@ -48,7 +48,7 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
   }
   tau <- 1 + W[,1] + abs(W[,2]) + cos(4*W[,3]) + W[,4]
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1, pi = pi0))
+  return(list(W=W, A = A, Y = Y, ATE = 1.31, pi = pi0))
 }
 
 get_data_local_alt <- function(n, pos_const, muIsHard = TRUE) {
