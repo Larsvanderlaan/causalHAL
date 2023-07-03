@@ -8,4 +8,4 @@
 echo "LOADING R"
 module load R
 echo "R LOADED"
-Rscript -e 'source("~/causalHAL/simScripts/R_setup.R"); source("~/causalHAL/simScripts/DR.R"); n = as.numeric(Sys.getenv("n")); pos_const = as.numeric(Sys.getenv("const")); do_sims(n, pos_const, 5000)'
+Rscript -e 'source("~/causalHAL/simScripts/R_setup.R"); source("~/causalHAL/simScripts/DR.R"); n = as.numeric(Sys.getenv("n")); pos_const = as.numeric(Sys.getenv("const")); misp = as.numeric(Sys.getenv("misp")); do_sims(n, pos_const, misp, 5000)'
