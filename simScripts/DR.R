@@ -12,7 +12,7 @@ true <- 0.8082744
 # crossfit estimator
 lrnr_cv <- Pipeline$new(Lrnr_cv$new(Stack$new(Lrnr_gam$new(), Lrnr_earth$new(degree = 1), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 5))), Lrnr_cv_selector$new(loss_squared_error))
 lrnr_pi <- lrnr_mu <- lrnr_cv
-lrnr_misp <- Lrnr_mean$new()
+lrnr_misp <- Lrnr_glm$new()
 # 1 is both correct, 2 is just outcome, 3 is just treatment, 4 is neither
 if(misp==2 || misp == 4) {
   lrnr_pi <- lrnr_misp
