@@ -1,12 +1,11 @@
 library(data.table)
-library(hal9001)
 library(sl3)
 library(causalHAL)
 library(doFuture)
 library(future)
 
 doFuture::registerDoFuture()
-future::plan(multisession, workers = 11)
+future::plan(multisession, workers = 3)
 
 
 do_sims <- function(n, pos_const, nsims) {
@@ -15,6 +14,7 @@ true <- 0.8082744
 # crossfit estimator
 lrnr_cv <- Pipeline$new(Lrnr_cv$new(Stack$new(Lrnr_glm$new(), Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 5))), Lrnr_cv_selector$new(loss_squared_error))
 sim_results <- lapply(1:nsims, function(i){
+  try({
   print(paste0("iter: ", i))
   data_list <- get_data(n, pos_const)
   W <- data_list$W
@@ -26,6 +26,9 @@ sim_results <- lapply(1:nsims, function(i){
   out_AuDRIE <- compute_AuDRIE_boot(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0, nboot = 10000, folds = folds, alpha = 0.05)
   out <- unlist(c(out_AuDRIE, out_AIPW))
   names(out) <- c("estimate_audrie", "CI_left_audrie", "CI_right_audrie", "estimate_AIPW", "CI_left_AIPW", "CI_right_AIPW")
+  return(out)
+  })
+  return(data.table())
 })
 sim_results <- data.table::rbindlist(sim_results)
 key <- paste0("DR_iter=", nsims, "_n=", n, "_pos=", pos_const )
@@ -147,4 +150,3 @@ truncate_pscore_adaptive <- function(A, pi, min_trunc_level = 1e-8) {
 
 
 
-```
