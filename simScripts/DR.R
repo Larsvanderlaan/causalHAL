@@ -4,14 +4,14 @@ library(doFuture)
 library(future)
 
 doFuture::registerDoFuture()
-future::plan(multisession, workers = 3)
+future::plan(multisession, workers = 7)
 
 
 do_sims <- function(n, pos_const, nsims, misp) {
   # true ATE
 true <- 0.8082744
 # crossfit estimator
-lrnr_cv <- Pipeline$new(Lrnr_cv$new(Stack$new(Lrnr_glm$new(), Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 5))), Lrnr_cv_selector$new(loss_squared_error))
+lrnr_cv <- Pipeline$new(Lrnr_cv$new(Stack$new(Lrnr_gam$new(), Lrnr_earth$new(degree = 1), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 5))), Lrnr_cv_selector$new(loss_squared_error))
 lrnr_pi <- lrnr_mu <- lrnr_cv
 lrnr_misp <- Lrnr_mean$new()
 # 1 is both correct, 2 is just outcome, 3 is just treatment, 4 is neither
@@ -29,9 +29,10 @@ if(misp==3 || misp == 4) {
   A <- data_list$A
   Y <- data_list$Y
   initial_estimators <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu, lrnr_pi = lrnr_pi)
+  print("initial")
   folds <- initial_estimators$folds
   out_AIPW <- compute_AIPW(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0)
-  out_AuDRIE <- compute_AuDRIE_boot(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0, nboot = 10000, folds = folds, alpha = 0.05)
+  out_AuDRIE <- compute_AuDRIE_boot(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0, nboot = 5000, folds = folds, alpha = 0.05)
   out <- unlist(c(out_AuDRIE, out_AIPW))
   names(out) <- c("estimate_audrie", "CI_left_audrie", "CI_right_audrie", "estimate_AIPW", "CI_left_AIPW", "CI_right_AIPW")
   return(out)
