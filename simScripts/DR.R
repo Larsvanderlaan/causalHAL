@@ -1,6 +1,5 @@
 library(data.table)
 library(sl3)
-library(causalHAL)
 library(doFuture)
 library(future)
 
