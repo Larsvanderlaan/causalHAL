@@ -6,7 +6,7 @@ library(future)
 
 
 
-do_sims <- function(n, pos_const, nsims, misp) {
+do_sims <- function(n, pos_const, misp, nsims) {
   # true ATE
 true <- 0.8082744
 # crossfit estimator
@@ -32,8 +32,8 @@ if(misp==3 || misp == 4) {
   folds <- initial_estimators$folds
   out_AIPW <- compute_AIPW(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0)
   out_AuDRIE <- compute_AuDRIE_boot(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0, nboot = 5000, folds = folds, alpha = 0.05)
-  out <- unlist(c(out_AuDRIE, out_AIPW))
-  names(out) <- c("estimate_audrie", "CI_left_audrie", "CI_right_audrie", "estimate_AIPW", "CI_left_AIPW", "CI_right_AIPW")
+  out <- matrix(unlist(c(out_AuDRIE, out_AIPW)), nrow=1)
+  colnames(out) <- c("estimate_audrie", "CI_left_audrie", "CI_right_audrie", "estimate_AIPW", "CI_left_AIPW", "CI_right_AIPW")
   return(as.data.table(out))
   })
   return(data.table())
