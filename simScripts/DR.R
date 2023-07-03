@@ -3,8 +3,7 @@ library(sl3)
 library(doFuture)
 library(future)
 
-doFuture::registerDoFuture()
-future::plan(multisession, workers = 7)
+
 
 
 do_sims <- function(n, pos_const, nsims, misp) {
@@ -35,7 +34,7 @@ if(misp==3 || misp == 4) {
   out_AuDRIE <- compute_AuDRIE_boot(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0, nboot = 5000, folds = folds, alpha = 0.05)
   out <- unlist(c(out_AuDRIE, out_AIPW))
   names(out) <- c("estimate_audrie", "CI_left_audrie", "CI_right_audrie", "estimate_AIPW", "CI_left_AIPW", "CI_right_AIPW")
-  return(out)
+  return(as.data.table(out))
   })
   return(data.table())
 })
@@ -101,6 +100,7 @@ compute_AuDRIE <- function(A,Y, mu1, mu0, pi1, pi0) {
 }
 
 compute_AIPW <- function(A,Y, mu1, mu0, pi1, pi0) {
+  n <- length(A)
   mu <- ifelse(A==1, mu1, mu0)
   alpha_n <- ifelse(A==1, 1/pi1, - 1/pi0)
   tau_n <-  mean(mu1 - mu0 + alpha_n * (Y - mu))
@@ -130,12 +130,17 @@ calibrate_nuisances <- function(A, Y,mu1, mu0, pi1, pi0) {
 
 compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi) {
   data <- data.table(W,A,Y)
-  taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "continuous")
+  taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "continuous", folds = 5)
   folds <- taskY$folds
   taskA <- sl3_Task$new(data, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "binomial")
+  print("mu")
   mu1 <- lrnr_mu$train(taskY[A==1])$predict(taskY)
+  print("done1")
   mu0 <- lrnr_mu$train(taskY[A==0])$predict(taskY)
+  print("done0")
+  print("pi")
   pi1 <- lrnr_pi$train(taskA)$predict(taskA)
+  print("done")
   pi1 <- truncate_pscore_adaptive(A, pi1)
   return(list(mu1 = mu1, mu0 = mu0, pi1 = pi1, pi0 = 1-pi1, folds = folds))
 }
