@@ -12,7 +12,7 @@ library(future)
 do_sims <- function(n, pos_const, nsims) {
 
 
-  lrnr_hal <- Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 100, max_degree = 1, screen_variables = FALSE, family = "gaussian") #Stack$new(Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 50, max_degree = 1))
+  lrnr_hal <- Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 100, max_degree = 1, screen_variables = FALSE) #Stack$new(Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 50, max_degree = 1))
   lrnr_gam <- Lrnr_gam$new(family = "binomial")
   lrnr_mu <- Pipeline$new(Lrnr_cv$new(lrnr_hal), Lrnr_cv_selector$new(loss_squared_error))
   lrnr_pi <- Pipeline$new(Lrnr_cv$new(lrnr_gam), Lrnr_cv_selector$new(loss_squared_error))
@@ -83,9 +83,8 @@ get_data <- function(n, pos_const) {
   tau <- 0.5 + 2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,3]))
 
   Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  Y1 <- rnorm(n,  ifelse(A==1, mu0 + tau, mu0), 0.5)
-  mean(Y[A==1]) - mean(Y[A==0])
-  mean(Y1[A==1]) - mean(Y1[A==0])
+
+
   return(list(W=W, A = A, Y = Y, ATE = 1.369339, pi = pi0, mu0 = mu0, mu1 = mu0 + tau))
 }
 
