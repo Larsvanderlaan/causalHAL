@@ -4,58 +4,84 @@ library(doFuture)
 library(future)
 
 
+#Lrnr_gam$new(), Lrnr_earth$new(degree = 1),
+#
 
 
-do_sims <- function(n, pos_const, misp, nsims) {
-  # true ATE
-true <- 0.8082744
-# crossfit estimator
-lrnr_cv <- Pipeline$new(Lrnr_cv$new(Stack$new(Lrnr_gam$new(), Lrnr_earth$new(degree = 1), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 5))), Lrnr_cv_selector$new(loss_squared_error))
-lrnr_pi <- lrnr_mu <- lrnr_cv
-lrnr_misp <- Lrnr_glm$new()
-# 1 is both correct, 2 is just outcome, 3 is just treatment, 4 is neither
-if(misp==2 || misp == 4) {
-  lrnr_pi <- lrnr_misp
-}
-if(misp==3 || misp == 4) {
-  lrnr_mu <- lrnr_misp
-}
- sim_results <- lapply(1:nsims, function(i){
-  try({
-  print(paste0("iter: ", i))
-  data_list <- get_data(n, pos_const)
-  W <- data_list$W
-  A <- data_list$A
-  Y <- data_list$Y
-  initial_estimators <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu, lrnr_pi = lrnr_pi)
-  print("initial")
-  folds <- initial_estimators$folds
-  out_AIPW <- compute_AIPW(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0)
-  out_AuDRIE <- compute_AuDRIE_boot(A,Y, initial_estimators$mu1, initial_estimators$mu0, initial_estimators$pi1, initial_estimators$pi0, nboot = 5000, folds = folds, alpha = 0.05)
-  out <- matrix(unlist(c(out_AuDRIE, out_AIPW)), nrow=1)
-  colnames(out) <- c("estimate_audrie", "CI_left_audrie", "CI_right_audrie", "estimate_AIPW", "CI_left_AIPW", "CI_right_AIPW")
-  return(as.data.table(out))
+
+do_sims <- function(n, pos_const, nsims) {
+
+
+  stack <- Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 100, max_degree = 1) #Stack$new(Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 50, max_degree = 1))
+  lrnr_mu <- Pipeline$new(Lrnr_cv$new(stack), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_pi <- Pipeline$new(Lrnr_cv$new(stack), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_misp_pi <- Lrnr_cv$new(Lrnr_glm$new())
+  lrnr_misp_mu <- Lrnr_cv$new(Lrnr_glm$new())
+
+
+  sim_results <- lapply(1:nsims, function(i){
+    try({
+      print(paste0("iter: ", i))
+      data_list <- get_data(n, pos_const)
+      W <- data_list$W
+      A <- data_list$A
+      Y <- data_list$Y
+
+      initial_estimators <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu, lrnr_pi = lrnr_pi, folds = 5, invert = FALSE)
+      folds <- initial_estimators$folds
+      initial_estimators_misp <- compute_initial(W,A,Y, lrnr_mu = lrnr_misp_mu, lrnr_pi = lrnr_misp_pi, folds = folds)
+      out_list <- list()
+      for(misp in c("1", "2", "3", "4")) {
+        mu1 <- initial_estimators$mu1
+        mu0 <- initial_estimators$mu0
+        pi1 <- initial_estimators$pi1
+        pi0 <- initial_estimators$pi0
+        if(misp == "2" || misp == "4") {
+          mu1 <- initial_estimators_misp$mu1
+          mu0 <- initial_estimators_misp$mu0
+        }
+        if(misp == "3" || misp == "4") {
+          pi1 <- initial_estimators_misp$pi1
+          pi0 <- initial_estimators_misp$pi0
+        }
+
+
+        out_AIPW <- compute_AIPW(A,Y, mu1=mu1, mu0 =mu0, pi1 = pi1, pi0 = pi0)
+        out_AuDRIE <- compute_AuDRIE_boot(A,Y,  mu1=mu1, mu0 =mu0, pi1 = pi1, pi0 = pi0, nboot = 1000, folds = folds, alpha = 0.05)
+        out <- matrix(unlist(c(misp, out_AuDRIE, out_AIPW)), nrow=1)
+        out <- as.data.table(rbind(unlist(out_AuDRIE), unlist(out_AIPW)))
+        colnames(out) <- c("estimate", "CI_left", "CI_right")
+        out$misp <- misp
+        out$estimator <- c("auDRI", "AIPW")
+        out_list[[misp]] <- out
+      }
+      out <- rbindlist(out_list)
+      out$iter <- i
+      return(as.data.table(out))
+    })
+    return(data.table())
   })
-  return(data.table())
-})
-sim_results <- data.table::rbindlist(sim_results)
-key <- paste0("DR_iter=", nsims, "_n=", n, "_pos=", pos_const, "_mode=", misp )
-try({fwrite(sim_results, paste0("~/causalHAL/simResultsDR/sim_results_", key, ".csv"))})
-return(sim_results)
+  sim_results <- data.table::rbindlist(sim_results)
+  key <- paste0("DR_iter=", nsims, "_n=", n, "_pos=", pos_const )
+  try({fwrite(sim_results, paste0("~/causalHAL/simResultsDR/sim_results_", key, ".csv"))})
+  return(sim_results)
 }
 
 
 
 get_data <- function(n, pos_const) {
-  d <- 4
+  d <- 3
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * ( W[,1] + sin(4*W[,1]) +   W[,2] + cos(4*W[,2]) + W[,3] + sin(4*W[,3]) + W[,4] + cos(4*W[,4]) ))
+  pi0 <- plogis(pos_const * ( -0.5+  W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,2])    ))
   A <- rbinom(n, 1, pi0)
-  mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
-  tau <- 1 + W[,1] + sin(4*W[,2]) + cos(4*W[,3]) + W[,4]
-  Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 0.8082744, pi = pi0))
+  mu0 <-  2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,2]))
+  #mu1 <-  exp(W[,1]) + W[, 2] + sin(4*W[,3]) + abs(W[,3])
+
+  tau <- 0.5 + 2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,2]))
+
+  Y <- rnorm(n,  ifelse(A==1, mu0 + tau, mu0), 0.5)
+  return(list(W=W, A = A, Y = Y, ATE = 1.371726, pi = pi0, mu0 = mu0, mu1 = mu0 + tau))
 }
 
 
@@ -100,6 +126,8 @@ compute_AuDRIE <- function(A,Y, mu1, mu0, pi1, pi0) {
 }
 
 compute_AIPW <- function(A,Y, mu1, mu0, pi1, pi0) {
+  pi1 <- truncate_pscore_adaptive(A, pi1)
+  pi0 <- truncate_pscore_adaptive(1-A, pi0)
   n <- length(A)
   mu <- ifelse(A==1, mu1, mu0)
   alpha_n <- ifelse(A==1, 1/pi1, - 1/pi0)
@@ -128,21 +156,32 @@ calibrate_nuisances <- function(A, Y,mu1, mu0, pi1, pi0) {
 
 
 
-compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi) {
+compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = TRUE) {
   data <- data.table(W,A,Y)
-  taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "continuous", folds = 5)
+  taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "continuous", folds = folds)
   folds <- taskY$folds
   taskA <- sl3_Task$new(data, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "binomial")
   print("mu")
   mu1 <- lrnr_mu$train(taskY[A==1])$predict(taskY)
-  print("done1")
   mu0 <- lrnr_mu$train(taskY[A==0])$predict(taskY)
-  print("done0")
+  print("done_mu")
   print("pi")
   pi1 <- lrnr_pi$train(taskA)$predict(taskA)
-  print("done")
-  pi1 <- truncate_pscore_adaptive(A, pi1)
-  return(list(mu1 = mu1, mu0 = mu0, pi1 = pi1, pi0 = 1-pi1, folds = folds))
+  if(invert) {
+    data0 <- data
+    data0$A <= 1-A
+    taskA0 <- sl3_Task$new(data0, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "continuous")
+    pi0 <- lrnr_pi$train(taskA0)$predict(taskA0)
+  } else {
+    pi0 <- 1 - pi1
+  }
+
+  print("done_pi")
+  if(invert) {
+    pi1 <- 1/pi1
+    pi0 <- 1/pi0
+  }
+  return(list(mu1 = mu1, mu0 = mu0, pi1 = pi1, pi0 = pi0, folds = folds))
 }
 
 truncate_pscore_adaptive <- function(A, pi, min_trunc_level = 1e-8) {
@@ -159,7 +198,6 @@ truncate_pscore_adaptive <- function(A, pi, min_trunc_level = 1e-8) {
   pi <- pmax(pi, cutoff)
   pi
 }
-
 
 
 

@@ -6,9 +6,9 @@ for n in 500 1000 2000 3000 4000 5000
 do
   for const in 0.5 1 2 3
       do
-    for misp in 1 2 3 4
+    for misp in 1
     do
-    sbatch  --export=n=$n,const=$const,misp=$misp ~/causalHAL/simScripts/simScriptDR.sbatch
+    sbatch  --export=n=$n,const=$const ~/causalHAL/simScripts/simScriptDR.sbatch
     done
   done
 done
