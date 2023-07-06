@@ -12,9 +12,10 @@ library(future)
 do_sims <- function(n, pos_const, nsims) {
 
 
-  stack <- Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 100, max_degree = 1) #Stack$new(Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 50, max_degree = 1))
-  lrnr_mu <- Pipeline$new(Lrnr_cv$new(stack), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_pi <- Pipeline$new(Lrnr_cv$new(stack), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_hal <- Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 100, max_degree = 1, screen_variables = FALSE, family = "gaussian") #Stack$new(Lrnr_hal9001$new(smoothness_orders = 0, num_knots = 50, max_degree = 1))
+  lrnr_gam <- Lrnr_gam$new(family = "binomial")
+  lrnr_mu <- Pipeline$new(Lrnr_cv$new(lrnr_hal), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_pi <- Pipeline$new(Lrnr_cv$new(lrnr_gam), Lrnr_cv_selector$new(loss_squared_error))
   lrnr_misp_pi <- Lrnr_cv$new(Lrnr_glm$new())
   lrnr_misp_mu <- Lrnr_cv$new(Lrnr_glm$new())
 
@@ -31,6 +32,7 @@ do_sims <- function(n, pos_const, nsims) {
       folds <- initial_estimators$folds
       initial_estimators_misp <- compute_initial(W,A,Y, lrnr_mu = lrnr_misp_mu, lrnr_pi = lrnr_misp_pi, folds = folds)
       out_list <- list()
+      print(mean(initial_estimators$mu1 - initial_estimators$mu0))
       for(misp in c("1", "2", "3", "4")) {
         mu1 <- initial_estimators$mu1
         mu0 <- initial_estimators$mu0
@@ -73,15 +75,18 @@ get_data <- function(n, pos_const) {
   d <- 3
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
-  pi0 <- plogis(pos_const * ( -0.5+  W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,2])    ))
+  pi0 <- plogis(pos_const * ( -0.5+  W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,3])    ))
   A <- rbinom(n, 1, pi0)
-  mu0 <-  2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,2]))
+  mu0 <-  2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,3]))
   #mu1 <-  exp(W[,1]) + W[, 2] + sin(4*W[,3]) + abs(W[,3])
 
-  tau <- 0.5 + 2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,2]))
+  tau <- 0.5 + 2*(W[,1]*sin(2*W[,1]) + W[,2]*cos(3*W[,2]) + W[,3]*cos(2*W[,3]))
 
-  Y <- rnorm(n,  ifelse(A==1, mu0 + tau, mu0), 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1.371726, pi = pi0, mu0 = mu0, mu1 = mu0 + tau))
+  Y <- rnorm(n,  mu0 + A * tau, 0.5)
+  Y1 <- rnorm(n,  ifelse(A==1, mu0 + tau, mu0), 0.5)
+  mean(Y[A==1]) - mean(Y[A==0])
+  mean(Y1[A==1]) - mean(Y1[A==0])
+  return(list(W=W, A = A, Y = Y, ATE = 1.369339, pi = pi0, mu0 = mu0, mu1 = mu0 + tau))
 }
 
 
@@ -156,7 +161,7 @@ calibrate_nuisances <- function(A, Y,mu1, mu0, pi1, pi0) {
 
 
 
-compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = TRUE) {
+compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = FALSE) {
   data <- data.table(W,A,Y)
   taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "continuous", folds = folds)
   folds <- taskY$folds
