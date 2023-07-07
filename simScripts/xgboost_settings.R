@@ -1,5 +1,12 @@
 
 library(xgboost)
+loss_inv_xg <- function (pred, observed) {
+  A <- observed
+  err <- A * pred^2  - 2 * pred
+  return(err)
+}
+
+
 objective_invprop <- function(preds, dtrain) {
   A <- xgboost::getinfo(dtrain, "label")
   grad <- 2 * (A* preds - 1)
@@ -59,7 +66,7 @@ make_ranger_inv_prop <- function(max_depth, type) {
     colsample_bynode = 1,
     lambda = 0,
     max_depth = max_depth,
-    min_child_weight = 2
+    min_child_weight = 50
   ))
 
 }
@@ -67,7 +74,7 @@ make_ranger_inv_prop <- function(max_depth, type) {
 
 
 
-make_xgboost_inv_prop <- function(nrounds, max_depth, type, eta = 0.2 ) {
+make_xgboost_inv_prop <- function(nrounds, max_depth, type, eta = 0.2, gamma = 0, min_child_weight = 30 ) {
   if(type == "pi") {
     objective <- objective_invprop
     eval_metric <- evalerror_invprop
@@ -79,6 +86,8 @@ make_xgboost_inv_prop <- function(nrounds, max_depth, type, eta = 0.2 ) {
                    max_depth = max_depth,
                    objective = objective,
                    eval_metric = eval_metric,
+                   gamma = gamma,
+                   min_child_weight = min_child_weight,
                    eta = eta
   ))
 
@@ -100,6 +109,7 @@ make_misspecified <- function( type) {
     eval_metric <- "rmse"
   }
   return(Lrnr_xgboost$new(nrounds=1,
+                          min_child_weight = 200,
                    max_depth = 2,
                    eta = 1,
                    objective = objective,
@@ -108,32 +118,56 @@ make_misspecified <- function( type) {
 
 }
 
+eta <- c(0.01, 0.1,  0.2)
+nrounds <- c(10,20, 50, 100)
+min_child_weight <- max(10, (n)^(1/3))
+max_depth <- c(2,3,4,5)
+subsample <- 0.85
+colsample_bytree = 0.8
+
+list(
+  Lrnr_gam$new(), Lrnr_dbarts$new(),
+  Lrnr_earth$new(degree  =2),
+  Lrnr_ranger$new(max.depth = 10, min.node.size = (n)^(1/3) ),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 3, nrounds = 30, eta = 0.1,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 4, nrounds = 30, eta = 0.1,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 5, nrounds = 30, eta = 0.1,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 6, nrounds = 30, eta = 0.1,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 3, nrounds = 30, eta = 0.2,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 4, nrounds = 30, eta = 0.2,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 5, nrounds = 30, eta = 0.2,colsample_bytree = 0.8,subsample = 0.85),
+  Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 6, nrounds = 30, eta = 0.2,colsample_bytree = 0.8,subsample = 0.85)
+)
+
 get_learners <- function() {
 
 
   lrnr_invpi_xg <- Stack$new(list(
-    make_ranger_inv_prop(max_depth = 4, type = "pi"),
-    make_ranger_inv_prop(max_depth = 5,type = "pi"),
-    make_ranger_inv_prop(max_depth = 6,  type = "pi"),
-    make_ranger_inv_prop(max_depth = 7, type = "pi")))
-   # make_xgboost_inv_prop(nrounds = 20, max_depth = 3, type = "pi"),
-  #  make_xgboost_inv_prop(nrounds = 20, max_depth = 4, type = "pi"),
-  #  make_xgboost_inv_prop(nrounds = 20, max_depth = 5, type = "pi"),
-  #  make_xgboost_inv_prop(nrounds = 20, max_depth = 6, type = "pi")))
-  lrnr_invpi_xg <- Pipeline$new(Lrnr_cv$new(lrnr_invpi_xg), Lrnr_cv_selector$new(loss_squared_error))
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 1, eta=0.2, min_child_weight = 30,  type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 2, eta=0.2, min_child_weight = 30, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 3, eta=0.2, min_child_weight = 30, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 4, eta=0.2, min_child_weight = 30, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 5, eta=0.2, min_child_weight = 30, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 1, eta=0.2, min_child_weight = 50,  type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 2, eta=0.2, min_child_weight = 50, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 3, eta=0.2, min_child_weight = 50, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 4, eta=0.2, min_child_weight = 50, type = "pi"),
+    make_xgboost_inv_prop(nrounds = 30, max_depth = 5, eta=0.2, min_child_weight = 50, type = "pi")))
+  lrnr_invpi_xg <- Pipeline$new(Lrnr_cv$new(lrnr_invpi_xg), Lrnr_cv_selector$new(loss_inv_xg))
 
 
 
 
   lrnr_mu_xg <- Stack$new(list(
-    make_ranger_inv_prop(max_depth = 4, type = "mu"),
-    make_ranger_inv_prop(max_depth = 5, type = "mu"),
-    make_ranger_inv_prop(max_depth = 6, type = "mu"),
-    make_ranger_inv_prop(max_depth = 7, type = "mu")))
-    #make_xgboost_inv_prop(nrounds = 20, max_depth = 3, type = "mu"),
-    #make_xgboost_inv_prop(nrounds = 20, max_depth = 4, type = "mu"),
-    #make_xgboost_inv_prop(nrounds = 20, max_depth = 5, type = "mu"),
-    #make_xgboost_inv_prop(nrounds = 20, max_depth = 6, type = "mu")))
+    #make_ranger_inv_prop(max_depth = 3, type = "mu"),
+    #make_ranger_inv_prop(max_depth = 5, type = "mu"),
+   # make_ranger_inv_prop(max_depth = 6, type = "mu"),
+  #  make_ranger_inv_prop(max_depth = 8, type = "mu"),
+    make_xgboost_inv_prop(nrounds = 20, max_depth = 5, eta = 0.2, type = "mu"),
+    make_xgboost_inv_prop(nrounds = 20, max_depth = 1, eta = 0.2, type = "mu"),
+    make_xgboost_inv_prop(nrounds = 20, max_depth = 2, eta = 0.2, type = "mu"),
+    make_xgboost_inv_prop(nrounds = 20, max_depth = 3, eta = 0.2, type = "mu"),
+    make_xgboost_inv_prop(nrounds = 20, max_depth = 4, eta = 0.2, type = "mu")))
   lrnr_mu_xg <- Pipeline$new(Lrnr_cv$new(lrnr_mu_xg), Lrnr_cv_selector$new(loss_squared_error))
   #lrnr_mu_xg <- Lrnr_cv$new(Lrnr_ranger$new())
   list(pi = lrnr_invpi_xg, mu = lrnr_mu_xg, misp_pi = Lrnr_cv$new(make_misspecified("pi")),

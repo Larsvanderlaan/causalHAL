@@ -9,6 +9,7 @@ library(future)
 
 
 
+
 do_sims <- function(n, pos_const, nsims) {
   loss_inv <- function (pred, observed) {
     A <- observed
@@ -18,46 +19,23 @@ do_sims <- function(n, pos_const, nsims) {
     return(out)
   }
 
-  #stack <-  Lrnr_earth$new(degree =1, family = binomial(), pmethod = "cv", nk = 100, nfold = 10)
-  #lrnr_hal_inv <- Lrnr_hal9001$new(smoothness_orders = 0, num_knots = c(100,100), max_degree = 2, screen_variables = FALSE, family = "gaussian") # Stack$new(Lrnr_gam$new(family = "gaussian") , Lrnr_gam$new(family = "binomial")) #
-  cols <- paste0("W", 1:3)
-  formula_A <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
-  formula_Y <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
-  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(2,1))", collapse = " + "))
-  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(2,1))", collapse = " + "))
-  formula_A_cube <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(3,2))", collapse = " + "))
-  formula_Y_cube <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(3,2))", collapse = " + "))
-  stack_gam_Y <-  Lrnr_gam$new(family = "binomial",
-                                       formula = formula_Y)
-  stack_gam_A <-  Lrnr_gam$new(family = "binomial",
-                              formula = formula_A)
-  stack_gam_Y_quad <-  Lrnr_gam$new(family = "binomial",
-                               formula = formula_Y_quad)
-  stack_gam_A_quad <-  Lrnr_gam$new(family = "binomial",
-                               formula = formula_A_quad)
-  stack_gam_Y_cube <-  Lrnr_gam$new(family = "binomial",
-                               formula = formula_Y_cube)
-  stack_gam_A_cube <-  Lrnr_gam$new(family = "binomial",
-                               formula = formula_A_cube)
+   stack <-  Lrnr_earth$new(degree =1, family = binomial(),   nk = 100, nfold = 5)
+  lrnr_hal_inv <- Lrnr_hal9001$new(smoothness_orders = 1, num_knots = c(100), max_degree = 1, screen_variables = FALSE, family = "binomial") # Stack$new(Lrnr_gam$new(family = "gaussian") , Lrnr_gam$new(family = "binomial")) #
+
+  stack_gam <-  Lrnr_gam$new(family = "binomial")
 
   stack_xg <- Stack$new(
     list(
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 3, nrounds = 30, eta = 0.15,colsample_bytree = 1,subsample = 0.9),
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 4, nrounds = 30, eta = 0.15,colsample_bytree = 1,subsample = 0.9),
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 5, nrounds = 30, eta = 0.15,colsample_bytree = 1,subsample = 0.9),
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 2, nrounds = 30, eta = 0.15,colsample_bytree = 1,subsample = 0.9)
+      Lrnr_ranger$new(min.node.size = 30),
+      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 3, nrounds = 30, eta = 0.15,colsample_bytree = 0.8,subsample = 0.9),
+      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 4, nrounds = 30, eta = 0.15,colsample_bytree = 0.8,subsample = 0.9),
+      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 5, nrounds = 30, eta = 0.15,colsample_bytree = 0.8,subsample = 0.9),
+      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 2, nrounds = 30, eta = 0.15,colsample_bytree = 0.8,subsample = 0.9)
     )
   )
 
-
-  lrnr_mu_gam <-  Pipeline$new(Lrnr_cv$new(stack_gam_Y), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_pi_gam <- Pipeline$new(Lrnr_cv$new(stack_gam_A), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_mu_gam_quad <-  Pipeline$new(Lrnr_cv$new(stack_gam_Y_quad), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_pi_gam_quad <- Pipeline$new(Lrnr_cv$new(stack_gam_A_quad), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_mu_gam_cube <-  Pipeline$new(Lrnr_cv$new(stack_gam_Y_cube), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_pi_gam_cube <- Pipeline$new(Lrnr_cv$new(stack_gam_A_cube), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_mu_xg <-  Pipeline$new(Lrnr_cv$new(stack_xg), Lrnr_cv_selector$new(loss_squared_error))
-  lrnr_pi_xg <- Pipeline$new(Lrnr_cv$new(stack_xg), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_mu_gam <-  Pipeline$new(Lrnr_cv$new(lrnr_hal_inv), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_pi_gam <- Pipeline$new(Lrnr_cv$new(lrnr_hal_inv), Lrnr_cv_selector$new(loss_squared_error))
 
 
   sim_results <- lapply(1:nsims, function(i){
@@ -71,10 +49,7 @@ do_sims <- function(n, pos_const, nsims) {
       n <- length(A)
       initial_estimators_gam <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_gam, lrnr_pi = lrnr_pi_gam, folds = 5, invert = FALSE)
       folds <- initial_estimators_gam$folds
-      initial_estimators_gam_quad <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_gam_quad, lrnr_pi = lrnr_pi_gam_quad, folds = 5, invert = FALSE)
-      initial_estimators_gam_cube <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_gam_cube, lrnr_pi = lrnr_pi_gam_cube, folds = 5, invert = FALSE)
-      initial_estimators_xg <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_xg, lrnr_pi = lrnr_pi_xg, folds = folds, invert = FALSE)
-      initial_estimators_misp <- compute_initial(W,A,Y, lrnr_mu =  Lrnr_cv$new(Lrnr_mean$new()), lrnr_pi =  Lrnr_cv$new(Lrnr_mean$new()), folds = folds)
+       initial_estimators_misp <- compute_initial(W,A,Y, lrnr_mu =  Lrnr_cv$new(Lrnr_mean$new()), lrnr_pi =  Lrnr_cv$new(Lrnr_mean$new()), folds = folds)
 
       out_list <- list()
 
@@ -90,16 +65,11 @@ do_sims <- function(n, pos_const, nsims) {
       # sqrt(mean((1/calibrated_estimators$pi0[A==0] - 1/(1-data_list$pi[A==0]))^2))
 
 
-      for(lrnr in c("gam_0", "gam_1", "gam_2", "xgboost")) {
+      for(lrnr in c("gam" )) {
         print(lrnr)
-        if(lrnr=="gam_0") {
+        if(lrnr=="gam") {
           initial_estimators <- initial_estimators_gam
-        } else if(lrnr=="gam_1") {
-          initial_estimators <- initial_estimators_gam_quad
-        } else if(lrnr=="gam_2") {
-          initial_estimators <- initial_estimators_gam_cube
-        } else
-        {
+        } else {
           initial_estimators <- initial_estimators_xg
         }
         for(misp in c("1", "2", "3", "4")) {
@@ -151,7 +121,7 @@ do_sims <- function(n, pos_const, nsims) {
 
 
 get_data <- function(n, pos_const) {
-  d <- 3
+  d <- 1
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
 
@@ -258,7 +228,6 @@ compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = FALSE) {
   data <- data.table(W,A,Y)
 
   taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "binomial", folds = folds)
-
   folds <- taskY$folds
   taskA <- sl3_Task$new(data, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "binomial")
   print("mu")

@@ -12,45 +12,50 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 
 
-out <- do_sims(2000, 1, 20)
-ATE <- 1.371726
-out$ATE <- 1.371726
+out <- do_sims(10000, 3, 20)
 out[, coverage := CI_left <= ATE & CI_right >= ATE]
-out
-results <- unique(out[, .( se = sd(estimate), bias = abs(estimate - ATE), coverage = mean(coverage)), by = c("misp", "estimator")])
+results <- unique(out[, .(sd = mean((CI_right - CI_left)/2/1.96),  se = sd(estimate-ATE), bias = mean(abs(estimate - ATE)), coverage = mean(coverage)), by = c("misp", "estimator", "lrnr")])
+
+results[, rmse := sqrt(bias^2 + se^2)]
+ results
+```
+
+
+```{r}
+ATE <- 1
+out <- do_sims(4000, 0.5, 20)
+results <- out
+results[, coverage := CI_left <= ATE & CI_right >= ATE]
+results[, sd := abs(CI_left -CI_right)/1.96/2]
+
+results
+results <- unique(results[, .(sd = mean(sd), se = sd(estimate), bias = abs(estimate - ATE), coverage = mean(coverage)), by = c( "misp",   "estimator")])
+results[, rmse := sqrt(bias^2 + se^2)]
+results <- results[!duplicated(results[, c( "misp",  "estimator"), with = F]),]
 
 results
 ```
+
 
 ```{r}
 library(data.table)
 
 n_list <- c(500, 1000, 2000, 3000, 4000, 5000)
 pos_list <- c(0.5, 1, 2, 3)
-misp_list <- 1:4
+
 results <-
   rbindlist(unlist(lapply(n_list, function(n){
     unlist(lapply(pos_list, function(pos) {
-  lapply(misp_list, function(misp) {
+  lapply(c(0), function(misp) {
     try({
       dat <-  get_data(100000, pos)
       pi <-dat$pi
       ATE <- dat$ATE
       pos_const <- signif(min(pi, 1-pi),1)
-    key <- paste0("DR_iter=", "5000", "_n=", n, "_pos=", pos, "_mode=", misp )
-   data <- fread(paste0("simResultsDR/sim_results_", key, ".csv"))
-   dat1 <- data[, grep( "audrie", colnames(data)), with = F ]
-   colnames(dat1) <- c("estimate", "CI_left", "CI_right")
-   dat1$method <- "auDRI"
-   dat1$iter <- 1:nrow(dat1)
-   dat2 <- data[, grep( "AIPW", colnames(data)), with = F]
-   colnames(dat2) <- c("estimate", "CI_left", "CI_right")
-   dat2$method <- "AIPW"
-   dat2$iter <- 1:nrow(dat2)
-    data <- rbind(dat1, dat2)
+    key <- paste0("DR_iter=", "500", "_n=", n, "_pos=", pos )
+   data <- fread(paste0("../simResultsDR/sim_results_", key, ".csv"))
    data$n <- n
    data$pos <- pos_const
-   data$misp <- misp
    data$ATE <- ATE
    return(data)
     })
@@ -59,13 +64,16 @@ results <-
 }), recursive = F)
 }), recursive = F))
 
-
-results[, coverage := CI_left <= ATE & CI_right >= ATE]
-results <- unique(results[, .( se = sd(estimate), bias = abs(estimate - ATE), coverage = mean(coverage)), by = c("pos", "n", "misp", "method")])
-results[, rmse := sqrt(bias^2 + se^2)]
-results <- results[!duplicated(results[, c("pos", "n", "misp", "method"), with = F]),]
-
  
+results[, coverage := CI_left <= ATE & CI_right >= ATE]
+results[, sd := abs(CI_left -CI_right)/1.96/2]
+
+results
+results <- unique(results[, .(sd = mean(sd), se = sd(estimate), bias = mean(abs(estimate - ATE)), coverage = mean(coverage)), by = c("pos", "n", "misp",   "estimator")])
+results[, rmse := sqrt(bias^2 + se^2)]
+results <- results[!duplicated(results[, c("pos", "n", "misp",  "estimator"), with = F]),]
+
+ results
 
 ```
 
