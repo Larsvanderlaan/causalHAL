@@ -7,6 +7,7 @@ library(future)
 #Lrnr_gam$new(), Lrnr_earth$new(degree = 1),
 #
 
+#out <- do_sims(5000, 3, 20)
 
 
 do_sims <- function(n, pos_const, nsims) {
