@@ -3,9 +3,11 @@ library(sl3)
 library(doFuture)
 library(future)
 
-d <- 3
+
 #Lrnr_gam$new(), Lrnr_earth$new(degree = 1),
 #
+
+out <- do_sims(2000, 2, 3)
 
 do_sims <- function(n, pos_const, nsims) {
   loss_inv <- function (pred, observed) {
@@ -21,11 +23,11 @@ do_sims <- function(n, pos_const, nsims) {
   cols <- paste0("W", 1:d)
    #formula_A <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
   #formula_Y <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
-  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
-  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
 
-  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, nfold = 5, pmethod = "cv")
-  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, nfold = 5, pmethod = "cv")
+  stack_earth_Y <-  Lrnr_earth$new(family = "binomial", pmethod = "cv", nfold=5, degree=1)
+  stack_earth_A <-  Lrnr_earth$new(family = "binomial", pmethod = "cv", nfold=5, degree=1)
 
   stack_gam_Y_quad <-  Lrnr_gam$new(family = "binomial",
                                formula = formula_Y_quad)
@@ -34,12 +36,10 @@ do_sims <- function(n, pos_const, nsims) {
 
   stack_xg <- Stack$new(
     list(
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 1, nrounds = 100, eta = 0.15 ),
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 2, nrounds = 30, eta = 0.15 ),
       Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 3, nrounds = 30, eta = 0.15 ),
       Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 4, nrounds = 30, eta = 0.15 ),
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 5, nrounds = 30, eta = 0.15 )
-
+      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 5, nrounds = 30, eta = 0.15 ),
+      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 6, nrounds = 30, eta = 0.15 )
     )
   )
 
@@ -140,32 +140,38 @@ do_sims <- function(n, pos_const, nsims) {
 
 
 get_data <- function(n, pos_const) {
-
+  s <- sqrt(n)
+  d <- 5*s
   W <- replicate(d, runif(n, -1, 1))
   colnames(W) <- paste0("W", 1:d)
 
-
-  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
-  pi0 <- plogis(pos_const * link)
+  beta1 <- rnorm(d) * rbinom(d, 1, s/d)
+  beta1 <- 3* beta1 / sum(abs(beta1))
+  pi0 <- plogis(W %*% beta1)
   A <- rbinom(n, 1, pi0)
-  mu0 <-  plogis(link - 0.5)
-  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/3)
+  beta2 <- rnorm(d) * sign(beta1)
+  beta2 <-  2* beta2 / sum(abs(beta2)) + beta1/3
+  mu0 <-  plogis(  -0.5 + W %*% beta2)
+  cor(mu0, pi0)
+  beta3 <- rnorm(d) * rbinom(d, 1, s/d)
+  beta3 <-  beta3 / sum(abs(beta3)) + beta1
+  mu1 <- plogis(0.2 + W %*% beta3)
   mu <- ifelse(A==1, mu1, mu0)
   Y <- rbinom(n, 1, mu)
-
+  print(mean(mu1 - mu0))
+  mean(Y[A==1]) - mean(Y[A==0])
 
   out <- list(W=W, A = A, Y = Y,   pi = pi0, mu0 = mu0, mu1 = mu1)
 
   W <- replicate(d, runif(1000000, -1, 1))
-  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
-  mu0 <-  plogis(link - 0.5)
-  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/3)
+  mu0 <-  plogis(link - 0.75)
+  mu1 <- plogis(link + 0.75 + (cos(4*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2)
   mu <- ifelse(A==1, mu1, mu0)
   Y <- rbinom(n, 1, mu)
   ATE <- mean(mu1 - mu0)
-  mean(Y[A==1]) - mean(Y[A==0])
+  #mean(Y[A==1]) - mean(Y[A==0])
   out$ATE <- ATE
 
 
@@ -281,25 +287,22 @@ calibrate_nuisances <- function(A, Y,mu1, mu0, pi1, pi0) {
 
 compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = FALSE) {
   data <- data.table(W,A,Y)
+
+  taskY <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "binomial", folds = folds)
+
+  folds <- taskY$folds
+  taskA <- sl3_Task$new(data, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "binomial")
   print("mu")
-  taskY0 <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "binomial", folds = folds)
-  folds <- taskY0$folds
-  fit0 <- lrnr_mu$train(taskY0[A==0])
-  mu0 <- fit0$predict(taskY0)
-  data$mu0 <- qlogis(mu0)
-  taskY1 <- sl3_Task$new(data, covariates = c(colnames(W), "mu0"), outcome  = "Y", outcome_type = "binomial", folds = folds)
-  fit1 <- lrnr_mu$train(taskY1[A==1])
-  mu1 <-  fit1$predict(taskY1)
+  fit1 <- lrnr_mu$train(taskY[A==1])
+  mu1 <-  fit1$predict(taskY)
+  fit0 <- lrnr_mu$train(taskY[A==0])
+  mu0 <- fit0$predict(taskY)
+  print(fit1$fit_object$learner_fits$Lrnr_cv_selector_NULL$fit_object$cv_risk)
 
-
-
-  #print(fit1$fit_object$learner_fits$Lrnr_cv_selector_NULL$fit_object$cv_risk)
-
-  #print(fit0$fit_object$learner_fits$Lrnr_cv_selector_NULL$fit_object$cv_risk)
+  print(fit0$fit_object$learner_fits$Lrnr_cv_selector_NULL$fit_object$cv_risk)
 
   print("done_mu")
   print("pi")
-  taskA <- sl3_Task$new(data, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "binomial")
   fit1 <- lrnr_pi$train(taskA)
   pi1 <- fit1$predict(taskA)
   print(fit1$fit_object$learner_fits$Lrnr_cv_selector_NULL$fit_object$cv_risk)
