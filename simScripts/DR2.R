@@ -3,13 +3,13 @@ library(sl3)
 library(doFuture)
 library(future)
 
-d <- 4
-#Lrnr_gam$new(), Lrnr_earth$new(degree = 1),
-#
-#out <- do_sims(5000, 2, 100)
+d <- 3
 
 
-do_sims <- function(n, pos_const, nsims) {
+#out <- do_sims(5000, 2, 20)
+
+
+ do_sims <- function(n, pos_const, nsims) {
   loss_inv <- function (pred, observed) {
     A <- observed
     pred <- truncate_pscore_adaptive(A, pred)
@@ -26,8 +26,8 @@ do_sims <- function(n, pos_const, nsims) {
   formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
   formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
 
-  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, nfold = 5, pmethod = "cv")
-  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, nfold = 5, pmethod = "cv")
+  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, nfold = 5, pmethod = "cv", nk = 60)
+  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, nfold = 5, pmethod = "cv", nk = 60)
 
   stack_gam_Y_quad <-  Lrnr_gam$new(family = "binomial",
                                formula = formula_Y_quad)
@@ -147,39 +147,43 @@ get_data <- function(n, pos_const) {
   colnames(W) <- paste0("W", 1:d)
 
 
-  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(4*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
+  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
   mu <- plogis(-1 +
-    (cos(4*W[,4]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
-      A * (1 + sign(W[,4]) * sqrt(abs(W[,4])) + sin(4*W[,2]) + W[,3]*sin(W[,3]))
+    (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
+      A * (1 + sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]))
   )
   mu0 <- plogis( -1 +
-    (cos(4*W[,4]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
-      0 * (1 + sign(W[,4]) * sqrt(abs(W[,4])) + sin(4*W[,2]) + W[,3]*sin(W[,3]))
+    (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
+      0 * (1 + sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]))
   )
   mu1 <- plogis(-1 +
-    (cos(4*W[,4]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
-      1* (1 + sign(W[,4]) * sqrt(abs(W[,4])) + sin(4*W[,2]) + W[,3]*sin(W[,3]))
+    (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
+      1* (1 + sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]))
   )
   #mu0 <-  plogis(-link - 0.75)
-  #mu1 <- plogis(link + 0.75 + (cos(4*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2)
+  #mu1 <- plogis(link + 0.75 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2)
   Y <- rbinom(n, 1, mu)
 
 
   out <- list(W=W, A = A, Y = Y,   pi = pi0, mu0 = mu0, mu1 = mu1)
 
   W <- replicate(d, runif(1000000, -1, 1))
-  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(4*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
+  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
+  mu <- plogis(-1 +
+                 (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
+                 A * (1 + sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]))
+  )
   mu0 <- plogis( -1 +
-                   (cos(4*W[,4]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
-                   0 * (1 + sign(W[,4]) * sqrt(abs(W[,4])) + sin(4*W[,2]) + W[,3]*sin(W[,3]))
+                   (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
+                   0 * (1 + sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]))
   )
   mu1 <- plogis(-1 +
-                  (cos(4*W[,4]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
-                  1* (1 + sign(W[,4]) * sqrt(abs(W[,4])) + sin(4*W[,2]) + W[,3]*sin(W[,3]))
+                  (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/2 +
+                  1* (1 + sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]))
   )
   Y <- rbinom(n, 1, A*mu1 + (1-A)*mu0)
   ATE <- mean(mu1 - mu0)
@@ -203,19 +207,19 @@ get_data <- function(n, pos_const) {
 #   beta_1 <- beta_1 / sum(abs(beta_1))
 #   beta_2 <- (rnorm(d, 0, 1))
 #   beta_2 <- beta_2 / sum(abs(beta_2))
-#   pi0 <- plogis(pos_const * (W%*%beta_1 + sin(4*W)%*%beta_2) )
+#   pi0 <- plogis(pos_const * (W%*%beta_1 + sin(3*W)%*%beta_2) )
 #   A <- rbinom(n, 1, pi0)
 #   beta_3 <- abs(rnorm(d, 0, 1)) * sign(beta_1)
 #   beta_3 <- beta_3 / sum(abs(beta_3))
 #   mu0 <-  plogis(qlogis(pi0) - 0.5)
-#   mu1 <- plogis(qlogis(mu0) + (1 + 2*cos(4*W)%*%beta_3))
+#   mu1 <- plogis(qlogis(mu0) + (1 + 2*cos(3*W)%*%beta_3))
 #   mu <- ifelse(A==1, mu1, mu0)
 #   Y <- rbinom(n, 1, mu)
 #
 #   Wbig <- replicate(d, runif(1000000, -1, 1))
-#   pi0big <- plogis(pos_const * (Wbig%*%beta_1 + sin(4*Wbig)%*%beta_2) )
+#   pi0big <- plogis(pos_const * (Wbig%*%beta_1 + sin(3*Wbig)%*%beta_2) )
 #   mu0big <-  plogis(qlogis(pi0big) - 0.5)
-#   mu1big <- plogis(qlogis(mu0big) + (1 + 2*cos(4*Wbig)%*%beta_3))
+#   mu1big <- plogis(qlogis(mu0big) + (1 + 2*cos(3*Wbig)%*%beta_3))
 #   ATE <- mean(mu1big - mu0big)
 #   print(ATE)
 #

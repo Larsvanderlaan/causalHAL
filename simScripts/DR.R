@@ -6,6 +6,7 @@ library(future)
 d <- 3
 #Lrnr_gam$new(), Lrnr_earth$new(degree = 1),
 #
+out <- do_sims(3000, 2, 20)
 
 do_sims <- function(n, pos_const, nsims) {
   loss_inv <- function (pred, observed) {
@@ -21,11 +22,11 @@ do_sims <- function(n, pos_const, nsims) {
   cols <- paste0("W", 1:d)
    #formula_A <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
   #formula_Y <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
-  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
-  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
 
-  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, nfold = 5, pmethod = "cv")
-  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, nfold = 5, pmethod = "cv")
+  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, nfold = 5, pmethod = "cv", nk = 75)
+  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, nfold = 5, pmethod = "cv", nk = 75)
 
   stack_gam_Y_quad <-  Lrnr_gam$new(family = "binomial",
                                formula = formula_Y_quad)
@@ -149,7 +150,7 @@ get_data <- function(n, pos_const) {
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
   mu0 <-  plogis(link - 0.5)
-  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/3)
+  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sign(W[,3]) * sqrt(abs(W[,3])) - 0.5)/3)
   mu <- ifelse(A==1, mu1, mu0)
   Y <- rbinom(n, 1, mu)
 
@@ -161,7 +162,7 @@ get_data <- function(n, pos_const) {
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
   mu0 <-  plogis(link - 0.5)
-  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sqrt(abs(W[,3])))/3)
+  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sign(W[,3]) * sqrt(abs(W[,3])) - 0.5)/3)
   mu <- ifelse(A==1, mu1, mu0)
   Y <- rbinom(n, 1, mu)
   ATE <- mean(mu1 - mu0)
