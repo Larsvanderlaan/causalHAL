@@ -1,0 +1,30 @@
+LOADING R
+R LOADED
+[1] "/home/lvanderl/Rlibs2"                         
+[2] "/app/software/R/4.3.1-gfbf-2022b/lib/R/library"
+[1] "/home/lvanderl/sieveSims"
+[1] "iter: 1"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1462056 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1179759 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_10_1_0.15  Lrnr_xgboost_30_1_10_2_0.15 
+                   0.1280387                    0.1268872 
+ Lrnr_xgboost_30_1_10_3_0.15  Lrnr_xgboost_30_1_10_4_0.15 
+                   0.1296931                    0.1303189 
+ Lrnr_xgboost_30_1_10_5_0.15 
+                   0.1301774 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"

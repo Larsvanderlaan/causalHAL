@@ -1,0 +1,4684 @@
+LOADING R
+R LOADED
+[1] "/home/lvanderl/Rlibs2"                         
+[2] "/app/software/R/4.3.1-gfbf-2022b/lib/R/library"
+[1] "/home/lvanderl/sieveSims"
+[1] "iter: 1"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1337245 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1328712 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1428449 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1454972 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1377990 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1372307 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1371513 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 2"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136233 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1357502 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1466898 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1487533 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1409421 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1391614 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1394865 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 3"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+     0.1323 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1322825 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1425932 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1453472 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1368828 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1366348 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1373884 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 4"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1353017 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1347855 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1458278 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1487213 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1395624 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1383649 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1391043 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 5"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1375693 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1379021 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1486054 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1513976 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1432342 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1425030 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1427873 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 6"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1344776 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1341063 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1441241 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1459363 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1385561 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1379253 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1375164 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 7"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.138394 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.137536 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1485161 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1514482 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1420514 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1411916 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1417051 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 8"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1349519 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1341646 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1432184 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1465573 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1383137 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1373447 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1370859 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 9"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1306311 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1302074 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1402479 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1433806 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1352451 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1351160 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1355779 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 10"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1370816 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1370611 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1476957 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1505635 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1417398 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1406622 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1403879 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 11"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1370292 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1362021 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1455048 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1493427 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1410057 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1404030 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1405838 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 12"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1364402 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136246 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1475328 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1501879 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1414256 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1406947 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1403216 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 13"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1355885 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1344048 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1453604 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1475752 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1400502 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1390468 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1396047 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 14"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1310633 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.129844 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1390454 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1429942 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1338161 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1330294 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1336415 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 15"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1315914 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1313572 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1418900 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1455635 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1365232 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1351069 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1350273 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 16"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373476 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1369019 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1470184 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1494096 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1402336 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1397904 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1402694 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 17"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.133404 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+    0.13327 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1439850 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1462587 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1369655 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1353241 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1355037 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 18"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1335303 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1333365 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1448459 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1486740 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1387495 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1370092 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1376437 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 19"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1360157 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1362945 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1468065 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1500286 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1401770 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1387272 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1379957 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 20"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1370575 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1365191 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1468999 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1496560 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1407074 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1396241 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1388270 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 21"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1329935 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1325351 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1423308 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1451602 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1369213 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1361951 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1369228 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 22"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1356855 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1349187 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1438695 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1473435 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1382255 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1376016 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1375912 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 23"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1390084 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1382917 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1484138 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1509939 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1425455 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1418906 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1426878 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 24"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1350278 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1335416 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1436963 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1471990 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1396055 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1385732 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1391278 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 25"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.135905 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1351956 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1445212 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1476072 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1393920 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1374896 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1371625 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 26"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1377012 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.137128 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1471834 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1498200 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1417683 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1420272 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1425784 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 27"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.131682 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1309083 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1412445 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1451179 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1352998 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1342849 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1338546 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 28"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1312533 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1312505 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1413778 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1445993 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1352458 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1349825 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1353545 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 29"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1396317 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1402302 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1509036 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1539134 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1460353 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1443836 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1443138 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 30"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1394486 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1374181 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1483807 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1521176 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1432264 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1421687 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1421873 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 31"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358272 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1349023 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1458236 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1486716 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1402297 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1391366 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1384461 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 32"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1352931 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1355819 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1447182 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1481100 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1393953 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1385393 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1384085 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 33"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1300786 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1291729 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1408131 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1432267 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1336161 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1316778 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1314261 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 34"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1363699 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1355723 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1446742 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1475097 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1389107 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1381740 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1382691 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 35"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1380635 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1380886 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1466643 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1493908 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1418836 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1409730 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1414887 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 36"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1362427 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1356959 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1455854 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1484729 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1402994 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1396817 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1396758 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 37"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136631 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1360619 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1464456 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1489833 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1413403 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1398475 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1399022 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 38"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1354992 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1339994 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1431630 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1461627 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1383869 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1372094 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1376089 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 39"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1327554 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1320607 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1432917 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1460420 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1371484 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1360503 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1361582 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 40"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1368423 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1365054 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1473206 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1498129 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1423320 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1390765 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1391254 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 41"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1366872 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1368206 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1466932 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1496454 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1412496 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1400053 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1399432 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 42"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1386035 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1371694 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1464010 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1486796 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1417322 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1407180 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1403352 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 43"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1410523 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1404124 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1514215 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1546473 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1461368 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1455926 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1452198 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 44"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.134696 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1335535 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1435505 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1479720 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1394850 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1383276 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1383560 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 45"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.130597 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1300667 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1427604 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1469542 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1358050 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1354515 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1346528 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 46"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1372319 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136735 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1463467 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1494403 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1411870 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1405206 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1409125 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 47"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.137706 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1372066 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1466664 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1511270 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1423837 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1420279 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1412391 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 48"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1397136 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1393095 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1479828 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1511144 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1436337 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1434919 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1440514 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 49"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373235 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1368106 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1481481 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1506228 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1414839 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1397033 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1399383 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 50"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1321293 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1298526 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1418560 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1444084 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1354491 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1349269 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1351704 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 51"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1367539 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1354654 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1462549 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1497005 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1411143 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1401641 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1401894 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 52"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1292885 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1279037 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1397098 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1427646 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1339854 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1331019 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1332487 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 53"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.138032 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1374263 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1465844 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1500587 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1406255 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1404219 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1406955 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 54"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1330232 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1318464 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1430023 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1465198 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1370122 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1361365 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1360967 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 55"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1369098 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1362489 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1441591 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1469098 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1408694 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1397176 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1403794 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 56"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1297538 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.128633 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1392716 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1415360 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1333636 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1319550 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1317916 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 57"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1371073 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1356716 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1473321 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1497466 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1413726 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1410368 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1413708 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 58"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+    0.13683 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358639 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1463831 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1490629 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1393321 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1379213 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1381205 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 59"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136892 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1361995 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1456856 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1482021 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1409818 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1398402 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1406507 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 60"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1339769 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1333919 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1439356 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1471788 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1383036 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1360558 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1363652 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 61"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.133603 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1315042 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1432729 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1463657 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1380915 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1364878 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1369443 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 62"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136819 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358419 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1466022 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1494242 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1402434 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1407197 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1411619 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 63"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1355148 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1352902 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1452533 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1483308 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1382731 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1369767 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1370406 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 64"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1402821 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1392799 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1497449 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1525943 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1431159 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1433745 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1439197 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 65"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1338317 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1339435 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1447252 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1477137 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1391008 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1370742 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1368484 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 66"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1357229 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1352522 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1463183 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1484584 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1405058 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1395936 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1402870 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 67"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1314529 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1306852 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1405638 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1431311 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1343926 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1340385 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1343553 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 68"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.139502 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1386334 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1482372 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1507089 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1424590 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1417275 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1414156 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 69"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1395862 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.139451 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1480829 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1515036 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1443068 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1435639 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1441461 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 70"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1381439 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1381726 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1478334 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1511537 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1427654 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1426068 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1427634 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 71"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358951 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1345251 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1449399 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1479008 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1392757 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1383609 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1371599 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 72"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373077 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1375784 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1466358 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1499533 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1413985 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1405138 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1411497 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 73"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1334518 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1334521 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1433098 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1474747 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1384268 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1371103 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1381276 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 74"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1392096 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1382804 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1490247 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1513586 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1428492 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1412698 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1412906 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 75"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1411934 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1404602 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1513906 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1538448 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1442447 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1429373 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1427157 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 76"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1318017 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1313229 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1413119 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1450641 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1353644 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1337392 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1342491 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 77"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1370108 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1365865 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1454529 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1484669 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1404544 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1402018 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1395543 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 78"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1325867 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1328923 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1453787 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1490237 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1382945 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1368656 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1372811 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 79"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1386821 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1380233 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1451860 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1481004 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1410989 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1404118 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1408524 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 80"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1352408 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358786 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1467262 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1496900 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1419472 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1399213 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1400879 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 81"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1372037 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1364651 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1480643 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1502551 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1419763 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1404176 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1407337 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 82"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1401583 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.139188 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1471797 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1499635 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1418281 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1417533 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1424410 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 83"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1344421 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1336945 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1439785 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1462373 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1381297 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1370985 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1375456 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 84"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1290381 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1289432 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1396718 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1421712 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1328508 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1322029 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1324239 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 85"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1340678 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1343485 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1452444 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1467668 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1382151 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1373829 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1379079 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 86"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1383095 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1375684 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1490193 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1525022 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1427141 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1411023 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1404077 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 87"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1306946 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1298234 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1396603 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1425636 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1343313 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1335551 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1332665 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 88"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1369725 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1371087 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1492606 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1520483 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1431051 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1419944 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1414297 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 89"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1335202 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1324594 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1425153 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1458902 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1364556 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1359336 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1356845 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 90"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1354899 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1340895 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1456066 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1486105 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1402447 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1389618 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1388002 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 91"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1337407 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1337486 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1448544 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1480762 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1385231 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1375373 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1369387 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 92"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1354205 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1343741 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1452476 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1490813 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1407433 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1399072 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1399529 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 93"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1298508 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1295935 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1396464 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1426648 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1349656 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1331028 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1331569 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 94"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373953 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.136463 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1460919 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1495315 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1411124 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1398902 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1398980 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 95"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1369246 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1361639 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1456664 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1490750 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1413430 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1402167 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1403150 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 96"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1370599 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1365924 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1472904 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1514031 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1423108 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1420731 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1419703 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 97"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1338361 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1343615 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1443723 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1470953 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1391229 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1375663 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1382129 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 98"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1355082 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1353466 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1460018 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1490460 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1407043 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1402531 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1403291 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 99"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.130921 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1303527 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1406950 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1444054 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1353327 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1339077 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1337744 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 100"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1335541 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1331083 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1442855 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1476124 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1386712 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1379028 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1372180 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 101"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1360047 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1351728 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1449226 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1471137 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1389129 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1382333 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1379055 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 102"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1365098 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1350925 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1454180 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1488229 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1394113 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1386425 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1388722 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 103"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1312803 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.131977 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1418954 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1450700 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1344837 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1336532 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1337725 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 104"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1367419 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1368079 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1468910 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1506624 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1412953 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1408678 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1402052 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 105"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1349348 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1332684 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1430872 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1472277 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1373388 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1369612 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1379307 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 106"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1359736 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1359827 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1445903 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1479970 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1400678 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1398336 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1402965 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 107"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1368585 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1369368 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1477053 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1497995 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1409174 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1403573 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1417400 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 108"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1349058 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1346908 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1464490 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1488322 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1399345 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1395315 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1401412 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 109"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+    0.14215 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1414459 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1508546 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1536060 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1447077 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1438237 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1435204 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 110"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1340143 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1313101 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1423698 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1446974 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1365183 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1348344 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1354666 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 111"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1383263 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373373 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1487200 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1520274 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1432421 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1423358 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1424286 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 112"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1377035 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1367655 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1451424 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1484818 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1405591 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1397623 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1406622 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 113"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+    0.13756 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1369383 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1486221 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1521340 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1422600 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1408952 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1404601 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 114"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1324961 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1315635 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1425095 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1450994 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1356219 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1349078 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1353265 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 115"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.138334 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1385608 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1480850 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1514527 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1437709 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1424607 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1429682 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 116"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1326844 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1327668 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1431316 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1462728 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1365041 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1355848 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1352289 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 117"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1306661 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1314275 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1402154 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1436437 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1341391 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1335888 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1341894 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 118"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1347847 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1339739 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1441665 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1471658 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1382401 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1378250 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1378444 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 119"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1351506 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1346216 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1441836 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1473289 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1390954 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1390848 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1392154 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 120"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1390019 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373998 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1488997 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1521823 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1425668 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1409054 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1418328 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 121"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1372101 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373205 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1463639 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1493321 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1405532 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1391661 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1392369 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 122"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1329051 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1329709 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1425193 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1454132 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1363938 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1361233 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1362552 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 123"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1313698 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1321247 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1424393 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1447931 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1358365 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1351424 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1358624 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 124"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1327959 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1315325 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1413094 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1447768 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1366109 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1361047 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1363325 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 125"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1366427 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358028 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1452763 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1479147 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1396477 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1382986 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1392792 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 126"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1334987 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.133404 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1434308 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1477024 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1375992 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1369250 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1364077 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 127"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1427827 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1423132 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1514146 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1540283 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1462319 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1464371 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1468990 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 128"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1347438 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1356519 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1460353 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1481688 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1385757 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1377653 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1381422 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 129"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1358759 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1354166 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1459583 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1489573 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1409772 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1397753 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1390306 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 130"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1320964 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.131142 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1398111 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1440418 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1364269 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1358207 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1357969 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 131"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1375808 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1364442 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1476403 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1504692 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1419889 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1406720 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1411371 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 132"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1336451 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1332267 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1437763 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1469407 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1373220 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1364588 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1363554 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 133"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1307925 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1313261 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1421495 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1453457 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1351461 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1333962 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1340387 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 134"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1357843 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1342168 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1449513 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1484095 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1392449 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1379283 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1372862 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 135"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1292914 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1292891 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1393311 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1420494 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1326562 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1315985 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1319239 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 136"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1291076 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+    0.12938 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1395102 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1414699 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1332510 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1325879 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1326462 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 137"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1373004 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1367264 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1458783 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1490180 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1405903 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1394363 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1399642 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 138"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.140104 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.138454 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1496778 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1533222 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1441888 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1430287 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1432456 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 139"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1359355 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1362482 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1459179 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1489738 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1402060 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1400119 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1401950 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 140"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1391877 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1391339 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1488462 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1517480 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1436315 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1427700 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1429705 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 141"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1335988 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1332976 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1435063 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1459735 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1383311 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1375250 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1378807 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 142"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1339053 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1334333 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1437567 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1464193 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1376365 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1369406 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1368192 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 143"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1377642 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1378331 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1461724 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1494416 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1420818 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1410900 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1417563 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 144"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1374226 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1364519 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1471281 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1499236 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1411474 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1395731 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1397726 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 145"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1338564 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1326436 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1424821 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1458309 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1366518 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1358620 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1362478 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 146"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1319428 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1308634 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1432761 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1467208 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1365589 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1353762 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1354866 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 147"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1341597 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1342903 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1437409 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1471056 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1381689 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1373705 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1379900 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 148"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1320321 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1308226 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1422795 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1456205 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1347168 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1342527 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1341901 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 149"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1391314 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1383304 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1480622 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1511258 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1436744 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1441414 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1440052 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 150"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1345555 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+   0.134434 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1448644 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1478880 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1394922 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1382811 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1384488 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
+[1] "gam_1"
+[1] "xgboost"
+[1] "iter: 151"
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1368374 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+predictions 
+  0.1353958 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+Lrnr_xgboost_100_1_17.099759466767_1_0.15 
+                                0.1463973 
+ Lrnr_xgboost_30_1_17.099759466767_2_0.15 
+                                0.1489562 
+ Lrnr_xgboost_30_1_17.099759466767_3_0.15 
+                                0.1397796 
+ Lrnr_xgboost_30_1_17.099759466767_4_0.15 
+                                0.1394288 
+ Lrnr_xgboost_30_1_17.099759466767_5_0.15 
+                                0.1391091 
+[1] "mu"
+[1] "done_mu"
+[1] "pi"
+NULL
+[1] "earth"
