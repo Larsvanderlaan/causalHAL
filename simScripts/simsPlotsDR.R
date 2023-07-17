@@ -1,6 +1,6 @@
 library(data.table)
 
-n_list <- c(500, 1000, 2000, 3000, 4000, 5000)
+n_list <- c(500, 1000, 2000, 3500, 5000, 8000)
 pos_list <- c(0.5, 1, 2, 3)
 misp_list <- 1:4
 results <-
@@ -12,7 +12,7 @@ results <-
       pi <-dat$pi
       ATE <- dat$ATE
       pos_const <- signif(min(pi, 1-pi),1)
-    key <- paste0("DR_iter=", "5000", "_n=", n, "_pos=", pos, "_mode=", misp )
+    key <- paste0("DR_iter=", "1000", "_n=", n, "_pos=", pos )
    data <- fread(paste0("simResultsDR/sim_results_", key, ".csv"))
    dat1 <- data[, grep( "audrie", colnames(data)), with = F ]
    colnames(dat1) <- c("estimate", "CI_left", "CI_right")

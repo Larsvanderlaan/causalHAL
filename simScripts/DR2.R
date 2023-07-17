@@ -3,10 +3,6 @@ library(sl3)
 library(doFuture)
 library(future)
 
-d <- 3
-
-
-#out <- do_sims(5000, 2, 20)
 
 
  do_sims <- function(n, pos_const, nsims) {
