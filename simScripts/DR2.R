@@ -2,8 +2,7 @@ library(data.table)
 library(sl3)
 library(doFuture)
 library(future)
-
-
+d <- 3
 
  do_sims <- function(n, pos_const, nsims) {
   loss_inv <- function (pred, observed) {
