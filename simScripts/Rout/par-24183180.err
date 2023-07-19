@@ -1,6 +1,0 @@
-Loading required package: foreach
-Loading required package: future
-Error in data.table::rbindlist(sim_results) : 
-  Item 1 of input is not a data.frame, data.table or list
-Calls: do_sims -> <Anonymous>
-Execution halted

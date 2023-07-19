@@ -1,0 +1,6 @@
+Failed to query server: Connection timed out
+Loading required package: foreach
+Loading required package: future
+Warning message:
+In system("timedatectl", intern = TRUE) :
+  running command 'timedatectl' had status 1

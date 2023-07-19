@@ -1,5 +1,0 @@
-Error: package or namespace load failed for ‘sl3’:
- .onLoad failed in loadNamespace() for 'checkmate', details:
-  call: loadNamespace(x)
-  error: there is no package called ‘backports’
-Execution halted

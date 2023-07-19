@@ -1,6 +1,0 @@
-Loading required package: hal9001
-Loading required package: Rcpp
-Error: package or namespace load failed for ‘hal9001’ in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]):
- there is no package called ‘assertthat’
-Error: package ‘hal9001’ could not be loaded
-Execution halted

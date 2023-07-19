@@ -1,6 +1,0 @@
-Loading required package: foreach
-Loading required package: future
-Error in requirePackages(private$.required_packages, why = class(self)[1],  : 
-  For Lrnr_earth please install the following packages: earth
-Calls: do_sims ... <Anonymous> -> <Anonymous> -> requirePackages -> stopf
-Execution halted
