@@ -83,8 +83,8 @@ table(1 <= right & 1 >= left )
 
 ```{r}
 library(data.table)
-local <- TRUE
-complexity <- TRUE
+local <- FALSE
+complexity <- FALSE
 results <- rbindlist(unlist(lapply(c( 0.5, 1,  2 ), function(pos){
   set.seed(123)
    
@@ -119,8 +119,10 @@ results <- rbindlist(unlist(lapply(c( 0.5, 1,  2 ), function(pos){
  
 results$pos <- factor(results$pos, levels = paste0("Overlap: ", rev(sort(unique(results$pos_const)))))
 method_names <- c("Rlearner", "Tlearner", "intercept", "AIPW")
-names(method_names) <- c("AMLE-partially linear (*)", "AMLE-plugin (*)", "semiparametric", "AIPW")
+names(method_names) <- c("ADML-partially linear (*)", "ADML-plugin (*)", "semiparametric", "AIPW")
 results$method <- names(method_names)[match(results$method , method_names)]
+results$method <- factor(results$method, levels = c("AIPW", "ADML-partially linear (*)", "ADML-plugin (*)", "semiparametric"
+))
 unique(results[, max(abs(coef)), by =  c("n", "pos", "method" )])
  
 results_summary <- unique(results[, 
@@ -138,7 +140,8 @@ for(pos_const in unique(results_summary$pos_const)) {
   
   tmp <- as.data.frame(results_summary)[results_summary$pos_const == pos_const,]
   
-  
+  tmp$method <- factor(tmp$method, levels = c("AIPW", "ADML-partially linear (*)", "ADML-plugin (*)", "semiparametric"
+))
  
   if(local){
      

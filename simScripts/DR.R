@@ -146,11 +146,11 @@ get_data <- function(n, pos_const) {
   colnames(W) <- paste0("W", 1:d)
 
 
-  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
+  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(5*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
   mu0 <-  plogis(link - 0.5)
-  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sign(W[,3]) * sqrt(abs(W[,3])) - 0.5)/3)
+  mu1 <- plogis(link + 0.5 + (cos(5*W[,1]) + W[,2]*sin(W[,2]) + sign(W[,3]) * sqrt(abs(W[,3])) - 0.5)/3)
   mu <- ifelse(A==1, mu1, mu0)
   Y <- rbinom(n, 1, mu)
 
@@ -158,11 +158,11 @@ get_data <- function(n, pos_const) {
   out <- list(W=W, A = A, Y = Y,   pi = pi0, mu0 = mu0, mu1 = mu1)
 
   W <- replicate(d, runif(1000000, -1, 1))
-  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(3*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
+  link <- 0.75*(sign(W[,1]) * sqrt(abs(W[,1])) + sin(5*W[,2]) + W[,3]*sin(W[,3]) - 0.5)
   pi0 <- plogis(pos_const * link)
   A <- rbinom(n, 1, pi0)
   mu0 <-  plogis(link - 0.5)
-  mu1 <- plogis(link + 0.5 + (cos(3*W[,1]) + W[,2]*sin(W[,2]) + sign(W[,3]) * sqrt(abs(W[,3])) - 0.5)/3)
+  mu1 <- plogis(link + 0.5 + (cos(5*W[,1]) + W[,2]*sin(W[,2]) + sign(W[,3]) * sqrt(abs(W[,3])) - 0.5)/3)
   mu <- ifelse(A==1, mu1, mu0)
   Y <- rbinom(n, 1, mu)
   ATE <- mean(mu1 - mu0)
