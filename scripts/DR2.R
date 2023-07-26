@@ -7,6 +7,7 @@ d <- 3
 out <- do_sims(5000, 2, 20)
 
 
+
  do_sims <- function(n, pos_const, nsims) {
   loss_inv <- function (pred, observed) {
     A <- observed
@@ -21,11 +22,11 @@ out <- do_sims(5000, 2, 20)
   cols <- paste0("W", 1:d)
    #formula_A <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
   #formula_Y <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
-  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
-  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 50, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 50, bs='bs',m=c(1,1))", collapse = " + "))
 
-  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, pmethod = "cv", nfold = 5,    nk = 75)
-  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, pmethod = "cv", nfold = 5,   nk = 75)
+  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, pmethod = "cv", nfold = 5,    nk = 200)
+  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, pmethod = "cv", nfold = 5,   nk = 200)
 
   stack_gam_Y_quad <-  Lrnr_gam$new(family = "binomial",
                                formula = formula_Y_quad)
@@ -306,7 +307,7 @@ calibrate_nuisances <- function(A, Y,mu1, mu0, pi1, pi0) {
 
 compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = FALSE) {
   data <- data.table(W,A,Y)
-  print("mu")
+  print(lrnr_mu)
   taskY0 <- sl3_Task$new(data, covariates = colnames(W), outcome  = "Y", outcome_type = "binomial", folds = folds)
   folds <- taskY0$folds
   fit0 <- lrnr_mu$train(taskY0[A==0])
@@ -317,15 +318,14 @@ compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = FALSE) {
   mu1 <-  fit1$predict(taskY1)
 
 
-  print("done_mu")
-  print("pi")
+  print(lrnr_pi)
   taskA <- sl3_Task$new(data, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "binomial")
 
   fit1 <- lrnr_pi$train(taskA)
   pi1 <- fit1$predict(taskA)
   print(fit1$fit_object$learner_fits$Lrnr_cv_selector_NULL$fit_object$cv_risk)
   if(invert) {
-    print("invert")
+
     data0 <- data
     data0$A <- 1-A
     taskA0 <- sl3_Task$new(data0, covariates = colnames(W), outcome  = "A", folds = folds, outcome_type = "continuous")
@@ -340,7 +340,7 @@ compute_initial <- function(W,A,Y, lrnr_mu, lrnr_pi, folds,   invert = FALSE) {
     pi0 <- 1 - pi1
   }
 
-
+print("done")
   return(list(mu1 = mu1, mu0 = mu0, pi1 = pi1, pi0 = pi0, folds = folds))
 }
 
