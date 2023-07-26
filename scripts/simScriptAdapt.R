@@ -5,9 +5,7 @@ library(causalHAL)
 library(doFuture)
 library(future)
 
-doFuture::registerDoFuture()
-future::plan(multisession, workers = 11)
-#out <- do_sims(100, 3000, 2, TRUE, do_local_alt = FALSE)
+#out <- do_sims(10, 3000, 2, TRUE, do_local_alt = FALSE)
 
 
 
@@ -88,9 +86,7 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
     num_knots <- c(100, 50, 50,50)
   }
   fit_T <- fit_hal_cate_plugin (W, A, Y,   max_degree_cate = 1, num_knots_cate = num_knots , smoothness_orders_cate = 1, screen_variable_cate = FALSE,   params_EY0W =  list(max_degree = 1, num_knots =  num_knots , smoothness_orders = 1, screen_variables = FALSE, fit_control = list(parallel = TRUE)), fit_control = list(parallel = TRUE), include_propensity_score = FALSE,   verbose = TRUE )
-
-  #fit_T <- fit_hal_cate(W, A, Y,  max_degree = 1, num_knots = num_knots, smoothness_orders = 1,max_degree_cate =1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, fit_control = list(parallel = TRUE))
-  ate_T <- unlist(inference_cate(fit_T))
+  ate_T <- unlist(inference_ate(fit_T))
   ate_T[1] <- "Tlearner"
 
   mu1 <- fit_T$internal$data$mu1
@@ -100,55 +96,21 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
   lrnr_stack <- Stack$new(list(  Lrnr_earth$new(degree = 2,    family = "gaussian"),Lrnr_gam$new(family = "gaussian"), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 4, nrounds = 20),  Lrnr_xgboost$new(max_depth = 5, nrounds = 20)  ))
   lrnr_A<- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
   task_A <- sl3_Task$new(data.table(W, A = A), covariates = colnames(W), outcome = "A", outcome_type = "continuous")
-  #lrnr_A <- Lrnr_hal9001$new(family = "gaussian", max_degree = 2, smoothness_orders = 1, num_knots = c(50,10) , screen_variables = FALSE, fit_control = list(parallel = TRUE))
 
   fit_pi <- lrnr_A$train(task_A)
-  #print("hey")
-  #print(fit_pi$learner_fits$Lrnr_cv_selector$fit_object$coef)
-  #print(fit_pi$learner_fits$Lrnr_cv_selector$fit_object$cv_risk)
-  #print(fit_pi$learner_fits$Lrnr_cv_selector$fit_object$name)
 
-  #pi <- plogis(1 * ( sin(4*W[,1]) +   cos(4*W[,2]) + sin(4*W[,3]) + cos(4*W[,4]) )) #
-  pi <- fit_pi$predict(task_A)
-  print(range(pi))
-  cutoffs <- seq(0.1, 1e-8, length = 500)
-  risks <- sapply(cutoffs, function(cutoff) {
-    pi <- pmin(pi, 1 - cutoff)
-    pi <- pmax(pi, cutoff)
-    alpha <- A/pi - (1-A)/(1-pi) #Riesz-representor
-    alpha1 <- 1/pi
-    alpha0 <- - 1/(1-pi)
-    mean(alpha^2 - 2*(alpha1 - alpha0))
-  })
-  cutoff <- cutoffs[which.min(risks)[1]]
-  print("cutoff")
-  print(cutoff)
-  pi <- pmin(pi, 1 - cutoff)
-  pi <- pmax(pi, cutoff)
+ pi <- fit_pi$predict(task_A)
+ pi <- truncate_pscore_adaptive(A, pi)
 
-  print(range(pi))
 
-  #
+
   m <- mu0 * (1-pi) + mu1 * (pi)
+ fit_R <- fit_hal_cate_partially_linear(W, A, Y,  fit_control = list(parallel = TRUE), pi.hat = pi, m.hat = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,      verbose = TRUE)
 
-  #lrnr_Y <- Stack$new(Lrnr_earth$new(degree = 3), Lrnr_ranger$new(), Lrnr_gam$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5))
-  # lrnr_stack <- Stack$new(list(Lrnr_gam$new(), Lrnr_earth$new(), Lrnr_ranger$new(), Lrnr_xgboost$new(max_depth = 3), Lrnr_xgboost$new(max_depth = 4), Lrnr_xgboost$new(max_depth = 5)))
-  # lrnr_cv <- make_learner(Pipeline, Lrnr_cv$new(lrnr_stack), Lrnr_cv_selector$new(loss_squared_error) )
-  fit_R <- fit_hal_cate_partially_linear(W, A, Y,  fit_control = list(parallel = TRUE), pA1W = pi, EYW = m, formula_cate = NULL, max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1, screen_variables_cate = FALSE,     verbose = TRUE)
-
-  #fit_R <- fit_hal_pcate(W, A, Y, lrnr_Y = m, lrnr_A = pi,  max_degree = sum(num_knots > 0), num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = num_knots, smoothness_orders_cate = 1,    screen_variables = FALSE, formula_cate = ~ h(.),fit_control = list(parallel = TRUE))
-  ate_R<-  unlist(inference_cate(fit_R))
+  ate_R<-  unlist(inference_ate(fit_R))
   ate_R[1] <- "Rlearner"
 
-  #lrnr_A <- fit_R$internal$fit_EAW
-  #fit_R_intercept <- fit_hal_pcate(W, A, Y, lrnr_Y = NULL, lrnr_A = lrnr_A,  max_degree =2, num_knots = num_knots,  max_degree_cate = 1, num_knots_cate = 2, smoothness_orders_cate = 1,    screen_variables = TRUE, formula_cate = ~ h(W7), fit_control = list(parallel = TRUE))
-  #mean(fit_R$internal$data$tau_relaxed)
-  #ate_intercept <-  unlist(inference_cate(fit_R_intercept))
-  #ate_intercept[1] <- "intercept"
 
-  #pi <- fit_R$internal$data$pi
-
-  #m <- fit_R$internal$data$mu
   tau_int <- mean((A-pi) * (Y - m)) / mean((A-pi)^2)
   IF <- (A - pi) / mean((A-pi)^2) * (Y - m - (A-pi)*tau_int)
   CI <- tau_int + 1.96*c(-1,1)*sd(IF)/sqrt(n)
@@ -157,8 +119,6 @@ get_estimates <- function(W, A, Y,iter, pi_true) {
 
 
 
-  #pi <- pmin(pi, max(pi_true))
-#  pi <- pmax(pi, min(pi_true))
   IF <- mu1 - mu0 +  (A/pi - (1-A)/(1-pi)) * (Y - mu)
   est_AIPW <-  mean(IF)
   CI <- est_AIPW + 1.96*c(-1,1)*sd(IF)/sqrt(n)
