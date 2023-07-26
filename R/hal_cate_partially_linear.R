@@ -96,7 +96,7 @@
     n <- length(Y)
     gamma <- x_basis_tau %*% solve(t(x_basis_tau) %*% diag((A-pi)^2) %*% x_basis_tau / n) %*% colMeans(x_basis_tau)
     IF_cate <- gamma *  (A-pi) * (Y - m - (A-pi)*tau)
-    IF_cate <- IF_cate   + tau_relaxed - mean(tau_relaxed)
+    IF_cate <- IF_cate   + tau - mean(tau)
   }
 
   fit_cate$internal <- list(IF_Y_map = IF_Y_map, fit_EAW = fit_pi, fit_m.hat = fit_m, data  = list(tau_relaxed = tau_relaxed, W = W, A = A, Y = Y, pi = pi, m = m, tau = tau, pseudo_outcome = pseudo_outcome, pseudo_weights = pseudo_weights))
