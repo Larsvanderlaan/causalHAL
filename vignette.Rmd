@@ -8,6 +8,15 @@ date: '2023-07-26'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+```{r}
+# install package if needed
+if(!require(causalHAL)) {
+  devtools::install_github("Larsvanderlaan/causalHAL")
+}
+ 
+```
+
 # ADMLE for ATE using adaptive partially linear regression models
 
 ## Generate example dataset
@@ -49,7 +58,6 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
 
 ```{r}
 library(causalHAL)
-library(hal9001)
 seed <- rnorm(1)
 
 data <- get_data(1000, 1, TRUE)
