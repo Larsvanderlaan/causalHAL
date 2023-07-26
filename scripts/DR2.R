@@ -34,7 +34,6 @@ d <- 3
 
   stack_xg <- Stack$new(
     list(
-      Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 1, nrounds = 100, eta = 0.15 ),
       Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 2, nrounds = 30, eta = 0.15 ),
       Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 3, nrounds = 30, eta = 0.15 ),
       Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 4, nrounds = 30, eta = 0.15 ),
