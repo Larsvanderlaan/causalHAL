@@ -8,7 +8,9 @@ date: '2023-07-26'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# ADMLE for ATE using adaptive partially linear regression models
 
+## Generate example dataset
 
 ```{r}
 # Dataset used for simulations
@@ -43,19 +45,23 @@ get_data <- function(n, pos_const, muIsHard = TRUE) {
 ```
 
 
+## Run ADMLE using HAL and glmnet
 
 ```{r}
 library(causalHAL)
 library(hal9001)
 seed <- rnorm(1)
+
 data <- get_data(1000, 1, TRUE)
 print(paste0("True ATE: ", data$ATE))
 # get nuisance functions for R-learner
+
+# User-supplied estimate of propensity score pi = P(A=1|W)
 pi.hat <- data$pi
+# User-supplied estimate of treatment-marginalized outcome regression m = E(Y|W)
 m.hat <- data$mu0 * pi.hat + (data$mu0 + data$tau) * (1-pi.hat)
 
- 
-
+# ADMLE for ATE using partially linear model with HAL.
 # Fits additive piece-wise linear spline model for CATE with 50 knot points per covariate using highly adaptive lasso (see tlverse/hal9001 github R package)
 set.seed(seed)
 ADMLE_fit <- fit_hal_cate_partially_linear(data$W, data$A, data$Y, 
@@ -67,6 +73,7 @@ inference_ate(ADMLE_fit)
 
 # Same analysis but using glmnet implementation with hal9001-basis design matrix.
 # May not reproduce estimates exactly but should be close.
+# For those not familiar with hal9001 package, the below code may be easier to play around with.
 basis_list <- hal9001::enumerate_basis(data$W, smoothness_orders = 1, num_knots = 50, max_degree = 1)
 tau_basis <- hal9001::make_design_matrix(data$W, basis_list)
 set.seed(seed)
