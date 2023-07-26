@@ -28,7 +28,7 @@ results
 
 
 ```{r}
-results
+results[results$lrnr=="xgboost",]
 
 ```
 ```{r}
