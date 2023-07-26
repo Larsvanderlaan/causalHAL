@@ -4,7 +4,7 @@ library(sl3)
 library(future)
 d <- 3
 
-#out <- do_sims(3000, 2, 20)
+#out <- do_sims(5000, 2, 20)
 
 
  do_sims <- function(n, pos_const, nsims) {
@@ -21,17 +21,18 @@ d <- 3
   cols <- paste0("W", 1:d)
    #formula_A <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
   #formula_Y <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,0))", collapse = " + "))
-  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
-  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 20, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_A_quad <- paste0("A~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
+  formula_Y_quad <- paste0("Y~", paste0("s(", cols, ", k = 25, bs='bs',m=c(1,1))", collapse = " + "))
 
-  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, pmethod = "cv", nfold = 5,    nk = 60)
-  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, pmethod = "cv", nfold = 5,   nk = 60)
+  stack_earth_Y <-  Lrnr_earth$new(family = "binomial",   degree=1, pmethod = "cv", nfold = 5,    nk = 75)
+  stack_earth_A <-  Lrnr_earth$new(family = "binomial",  degree=1, pmethod = "cv", nfold = 5,   nk = 75)
 
   stack_gam_Y_quad <-  Lrnr_gam$new(family = "binomial",
                                formula = formula_Y_quad)
   stack_gam_A_quad <-  Lrnr_gam$new(family = "binomial",
                                formula = formula_A_quad)
 
+  stack_rf <- Lrnr_ranger$new()
   stack_xg <- Stack$new(
     list(
       Lrnr_xgboost$new(min_child_weight = max(10, (n)^(1/3)), max_depth = 2, nrounds = 30, eta = 0.15 ),
@@ -49,6 +50,8 @@ d <- 3
   lrnr_pi_gam_quad <- Pipeline$new(Lrnr_cv$new(stack_gam_A_quad), Lrnr_cv_selector$new(loss_squared_error))
     lrnr_mu_xg <-  Pipeline$new(Lrnr_cv$new(stack_xg), Lrnr_cv_selector$new(loss_squared_error))
   lrnr_pi_xg <- Pipeline$new(Lrnr_cv$new(stack_xg), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_mu_rf <-  Pipeline$new(Lrnr_cv$new(stack_rf), Lrnr_cv_selector$new(loss_squared_error))
+  lrnr_pi_rf <- Pipeline$new(Lrnr_cv$new(stack_rf), Lrnr_cv_selector$new(loss_squared_error))
 
 
   sim_results <- lapply(1:nsims, function(i){
@@ -64,7 +67,9 @@ d <- 3
       folds <- initial_estimators_earth$folds
       initial_estimators_gam_quad <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_gam_quad, lrnr_pi = lrnr_pi_gam_quad, folds = 5, invert = FALSE)
        initial_estimators_xg <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_xg, lrnr_pi = lrnr_pi_xg, folds = folds, invert = FALSE)
-      initial_estimators_misp <- compute_initial(W,A,Y, lrnr_mu =  Lrnr_cv$new(Lrnr_mean$new()), lrnr_pi =  Lrnr_cv$new(Lrnr_mean$new()), folds = folds)
+       initial_estimators_rf <- compute_initial(W,A,Y, lrnr_mu = lrnr_mu_rf, lrnr_pi = lrnr_pi_rf, folds = folds, invert = FALSE)
+
+       initial_estimators_misp <- compute_initial(W,A,Y, lrnr_mu =  Lrnr_cv$new(Lrnr_mean$new()), lrnr_pi =  Lrnr_cv$new(Lrnr_mean$new()), folds = folds)
 
       out_list <- list()
 
@@ -80,14 +85,14 @@ d <- 3
       # sqrt(mean((1/calibrated_estimators$pi0[A==0] - 1/(1-data_list$pi[A==0]))^2))
 
 
-      for(lrnr in c("earth", "gam_1",   "xgboost")) {
+      for(lrnr in c("earth", "gam_1",   "xgboost", "rf")) {
         print(lrnr)
         if(lrnr=="earth") {
           initial_estimators <- initial_estimators_earth
         } else if(lrnr=="gam_1") {
           initial_estimators <- initial_estimators_gam_quad
-        } else if(lrnr=="gam_2") {
-          initial_estimators <- initial_estimators_gam_cube
+        } else if(lrnr=="rf") {
+          initial_estimators <- initial_estimators_rf
         } else
         {
           initial_estimators <- initial_estimators_xg
