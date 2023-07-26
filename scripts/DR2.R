@@ -4,7 +4,7 @@ library(sl3)
 library(future)
 d <- 3
 
-#out <- do_sims(5000, 2, 20)
+out <- do_sims(5000, 2, 20)
 
 
  do_sims <- function(n, pos_const, nsims) {
@@ -117,7 +117,7 @@ d <- 3
 
 
           out_AIPW <- compute_AIPW(A,Y, mu1=mu1, mu0 =mu0, pi1 = pi1, pi0 = pi0)
-          out_AuDRIE <- compute_AuDRIE_boot(A,Y,  mu1=mu1, mu0 =mu0, pi1 = pi1, pi0 = pi0, nboot = 5000, folds = folds, alpha = 0.05)
+          out_AuDRIE <- compute_AuDRIE_boot(A,Y,  mu1=mu1, mu0 =mu0, pi1 = pi1, pi0 = pi0, nboot = 1000, folds = folds, alpha = 0.05)
           #out <- matrix(unlist(c(misp, out_AuDRIE, out_AIPW)), nrow=1)
           out <- as.data.table(rbind(unlist(out_AuDRIE), unlist(out_AIPW)))
           colnames(out) <- c("estimate", "CI_left", "CI_right")
