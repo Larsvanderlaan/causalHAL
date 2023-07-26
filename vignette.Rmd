@@ -62,6 +62,7 @@ ADMLE_fit <- fit_hal_cate_partially_linear(data$W, data$A, data$Y,
                               m.hat = m.hat,
                               pi.hat = pi.hat,
                               smoothness_orders_cate = 1, num_knots_cate = c(50), max_degree_cate = 1)
+# Provides estimates and CI for ATE
 inference_ate(ADMLE_fit)
 
 # Same analysis but using glmnet implementation with hal9001-basis design matrix.
@@ -73,6 +74,6 @@ ADMLE_fit <- fit_lasso_cate_partially_linear(tau_basis, data$A, data$Y,
                               m.hat = m.hat,
                               pi.hat = pi.hat, standardize = FALSE)
 
-
+# Provides estimates and CI for ATE
 inference_ate(ADMLE_fit)
 ```
