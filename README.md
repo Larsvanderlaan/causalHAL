@@ -1,7 +1,11 @@
 # causalHAL: Adaptive Debiased Machine Learning with HAL
 
-This (in-development) package implements adaptive debiased machine learning estimators for the ATE in data-driven linear and partially linear regression models using the highly adaptive lasso. Theory for these methods are provided in the working paper: `https://arxiv.org/abs/2307.12544`.
+This (in-development) package implements adaptive debiased machine learning estimators for the ATE in data-driven linear and partially linear regression models using the highly adaptive lasso. The theory for these methods is provided in the working paper: `https://arxiv.org/abs/2307.12544`.
 
+`vignette.Rmd` contains example code for running the partially linear ADMLE of the ATE using the highly adaptive lasso (HAL) or lasso (via glmnet).
+
+The R, sh, and sbatch scripts used to run the simulations in the paper can be found in the folder `simulationScripts`. 
+Note, at this point in time, the code documentation is fairly poor.
 
 # Motivation and framework 
 
