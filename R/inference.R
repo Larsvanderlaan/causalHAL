@@ -15,7 +15,6 @@ inference_ate <- function(fit_cate,  alpha = 0.05, return_cov_mat = FALSE) {
 #' More complex formula like `formula = ~ W1` specifies the best `W1`-linear approximation of the true CATE.
 #' @param alpha Significant level for confidence intervals
 #' @param return_cov_mat A \code{logical} for whether to return the asymptotic covariance matrix of the coefficient estimates.
-#' @export
 inference_cate <- function(fit_cate, formula =  ~ 1, alpha = 0.05, return_cov_mat = FALSE) {
   internal <- fit_cate$internal
   data <- internal$data

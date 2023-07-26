@@ -1,0 +1,66 @@
+---
+title: "Vignette"
+output: html_document
+date: '2023-07-26'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+# Dataset used for simulations
+get_data <- function(n, pos_const, muIsHard = TRUE) {
+  # n: sample size
+  # pos_const: used to control treatment overlap
+  # Whether outcome regression is hard or simple.
+  
+  # covariate dimension
+  d <- 4
+  W <- replicate(d, runif(n, -1, 1))
+  colnames(W) <- paste0("W", 1:d)
+  # propensity score
+  pi0 <- plogis(pos_const * ( W[,1] + sin(4*W[,1]) +   W[,2] + cos(4*W[,2]) + W[,3] + sin(4*W[,3]) + W[,4] + cos(4*W[,4]) ))
+ 
+  # treatment
+  A <- rbinom(n, 1, pi0)
+  
+  # control outcome regression
+  if(muIsHard) {
+    mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
+  } else {
+    mu0 <-  W[,1] + abs(W[,2])  + W[,3] + abs(W[,4])
+  }
+  # CATE
+  tau <- 1 + W[,1] + abs(W[,2]) + cos(4*W[,3]) + W[,4]
+  # outcome
+  Y <- rnorm(n,  mu0 + A * tau, 0.5)
+  return(list(W=W, A = A, Y = Y, ATE = 1.31, pi = pi0, mu0 = mu0, tau = tau ))
+}
+
+```
+
+
+
+```{r}
+library(causalHAL)
+data <- get_data(1000, 1, TRUE)
+print(paste0("True ATE: ", data$ATE))
+# get nuisance functions for R-learner
+pi.hat <- data$pi
+m.hat <- data$mu0 * pA1W + (data$mu0 + data$tau) * (1-pA1W)
+
+ 
+
+# Fits additive piece-wise linear spline model for CATE with 50 knot points per covariate using highly adaptive lasso (see tlverse/hal9001 github R package)
+
+ADMLE_fit <- fit_hal_cate_partially_linear(data$W, data$A, data$Y, 
+                              m.hat = m.hat,
+                              pi.hat = pi.hat,
+                              smoothness_orders_cate = 1, num_knots_cate = c(50), max_degree_cate = 1)
+
+
+inference_ate(ADMLE_fit)
+```

@@ -2,8 +2,8 @@
 
 export(fit_hal_cate_partially_linear)
 export(fit_hal_cate_plugin)
-export(fit_hal_crate)
+export(fit_lasso_cate_partially_linear)
 export(inference_ate)
-export(inference_cate)
 export(truncate_pscore_adaptive)
+import(glmnet)
 import(hal9001)
