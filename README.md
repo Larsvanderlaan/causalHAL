@@ -13,75 +13,19 @@ Debiased machine learning estimators for nonparametric inference of smooth funct
 
 By learning model structure directly from data, ADML avoids the bias introduced by model misspecification and remains free from the restrictions of parametric and semiparametric models. While they may exhibit irregular behavior for the target parameter in a nonparametric statistical model, we demonstrate that ADML estimators provides regular and locally uniformly valid inference for a projection-based oracle parameter. Importantly, this oracle parameter agrees with the original target parameter for distributions within an unknown but correctly specified oracle statistical submodel that is learned from the data. This finding implies that there is no penalty, in a local asymptotic sense, for conducting data-driven model selection compared to having prior knowledge of the oracle submodel and oracle parameter.  
 
-# Example code
-
-```{r}
----
-title: "Vignette"
-output: html_document
-date: '2023-07-26'
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-```{r}
-# install package if needed
-if(!require(causalHAL)) {
-  devtools::install_github("Larsvanderlaan/causalHAL")
-}
  
-```
-
-# ADMLE for ATE using adaptive partially linear regression models
-
-## Generate example dataset
-
-```{r}
-# Dataset used for simulations
-get_data <- function(n, pos_const, muIsHard = TRUE) {
-  # n: sample size
-  # pos_const: used to control treatment overlap
-  # Whether outcome regression is hard or simple.
-  
-  # covariate dimension
-  d <- 4
-  W <- replicate(d, runif(n, -1, 1))
-  colnames(W) <- paste0("W", 1:d)
-  # propensity score
-  pi0 <- plogis(pos_const * ( W[,1] + sin(4*W[,1]) +   W[,2] + cos(4*W[,2]) + W[,3] + sin(4*W[,3]) + W[,4] + cos(4*W[,4]) ))
- 
-  # treatment
-  A <- rbinom(n, 1, pi0)
-  
-  # control outcome regression
-  if(muIsHard) {
-    mu0 <-  sin(4*W[,1]) + sin(4*W[,2]) + sin(4*W[,3])+  sin(4*W[,4]) + cos(4*W[,2])
-  } else {
-    mu0 <-  W[,1] + abs(W[,2])  + W[,3] + abs(W[,4])
-  }
-  # CATE
-  tau <- 1 + W[,1] + abs(W[,2]) + cos(4*W[,3]) + W[,4]
-  # outcome
-  Y <- rnorm(n,  mu0 + A * tau, 0.5)
-  return(list(W=W, A = A, Y = Y, ATE = 1.31, pi = pi0, mu0 = mu0, tau = tau ))
-}
-
-```
 
 
 ## Install
 
-```
+```{r}
 devtools::install_github("tlverse/hal9001")
 devtools::install_github("Larsvanderlaan/causalHAL")
 ```
 
 ## Run ADMLE using HAL and glmnet
 
- ```
+```{r}
 library(causalHAL)
 library(hal9001)
 seed <- rnorm(1)
