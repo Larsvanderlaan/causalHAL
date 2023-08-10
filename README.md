@@ -15,7 +15,7 @@ By learning model structure directly from data, ADML avoids the bias introduced 
 
 # Example code
 
-```
+```{r}
 ---
 title: "Vignette"
 output: html_document
