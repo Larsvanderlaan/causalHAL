@@ -72,7 +72,7 @@ m.hat <- data$mu0 * pi.hat + (data$mu0 + data$tau) * (1-pi.hat)
 # ADMLE for ATE using partially linear model with HAL.
 # Fits additive piece-wise linear spline model for CATE with 50 knot points per covariate using highly adaptive lasso (see tlverse/hal9001 github R package)
 set.seed(seed)
-ADMLE_fit <- fit_hal_cate_partially_linear(data$W, data$A, data$Y, 
+ADMLE_fit <- fit_cate_hal_partially_linear(data$W, data$A, data$Y, 
                               m.hat = m.hat,
                               pi.hat = pi.hat,
                               smoothness_orders_cate = 1, num_knots_cate = c(50), max_degree_cate = 1)
@@ -85,7 +85,7 @@ inference_ate(ADMLE_fit)
 basis_list <- hal9001::enumerate_basis(data$W, smoothness_orders = 1, num_knots = 50, max_degree = 1)
 tau_basis <- hal9001::make_design_matrix(data$W, basis_list)
 set.seed(seed)
-ADMLE_fit <- fit_lasso_cate_partially_linear(tau_basis, data$A, data$Y, 
+ADMLE_fit <- fit_cate_lasso_partially_linear(tau_basis, data$A, data$Y, 
                               m.hat = m.hat,
                               pi.hat = pi.hat, standardize = FALSE)
 

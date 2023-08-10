@@ -1,21 +1,25 @@
-
-
 #' Doubly-robust nonparametric superefficient estimation of the conditional average treatment effect
 #' using the lasso-based R-learner
 #'
-#' This method estimates the conditional average treatment effect function `w - > tau(w) := E[Y | A=1, W =w] - E[Y | A=0, W = w]`
-#' under the regression model `E[Y | A, W] = E[Y | A=0, W] + A * tau(W)`.
-#' @param W A \code{numeric} \code{matrix} of covariate values.
-#' @param A A \code{numeric} vector of treatment values. May be binary or continuous.
-#' @param Y A \code{numeric} vector of outcome values.
-#' @param pi.hat A \code{numeric} vector containing estimates of the propensity score `pi(W) := P(A=1 | W)`.
-#' @param m.hat A \code{numeric} vector containing estimates of the treatment-marginalized outcome regression `m(W) := E[Y | W]`.
-#' @param ... Other arguments to be passed to \code{\link[glmnet]{cv.glmnet}}.
+#' This function estimates the Conditional Average Treatment Effect (CATE) function `w -> tau(w) := E[Y | A=1, W=w] - E[Y | A=0, W=w]`
+#' within the regression model `E[Y | A, W] = E[Y | A=0, W] + A * tau(W)`.
+#'
+#' This method implements adaptive debiased machine learning of the Average Treatment Effect (ATE) through data-driven partially linear
+#' model selection based on the LASSO (Least Absolute Shrinkage and Selection Operator). By incorporating the LASSO technique,
+#' the method leverages learned structural information and promotes parsimony in the CATE function estimation. The approach
+#' offers adaptivity and super-efficiency in nonparametric ATE inference.
+#'
+#' @param W A numeric matrix of covariate values.
+#' @param A A numeric vector of treatment values. Can be binary or continuous.
+#' @param Y A numeric vector of outcome values.
+#' @param pi.hat A numeric vector containing estimated propensity scores `pi(W) := P(A=1 | W)`.
+#' @param m.hat A numeric vector containing estimates of treatment-marginalized outcome regression `m(W) := E[Y | W]`.
+#' @param ... Additional arguments to be passed to \code{\link[glmnet]{cv.glmnet}}.
+#'
 #' @import glmnet
 #' @export
 #'
-
-fit_lasso_cate_partially_linear <- function(W, A, Y, pi.hat = NULL, m.hat = NULL,    verbose = TRUE,...) {
+fit_cate_lasso_partially_linear <- function(W, A, Y, pi.hat = NULL, m.hat = NULL,    verbose = TRUE,...) {
   if(!is.matrix(W)) W <- as.matrix(W)
   weights <- rep(1, length(Y))
 

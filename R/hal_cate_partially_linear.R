@@ -1,30 +1,31 @@
-
-
 #' Doubly-robust nonparametric superefficient estimation of the partial conditional average treatment effect
 #' using the highly adaptive lasso R-learner
-#' with adaptive MARS-based variable and interaction screening.
 #'
-#' This method estimates the conditional average treatment effect function `w - > tau(w) := E[Y | A=1, W =w] - E[Y | A=0, W = w]`
-#' under the regression model `E[Y | A, W] = E[Y | A=0, W] + A * tau(W)`.
-#' @param W A \code{numeric} \code{matrix} of covariate values.
-#' @param A A \code{numeric} vector of treatment values. May be binary or continuous.
-#' @param Y A \code{numeric} vector of outcome values.
-#' @param weights (Optional) A \code{numeric} vector of observation weights.
-#' @param pi.hat A \code{numeric} vector containing estimates of the propensity score `pi(W) := P(A=1 | W)`.
-#' @param m.hat A \code{numeric} vector containing estimates of the treatment-marginalized outcome regression `m(W) := E[Y | W]`.
-#' @param sl3_Lrnr_pi.hat If \code{pi.hat} is not provided, a \code{\link[sl3]{Lrnr_base} object for estimation of `pi(W) := P(A=1 | W)`.
-#' @param sl3_Lrnr_m.hat If \code{m.hat} is not provided, a \code{\link[sl3]{Lrnr_base} object for estimation of `m(W) := E[Y | W]`.
-#' @param formula_cate (Optional) A \code{hal9001}-formatted \code{formula} object for the CATE/tau to be passed to \code{\link[hal9001]{formula_hal}}.
-#' By default the CATE model is learned data-adaptively using MARS-based screening and HAL. See documentation for \code{\link[hal9001]{fit_hal}}.
-#' @param max_degree_cate (Optional) Same as \code{max_degree} but for CATE model.  See documentation for \code{\link[hal9001]{fit_hal}}.
-#' @param num_knots_cate (Optional) Same as \code{num_knots} but for CATE model.  See documentation for \code{\link[hal9001]{fit_hal}}.
-#' @param smoothness_orders_cate (Optional) Same as \code{smoothness_orders} but for CATE model.  See documentation for \code{\link[hal9001]{fit_hal}}.
-#' @param ... Other arguments to be passed to \code{\link[hal9001]{fit_hal}}.
+#' This function estimates the Partial Conditional Average Treatment Effect (CATE) function `w -> tau(w) := E[Y | A=1, W=w] - E[Y | A=0, W=w]`
+#' within the regression model `E[Y | A, W] = E[Y | A=0, W] + A * tau(W)`.
+#'
+#' This method implements a doubly-robust and superefficient estimation technique for the Partial CATE using the highly adaptive lasso R-learner.
+#' It can data-adaptivelly learn complex relationships in the CATE function, while benefiting from simpler structure and parsimony when present.
+#'  By using the highly adaptive lasso, the method aims to provide robust and precise nonparametric inference of the Partial CATE.
+#'
+#' @param W A numeric matrix of covariate values.
+#' @param A A numeric vector of treatment values. Can be binary or continuous.
+#' @param Y A numeric vector of outcome values.
+#' @param weights (Optional) A numeric vector of observation weights.
+#' @param pi.hat A numeric vector containing estimated propensity scores `pi(W) := P(A=1 | W)`.
+#' @param m.hat A numeric vector containing estimates of treatment-marginalized outcome regression `m(W) := E[Y | W]`.
+#' @param sl3_Lrnr_pi.hat If `pi.hat` is not provided, a `Lrnr_base` object for estimation of `pi(W) := P(A=1 | W)`.
+#' @param sl3_Lrnr_m.hat If `m.hat` is not provided, a `Lrnr_base` object for estimation of `m(W) := E[Y | W)`.
+#' @param formula_cate (Optional) A `hal9001`-formatted formula object for the CATE to be passed to `formula_hal`.
+#' By default, the CATE model is learned data-adaptively using MARS-based screening and HAL. See documentation for `fit_hal`.
+#' @param max_degree_cate (Optional) Same as `max_degree` but for CATE model. See documentation for `fit_hal`.
+#' @param num_knots_cate (Optional) Same as `num_knots` but for CATE model. See documentation for `fit_hal`.
+#' @param smoothness_orders_cate (Optional) Same as `smoothness_orders` but for CATE model. See documentation for `fit_hal`.
+#' @param ... Other arguments to be passed to `fit_hal`.
+#'
 #' @import hal9001
 #' @export
-#'
-
- fit_hal_cate_partially_linear <- function(W, A, Y,   weights = NULL, pi.hat = NULL, m.hat = NULL, formula_cate = NULL, max_degree_cate = 1, smoothness_orders_cate = 1, num_knots_cate = c(50),    sl3_Lrnr_pi.hat= NULL, sl3_Lrnr_m.hat = NULL, verbose = TRUE,...) {
+ fit_cate_hal_partially_linear <- function(W, A, Y,   weights = NULL, pi.hat = NULL, m.hat = NULL, formula_cate = NULL, max_degree_cate = 1, smoothness_orders_cate = 1, num_knots_cate = c(50),    sl3_Lrnr_pi.hat= NULL, sl3_Lrnr_m.hat = NULL, verbose = TRUE,...) {
   if(!is.matrix(W)) W <- as.matrix(W)
   if(is.null(weights)) weights <- rep(1, length(Y))
 
